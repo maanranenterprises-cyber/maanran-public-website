@@ -1,0 +1,235 @@
+[
+  {
+    "id": "b1",
+    "heading": "Office interiors that work as hard as you do",
+    "subtitle": "Complete office fit-outs, from workstations and cabins to meeting rooms.",
+    "imageDesktop": "/images/banners/office-interiors.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "Explore Products",
+        "href": "/products"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
+      }
+    ],
+    "order": 1,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b2",
+    "heading": "Workspaces built for how your team works",
+    "subtitle": "Modular office workstations, designed and installed end to end.",
+    "imageDesktop": "/images/banners/office-workstations.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Workstations",
+        "href": "/products?category=office-workstations"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
+      }
+    ],
+    "order": 2,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b3",
+    "heading": "Home interiors, done right",
+    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
+    "imageDesktop": "/images/banners/home-interiors.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "See Interiors",
+        "href": "/interiors"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
+      }
+    ],
+    "order": 3,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b4",
+    "heading": "Office chairs for every role",
+    "subtitle": "Executive, ergonomic and mesh chairs built for long working days.",
+    "imageDesktop": "/images/banners/office-chairs.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Chairs",
+        "href": "/products?category=office-chairs"
+      }
+    ],
+    "order": 4,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b5",
+    "heading": "Furniture for schools and colleges",
+    "subtitle": "Desk benches and lecture seating built for years of daily use.",
+    "imageDesktop": "/images/banners/school-college-desk-benches.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Desk Benches",
+        "href": "/products?category=school-college-desk-benches"
+      }
+    ],
+    "order": 5,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b6",
+    "heading": "Hostel and PG furniture",
+    "subtitle": "Cots, lockers, study tables and wardrobes that make every room count.",
+    "imageDesktop": "/images/banners/hostel-pg-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Hostel Furniture",
+        "href": "/products?category=hostel-pg-furniture"
+      }
+    ],
+    "order": 6,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b7",
+    "heading": "MS steel bunker cots, built strong",
+    "subtitle": "Powder-coated bunk cots with storage for hostels and labour camps.",
+    "imageDesktop": "/images/banners/ms-steel-bunker-cots.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Bunker Cots",
+        "href": "/products?category=ms-steel-bunker-cots"
+      }
+    ],
+    "order": 7,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b8",
+    "heading": "Executive and conference tables",
+    "subtitle": "Desks and meeting tables in wood and laminate finishes.",
+    "imageDesktop": "/images/banners/office-tables.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Tables",
+        "href": "/products?category=office-tables"
+      }
+    ],
+    "order": 8,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b9",
+    "heading": "Wooden storage for offices",
+    "subtitle": "Cabinets, credenzas and filing units made to fit your space.",
+    "imageDesktop": "/images/banners/office-wooden-storage.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Storage",
+        "href": "/products?category=office-wooden-storage"
+      }
+    ],
+    "order": 9,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b10",
+    "heading": "Steel furniture for every space",
+    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
+    "imageDesktop": "/images/banners/steel-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Steel Furniture",
+        "href": "/products?category=steel-furniture"
+      }
+    ],
+    "order": 10,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b11",
+    "heading": "Cafeteria furniture",
+    "subtitle": "Tables and chairs for canteens, food courts and break rooms.",
+    "imageDesktop": "/images/banners/cafeteria-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Cafeteria Furniture",
+        "href": "/products?category=cafeteria-furniture"
+      }
+    ],
+    "order": 11,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b12",
+    "heading": "Library furniture",
+    "subtitle": "Book racks, reading tables and study carrels.",
+    "imageDesktop": "/images/banners/library-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Library Furniture",
+        "href": "/products?category=library-furniture"
+      }
+    ],
+    "order": 12,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b13",
+    "heading": "Laboratory furniture",
+    "subtitle": "Lab workbenches, storage and stools for schools and research labs.",
+    "imageDesktop": "/images/banners/lab-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Lab Furniture",
+        "href": "/products?category=lab-furniture"
+      }
+    ],
+    "order": 13,
+    "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  }
+]

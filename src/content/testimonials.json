@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t1",
+    "name": "Customer Name 1",
+    "photo": "",
+    "text": "The workstations were delivered and installed on time, and the finish is excellent. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Office Manager, Company Name",
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "t2",
+    "name": "Customer Name 2",
+    "photo": "",
+    "text": "We furnished our entire hostel with their bunker cots and wardrobes. Sturdy and well priced. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Hostel Owner",
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "t3",
+    "name": "Customer Name 3",
+    "photo": "",
+    "text": "Very professional team. The desk benches for our school are holding up well after heavy use. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Principal, School Name",
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "t4",
+    "name": "Customer Name 4",
+    "photo": "",
+    "text": "Our library racks and reading tables were made exactly to our layout. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Librarian, College Name",
+    "order": 4,
+    "published": true
+  },
+  {
+    "id": "t5",
+    "name": "Customer Name 5",
+    "photo": "",
+    "text": "Good quality steel almirahs and quick delivery. Will order again. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Purchase Head, Company Name",
+    "order": 5,
+    "published": true
+  },
+  {
+    "id": "t6",
+    "name": "Customer Name 6",
+    "photo": "",
+    "text": "They handled our home interiors from design to finish without any hassle. (PLACEHOLDER testimonial)",
+    "rating": 5,
+    "designation": "Homeowner",
+    "order": 6,
+    "published": true
+  }
+]

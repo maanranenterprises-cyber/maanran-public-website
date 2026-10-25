@@ -1,0 +1,81 @@
+{
+  "_note": "Values marked PLACEHOLDER must be replaced with real company details before launch.",
+  "name": "MAANRAN ENTERPRISES",
+  "shortName": "MAANRAN",
+  "tagline": "Furniture and interiors for homes, offices and institutions",
+  "location": "Bengaluru, Karnataka",
+  "description": "MAANRAN ENTERPRISES designs, manufactures and supplies furniture for homes, offices, schools, colleges, libraries, hostels and laboratories, from modular workstations to heavy-duty MS steel bunker cots. (PLACEHOLDER description)",
+  "experienceStartYear": 2011,
+  "logo": "/images/logo-256.png",
+  "imagekitUrlEndpoint": "",
+  "domain": "https://maanran.com",
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "label": "About",
+      "href": "/about",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "label": "Products",
+      "href": "/products",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "label": "Interiors",
+      "href": "/interiors",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "visible": true,
+      "order": 5
+    }
+  ],
+  "contact": {
+    "phone": "+919886277250",
+    "phoneDisplay": "+91 98862 77250",
+    "whatsapp": "919886277250",
+    "email": "info@maanran.com",
+    "hours": "Monday to Sunday, 9 AM to 8 PM"
+  },
+  "address": {
+    "lines": [
+      "No 5 K No 11/7, Ground Floor",
+      "Vaderahalli, Vidyaranyapura Post",
+      "Bengaluru 560097"
+    ],
+    "mapQuery": "13.0935621,77.537586",
+    "_mapCidNote": "Google Maps listing ID (the hex after ':' in the place link, as a decimal). When set, the map shows the business listing instead of a plain pin.",
+    "mapCid": "4407026438068675215",
+    "mapLink": "https://www.google.com/maps/place/Shivam+Seating+Systems+(MaanRan)/@13.093562,77.537586,17z/data=!4m6!3m5!1s0x3bae2300403fc435:0x3d28e7322cd6a28f!8m2!3d13.0935621!4d77.537586!16s%2Fg%2F11wtw22748?hl=en-GB"
+  },
+  "social": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61595713143367"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/maanran_ent_and_interiors/"
+    },
+    {
+      "type": "linkedin",
+      "url": ""
+    },
+    {
+      "type": "youtube",
+      "url": ""
+    }
+  ],
+  "whatsappMessage": "Hello MAANRAN ENTERPRISES, I would like to enquire about your furniture."
+}

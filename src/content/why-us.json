@@ -1,0 +1,52 @@
+{
+  "visible": true,
+  "eyebrow": "Why Choose Us",
+  "heading": "One partner from design to installation",
+  "description": "We handle the whole job, so you deal with one team for design, manufacturing, delivery and installation. (PLACEHOLDER)",
+  "benefits": [
+    {
+      "id": "w1",
+      "title": "In-house manufacturing",
+      "text": "Better control over quality, cost and delivery dates.",
+      "order": 1
+    },
+    {
+      "id": "w2",
+      "title": "Custom sizes and finishes",
+      "text": "Furniture made to fit your space, not the other way round.",
+      "order": 2
+    },
+    {
+      "id": "w3",
+      "title": "Bulk orders on schedule",
+      "text": "Capacity to furnish entire schools, hostels and offices.",
+      "order": 3
+    },
+    {
+      "id": "w4",
+      "title": "Durable materials",
+      "text": "Quality steel, boards and hardware chosen for daily heavy use.",
+      "order": 4
+    },
+    {
+      "id": "w5",
+      "title": "Installation included",
+      "text": "Our team delivers, assembles and installs on site.",
+      "order": 5
+    },
+    {
+      "id": "w6",
+      "title": "After-sales support",
+      "text": "Help with repairs, spares and additions after handover.",
+      "order": 6
+    }
+  ],
+  "images": [
+    "/images/site/office-tables.webp",
+    "/images/products/maanran102-angled.webp"
+  ],
+  "cta": {
+    "label": "Learn More",
+    "href": "/about"
+  }
+}

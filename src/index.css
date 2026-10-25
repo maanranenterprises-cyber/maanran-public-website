@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  /* Brand colours taken from the MAANRAN logo */
+  --color-brand: #e4010a;
+  --color-brand-dark: #b80008;
+  --color-accent: #f7860f;
+  --color-blue: #024fd0;
+  --color-ink: #12151c;
+  --color-muted: #5b6270;
+  --color-line: #e6e8ec;
+  --color-soft: #f6f7f9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+}
+
+/* Launch intro (SplashIntro): the navbar logo stays hidden and the page can't scroll until the splash logo lands */
+html[data-intro] {
+  overflow: hidden;
+}
+html[data-intro] header [data-brand-logo] {
+  visibility: hidden;
+}
+
+/* Client logo rows (Clients section): slides left by one copy of the list; reversed rows slide right */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* With reduced motion the rows stand still and can be scrolled by hand instead */
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    overflow-x: auto;
+  }
+  .marquee-track {
+    animation: none;
+  }
+  .marquee-copy {
+    display: none;
+  }
+}
+
+/* Products dropdown (ProductsMenu) */
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+/* Keeps anchored sections clear of the sticky navbar */
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+}
+@utility btn-primary {
+  @apply btn bg-brand text-white hover:bg-brand-dark;
+}
+@utility btn-outline {
+  @apply btn border border-ink/15 text-ink hover:border-brand hover:text-brand;
+}
+@utility btn-light {
+  @apply btn border border-white/60 text-white hover:bg-white hover:text-ink;
+}
+
+@utility eyebrow {
+  @apply text-xs font-bold uppercase tracking-[0.18em] text-brand;
+}
+@utility h2 {
+  @apply text-3xl font-extrabold tracking-tight text-ink sm:text-4xl;
+}
+
+@utility field {
+  @apply w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-sm outline-none transition focus:border-blue focus:ring-2 focus:ring-blue/15;
+}

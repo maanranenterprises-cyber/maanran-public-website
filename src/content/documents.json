@@ -1,0 +1,54 @@
+[
+  {
+    "id": "d1",
+    "title": "Company Profile",
+    "category": "Company Profile",
+    "description": "Who we are, what we make and the clients we serve.",
+    "cover": "",
+    "file": "/downloads/maanran-company-profile.pdf",
+    "fileType": "PDF",
+    "sizeLabel": "70 KB",
+    "featured": true,
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "d2",
+    "title": "Product Catalog 2026",
+    "category": "Product Catalog",
+    "description": "Our full range of office, institutional and steel furniture.",
+    "cover": "",
+    "file": "/downloads/maanran-product-catalog.pdf",
+    "fileType": "PDF",
+    "sizeLabel": "70 KB",
+    "featured": true,
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "d3",
+    "title": "Institutional Furniture Brochure",
+    "category": "Product Brochure",
+    "description": "School, college, library, hostel and lab furniture.",
+    "cover": "",
+    "file": "/downloads/maanran-institutional-brochure.pdf",
+    "fileType": "PDF",
+    "sizeLabel": "70 KB",
+    "featured": false,
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "d4",
+    "title": "Steel Furniture Brochure",
+    "category": "Product Brochure",
+    "description": "Almirahs, lockers, racks and MS steel bunker cots.",
+    "cover": "",
+    "file": "/downloads/maanran-steel-brochure.pdf",
+    "fileType": "PDF",
+    "sizeLabel": "70 KB",
+    "featured": false,
+    "order": 4,
+    "published": true
+  }
+]

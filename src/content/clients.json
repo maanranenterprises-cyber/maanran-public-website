@@ -1,0 +1,186 @@
+[
+  {
+    "id": "c1",
+    "name": "Hindustan Coca-Cola",
+    "logo": "/images/clients/cocacola.svg",
+    "website": "",
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "c2",
+    "name": "Tata Consumer Products",
+    "logo": "/images/clients/tata.svg",
+    "website": "",
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "c3",
+    "name": "Puma",
+    "logo": "/images/clients/puma.svg",
+    "website": "",
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "c4",
+    "name": "Wipro",
+    "logo": "/images/clients/wipro.svg",
+    "website": "",
+    "order": 4,
+    "published": true
+  },
+  {
+    "id": "c5",
+    "name": "BEL (Bharat Electronics Limited)",
+    "logo": "",
+    "website": "",
+    "order": 5,
+    "published": true
+  },
+  {
+    "id": "c6",
+    "name": "Air Force",
+    "logo": "",
+    "website": "",
+    "order": 6,
+    "published": true
+  },
+  {
+    "id": "c7",
+    "name": "Brigade",
+    "logo": "",
+    "website": "",
+    "order": 7,
+    "published": true
+  },
+  {
+    "id": "c8",
+    "name": "Mahindra Homes",
+    "logo": "/images/clients/mahindra.svg",
+    "website": "",
+    "order": 8,
+    "published": true
+  },
+  {
+    "id": "c9",
+    "name": "LTM",
+    "logo": "",
+    "website": "",
+    "order": 9,
+    "published": true
+  },
+  {
+    "id": "c10",
+    "name": "Hinduja",
+    "logo": "",
+    "website": "",
+    "order": 10,
+    "published": true
+  },
+  {
+    "id": "c11",
+    "name": "Xpressbees",
+    "logo": "",
+    "website": "",
+    "order": 11,
+    "published": true
+  },
+  {
+    "id": "c12",
+    "name": "Azim Premji University",
+    "logo": "",
+    "website": "",
+    "order": 12,
+    "published": true
+  },
+  {
+    "id": "c13",
+    "name": "Sapthagiri University",
+    "logo": "",
+    "website": "",
+    "order": 13,
+    "published": true
+  },
+  {
+    "id": "c14",
+    "name": "Sheshadripuram Institutions",
+    "logo": "",
+    "website": "",
+    "order": 14,
+    "published": true
+  },
+  {
+    "id": "c15",
+    "name": "Manjushree Institutions",
+    "logo": "",
+    "website": "",
+    "order": 15,
+    "published": true
+  },
+  {
+    "id": "c16",
+    "name": "VBR Institutions",
+    "logo": "",
+    "website": "",
+    "order": 16,
+    "published": true
+  },
+  {
+    "id": "c17",
+    "name": "Jnanam Residential PU College",
+    "logo": "",
+    "website": "",
+    "order": 17,
+    "published": true
+  },
+  {
+    "id": "c18",
+    "name": "Venky's",
+    "logo": "",
+    "website": "",
+    "order": 18,
+    "published": true
+  },
+  {
+    "id": "c19",
+    "name": "Flightscape",
+    "logo": "",
+    "website": "",
+    "order": 19,
+    "published": true
+  },
+  {
+    "id": "c20",
+    "name": "Orbit Aid Aerospace",
+    "logo": "",
+    "website": "",
+    "order": 20,
+    "published": true
+  },
+  {
+    "id": "c21",
+    "name": "M5 Mall",
+    "logo": "",
+    "website": "",
+    "order": 21,
+    "published": true
+  },
+  {
+    "id": "c22",
+    "name": "Nilagiri Arts & Management",
+    "logo": "",
+    "website": "",
+    "order": 22,
+    "published": true
+  },
+  {
+    "id": "c23",
+    "name": "PMKVY Centres",
+    "logo": "",
+    "website": "",
+    "order": 23,
+    "published": true
+  }
+]

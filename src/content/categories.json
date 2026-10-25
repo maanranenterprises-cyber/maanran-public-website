@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "office-workstations",
+    "name": "Office Workstations",
+    "description": "Modular linear, L-shaped and cluster workstations.",
+    "image": "/images/banners/office-workstations.webp",
+    "order": 1,
+    "published": true
+  },
+  {
+    "slug": "office-chairs",
+    "name": "Office Chairs",
+    "description": "Executive, ergonomic, mesh and visitor chairs.",
+    "image": "/images/banners/office-chairs.webp",
+    "order": 2,
+    "published": true
+  },
+  {
+    "slug": "office-tables",
+    "name": "Office Tables",
+    "description": "Executive desks, conference and meeting tables.",
+    "image": "/images/banners/office-tables.webp",
+    "order": 3,
+    "published": true
+  },
+  {
+    "slug": "office-wooden-storage",
+    "name": "Office Wooden Storage",
+    "description": "Filing cabinets, credenzas, pedestals and shelving.",
+    "image": "/images/banners/office-wooden-storage.webp",
+    "order": 4,
+    "published": true
+  },
+  {
+    "slug": "steel-furniture",
+    "name": "Steel Furniture",
+    "description": "Steel almirahs, lockers, racks and cupboards.",
+    "image": "/images/banners/steel-furniture.webp",
+    "order": 5,
+    "published": true
+  },
+  {
+    "slug": "cafeteria-furniture",
+    "name": "Cafeteria Furniture",
+    "description": "Canteen tables, chairs and modular dining sets.",
+    "image": "/images/banners/cafeteria-furniture.webp",
+    "order": 6,
+    "published": true
+  },
+  {
+    "slug": "school-college-desk-benches",
+    "name": "School & College Desk Benches",
+    "description": "Durable desk benches for classrooms and lecture halls.",
+    "image": "/images/banners/school-college-desk-benches.webp",
+    "order": 7,
+    "published": true
+  },
+  {
+    "slug": "library-furniture",
+    "name": "Library Furniture",
+    "description": "Book racks, reading tables and display shelves.",
+    "image": "/images/banners/library-furniture.webp",
+    "order": 8,
+    "published": true
+  },
+  {
+    "slug": "hostel-pg-furniture",
+    "name": "Hostel & PG Furniture",
+    "description": "Cots, study tables, wardrobes and storage for hostels.",
+    "image": "/images/banners/hostel-pg-furniture.webp",
+    "order": 9,
+    "published": true
+  },
+  {
+    "slug": "lab-furniture",
+    "name": "Lab Furniture",
+    "description": "Laboratory workbenches, stools and storage units.",
+    "image": "/images/banners/lab-furniture.webp",
+    "order": 10,
+    "published": true
+  },
+  {
+    "slug": "ms-steel-bunker-cots",
+    "name": "MS Steel Bunker Cots",
+    "description": "Powder-coated mild steel single and double bunk cots.",
+    "image": "/images/banners/ms-steel-bunker-cots.webp",
+    "order": 11,
+    "published": true
+  }
+]

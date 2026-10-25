@@ -1,0 +1,393 @@
+[
+  {
+    "id": "p-001",
+    "slug": "linear-workstation-4-seater",
+    "name": "Linear Workstation, 4 Seater",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "Space-saving 4-seat linear workstation with modesty panels and cable management.",
+    "description": "Space-saving 4-seat linear workstation with modesty panels and cable management. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/office-workstations.webp"
+    ],
+    "specs": {
+      "Size": "1200 x 600 mm per seat",
+      "Top": "25 mm pre-laminated board",
+      "Frame": "Powder-coated MS"
+    },
+    "featured": true,
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "p-002",
+    "slug": "l-shaped-workstation",
+    "name": "L-Shaped Workstation",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "L-shaped workstation with partition screens and an attached pedestal.",
+    "description": "L-shaped workstation with partition screens and an attached pedestal. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/office-workstations.webp"
+    ],
+    "specs": {
+      "Size": "1500 x 1500 mm",
+      "Screen": "Fabric pin-up board"
+    },
+    "featured": false,
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "p-003",
+    "slug": "ergonomic-mesh-chair",
+    "name": "Ergonomic Mesh Chair",
+    "brand": "MAANRAN",
+    "category": "office-chairs",
+    "shortDescription": "High-back mesh chair with lumbar support, synchro tilt and adjustable arms.",
+    "description": "High-back mesh chair with lumbar support, synchro tilt and adjustable arms. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/products/high-back-mesh-chair.webp"
+    ],
+    "specs": {
+      "Back": "Breathable mesh",
+      "Base": "Nylon 5-star",
+      "Adjustments": "Height, tilt, arms"
+    },
+    "featured": true,
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "p-004",
+    "slug": "office-executive-chair-maanran101",
+    "name": "Office Executive Chair MAANRAN101",
+    "brand": "MAANRAN",
+    "category": "office-chairs",
+    "shortDescription": "High-back executive chair with padded leatherette upholstery, chrome base and loop arms.",
+    "description": "High-back executive chair with thick padded leatherette upholstery, integrated headrest, chrome loop armrests and a chrome five-star base. Tilt and height adjustable. (PLACEHOLDER specs, please confirm)",
+    "images": [
+      "/images/products/maanran101-angled.webp",
+      "/images/products/maanran101-front.webp",
+      "/images/products/maanran101-side.webp",
+      "/images/products/maanran101-back.webp"
+    ],
+    "specs": {
+      "Model code": "MAANRAN101",
+      "Upholstery": "Leatherette",
+      "Base": "Chrome 5-star",
+      "Arms": "Chrome loop arms"
+    },
+    "featured": true,
+    "order": 4,
+    "published": true
+  },
+  {
+    "id": "p-020",
+    "slug": "office-executive-chair-maanran102",
+    "name": "Office Executive Chair MAANRAN102",
+    "brand": "MAANRAN",
+    "category": "office-chairs",
+    "shortDescription": "Ergonomic high-back mesh chair with adjustable headrest, lumbar support and 3D arms.",
+    "description": "Ergonomic high-back chair with breathable mesh back, adjustable headrest, adjustable lumbar support, cushioned seat, multi-way armrests and a chrome five-star base. (PLACEHOLDER specs, please confirm)",
+    "images": [
+      "/images/products/maanran102-angled.webp",
+      "/images/products/maanran102-front.webp",
+      "/images/products/maanran102-side.webp",
+      "/images/products/maanran102-back.webp"
+    ],
+    "specs": {
+      "Model code": "MAANRAN102",
+      "Back": "Breathable mesh",
+      "Headrest": "Adjustable",
+      "Base": "Chrome 5-star"
+    },
+    "featured": true,
+    "order": 5,
+    "published": true
+  },
+  {
+    "id": "p-005",
+    "slug": "executive-office-table",
+    "name": "Executive Office Table",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "Executive table with side return, storage pedestal and wire manager.",
+    "description": "Executive table with side return, storage pedestal and wire manager. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/site/office-tables.webp"
+    ],
+    "specs": {
+      "Size": "1800 x 900 mm",
+      "Finish": "Laminate, choice of shades"
+    },
+    "featured": true,
+    "order": 6,
+    "published": true
+  },
+  {
+    "id": "p-006",
+    "slug": "conference-table-10-seater",
+    "name": "Conference Table, 10 Seater",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "Boat-shaped conference table with central power and data box.",
+    "description": "Boat-shaped conference table with central power and data box. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/office-tables.webp"
+    ],
+    "specs": {
+      "Size": "3600 x 1200 mm",
+      "Seats": "10"
+    },
+    "featured": false,
+    "order": 7,
+    "published": true
+  },
+  {
+    "id": "p-007",
+    "slug": "wooden-filing-cabinet",
+    "name": "Wooden Filing Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "Four-drawer wooden filing cabinet with central locking.",
+    "description": "Four-drawer wooden filing cabinet with central locking. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/site/office-wooden-storage.webp"
+    ],
+    "specs": {
+      "Drawers": "4",
+      "Lock": "Central"
+    },
+    "featured": true,
+    "order": 8,
+    "published": true
+  },
+  {
+    "id": "p-008",
+    "slug": "steel-almirah-4-shelf",
+    "name": "Steel Almirah, 4 Shelf",
+    "brand": "MAANRAN",
+    "category": "steel-furniture",
+    "shortDescription": "Full-height steel almirah with four adjustable shelves and locker.",
+    "description": "Full-height steel almirah with four adjustable shelves and locker. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/steel-furniture.webp"
+    ],
+    "specs": {
+      "Height": "1980 mm",
+      "Gauge": "22 SWG",
+      "Finish": "Powder coat"
+    },
+    "featured": false,
+    "order": 9,
+    "published": true
+  },
+  {
+    "id": "p-009",
+    "slug": "steel-staff-locker-12-door",
+    "name": "Steel Staff Locker, 12 Door",
+    "brand": "MAANRAN",
+    "category": "steel-furniture",
+    "shortDescription": "Twelve-door staff locker for offices, factories and hostels.",
+    "description": "Twelve-door staff locker for offices, factories and hostels. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/steel-furniture.webp"
+    ],
+    "specs": {
+      "Doors": "12",
+      "Lock": "Individual cam locks"
+    },
+    "featured": true,
+    "order": 10,
+    "published": true
+  },
+  {
+    "id": "p-010",
+    "slug": "cafeteria-table-4-seater",
+    "name": "Cafeteria Table Set, 4 Seater",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Compact cafeteria table with four attached seats, easy to clean.",
+    "description": "Compact cafeteria table with four attached seats, easy to clean. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/site/cafeteria.webp"
+    ],
+    "specs": {
+      "Seats": "4",
+      "Top": "Laminate or SS"
+    },
+    "featured": false,
+    "order": 11,
+    "published": true
+  },
+  {
+    "id": "p-011",
+    "slug": "school-desk-bench-2-seater",
+    "name": "School Desk Bench, 2 Seater",
+    "brand": "MAANRAN",
+    "category": "school-college-desk-benches",
+    "shortDescription": "Two-seater desk bench with bag shelf for primary and high school classrooms.",
+    "description": "Two-seater desk bench with bag shelf for primary and high school classrooms. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/school-college-desk-benches.webp"
+    ],
+    "specs": {
+      "Seats": "2",
+      "Frame": "MS tubular",
+      "Top": "Pre-laminated board"
+    },
+    "featured": true,
+    "order": 12,
+    "published": true
+  },
+  {
+    "id": "p-012",
+    "slug": "college-lecture-bench-3-seater",
+    "name": "College Lecture Bench, 3 Seater",
+    "brand": "MAANRAN",
+    "category": "school-college-desk-benches",
+    "shortDescription": "Three-seater bench with writing top for college lecture halls.",
+    "description": "Three-seater bench with writing top for college lecture halls. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/school-college-desk-benches.webp"
+    ],
+    "specs": {
+      "Seats": "3"
+    },
+    "featured": false,
+    "order": 13,
+    "published": true
+  },
+  {
+    "id": "p-013",
+    "slug": "library-double-sided-book-rack",
+    "name": "Double-Sided Library Book Rack",
+    "brand": "MAANRAN",
+    "category": "library-furniture",
+    "shortDescription": "Double-sided steel book rack with adjustable shelves.",
+    "description": "Double-sided steel book rack with adjustable shelves. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/library-furniture.webp"
+    ],
+    "specs": {
+      "Shelves": "5 per side",
+      "Height": "2100 mm"
+    },
+    "featured": true,
+    "order": 14,
+    "published": true
+  },
+  {
+    "id": "p-014",
+    "slug": "library-reading-table-6-seater",
+    "name": "Library Reading Table, 6 Seater",
+    "brand": "MAANRAN",
+    "category": "library-furniture",
+    "shortDescription": "Six-seat reading table with optional partition screens.",
+    "description": "Six-seat reading table with optional partition screens. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/site/library.webp"
+    ],
+    "specs": {
+      "Seats": "6"
+    },
+    "featured": false,
+    "order": 15,
+    "published": true
+  },
+  {
+    "id": "p-015",
+    "slug": "hostel-cot-with-storage",
+    "name": "Hostel Cot with Storage",
+    "brand": "MAANRAN",
+    "category": "hostel-pg-furniture",
+    "shortDescription": "Single hostel cot with under-bed storage box.",
+    "description": "Single hostel cot with under-bed storage box. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/hostel-pg-furniture.webp"
+    ],
+    "specs": {
+      "Size": "1980 x 900 mm"
+    },
+    "featured": true,
+    "order": 16,
+    "published": true
+  },
+  {
+    "id": "p-016",
+    "slug": "hostel-study-table-wardrobe",
+    "name": "Hostel Study Table and Wardrobe Unit",
+    "brand": "MAANRAN",
+    "category": "hostel-pg-furniture",
+    "shortDescription": "Combined study table, bookshelf and wardrobe for hostel rooms and PGs.",
+    "description": "Combined study table, bookshelf and wardrobe for hostel rooms and PGs. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/hostel-pg-furniture.webp"
+    ],
+    "specs": {
+      "Width": "1200 mm"
+    },
+    "featured": false,
+    "order": 17,
+    "published": true
+  },
+  {
+    "id": "p-017",
+    "slug": "lab-workbench-with-sink",
+    "name": "Lab Workbench with Sink",
+    "brand": "MAANRAN",
+    "category": "lab-furniture",
+    "shortDescription": "Chemical-resistant laboratory workbench with sink and reagent shelf.",
+    "description": "Chemical-resistant laboratory workbench with sink and reagent shelf. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/lab-furniture.webp"
+    ],
+    "specs": {
+      "Top": "Epoxy or granite",
+      "Storage": "Base cabinets"
+    },
+    "featured": true,
+    "order": 18,
+    "published": true
+  },
+  {
+    "id": "p-018",
+    "slug": "ms-steel-bunker-cot-2-tier",
+    "name": "MS Steel Bunker Cot, 2 Tier",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "Powder-coated mild steel double bunk cot for hostels, PGs and labour camps.",
+    "description": "Powder-coated mild steel double bunk cot for hostels, PGs and labour camps. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/ms-steel-bunker-cots.webp"
+    ],
+    "specs": {
+      "Material": "MS square tube",
+      "Size": "1980 x 900 mm per bed",
+      "Finish": "Powder coat"
+    },
+    "featured": true,
+    "order": 19,
+    "published": true
+  },
+  {
+    "id": "p-019",
+    "slug": "ms-steel-bunker-cot-3-tier",
+    "name": "MS Steel Bunker Cot, 3 Tier",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "Heavy-duty three-tier bunk cot with ladder and safety rails.",
+    "description": "Heavy-duty three-tier bunk cot with ladder and safety rails. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "images": [
+      "/images/banners/ms-steel-bunker-cots.webp"
+    ],
+    "specs": {
+      "Tiers": "3",
+      "Material": "MS square tube"
+    },
+    "featured": true,
+    "order": 20,
+    "published": true
+  }
+]

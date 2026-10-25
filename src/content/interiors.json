@@ -1,0 +1,80 @@
+[
+  {
+    "id": "i1",
+    "title": "Corporate office fit-out",
+    "type": "Office",
+    "city": "City (PLACEHOLDER)",
+    "description": "Open-plan workstations, cabins and a conference room for 60 staff. (PLACEHOLDER)",
+    "images": [
+      "/images/banners/office-interiors.webp",
+      "/images/banners/office-workstations.webp"
+    ],
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "i2",
+    "title": "3BHK apartment interiors",
+    "type": "Home",
+    "city": "City (PLACEHOLDER)",
+    "description": "Modular kitchen, wardrobes and living room interiors. (PLACEHOLDER)",
+    "images": [
+      "/images/interiors/living-room.webp",
+      "/images/banners/home-interiors.webp"
+    ],
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "i3",
+    "title": "Startup co-working space",
+    "type": "Office",
+    "city": "City (PLACEHOLDER)",
+    "description": "Hot desks, meeting pods and a cafeteria. (PLACEHOLDER)",
+    "images": [
+      "",
+      ""
+    ],
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "i4",
+    "title": "Villa living and dining",
+    "type": "Home",
+    "city": "City (PLACEHOLDER)",
+    "description": "Custom furniture, false ceiling and lighting. (PLACEHOLDER)",
+    "images": [
+      "",
+      ""
+    ],
+    "order": 4,
+    "published": true
+  },
+  {
+    "id": "i5",
+    "title": "Clinic reception and cabins",
+    "type": "Office",
+    "city": "City (PLACEHOLDER)",
+    "description": "Reception desk, waiting area and doctor cabins. (PLACEHOLDER)",
+    "images": [
+      "",
+      ""
+    ],
+    "order": 5,
+    "published": true
+  },
+  {
+    "id": "i6",
+    "title": "Showroom interiors",
+    "type": "Commercial",
+    "city": "City (PLACEHOLDER)",
+    "description": "Display units, counters and storage. (PLACEHOLDER)",
+    "images": [
+      "",
+      ""
+    ],
+    "order": 6,
+    "published": true
+  }
+]

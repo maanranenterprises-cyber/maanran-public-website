@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s1",
+    "label": "Client Satisfaction",
+    "value": 250,
+    "suffix": "+",
+    "icon": "smile",
+    "order": 1,
+    "active": true,
+    "verified": false
+  },
+  {
+    "id": "s2",
+    "label": "Successful Projects",
+    "value": 180,
+    "suffix": "+",
+    "icon": "briefcase",
+    "order": 2,
+    "active": true,
+    "verified": false
+  },
+  {
+    "id": "s3",
+    "label": "Team Members",
+    "value": 25,
+    "suffix": "+",
+    "icon": "users",
+    "order": 3,
+    "active": true,
+    "verified": false
+  },
+  {
+    "id": "s4",
+    "label": "Happy Customers",
+    "value": 500,
+    "suffix": "+",
+    "icon": "heart",
+    "order": 4,
+    "active": true,
+    "verified": false
+  }
+]
