@@ -2,7 +2,7 @@
   {
     "id": "c1",
     "name": "Hindustan Coca-Cola",
-    "logo": "/images/clients/cocacola.svg",
+    "logo": "/images/clients/hindustan-coca-cola.webp",
     "website": "",
     "order": 1,
     "published": true
@@ -18,7 +18,7 @@
   {
     "id": "c3",
     "name": "Puma",
-    "logo": "/images/clients/puma.svg",
+    "logo": "/images/clients/puma.webp",
     "website": "",
     "order": 3,
     "published": true
@@ -26,7 +26,7 @@
   {
     "id": "c4",
     "name": "Wipro",
-    "logo": "/images/clients/wipro.svg",
+    "logo": "/images/clients/wipro.webp",
     "website": "",
     "order": 4,
     "published": true
@@ -34,15 +34,15 @@
   {
     "id": "c5",
     "name": "BEL (Bharat Electronics Limited)",
-    "logo": "",
+    "logo": "/images/clients/bel.webp",
     "website": "",
     "order": 5,
     "published": true
   },
   {
     "id": "c6",
-    "name": "Air Force",
-    "logo": "",
+    "name": "Indian Air Force",
+    "logo": "/images/clients/air-force.webp",
     "website": "",
     "order": 6,
     "published": true
@@ -50,15 +50,15 @@
   {
     "id": "c7",
     "name": "Brigade",
-    "logo": "",
+    "logo": "/images/clients/brigade.webp",
     "website": "",
     "order": 7,
     "published": true
   },
   {
     "id": "c8",
-    "name": "Mahindra Homes",
-    "logo": "/images/clients/mahindra.svg",
+    "name": "Mahendra Homes",
+    "logo": "/images/clients/mahendra-homes.webp",
     "website": "",
     "order": 8,
     "published": true
@@ -66,7 +66,7 @@
   {
     "id": "c9",
     "name": "LTM",
-    "logo": "",
+    "logo": "/images/clients/ltm.webp",
     "website": "",
     "order": 9,
     "published": true
@@ -74,7 +74,7 @@
   {
     "id": "c10",
     "name": "Hinduja",
-    "logo": "",
+    "logo": "/images/clients/hinduja.webp",
     "website": "",
     "order": 10,
     "published": true
@@ -82,7 +82,7 @@
   {
     "id": "c11",
     "name": "Xpressbees",
-    "logo": "",
+    "logo": "/images/clients/xpressbees.webp",
     "website": "",
     "order": 11,
     "published": true
@@ -90,7 +90,7 @@
   {
     "id": "c12",
     "name": "Azim Premji University",
-    "logo": "",
+    "logo": "/images/clients/azim-premji.webp",
     "website": "",
     "order": 12,
     "published": true
@@ -98,7 +98,7 @@
   {
     "id": "c13",
     "name": "Sapthagiri University",
-    "logo": "",
+    "logo": "/images/clients/sapthagiri.webp",
     "website": "",
     "order": 13,
     "published": true
@@ -106,7 +106,7 @@
   {
     "id": "c14",
     "name": "Sheshadripuram Institutions",
-    "logo": "",
+    "logo": "/images/clients/seshadripuram.webp",
     "website": "",
     "order": 14,
     "published": true
@@ -114,7 +114,7 @@
   {
     "id": "c15",
     "name": "Manjushree Institutions",
-    "logo": "",
+    "logo": "/images/clients/manjushree.webp",
     "website": "",
     "order": 15,
     "published": true
@@ -122,7 +122,7 @@
   {
     "id": "c16",
     "name": "VBR Institutions",
-    "logo": "",
+    "logo": "/images/clients/vbr.webp",
     "website": "",
     "order": 16,
     "published": true
@@ -130,7 +130,7 @@
   {
     "id": "c17",
     "name": "Jnanam Residential PU College",
-    "logo": "",
+    "logo": "/images/clients/jnanam.webp",
     "website": "",
     "order": 17,
     "published": true
@@ -138,7 +138,7 @@
   {
     "id": "c18",
     "name": "Venky's",
-    "logo": "",
+    "logo": "/images/clients/venkys.webp",
     "website": "",
     "order": 18,
     "published": true
@@ -146,7 +146,7 @@
   {
     "id": "c19",
     "name": "Flightscape",
-    "logo": "",
+    "logo": "/images/clients/flightscape.webp",
     "website": "",
     "order": 19,
     "published": true
@@ -154,7 +154,7 @@
   {
     "id": "c20",
     "name": "Orbit Aid Aerospace",
-    "logo": "",
+    "logo": "/images/clients/orbit-aid.webp",
     "website": "",
     "order": 20,
     "published": true
@@ -162,7 +162,7 @@
   {
     "id": "c21",
     "name": "M5 Mall",
-    "logo": "",
+    "logo": "/images/clients/m5-ecity.webp",
     "website": "",
     "order": 21,
     "published": true
@@ -170,7 +170,7 @@
   {
     "id": "c22",
     "name": "Nilagiri Arts & Management",
-    "logo": "",
+    "logo": "/images/clients/nilgiri.webp",
     "website": "",
     "order": 22,
     "published": true
@@ -178,7 +178,7 @@
   {
     "id": "c23",
     "name": "PMKVY Centres",
-    "logo": "",
+    "logo": "/images/clients/pmkvy.webp",
     "website": "",
     "order": 23,
     "published": true

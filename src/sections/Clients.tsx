@@ -22,20 +22,21 @@ const tints = ['bg-brand/10 text-brand', 'bg-blue/10 text-blue', 'bg-accent/15 t
 const tintFor = (name: string) => tints[[...name].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % tints.length]
 
 function ClientCard({ c, hidden }: { c: ClientItem; hidden?: boolean }) {
+  // Logo first, name underneath; clients without a logo yet show a tinted monogram in the same space
   const body = (
     <>
-      <span className="grid size-14 shrink-0 place-items-center rounded-xl bg-soft">
+      <span className="grid h-16 w-full place-items-center">
         {c.logo ? (
-          <img src={imageUrl(c.logo, 160)} alt="" loading="lazy" className="max-h-9 max-w-11 object-contain opacity-70 grayscale transition duration-300 group-hover/card:opacity-100 group-hover/card:grayscale-0" />
+          <img src={imageUrl(c.logo, 320)} alt="" loading="lazy" className="max-h-16 max-w-[85%] rounded-md object-contain transition duration-300 group-hover/card:scale-105" />
         ) : (
           <span className={`grid size-14 place-items-center rounded-xl text-base font-extrabold tracking-tight ${tintFor(c.name)}`}>{initials(c.name)}</span>
         )}
       </span>
-      <span className="line-clamp-2 text-[15px] font-semibold leading-snug text-ink">{c.name}</span>
+      <span className="line-clamp-1 text-center text-xs font-semibold text-muted">{c.name}</span>
     </>
   )
   const cls =
-    'group/card flex h-24 w-72 items-center gap-4 rounded-2xl border border-line bg-white px-5 shadow-[0_1px_2px_rgb(0_0_0/0.04)] transition duration-300 hover:-translate-y-0.5 hover:border-brand/25 hover:shadow-[0_12px_28px_-12px_rgb(0_0_0/0.18)]'
+    'group/card flex h-32 w-56 flex-col items-center justify-center gap-3 rounded-2xl border border-line bg-white px-4 shadow-[0_1px_2px_rgb(0_0_0/0.04)] transition duration-300 hover:-translate-y-0.5 hover:border-brand/25 hover:shadow-[0_12px_28px_-12px_rgb(0_0_0/0.18)]'
   return c.website ? (
     <a href={c.website} target="_blank" rel="noopener" tabIndex={hidden ? -1 : undefined} className={`${cls} focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand`}>
       {body}
