@@ -1,4 +1,5 @@
 {
+  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json.",
   "home": {
     "products": {
       "eyebrow": "Our Products",
@@ -9,7 +10,7 @@
       "eyebrow": "Our Trusted Clients",
       "title": "Trusted by businesses and institutions",
       "text": "Schools, offices, hostels and companies that rely on our furniture.",
-      "count": "100+",
+      "count": "50+",
       "countText": "organisations furnished across education, corporate, defence and retail"
     },
     "testimonials": {
@@ -97,6 +98,5 @@
         }
       ]
     }
-  },
-  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json."
+  }
 }
