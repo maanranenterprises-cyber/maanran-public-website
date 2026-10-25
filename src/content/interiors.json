@@ -1,78 +1,99 @@
 [
   {
     "id": "i1",
+    "slug": "corporate-office-fit-out",
     "title": "Corporate office fit-out",
     "type": "Office",
     "city": "City (PLACEHOLDER)",
     "description": "Open-plan workstations, cabins and a conference room for 60 staff. (PLACEHOLDER)",
     "images": [
       "/images/banners/office-interiors.webp",
-      "/images/banners/office-workstations.webp"
+      "/images/banners/office-workstations.webp",
+      "/images/banners/office-tables.webp",
+      "/images/site/office-tables.webp",
+      "/images/banners/office-chairs.webp",
+      "/images/banners/office-wooden-storage.webp"
     ],
     "order": 1,
     "published": true
   },
   {
     "id": "i2",
+    "slug": "3bhk-apartment-interiors",
     "title": "3BHK apartment interiors",
     "type": "Home",
     "city": "City (PLACEHOLDER)",
     "description": "Modular kitchen, wardrobes and living room interiors. (PLACEHOLDER)",
     "images": [
       "/images/interiors/living-room.webp",
-      "/images/banners/home-interiors.webp"
+      "/images/banners/home-interiors.webp",
+      "/images/site/office-wooden-storage.webp"
     ],
     "order": 2,
     "published": true
   },
   {
     "id": "i3",
+    "slug": "startup-co-working-space",
     "title": "Startup co-working space",
     "type": "Office",
     "city": "City (PLACEHOLDER)",
     "description": "Hot desks, meeting pods and a cafeteria. (PLACEHOLDER)",
     "images": [
-      "",
-      ""
+      "/images/banners/office-workstations.webp",
+      "/images/site/office-tables.webp",
+      "/images/banners/office-chairs.webp",
+      "/images/banners/cafeteria-furniture.webp",
+      "/images/site/cafeteria.webp"
     ],
     "order": 3,
     "published": true
   },
   {
     "id": "i4",
+    "slug": "villa-living-and-dining",
     "title": "Villa living and dining",
     "type": "Home",
     "city": "City (PLACEHOLDER)",
     "description": "Custom furniture, false ceiling and lighting. (PLACEHOLDER)",
     "images": [
-      "",
-      ""
+      "/images/banners/home-interiors.webp",
+      "/images/interiors/living-room.webp",
+      "/images/site/cafeteria.webp",
+      "/images/banners/cafeteria-furniture.webp"
     ],
     "order": 4,
     "published": true
   },
   {
     "id": "i5",
+    "slug": "clinic-reception-and-cabins",
     "title": "Clinic reception and cabins",
     "type": "Office",
     "city": "City (PLACEHOLDER)",
     "description": "Reception desk, waiting area and doctor cabins. (PLACEHOLDER)",
     "images": [
-      "",
-      ""
+      "/images/banners/office-tables.webp",
+      "/images/site/office-wooden-storage.webp",
+      "/images/banners/office-chairs.webp",
+      "/images/products/maanran101-angled.webp"
     ],
     "order": 5,
     "published": true
   },
   {
     "id": "i6",
+    "slug": "showroom-interiors",
     "title": "Showroom interiors",
     "type": "Commercial",
     "city": "City (PLACEHOLDER)",
     "description": "Display units, counters and storage. (PLACEHOLDER)",
     "images": [
-      "",
-      ""
+      "/images/banners/steel-furniture.webp",
+      "/images/banners/library-furniture.webp",
+      "/images/site/library.webp",
+      "/images/banners/office-wooden-storage.webp",
+      "/images/products/maanran102-front.webp"
     ],
     "order": 6,
     "published": true

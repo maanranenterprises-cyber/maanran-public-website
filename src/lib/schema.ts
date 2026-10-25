@@ -104,6 +104,8 @@ export const documentSchema = z.looseObject({
 
 export const interiorSchema = z.looseObject({
   id: required('ID'),
+  // Web address of the project page, e.g. /interiors/3bhk-apartment-interiors (fixed once created)
+  slug,
   title: required('Title'),
   type: required('Type'),
   city: text,
@@ -230,7 +232,7 @@ export function crossCheck(content: Partial<Record<CollectionName, unknown>>) {
   for (const name of ['banners', 'products', 'clients', 'stats', 'testimonials', 'documents', 'interiors'] as const) {
     for (const id of duplicates(list(name).map((r) => r.id))) errors.push(`${name}: the ID "${id}" is used more than once`)
   }
-  for (const name of ['categories', 'products'] as const) {
+  for (const name of ['categories', 'products', 'interiors'] as const) {
     for (const s of duplicates(list(name).map((r) => r.slug))) errors.push(`${name}: the link name "${s}" is used more than once`)
   }
   for (const prefix of duplicates(list('categories').map((c) => c.codePrefix))) errors.push(`categories: the product code prefix "${prefix}" is used by more than one category`)

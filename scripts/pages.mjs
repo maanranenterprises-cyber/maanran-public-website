@@ -5,6 +5,7 @@ const read = (f) => JSON.parse(readFileSync(new URL(`../src/content/${f}`, impor
 export const site = read('site.json')
 const products = read('products.json').filter((p) => p.published)
 const categories = read('categories.json').filter((c) => c.published)
+const interiors = read('interiors.json').filter((i) => i.published)
 
-export const pages = ['/', '/about', '/products', '/interiors', '/contact', '/privacy-policy', '/terms', ...products.map((p) => `/products/${p.slug}`)]
+export const pages = ['/', '/about', '/products', '/interiors', '/contact', '/privacy-policy', '/terms', ...products.map((p) => `/products/${p.slug}`), ...interiors.map((i) => `/interiors/${i.slug}`)]
 export const categoryPages = categories.map((c) => `/products?category=${c.slug}`)

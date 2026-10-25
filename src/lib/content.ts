@@ -63,7 +63,7 @@ export type Doc = {
   order: number
   published: boolean
 }
-export type InteriorProject = { id: string; title: string; type: string; city: string; description: string; images: string[]; order: number; published: boolean }
+export type InteriorProject = { id: string; slug: string; title: string; type: string; city: string; description: string; images: string[]; order: number; published: boolean }
 
 type Publishable = { order: number; published?: boolean; active?: boolean; publishFrom?: string | null; publishUntil?: string | null }
 
@@ -105,6 +105,8 @@ export const fillTokens = (text: string) =>
 
 // Whether a section is switched on and has something to show (e.g. the Downloads section and the buttons that link to it)
 export const showDownloads = pages.sections.downloads && documents.length > 0
+
+export const interiorBySlug = (slug: string) => interiors.find((p) => p.slug === slug)
 
 export const categoryName = (slug: string) => categories.find((c) => c.slug === slug)?.name ?? slug
 

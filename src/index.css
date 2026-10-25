@@ -88,3 +88,42 @@ section[id] {
 @utility field {
   @apply w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-sm outline-none transition focus:border-blue focus:ring-2 focus:ring-blue/15;
 }
+
+/* Photo viewer (Lightbox): fades in, the photo grows slightly into place */
+.lightbox {
+  animation: lightbox-in 200ms ease-out;
+}
+.lightbox-photo {
+  animation: lightbox-photo-in 260ms ease-out;
+}
+@keyframes lightbox-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes lightbox-photo-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+/* Interiors gallery: cards fade up one after another when the page opens or the filter changes */
+.reveal {
+  animation: reveal-in 420ms ease-out both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox,
+  .lightbox-photo,
+  .reveal {
+    animation: none;
+  }
+}
