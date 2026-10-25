@@ -78,11 +78,11 @@ export function NumberInput({ label, hint, error, value, onChange, min, max }: B
   )
 }
 
-export function Select({ label, hint, error, required, value, onChange, options }: Base & { value: string; onChange: (v: string) => void; options: { value: string; label: string }[] }) {
+export function Select({ label, hint, error, required, value, onChange, options, disabled }: Base & { value: string; onChange: (v: string) => void; options: { value: string; label: string }[]; disabled?: boolean }) {
   const id = useId()
   return (
     <Field label={label} hint={hint} error={error} id={id} required={required}>
-      <select id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} className={inputClass(error)}>
+      <select id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} disabled={disabled} className={`${inputClass(error)} ${disabled ? 'cursor-not-allowed bg-soft text-muted' : ''}`}>
         <option value="">Choose…</option>
         {options.map((o) => (
           <option key={o.value} value={o.value}>

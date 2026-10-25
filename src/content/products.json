@@ -1,6 +1,7 @@
 [
   {
     "id": "p-001",
+    "code": "OW-001",
     "slug": "linear-workstation-4-seater",
     "name": "Linear Workstation, 4 Seater",
     "brand": "MAANRAN",
@@ -21,6 +22,7 @@
   },
   {
     "id": "p-002",
+    "code": "OW-002",
     "slug": "l-shaped-workstation",
     "name": "L-Shaped Workstation",
     "brand": "MAANRAN",
@@ -40,6 +42,7 @@
   },
   {
     "id": "p-003",
+    "code": "OC-001",
     "slug": "ergonomic-mesh-chair",
     "name": "Ergonomic Mesh Chair",
     "brand": "MAANRAN",
@@ -60,6 +63,7 @@
   },
   {
     "id": "p-004",
+    "code": "OC-002",
     "slug": "office-executive-chair-maanran101",
     "name": "Office Executive Chair MAANRAN101",
     "brand": "MAANRAN",
@@ -84,6 +88,7 @@
   },
   {
     "id": "p-020",
+    "code": "OC-003",
     "slug": "office-executive-chair-maanran102",
     "name": "Office Executive Chair MAANRAN102",
     "brand": "MAANRAN",
@@ -108,6 +113,7 @@
   },
   {
     "id": "p-005",
+    "code": "OT-001",
     "slug": "executive-office-table",
     "name": "Executive Office Table",
     "brand": "MAANRAN",
@@ -127,6 +133,7 @@
   },
   {
     "id": "p-006",
+    "code": "OT-002",
     "slug": "conference-table-10-seater",
     "name": "Conference Table, 10 Seater",
     "brand": "MAANRAN",
@@ -146,6 +153,7 @@
   },
   {
     "id": "p-007",
+    "code": "OWS-001",
     "slug": "wooden-filing-cabinet",
     "name": "Wooden Filing Cabinet",
     "brand": "MAANRAN",
@@ -165,6 +173,7 @@
   },
   {
     "id": "p-008",
+    "code": "SF-001",
     "slug": "steel-almirah-4-shelf",
     "name": "Steel Almirah, 4 Shelf",
     "brand": "MAANRAN",
@@ -185,6 +194,7 @@
   },
   {
     "id": "p-009",
+    "code": "SF-002",
     "slug": "steel-staff-locker-12-door",
     "name": "Steel Staff Locker, 12 Door",
     "brand": "MAANRAN",
@@ -204,6 +214,7 @@
   },
   {
     "id": "p-010",
+    "code": "CF-001",
     "slug": "cafeteria-table-4-seater",
     "name": "Cafeteria Table Set, 4 Seater",
     "brand": "MAANRAN",
@@ -223,6 +234,7 @@
   },
   {
     "id": "p-011",
+    "code": "SCDB-001",
     "slug": "school-desk-bench-2-seater",
     "name": "School Desk Bench, 2 Seater",
     "brand": "MAANRAN",
@@ -243,6 +255,7 @@
   },
   {
     "id": "p-012",
+    "code": "SCDB-002",
     "slug": "college-lecture-bench-3-seater",
     "name": "College Lecture Bench, 3 Seater",
     "brand": "MAANRAN",
@@ -261,6 +274,7 @@
   },
   {
     "id": "p-013",
+    "code": "LF-001",
     "slug": "library-double-sided-book-rack",
     "name": "Double-Sided Library Book Rack",
     "brand": "MAANRAN",
@@ -280,6 +294,7 @@
   },
   {
     "id": "p-014",
+    "code": "LF-002",
     "slug": "library-reading-table-6-seater",
     "name": "Library Reading Table, 6 Seater",
     "brand": "MAANRAN",
@@ -298,6 +313,7 @@
   },
   {
     "id": "p-015",
+    "code": "HPF-001",
     "slug": "hostel-cot-with-storage",
     "name": "Hostel Cot with Storage",
     "brand": "MAANRAN",
@@ -316,6 +332,7 @@
   },
   {
     "id": "p-016",
+    "code": "HPF-002",
     "slug": "hostel-study-table-wardrobe",
     "name": "Hostel Study Table and Wardrobe Unit",
     "brand": "MAANRAN",
@@ -334,6 +351,7 @@
   },
   {
     "id": "p-017",
+    "code": "LBF-001",
     "slug": "lab-workbench-with-sink",
     "name": "Lab Workbench with Sink",
     "brand": "MAANRAN",
@@ -353,6 +371,7 @@
   },
   {
     "id": "p-018",
+    "code": "MSBC-001",
     "slug": "ms-steel-bunker-cot-2-tier",
     "name": "MS Steel Bunker Cot, 2 Tier",
     "brand": "MAANRAN",
@@ -373,6 +392,7 @@
   },
   {
     "id": "p-019",
+    "code": "MSBC-002",
     "slug": "ms-steel-bunker-cot-3-tier",
     "name": "MS Steel Bunker Cot, 3 Tier",
     "brand": "MAANRAN",

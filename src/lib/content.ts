@@ -32,6 +32,8 @@ export type Category = { slug: string; name: string; description: string; image:
 
 export type Product = {
   id: string
+  // Unique product code, e.g. OC-001 (category prefix + number)
+  code: string
   slug: string
   name: string
   brand: string

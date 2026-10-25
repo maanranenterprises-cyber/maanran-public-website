@@ -10,10 +10,15 @@ type Option = { value: string; label: string }
 // Fields inside each entry of an `objects` list (e.g. a benefit's title and text)
 export type SubField = { key: string; label: string; type: 'text' | 'textarea' | 'toggle' | 'readonly'; placeholder?: string }
 
-export type FieldDef = { key: string; label: string; hint?: string; required?: boolean } & (
+// `lock`: 'existing' = read-only after the item is first saved; 'used' = read-only while other items depend on it
+export type FieldDef = { key: string; label: string; hint?: string; required?: boolean; lock?: 'existing' | 'used' } & (
   // `suggestions` offers values already used in this section (e.g. interior types) so spelling stays consistent
   | { type: 'text' | 'textarea'; placeholder?: string; suggestions?: (items: Item[]) => string[] }
   | { type: 'slug'; from: string }
+  // Product code prefix: suggested from another field (first letters of its words) until edited by hand
+  | { type: 'prefix'; from: string }
+  // Shown but never edited here, e.g. the product code the server assigns
+  | { type: 'readonly'; placeholder?: string }
   | { type: 'number'; min?: number; max?: number }
   | { type: 'toggle' }
   | { type: 'image' | 'images'; contain?: boolean }
@@ -113,11 +118,20 @@ export const sections: Section[] = [
     fields: [
       { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products?category=office-chairs. Set automatically from the name and cannot be changed later.' },
+      {
+        key: 'codePrefix',
+        label: 'Product code prefix',
+        type: 'prefix',
+        from: 'name',
+        required: true,
+        lock: 'used',
+        hint: 'Products in this category are numbered with it, e.g. OC → OC-001, OC-002. Suggested from the first letters of the name; it cannot be changed once the category has products.',
+      },
       { key: 'description', label: 'Short description', type: 'textarea', required: true },
       { key: 'image', label: 'Image', type: 'image', required: true, hint: 'Shown in the Products menu and as the category page banner.' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
     ],
-    newItem: () => ({ name: '', slug: '', description: '', image: '', published: true }),
+    newItem: () => ({ name: '', slug: '', codePrefix: '', codeCounter: 0, description: '', image: '', published: true }),
   },
   {
     name: 'products',
@@ -129,7 +143,7 @@ export const sections: Section[] = [
     keyField: 'id',
     idPrefix: 'p',
     titleField: 'name',
-    subtitle: (p, ctx) => `${categoryLabel(p.category, ctx)}${p.featured ? ' · Featured' : ''}`,
+    subtitle: (p, ctx) => [p.code, categoryLabel(p.category, ctx), p.featured ? 'Featured' : ''].filter(Boolean).join(' · '),
     imageField: 'images',
     imageContain: true,
     folder: 'products',
@@ -137,9 +151,10 @@ export const sections: Section[] = [
     needs: ['categories'],
     filter: { key: 'category', allLabel: 'All categories', options: categoryOptions },
     fields: [
+      { key: 'code', label: 'Product code', type: 'readonly', placeholder: 'Assigned automatically when you save', hint: 'Unique code from the category prefix and the next number, e.g. OC-004. It never changes.' },
       { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products/linear-workstation-4-seater. Set automatically from the name and cannot be changed later.' },
-      { key: 'category', label: 'Category', type: 'select', options: categoryOptions, required: true },
+      { key: 'category', label: 'Category', type: 'select', options: categoryOptions, required: true, lock: 'existing', hint: 'Cannot be changed after the product is saved, because the product code comes from it.' },
       { key: 'brand', label: 'Brand', type: 'text' },
       { key: 'shortDescription', label: 'Short description', type: 'textarea', required: true, hint: 'One or two sentences, shown on product cards and in Google results.' },
       { key: 'description', label: 'Full description', type: 'textarea', required: true },
@@ -148,7 +163,7 @@ export const sections: Section[] = [
       { key: 'featured', label: 'Featured on the home page', type: 'toggle' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
     ],
-    newItem: () => ({ name: '', slug: '', brand: 'MAANRAN', category: '', shortDescription: '', description: '', images: [], specs: {}, featured: false, published: true }),
+    newItem: () => ({ code: '', name: '', slug: '', brand: 'MAANRAN', category: '', shortDescription: '', description: '', images: [], specs: {}, featured: false, published: true }),
   },
   {
     name: 'clients',

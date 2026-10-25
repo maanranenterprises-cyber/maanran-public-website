@@ -43,6 +43,10 @@ export default function HelpPage() {
             just change the name.
           </li>
           <li>A category that still has products cannot be deleted. Move or delete those products first.</li>
+          <li>
+            Every new product gets a <strong>product code</strong> automatically when you save it: the category's prefix and the next number, e.g. <strong>OC-004</strong>. Codes never
+            change and a deleted product's number is never reused. A product's category is fixed once it is saved; to move it, add it again in the other category.
+          </li>
         </ul>
       </Topic>
 

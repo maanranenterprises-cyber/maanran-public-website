@@ -5,6 +5,7 @@ import { Link, useBlocker, useNavigate, useParams, useSearchParams } from 'react
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react'
 import { FileInput, ImageInput, ImagesInput } from './ImageInput'
 import { LinkInput, ObjectsInput, StringsInput } from './ListInputs'
+import { suggestPrefix } from '../lib/codes'
 import { uniqueKey } from './ListPage'
 import { useCollection, useContextData } from './store'
 import { type Context, type FieldDef, type Item, type Section, slugify } from './sections'
@@ -37,7 +38,8 @@ export default function EditPage({ section }: { section: Section }) {
   const [errors, setErrors] = useState<Errors>({})
   const [saveError, setSaveError] = useState<unknown>(null)
   const [busy, setBusy] = useState(false)
-  const [slugTouched, setSlugTouched] = useState(false)
+  // Fields filled in from another field (link name, code prefix) until edited by hand
+  const [touched, setTouched] = useState<string[]>([])
 
   useEffect(() => {
     if (!data || item) return
@@ -78,8 +80,10 @@ export default function EditPage({ section }: { section: Section }) {
       if (!prev) return prev
       const next = { ...prev, [field]: value }
       // New items get their link name from the name until it is edited by hand
-      const slugField = section.fields.find((f) => f.type === 'slug' && f.from === field)
-      if (slugField && isNew && !slugTouched) next[slugField.key] = slugify(String(value))
+      for (const f of section.fields) {
+        if ((f.type !== 'slug' && f.type !== 'prefix') || f.from !== field || !isNew || touched.includes(f.key)) continue
+        next[f.key] = f.type === 'slug' ? slugify(String(value)) : suggestPrefix(String(value))
+      }
       return next
     })
   }
@@ -95,6 +99,10 @@ export default function EditPage({ section }: { section: Section }) {
     if (section.fields.some((f) => f.type === 'slug') && data.some((x) => x !== data.find((d) => String(d[section.keyField]) === key) && x.slug === toSave.slug)) {
       found.slug = 'Another item already uses this link name. Change it slightly.'
     }
+    const current = data.find((d) => String(d[section.keyField]) === key)
+    if (section.fields.some((f) => f.type === 'prefix') && data.some((x) => x !== current && x.codePrefix === toSave.codePrefix)) {
+      found.codePrefix = `Another category already uses ${String(toSave.codePrefix)}. Choose different letters.`
+    }
     setErrors(found)
     if (Object.keys(found).length) {
       setSaveError({ message: 'Please fix the highlighted fields.' })
@@ -105,9 +113,10 @@ export default function EditPage({ section }: { section: Section }) {
     setSaveError(null)
     try {
       const next = isNew ? [...data, toSave] : data.map((x) => (String(x[section.keyField]) === key ? toSave : x))
-      await save(next, `${isNew ? 'Add' : 'Update'} ${section.singular}: ${String(toSave[section.titleField])}`)
+      const res = await save(next, `${isNew ? 'Add' : 'Update'} ${section.singular}: ${String(toSave[section.titleField])}`)
       setOriginal(JSON.stringify(item))
-      toast(`${isNew ? 'Added' : 'Saved'} to drafts. Publish to make it live.`)
+      const code = res?.assigned?.[0]
+      toast(code ? `Added as ${code}. Publish to make it live.` : `${isNew ? 'Added' : 'Saved'} to drafts. Publish to make it live.`)
       navigate(backTo)
     } catch (e) {
       setSaveError(e)
@@ -170,9 +179,9 @@ export default function EditPage({ section }: { section: Section }) {
               setItem((prev) => (prev ? { ...prev, ...fields } : prev))
             }}
             section={section}
-            locked={f.type === 'slug' && !isNew}
+            locked={(f.type === 'slug' && !isNew) || (f.lock === 'existing' && !isNew) || (f.lock === 'used' && (section.usedBy?.(item, ctx).length ?? 0) > 0)}
             onChange={(v) => {
-              if (f.type === 'slug') setSlugTouched(true)
+              if (f.type === 'slug' || f.type === 'prefix') setTouched((t) => [...t, f.key])
               set(f.key, v)
             }}
           />
@@ -254,7 +263,11 @@ export function FieldInput({ field: f, value, error, onChange, ctx, items, item,
     case 'toggle':
       return <Toggle label={f.label} hint={f.hint} checked={Boolean(value)} onChange={onChange} />
     case 'select':
-      return <Select {...common} value={String(value ?? '')} onChange={onChange} options={f.options(ctx)} />
+      return <Select {...common} value={String(value ?? '')} onChange={onChange} options={f.options(ctx)} disabled={locked} />
+    case 'prefix':
+      return <TextInput {...common} value={String(value ?? '')} onChange={(v) => onChange(v.toUpperCase().replace(/[^A-Z]/g, '').slice(0, 6))} readOnly={locked} />
+    case 'readonly':
+      return <TextInput {...common} value={String(value ?? '')} onChange={() => {}} placeholder={f.placeholder} readOnly />
     case 'datetime':
       return <DateTimeInput {...common} value={(value as string | null) ?? null} onChange={onChange} />
     case 'image':

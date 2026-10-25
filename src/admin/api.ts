@@ -33,7 +33,8 @@ export const api = {
   login: (name: string, password: string) => request<{ name: string }>('/api/login', send('POST', { name, password })),
   logout: () => request('/api/logout', send('POST', {})),
   load: <T>(name: CollectionName) => request<{ data: T; sha: string }>(`/api/content?name=${name}`),
-  save: (name: CollectionName, data: unknown, sha: string, summary: string) => request<{ sha: string }>('/api/content', send('PUT', { name, data, sha, summary })),
+  // `data` comes back when the server changed what was sent (e.g. gave new products their codes)
+  save: <T,>(name: CollectionName, data: T, sha: string, summary: string) => request<{ sha: string; data?: T; assigned?: string[] }>('/api/content', send('PUT', { name, data, sha, summary })),
   drafts: () => request<Drafts>('/api/drafts'),
   publish: () => request<{ published: boolean }>('/api/drafts', send('POST', { action: 'publish' })),
   discard: () => request('/api/drafts', send('POST', { action: 'discard' })),

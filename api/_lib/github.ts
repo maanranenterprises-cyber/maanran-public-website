@@ -109,6 +109,31 @@ export async function writeContent(file: string, data: unknown, sha: string, mes
   return res.data.content.sha
 }
 
+// Saves several JSON files to drafts in one commit (e.g. a new product and its category's code counter).
+// Fails with 409 if drafts moved on since the editor loaded `files[0]` (someone else saved in between).
+export async function writeContents(files: { file: string; data: unknown; sha: string }[], message: string, author: string) {
+  const head = await branchSha(DRAFTS)
+  for (const f of files) {
+    const current = await gh<FileData>(`/contents/${CONTENT_DIR}/${f.file}?ref=${head}`)
+    if (current.data.sha !== f.sha) throw new HttpError(409, 'Someone else changed this since you opened it. Reload to see the latest version, then make your change again.')
+  }
+  const { data: base } = await gh<{ tree: { sha: string } }>(`/git/commits/${head}`)
+  const { data: tree } = await gh<{ sha: string }>('/git/trees', {
+    method: 'POST',
+    body: JSON.stringify({
+      base_tree: base.tree.sha,
+      tree: files.map((f) => ({ path: `${CONTENT_DIR}/${f.file}`, mode: '100644', type: 'blob', content: `${JSON.stringify(f.data, null, 2)}\n` })),
+    }),
+  })
+  const who = { name: author, email: 'admin@maanran.com', date: new Date().toISOString() }
+  const { data: commit } = await gh<{ sha: string }>('/git/commits', { method: 'POST', body: JSON.stringify({ message, tree: tree.sha, parents: [head], author: who }) })
+  // Not forced: if another save landed after we read `head`, GitHub refuses and nothing is lost
+  const moved = await gh(`/git/refs/heads/${DRAFTS}`, { method: 'PATCH', body: JSON.stringify({ sha: commit.sha, force: false }) }, [422])
+  if (moved.status === 422) throw new HttpError(409, 'Someone else saved at the same moment. Reload and make your change again.')
+  const { data: saved } = await gh<FileData>(`/contents/${CONTENT_DIR}/${files[0].file}?ref=${commit.sha}`)
+  return saved.sha
+}
+
 // Publishes every saved draft in one merge commit; returns false when there was nothing to publish
 export async function publishDrafts(by: string) {
   const res = await gh<{ sha: string }>(`/merges`, { method: 'POST', body: JSON.stringify({ base: LIVE, head: DRAFTS, commit_message: `${PUBLISH_MESSAGE} (by ${by})` }) }, [409])

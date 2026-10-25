@@ -25,7 +25,7 @@ export default function ProductDetail() {
     <>
       <Seo
         title={`${product.name} | ${categoryName(product.category)}`}
-        description={`${product.shortDescription} Made to order by ${site.name}, ${site.address.locality}.`}
+        description={`${product.shortDescription} Product code ${product.code}. Made to order by ${site.name}, ${site.address.locality}.`}
         path={`/products/${product.slug}`}
         image={product.images[0]}
         crumbs={[
@@ -63,6 +63,8 @@ export default function ProductDetail() {
             </Link>
             <h2 className="mt-2 text-3xl font-extrabold tracking-tight">{product.name}</h2>
             <p className="mt-1 text-sm text-muted">
+              Product code: <span className="font-semibold text-ink">{product.code}</span>
+              <span className="mx-2 text-line">|</span>
               Brand: <span className="font-semibold text-ink">{product.brand}</span>
             </p>
             <p className="mt-5 leading-relaxed text-ink/85">{product.description}</p>
@@ -77,10 +79,10 @@ export default function ProductDetail() {
               </dl>
             )}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <button onClick={() => openEnquiry(product.name)} className="btn-primary flex-1 py-3">
+              <button onClick={() => openEnquiry(`${product.name} (${product.code})`)} className="btn-primary flex-1 py-3">
                 <MessageSquareText className="size-4" /> Enquire About This Product
               </button>
-              <a href={whatsappLink(`Hello ${site.name}, I am interested in ${product.name}.`)} target="_blank" rel="noopener" className="btn flex-1 bg-[#25D366] py-3 text-white hover:bg-[#1ebe5b]">
+              <a href={whatsappLink(`Hello ${site.name}, I am interested in ${product.name} (product code ${product.code}).`)} target="_blank" rel="noopener" className="btn flex-1 bg-[#25D366] py-3 text-white hover:bg-[#1ebe5b]">
                 <WhatsAppIcon className="size-4" /> WhatsApp Us
               </a>
             </div>

@@ -8,6 +8,7 @@ export function createFakeGitHub(initialFiles: Record<string, string>) {
   const id = (p: string) => `${p}${(++n).toString(16).padStart(6, '0')}`
   const commits = new Map<string, Commit>()
   const branches = new Map<string, string>()
+  const trees = new Map<string, Files>()
 
   const files: Files = new Map(Object.entries(initialFiles).map(([path, text]) => [path, { text, sha: id('blob') }]))
   const root: Commit = { sha: id('c'), seq: n, parents: [], files, message: 'Initial content', author: 'Developer', date: new Date(Date.now() - 86400000).toISOString() }
@@ -38,7 +39,27 @@ export function createFakeGitHub(initialFiles: Record<string, string>) {
 
     if ((m = path.match(/^\/git\/ref\/heads\/(.+)$/))) return branches.has(m[1]) ? res(200, { object: { sha: branches.get(m[1]) } }) : res(404, { message: 'Not Found' })
     if (path === '/git/refs' && method === 'POST') return branches.set(body.ref.replace('refs/heads/', ''), body.sha), res(201, {})
-    if ((m = path.match(/^\/git\/refs\/heads\/(.+)$/)) && method === 'PATCH') return branches.set(m[1], body.sha), res(200, {})
+    if ((m = path.match(/^\/git\/refs\/heads\/(.+)$/)) && method === 'PATCH') {
+      // Without force, only moving the branch forward is allowed (as on GitHub)
+      if (body.force === false && !ancestors(body.sha).has(branches.get(m[1])!)) return res(422, { message: 'Update is not a fast forward' })
+      return branches.set(m[1], body.sha), res(200, {})
+    }
+    if ((m = path.match(/^\/git\/commits\/(.+)$/)) && method === 'GET') {
+      const c = commits.get(m[1])
+      return c ? res(200, { sha: c.sha, tree: { sha: `tree:${c.sha}` } }) : res(404, {})
+    }
+    if (path === '/git/trees' && method === 'POST') {
+      const base = commits.get(String(body.base_tree).replace('tree:', ''))!
+      const next: Files = new Map(base.files)
+      for (const t of body.tree) next.set(t.path, { text: t.content, sha: id('blob') })
+      const treeId = id('tree')
+      trees.set(treeId, next)
+      return res(201, { sha: treeId })
+    }
+    if (path === '/git/commits' && method === 'POST') {
+      const c = add(body.parents, trees.get(body.tree)!, body.message, body.author?.name ?? 'Admin')
+      return res(201, { sha: c.sha })
+    }
 
     if ((m = path.match(/^\/compare\/(.+)\.\.\.(.+)$/))) {
       const base = resolve(m[1])!, head = resolve(m[2])!

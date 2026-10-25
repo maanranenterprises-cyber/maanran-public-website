@@ -26,9 +26,10 @@ export function useCollection<T>(name: CollectionName) {
   const save = useCallback(
     async (data: T, summary: string) => {
       if (!state) return
-      const { sha } = await api.save(name, data, state.sha, summary)
-      setState({ data, sha })
+      const res = await api.save(name, data, state.sha, summary)
+      setState({ data: res.data ?? data, sha: res.sha })
       window.dispatchEvent(new Event(SAVED))
+      return res
     },
     [name, state],
   )

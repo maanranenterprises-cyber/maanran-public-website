@@ -2,6 +2,7 @@
 // Shared by the build (scripts/prerender.mjs fails on broken content), the admin API (rejects bad saves)
 // and the admin forms. Objects keep unknown keys such as "_note", so editing never drops them.
 import { z } from 'zod'
+import { CODE_PATTERN, parseCode, PREFIX_PATTERN } from './codes'
 
 const text = z.string().trim()
 const required = (label: string) => text.min(1, `${label} is required`)
@@ -29,6 +30,10 @@ export const bannerSchema = z.looseObject({
 export const categorySchema = z.looseObject({
   slug,
   name: required('Name'),
+  // Product codes in this category start with this, e.g. OC → OC-001. Fixed once the category has products.
+  codePrefix: text.toUpperCase().regex(PREFIX_PATTERN, 'Use 1 to 6 capital letters, e.g. OC'),
+  // The last code number given out in this category (set by the server, never reused)
+  codeCounter: z.number().int().min(0),
   description: required('Description'),
   image: requiredMedia('Add an image'),
   order,
@@ -37,6 +42,8 @@ export const categorySchema = z.looseObject({
 
 export const productSchema = z.looseObject({
   id: required('ID'),
+  // Unique product code such as OC-001; empty only for a new product, which the server numbers on save
+  code: text.regex(CODE_PATTERN, 'Product code must look like OC-001').or(z.literal('')),
   slug,
   name: required('Name'),
   brand: text,
@@ -226,10 +233,21 @@ export function crossCheck(content: Partial<Record<CollectionName, unknown>>) {
   for (const name of ['categories', 'products'] as const) {
     for (const s of duplicates(list(name).map((r) => r.slug))) errors.push(`${name}: the link name "${s}" is used more than once`)
   }
-  const categorySlugs = new Set(list('categories').map((c) => c.slug))
+  for (const prefix of duplicates(list('categories').map((c) => c.codePrefix))) errors.push(`categories: the product code prefix "${prefix}" is used by more than one category`)
+  for (const code of duplicates(list('products').map((p) => p.code).filter(Boolean))) errors.push(`products: the product code "${code}" is used more than once`)
+  const categoryBySlug = new Map(list('categories').map((c) => [c.slug, c as unknown as { codePrefix: string; codeCounter: number }]))
   if (content.categories && content.products) {
     for (const p of list('products')) {
-      if (!categorySlugs.has(p.category)) errors.push(`products › ${p.name}: category "${p.category}" does not exist`)
+      const category = categoryBySlug.get(p.category)
+      if (!category) {
+        errors.push(`products › ${p.name}: category "${p.category}" does not exist`)
+        continue
+      }
+      const code = parseCode(p.code ?? '')
+      if (!code) errors.push(`products › ${p.name}: has no product code`)
+      // Catches a product moved to another category, a changed prefix, or a code beyond the category's counter
+      else if (code.prefix !== category.codePrefix || code.number > category.codeCounter)
+        errors.push(`products › ${p.name}: product code ${p.code} does not belong to its category (${category.codePrefix})`)
     }
   }
   return errors

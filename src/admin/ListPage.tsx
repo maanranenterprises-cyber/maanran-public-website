@@ -112,6 +112,8 @@ export default function ListPage({ section }: { section: Section }) {
     const copy = { ...structuredClone(it), [section.titleField]: `${title(it)} (copy)`, [visible]: false }
     copy[section.keyField] = uniqueKey(section, items, `${String(it[section.keyField])}-copy`)
     if (section.keyField === 'id' && 'slug' in it) copy.slug = uniqueKey({ ...section, keyField: 'slug' }, items, `${String(it.slug)}-copy`)
+    // A copy is a new product, so the server gives it the next code in its category
+    if ('code' in it) copy.code = ''
     const next = [...items]
     next.splice(i + 1, 0, copy)
     commit(renumber(next), `Duplicate ${section.singular}: ${title(it)}`, 'Copy added as hidden. Edit it, then make it visible.')
