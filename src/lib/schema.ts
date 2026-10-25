@@ -134,6 +134,8 @@ const heading = z.looseObject({ eyebrow: text, title: required('Title'), text })
 const legalPage = z.looseObject({ title: required('Title'), sections: z.array(z.looseObject({ heading: required('Heading'), body: text })) })
 
 export const pagesSchema = z.looseObject({
+  // Switches for whole sections of the website (set from the top of each section's list in the admin)
+  sections: z.looseObject({ hero: z.boolean(), products: z.boolean(), clients: z.boolean(), stats: z.boolean(), testimonials: z.boolean(), downloads: z.boolean() }),
   home: z.looseObject({
     products: heading,
     clients: heading.extend({ count: text, countText: text }),

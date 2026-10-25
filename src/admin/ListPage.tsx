@@ -5,7 +5,7 @@ import { ArrowDown, ArrowUp, Copy, GripVertical, ImageIcon, Pencil, Plus, Search
 import { imageUrl } from '../lib/media'
 import { useCollection, useContextData } from './store'
 import { type Item, type Section, slugify } from './sections'
-import { Button, confirm, ErrorNotice, toast } from './ui'
+import { Button, confirm, ErrorNotice, toast, Toggle } from './ui'
 
 // Items carry an `order` number; the list keeps them sorted and renumbers after any move
 const sorted = (items: Item[]) => [...items].sort((a, b) => Number(a.order) - Number(b.order))
@@ -27,6 +27,34 @@ export function uniqueKey(section: Section, items: Item[], base: string) {
   let key = slugify(base) || section.singular
   for (let n = 2; taken.has(key); n++) key = `${slugify(base)}-${n}`
   return key
+}
+
+// Shows or hides a whole section of the website. Saved to drafts like any other change.
+function SectionSwitch({ setting }: { setting: NonNullable<Section['sectionSwitch']> }) {
+  const { data, save } = useCollection<Item>('pages')
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState<unknown>(null)
+  const sections = (data?.sections ?? {}) as Record<string, boolean>
+  if (!data) return null
+  const on = sections[setting.key] !== false
+  const flip = async () => {
+    setBusy(true)
+    setError(null)
+    try {
+      await save({ ...data, sections: { ...sections, [setting.key]: !on } }, `${on ? 'Hide' : 'Show'} ${setting.label.replace(/^Show /, '')}`)
+      toast(on ? 'Section hidden (saved to drafts)' : 'Section shown (saved to drafts)')
+    } catch (e) {
+      setError(e)
+    } finally {
+      setBusy(false)
+    }
+  }
+  return (
+    <div className={`rounded-2xl border p-4 transition ${on ? 'border-line bg-white' : 'border-ink/15 bg-ink/[0.04]'} ${busy ? 'pointer-events-none opacity-60' : ''}`}>
+      <Toggle label={setting.label} hint={on ? setting.where : `Hidden on the website. ${setting.where}`} checked={on} onChange={flip} />
+      <ErrorNotice error={error} onClose={() => setError(null)} />
+    </div>
+  )
 }
 
 export default function ListPage({ section }: { section: Section }) {
@@ -122,6 +150,8 @@ export default function ListPage({ section }: { section: Section }) {
           <Plus className="size-4" /> Add {section.singular}
         </Link>
       </div>
+
+      {section.sectionSwitch && <SectionSwitch setting={section.sectionSwitch} />}
 
       <ErrorNotice error={saveError} onClose={() => (setSaveError(null), reload())} />
 

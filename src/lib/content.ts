@@ -101,6 +101,9 @@ export const facebook = facebookUrl ? { url: facebookUrl } : null
 export const fillTokens = (text: string) =>
   text.replaceAll('{company}', site.name).replaceAll('{email}', site.contact.email).replaceAll('{phone}', site.contact.phoneDisplay)
 
+// Whether a section is switched on and has something to show (e.g. the Downloads section and the buttons that link to it)
+export const showDownloads = pages.sections.downloads && documents.length > 0
+
 export const categoryName = (slug: string) => categories.find((c) => c.slug === slug)?.name ?? slug
 
 export function yearsOfExperience(now = new Date()) {

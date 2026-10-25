@@ -68,7 +68,7 @@ function Marquee({ items, reverse }: { items: ClientItem[]; reverse?: boolean })
 }
 
 export default function Clients() {
-  if (!clients.length) return null
+  if (!clients.length || !pages.sections.clients) return null
   // Alternate clients between the rows so both stay balanced
   const top = clients.filter((_, i) => i % 2 === 0)
   const bottom = clients.filter((_, i) => i % 2 === 1)

@@ -48,6 +48,8 @@ export type Section = {
   thumbText?: (item: Item) => string
   // The on/off field for "Visible on the website" (stats use `active`, everything else `published`)
   visibleField?: string
+  // Switch at the top of the list that shows or hides the whole section on the website (stored in pages.json → sections)
+  sectionSwitch?: { key: string; label: string; where: string }
   // ImageKit folder for this section's uploads, e.g. /maanran/products
   folder: string
   schema: z.ZodType
@@ -69,6 +71,7 @@ const categoryLabel = (slug: unknown, ctx: Context) => String((ctx.categories ??
 export const sections: Section[] = [
   {
     name: 'banners',
+    sectionSwitch: { key: 'hero', label: 'Show the banner slideshow', where: 'At the top of the home page.' },
     path: 'banners',
     singular: 'banner',
     plural: 'Banners',
@@ -118,6 +121,7 @@ export const sections: Section[] = [
   },
   {
     name: 'products',
+    sectionSwitch: { key: 'products', label: 'Show featured products on the home page', where: 'The scrolling row of featured products. The Products page is not affected.' },
     path: 'products',
     singular: 'product',
     plural: 'Products',
@@ -148,6 +152,7 @@ export const sections: Section[] = [
   },
   {
     name: 'clients',
+    sectionSwitch: { key: 'clients', label: 'Show the Trusted Clients section', where: 'On the home page and the About page.' },
     path: 'clients',
     singular: 'client',
     plural: 'Clients',
@@ -170,6 +175,7 @@ export const sections: Section[] = [
   },
   {
     name: 'stats',
+    sectionSwitch: { key: 'stats', label: 'Show the stats section', where: 'On the home page and the About page.' },
     path: 'stats',
     singular: 'stat',
     plural: 'Stats',
@@ -204,6 +210,7 @@ export const sections: Section[] = [
   },
   {
     name: 'testimonials',
+    sectionSwitch: { key: 'testimonials', label: 'Show the testimonials section', where: 'On the home page.' },
     path: 'testimonials',
     singular: 'testimonial',
     plural: 'Testimonials',
@@ -250,6 +257,7 @@ export const sections: Section[] = [
   },
   {
     name: 'documents',
+    sectionSwitch: { key: 'downloads', label: 'Show the Downloads section', where: 'On the home page, together with the "Download Catalog" buttons that link to it.' },
     path: 'downloads',
     singular: 'download',
     plural: 'Downloads',

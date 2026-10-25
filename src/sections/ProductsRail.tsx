@@ -24,7 +24,7 @@ export default function ProductsRail() {
     embla.on('select', update).on('reInit', update)
   }, [embla, update])
 
-  if (!featuredProducts.length) return null
+  if (!featuredProducts.length || !pages.sections.products) return null
 
   return (
     <section id="products" className="py-20 lg:py-24">

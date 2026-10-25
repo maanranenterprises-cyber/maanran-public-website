@@ -1,5 +1,5 @@
 import { Download, FileText } from 'lucide-react'
-import { documents, pages } from '../lib/content'
+import { documents, pages, showDownloads } from '../lib/content'
 import Media from '../components/Media'
 import SectionHeading from '../components/SectionHeading'
 
@@ -13,7 +13,7 @@ declare global {
 const trackDownload = (title: string) => window.gtag?.('event', 'file_download', { file_name: title })
 
 export default function Downloads() {
-  if (!documents.length) return null
+  if (!showDownloads) return null
   return (
     <section id="downloads" className="py-20 lg:py-24">
       <div className="container-x">

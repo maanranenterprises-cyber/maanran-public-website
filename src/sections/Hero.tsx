@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
-import { banners, site } from "../lib/content";
+import { banners, pages, site } from "../lib/content";
 import { imageUrl } from "../lib/media";
 import CtaLink from "../components/CtaLink";
 
@@ -24,7 +24,7 @@ export default function Hero() {
     return () => window.clearInterval(t);
   }, [paused, count]);
 
-  if (!count) return null;
+  if (!count || !pages.sections.hero) return null;
 
   return (
     <section

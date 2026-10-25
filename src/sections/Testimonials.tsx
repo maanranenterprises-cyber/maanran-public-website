@@ -18,7 +18,7 @@ export default function Testimonials() {
     onSelect()
   }, [embla])
 
-  if (!testimonials.length) return null
+  if (!testimonials.length || !pages.sections.testimonials) return null
 
   return (
     <section id="testimonials" className="bg-soft py-20 lg:py-24">

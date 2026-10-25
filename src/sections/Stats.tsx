@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Briefcase, Heart, Smile, Users, type LucideIcon } from 'lucide-react'
-import { stats, type Stat } from '../lib/content'
+import { pages, stats, type Stat } from '../lib/content'
 
 const icons: Record<string, LucideIcon> = { smile: Smile, briefcase: Briefcase, users: Users, heart: Heart }
 
@@ -39,7 +39,7 @@ export default function Stats() {
     return () => io.disconnect()
   }, [])
 
-  if (!stats.length) return null
+  if (!stats.length || !pages.sections.stats) return null
 
   return (
     <section id="stats" ref={ref} aria-label="Company statistics" className="relative overflow-hidden bg-ink py-16 text-white">

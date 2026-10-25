@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { Download, Menu, MessageSquareText, X } from 'lucide-react'
-import { navigation, site } from '../lib/content'
+import { navigation, showDownloads, site } from '../lib/content'
 import { useEnquiry } from './EnquiryContext'
 import ProductsMenu, { MobileProductsMenu } from './ProductsMenu'
 
@@ -52,11 +52,13 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
-          <Link to="/#downloads" className="btn-outline px-3 lg:px-5" title="Download Catalog & Brochure">
-            <Download className="size-4" />
-            <span className="hidden xl:inline">Download Catalog & Brochure</span>
-            <span className="xl:hidden">Catalog</span>
-          </Link>
+          {showDownloads && (
+            <Link to="/#downloads" className="btn-outline px-3 lg:px-5" title="Download Catalog & Brochure">
+              <Download className="size-4" />
+              <span className="hidden xl:inline">Download Catalog & Brochure</span>
+              <span className="xl:hidden">Catalog</span>
+            </Link>
+          )}
           <button onClick={() => openEnquiry()} className="btn-primary px-3 lg:px-5">
             <MessageSquareText className="size-4" />
             <span>Get Enquiry</span>
@@ -81,9 +83,11 @@ export default function Navbar() {
               ),
             )}
             <div className="mt-3 grid gap-2 pb-2">
-              <Link to="/#downloads" className="btn-outline">
-                <Download className="size-4" /> Download Catalog & Brochure
-              </Link>
+              {showDownloads && (
+                <Link to="/#downloads" className="btn-outline">
+                  <Download className="size-4" /> Download Catalog & Brochure
+                </Link>
+              )}
               <button onClick={() => openEnquiry()} className="btn-primary">
                 <MessageSquareText className="size-4" /> Get Enquiry
               </button>
