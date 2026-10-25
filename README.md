@@ -48,9 +48,8 @@ The site requests resized WebP/AVIF versions automatically. Empty image fields s
 
 ## Enquiry form
 
-- **Send Enquiry** emails the enquiry to `contact.email` in `src/content/site.json` (currently info@maanran.com).
-- By default this goes through FormSubmit (formsubmit.co), which needs no account. The very first enquiry triggers a one-time "Activate form" email to that inbox; click the link in it, and every enquiry after that is delivered. Enquiries sent before activation are not delivered.
-- Optionally, create a free access key at web3forms.com for the company inbox and set it as `VITE_WEB3FORMS_KEY` (see `.env.example`, or the host's environment variables); the form then uses Web3Forms instead.
+- **Send Enquiry** posts the enquiry to Formspree at `contact.formEndpoint` in `src/content/site.json`. Formspree emails it to the inbox set on that form in the Formspree dashboard (formspree.io), where past submissions can also be seen.
+- To use a different Formspree form, replace `formEndpoint` with its URL.
 - **Send on WhatsApp** opens WhatsApp with the enquiry pre-filled.
 
 ## Deploying

@@ -15,8 +15,6 @@ type Values = {
   botcheck: boolean
 }
 
-const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY as string | undefined
-
 const interestOptions = ['Home & Office Interiors', ...categories.map((c) => c.name), 'Other']
 
 function toText(v: Values, product?: string) {
@@ -34,30 +32,34 @@ function toText(v: Values, product?: string) {
     .join('\n')
 }
 
-// Emails the enquiry to site.contact.email. Uses Web3Forms when an access key is configured,
-// otherwise FormSubmit (no key needed; the first enquiry sends a one-time activation email to that inbox).
-async function sendEmail(v: Values, product?: string): Promise<boolean> {
-  const subject = `New website enquiry${product ? `: ${product}` : ''}`
-  const fields = { ...v, product: product ?? '', botcheck: undefined }
-  const res = WEB3FORMS_KEY
-    ? await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ access_key: WEB3FORMS_KEY, subject, from_name: `${site.name} website`, ...fields }),
-      })
-    : await fetch(`https://formsubmit.co/ajax/${site.contact.email}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ _subject: subject, _template: 'table', _replyto: v.email || undefined, ...fields }),
-      })
-  const json = await res.json()
-  // Web3Forms answers with a boolean, FormSubmit with the string "true"
-  return json.success === true || json.success === 'true'
+// Sends the enquiry to the Formspree form in site.json; Formspree emails it to the inbox set up in the Formspree dashboard.
+// Field names are what appear in that email. "email" lets Reply in the inbox answer the customer directly.
+// Resolves to null when sent, or Formspree's reason when it rejects the enquiry.
+async function sendEmail(v: Values, product?: string): Promise<string | null> {
+  const res = await fetch(site.contact.formEndpoint, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({
+      _subject: `New website enquiry${product ? `: ${product}` : ''}`,
+      name: v.name,
+      phone: v.phone,
+      email: v.email || undefined,
+      city: v.city || undefined,
+      product: product || undefined,
+      'interested in': v.category || undefined,
+      'quantity / project size': v.quantity || undefined,
+      message: v.message || undefined,
+    }),
+  })
+  if (res.ok) return null
+  const json = await res.json().catch(() => null)
+  return json?.errors?.map((e: { message: string }) => e.message).join(', ') || 'Please try again.'
 }
 
 // "Send Enquiry" emails the company; "Send on WhatsApp" opens WhatsApp with the message pre-filled.
 export default function EnquiryForm({ product, onDone }: { product?: string; onDone?: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+  const [errorReason, setErrorReason] = useState('')
   const {
     register,
     handleSubmit,
@@ -75,8 +77,11 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
     if (v.botcheck) return
     setStatus('sending')
     try {
-      setStatus((await sendEmail(v, product)) ? 'sent' : 'error')
+      const reason = await sendEmail(v, product)
+      setErrorReason(reason ?? '')
+      setStatus(reason ? 'error' : 'sent')
     } catch {
+      setErrorReason('Network error, please check your connection.')
       setStatus('error')
     }
   }
@@ -157,7 +162,7 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
       <input type="checkbox" className="hidden" tabIndex={-1} autoComplete="off" {...register('botcheck')} />
       {status === 'error' && (
         <p className="text-sm text-brand sm:col-span-2">
-          Sorry, the form could not be sent. Please try WhatsApp, email{' '}
+          Sorry, the form could not be sent{errorReason && ` (${errorReason})`}. Please try WhatsApp, email{' '}
           <a href={`mailto:${site.contact.email}`} className="font-semibold underline">
             {site.contact.email}
           </a>{' '}

@@ -46,6 +46,8 @@
     "phoneDisplay": "+91 98862 77250",
     "whatsapp": "919886277250",
     "email": "info@maanran.com",
+    "_formEndpointNote": "Formspree form that receives the website enquiry form (formspree.io dashboard decides which inbox it emails).",
+    "formEndpoint": "https://formspree.io/f/myeekkdp",
     "hours": "Monday to Sunday, 9 AM to 8 PM",
     "_hoursSchemaNote": "Same hours in 24h form for search engines (Google business info). Keep in step with 'hours'.",
     "opens": "09:00",
