@@ -1,7 +1,7 @@
 // Add or edit one item of a section. The form is built from the section's field list (sections.ts),
 // checked with the same rules the server and the build use, then the whole file is saved to drafts.
 import { useEffect, useState } from 'react'
-import { Link, useBlocker, useNavigate, useParams } from 'react-router-dom'
+import { Link, useBlocker, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react'
 import { ImageInput, ImagesInput } from './ImageInput'
 import { uniqueKey } from './ListPage'
@@ -28,6 +28,7 @@ export default function EditPage({ section }: { section: Section }) {
   const { key } = useParams()
   const isNew = key === 'new'
   const navigate = useNavigate()
+  const [params] = useSearchParams()
   const { data, error, save } = useCollection<Item[]>(section.name)
   const ctx = useContextData(section.needs)
   const [item, setItem] = useState<Item | null>(null)
@@ -39,12 +40,14 @@ export default function EditPage({ section }: { section: Section }) {
 
   useEffect(() => {
     if (!data || item) return
-    const found = isNew ? section.newItem() : data.find((x) => String(x[section.keyField]) === key)
+    // "Add product" from a filtered list starts in that category
+    const preset = section.filter && params.get(section.filter.key) ? { [section.filter.key]: params.get(section.filter.key) } : {}
+    const found = isNew ? { ...section.newItem(), ...preset } : data.find((x) => String(x[section.keyField]) === key)
     if (found) {
       setItem(found)
       setOriginal(JSON.stringify(found))
     }
-  }, [data, item, isNew, key, section])
+  }, [data, item, isNew, key, section, params])
 
   const dirty = item !== null && JSON.stringify(item) !== original
   const blocker = useBlocker(({ currentLocation, nextLocation }) => dirty && !busy && currentLocation.pathname !== nextLocation.pathname)
@@ -60,7 +63,9 @@ export default function EditPage({ section }: { section: Section }) {
   }, [dirty])
 
   const name = item ? String(item[section.titleField] || '') : ''
-  const backTo = `/${section.path}`
+  // Back to the list with the same filter (the list passes ?category=… along to its items)
+  const filterParam = section.filter && params.get(section.filter.key)
+  const backTo = `/${section.path}${filterParam ? `?${section.filter!.key}=${encodeURIComponent(filterParam)}` : ''}`
 
   const set = (field: string, value: unknown) =>
     setItem((prev) => {

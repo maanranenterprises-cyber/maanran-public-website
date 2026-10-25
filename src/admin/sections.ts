@@ -36,6 +36,8 @@ export type Section = {
   folder: string
   schema: z.ZodType
   needs?: CollectionName[]
+  // Optional dropdown above the list, e.g. products by category; the choice also pre-fills new items
+  filter?: { key: string; allLabel: string; options: (ctx: Context) => Option[] }
   // Names of other items that depend on this one; deleting is blocked while there are any
   usedBy?: (item: Item, ctx: Context) => string[]
   fields: FieldDef[]
@@ -110,6 +112,7 @@ export const sections: Section[] = [
     folder: 'products',
     schema: productSchema,
     needs: ['categories'],
+    filter: { key: 'category', allLabel: 'All categories', options: categoryOptions },
     fields: [
       { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products/linear-workstation-4-seater. Set automatically from the name and cannot be changed later.' },

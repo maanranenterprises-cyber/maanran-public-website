@@ -1,6 +1,6 @@
 // A section's list: search, drag (or arrow buttons) to reorder, show/hide, duplicate, delete, and links to edit.
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { ArrowDown, ArrowUp, Copy, GripVertical, ImageIcon, Pencil, Plus, Search, Trash2 } from 'lucide-react'
 import { imageUrl } from '../lib/media'
 import { useCollection, useContextData } from './store'
@@ -33,13 +33,22 @@ export default function ListPage({ section }: { section: Section }) {
   const { data, error, reload, save } = useCollection<Item[]>(section.name)
   const ctx = useContextData(section.needs)
   const [query, setQuery] = useState('')
+  // The filter lives in the address (?category=office-chairs) so it survives going into an item and back
+  const [params, setParams] = useSearchParams()
+  const filterValue = section.filter ? (params.get(section.filter.key) ?? '') : ''
   const [busy, setBusy] = useState(false)
   const [saveError, setSaveError] = useState<unknown>(null)
   const [dragging, setDragging] = useState<number | null>(null)
 
   const items = useMemo(() => sorted(data ?? []), [data])
   const title = (it: Item) => String(it[section.titleField] || `Untitled ${section.singular}`)
-  const filtered = query ? items.filter((it) => JSON.stringify(it).toLowerCase().includes(query.toLowerCase())) : items
+  const inFilter = filterValue ? items.filter((it) => it[section.filter!.key] === filterValue) : items
+  const filtered = query ? inFilter.filter((it) => JSON.stringify(it).toLowerCase().includes(query.toLowerCase())) : inFilter
+  const filterOptions = section.filter
+    ? section.filter.options(ctx).map((o) => ({ ...o, count: items.filter((it) => it[section.filter!.key] === o.value).length }))
+    : []
+  const keepFilter = filterValue ? `?${section.filter!.key}=${encodeURIComponent(filterValue)}` : ''
+  const addLink = `/${section.path}/new${keepFilter}`
 
   const commit = async (next: Item[], summary: string, done?: string) => {
     setBusy(true)
@@ -107,27 +116,49 @@ export default function ListPage({ section }: { section: Section }) {
           <h1 className="text-2xl font-extrabold tracking-tight">{section.plural}</h1>
           <p className="mt-1 text-sm text-muted">{section.description}</p>
         </div>
-        <Link to={`/${section.path}/new`} className="inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-dark">
+        <Link to={addLink} className="inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-dark">
           <Plus className="size-4" /> Add {section.singular}
         </Link>
       </div>
 
       <ErrorNotice error={saveError} onClose={() => (setSaveError(null), reload())} />
 
-      <div className="relative">
-        <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted" />
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder={`Search ${items.length} ${section.plural.toLowerCase()}…`}
-          className="w-full rounded-lg border border-line bg-white py-2 pl-9 pr-3 text-sm outline-none focus:border-blue focus:ring-2 focus:ring-blue/15"
-        />
+      <div className="flex flex-col gap-2 sm:flex-row">
+        {section.filter && (
+          <select
+            value={filterValue}
+            onChange={(e) => setParams(e.target.value ? { [section.filter!.key]: e.target.value } : {}, { replace: true })}
+            aria-label="Filter"
+            className={`rounded-lg border bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-blue focus:ring-2 focus:ring-blue/15 sm:w-64 ${filterValue ? 'border-blue text-blue' : 'border-line'}`}
+          >
+            <option value="">
+              {section.filter.allLabel} ({items.length})
+            </option>
+            {filterOptions.map((o) => (
+              <option key={o.value} value={o.value}>
+                {o.label} ({o.count})
+              </option>
+            ))}
+          </select>
+        )}
+        <div className="relative flex-1">
+          <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted" />
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={`Search ${inFilter.length} ${section.plural.toLowerCase()}…`}
+            className="w-full rounded-lg border border-line bg-white py-2 pl-9 pr-3 text-sm outline-none focus:border-blue focus:ring-2 focus:ring-blue/15"
+          />
+        </div>
       </div>
       {query && <p className="-mt-2 text-xs text-muted">Clear the search to drag items into a new order.</p>}
 
       <ul className={`grid grid-cols-1 gap-2 ${busy ? 'pointer-events-none opacity-60' : ''}`}>
-        {filtered.map((it) => {
+        {filtered.map((it, v) => {
           const i = items.indexOf(it)
+          // With a filter, the arrows move an item past its visible neighbour (e.g. within one category)
+          const prev = v > 0 ? items.indexOf(filtered[v - 1]) : -1
+          const next = v < filtered.length - 1 ? items.indexOf(filtered[v + 1]) : -1
           const img = firstImage(it, section.imageField)
           return (
             <li
@@ -143,7 +174,7 @@ export default function ListPage({ section }: { section: Section }) {
               <span className="grid size-14 shrink-0 place-items-center overflow-hidden rounded-lg border border-line bg-white">
                 {img ? <img src={imageUrl(img, 160)} alt="" className={`size-full ${section.imageContain ? 'object-contain p-1' : 'object-cover'}`} /> : <ImageIcon className="size-5 text-ink/20" />}
               </span>
-              <Link to={`/${section.path}/${encodeURIComponent(String(it[section.keyField]))}`} className="min-w-0 flex-1">
+              <Link to={`/${section.path}/${encodeURIComponent(String(it[section.keyField]))}${keepFilter}`} className="min-w-0 flex-1">
                 <span className="block truncate font-semibold hover:text-brand">{title(it)}</span>
                 <span className="block truncate text-xs text-muted">{section.subtitle?.(it, ctx)}</span>
               </Link>
@@ -158,20 +189,20 @@ export default function ListPage({ section }: { section: Section }) {
               <span className="flex shrink-0 items-center">
                 {!query && (
                   <>
-                    <IconButton label="Move up" onClick={() => move(i, i - 1)} disabled={i === 0} icon={ArrowUp} />
-                    <IconButton label="Move down" onClick={() => move(i, i + 1)} disabled={i === items.length - 1} icon={ArrowDown} />
+                    <IconButton label="Move up" onClick={() => move(i, prev)} disabled={prev < 0} icon={ArrowUp} />
+                    <IconButton label="Move down" onClick={() => move(i, next)} disabled={next < 0} icon={ArrowDown} />
                   </>
                 )}
                 <IconButton label="Duplicate" onClick={() => duplicate(i)} icon={Copy} />
                 <IconButton label="Delete" onClick={() => remove(i)} icon={Trash2} danger />
-                <Link to={`/${section.path}/${encodeURIComponent(String(it[section.keyField]))}`} className="ml-1 hidden items-center gap-1 rounded-lg border border-line px-2.5 py-1.5 text-xs font-semibold hover:border-ink/30 md:inline-flex">
+                <Link to={`/${section.path}/${encodeURIComponent(String(it[section.keyField]))}${keepFilter}`} className="ml-1 hidden items-center gap-1 rounded-lg border border-line px-2.5 py-1.5 text-xs font-semibold hover:border-ink/30 md:inline-flex">
                   <Pencil className="size-3.5" /> Edit
                 </Link>
               </span>
             </li>
           )
         })}
-        {!filtered.length && <li className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-muted">{query ? 'Nothing matches your search.' : `No ${section.plural.toLowerCase()} yet.`}</li>}
+        {!filtered.length && <li className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-muted">{query ? 'Nothing matches your search.' : filterValue ? `No ${section.plural.toLowerCase()} in this category yet.` : `No ${section.plural.toLowerCase()} yet.`}</li>}
       </ul>
     </div>
   )
