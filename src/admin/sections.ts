@@ -17,8 +17,10 @@ export type FieldDef = { key: string; label: string; hint?: string; required?: b
   | { type: 'slug'; from: string }
   // Product code prefix: suggested from another field (first letters of its words) until edited by hand
   | { type: 'prefix'; from: string }
-  // Shown but never edited here, e.g. the product code the server assigns
+  // Shown but never edited here
   | { type: 'readonly'; placeholder?: string }
+  // The product code: shown locked; for a new product, a preview of the code it will get in the chosen category
+  | { type: 'code'; categoryKey: string }
   | { type: 'number'; min?: number; max?: number }
   | { type: 'toggle' }
   | { type: 'image' | 'images'; contain?: boolean }
@@ -151,7 +153,7 @@ export const sections: Section[] = [
     needs: ['categories'],
     filter: { key: 'category', allLabel: 'All categories', options: categoryOptions },
     fields: [
-      { key: 'code', label: 'Product code', type: 'readonly', placeholder: 'Assigned automatically when you save', hint: 'Unique code from the category prefix and the next number, e.g. OC-004. It never changes.' },
+      { key: 'code', label: 'Product code', type: 'code', categoryKey: 'category' },
       { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products/linear-workstation-4-seater. Set automatically from the name and cannot be changed later.' },
       { key: 'category', label: 'Category', type: 'select', options: categoryOptions, required: true, lock: 'existing', hint: 'Cannot be changed after the product is saved, because the product code comes from it.' },

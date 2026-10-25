@@ -2,10 +2,10 @@
 // checked with the same rules the server and the build use, then the whole file is saved to drafts.
 import { useEffect, useState } from 'react'
 import { Link, useBlocker, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { ArrowLeft, Plus, Trash2 } from 'lucide-react'
+import { ArrowLeft, Lock, Plus, Trash2 } from 'lucide-react'
 import { FileInput, ImageInput, ImagesInput } from './ImageInput'
 import { LinkInput, ObjectsInput, StringsInput } from './ListInputs'
-import { suggestPrefix } from '../lib/codes'
+import { formatCode, suggestPrefix } from '../lib/codes'
 import { uniqueKey } from './ListPage'
 import { useCollection, useContextData } from './store'
 import { type Context, type FieldDef, type Item, type Section, slugify } from './sections'
@@ -266,6 +266,8 @@ export function FieldInput({ field: f, value, error, onChange, ctx, items, item,
       return <Select {...common} value={String(value ?? '')} onChange={onChange} options={f.options(ctx)} disabled={locked} />
     case 'prefix':
       return <TextInput {...common} value={String(value ?? '')} onChange={(v) => onChange(v.toUpperCase().replace(/[^A-Z]/g, '').slice(0, 6))} readOnly={locked} />
+    case 'code':
+      return <CodeField label={f.label} code={String(value ?? '')} category={(ctx.categories ?? []).find((c) => c.slug === item[f.categoryKey])} />
     case 'readonly':
       return <TextInput {...common} value={String(value ?? '')} onChange={() => {}} placeholder={f.placeholder} readOnly />
     case 'datetime':
@@ -351,5 +353,39 @@ function LinksInput({ label, hint, error, required, value, onChange, max }: { la
       </div>
       {error && <p className="mt-1 text-xs font-medium text-brand">{error}</p>}
     </fieldset>
+  )
+}
+
+// Product code: always locked. A saved product shows its code; a new one previews the next code in the chosen category.
+// The server assigns the real code on save, so if someone else adds a product to that category first, this one gets the next number.
+function CodeField({ label, code, category }: { label: string; code: string; category?: Item }) {
+  const next = !code && category ? formatCode(String(category.codePrefix), Number(category.codeCounter) + 1) : ''
+  const shown = code || next
+  const hint = code
+    ? 'This product’s unique code. It never changes.'
+    : category
+      ? `This product will be ${next} when you save (the next number in ${String(category.name)}). If someone else adds a product there first, it gets the following number.`
+      : 'Choose a category below to see the code. It is made from the category’s prefix and the next number, e.g. OC-004.'
+  return (
+    <div>
+      <p className="text-sm font-semibold text-ink">{label}</p>
+      <p className="mt-0.5 text-xs text-muted">{hint}</p>
+      <div
+        role="textbox"
+        aria-readonly="true"
+        aria-label={label}
+        className="mt-1.5 flex items-center gap-2 rounded-lg border border-dashed border-ink/20 bg-ink/[0.04] px-3 py-2 text-sm"
+      >
+        <Lock className="size-4 shrink-0 text-ink/40" aria-hidden="true" />
+        {shown ? (
+          <span className="font-mono font-semibold tracking-wide text-ink">
+            {shown}
+            {!code && <span className="ml-2 font-sans text-xs font-normal text-muted">(when saved)</span>}
+          </span>
+        ) : (
+          <span className="text-muted">Shown once a category is chosen</span>
+        )}
+      </div>
+    </div>
   )
 }
