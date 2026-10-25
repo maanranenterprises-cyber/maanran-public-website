@@ -37,9 +37,21 @@ export const api = {
   drafts: () => request<Drafts>('/api/drafts'),
   publish: () => request<{ published: boolean }>('/api/drafts', send('POST', { action: 'publish' })),
   discard: () => request('/api/drafts', send('POST', { action: 'discard' })),
+  history: () => request<{ publishes: Publish[] }>('/api/history'),
+  undo: (sha: string) => request<{ restored: string[] }>('/api/history', send('POST', { action: 'undo', sha })),
+  // The commit the website was built from (written by the build); null if it cannot be read
+  siteVersion: async () => {
+    try {
+      const res = await fetch(`/version.json?t=${Date.now()}`, { cache: 'no-store' })
+      return res.ok ? ((await res.json()) as { commit: string }).commit : null
+    } catch {
+      return null
+    }
+  },
 }
 
-export type Drafts = { pending: number; files: string[]; changes: { message: string; by: string; at: string }[]; previewUrl?: string }
+export type Drafts = { pending: number; files: string[]; changes: { message: string; by: string; at: string }[]; live: { sha: string; at: string } }
+export type Publish = { sha: string; by: string; at: string; edits: string[]; files: string[] }
 
 // Photos are resized in the browser before upload, so even large phone photos upload quickly
 const MAX_SIDE = 2000

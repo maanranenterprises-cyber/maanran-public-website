@@ -39,7 +39,37 @@ type Compare = {
 
 const branchSha = async (branch: string) => (await gh<Ref>(`/git/ref/heads/${branch}`, {}, [404])).data?.object?.sha ?? null
 
-export const compareDrafts = async () => (await gh<Compare>(`/compare/${LIVE}...${DRAFTS}`)).data
+export const compare = async (base: string, head: string) => (await gh<Compare>(`/compare/${base}...${head}`)).data
+export const compareDrafts = () => compare(LIVE, DRAFTS)
+
+type Commit = { sha: string; parents: { sha: string }[]; commit: { message: string; author: { name: string; date: string }; committer: { date: string } } }
+
+// The newest commit on the live branch: what the website should be showing once Vercel has finished building
+export async function liveHead() {
+  const { data } = await gh<Commit>(`/commits/${LIVE}`)
+  return { sha: data.sha, at: data.commit.committer.date }
+}
+
+export const PUBLISH_MESSAGE = 'Publish website changes'
+
+// Recent publishes (the merge commits Publish creates), newest first, each with the edits it made live
+export async function listPublishes(limit: number) {
+  const { data } = await gh<Commit[]>(`/commits?sha=${LIVE}&per_page=100`)
+  const merges = data.filter((c) => c.commit.message.startsWith(PUBLISH_MESSAGE) && c.parents.length === 2).slice(0, limit)
+  return Promise.all(
+    merges.map(async (c) => {
+      const diff = await compare(c.parents[0].sha, c.parents[1].sha)
+      return {
+        sha: c.sha,
+        before: c.parents[0].sha,
+        by: c.commit.message.match(/\(by (.+)\)$/)?.[1] ?? c.commit.author.name,
+        at: c.commit.committer.date,
+        edits: diff.commits.map((e) => e.commit.message.replace(/ \(by [^)]*\)$/, '')).reverse(),
+        files: (diff.files ?? []).filter((f) => f.filename.startsWith(`${CONTENT_DIR}/`)).map((f) => f.filename.slice(CONTENT_DIR.length + 1)),
+      }
+    }),
+  )
+}
 
 // Makes sure the drafts branch exists and, when it holds no unpublished edits, catches it up with the live site
 // (so code changes pushed to main are not lost when the next edit is published).
@@ -59,9 +89,9 @@ export async function prepareDrafts() {
 
 type FileData = { content: string; sha: string }
 
-// Returns the parsed JSON file and its version (sha) from the drafts branch
-export async function readContent(file: string) {
-  const { data } = await gh<FileData>(`/contents/${CONTENT_DIR}/${file}?ref=${DRAFTS}`)
+// Returns the parsed JSON file and its version (sha) from the drafts branch, or from an earlier commit when `ref` is given
+export async function readContent(file: string, ref: string = DRAFTS) {
+  const { data } = await gh<FileData>(`/contents/${CONTENT_DIR}/${file}?ref=${ref}`)
   return { data: JSON.parse(Buffer.from(data.content, 'base64').toString('utf8')) as unknown, sha: data.sha }
 }
 
@@ -81,7 +111,7 @@ export async function writeContent(file: string, data: unknown, sha: string, mes
 
 // Publishes every saved draft in one merge commit; returns false when there was nothing to publish
 export async function publishDrafts(by: string) {
-  const res = await gh(`/merges`, { method: 'POST', body: JSON.stringify({ base: LIVE, head: DRAFTS, commit_message: `Publish website changes (by ${by})` }) }, [409])
+  const res = await gh<{ sha: string }>(`/merges`, { method: 'POST', body: JSON.stringify({ base: LIVE, head: DRAFTS, commit_message: `${PUBLISH_MESSAGE} (by ${by})` }) }, [409])
   if (res.status === 409) throw new HttpError(409, 'The drafts clash with a recent change to the live site. Please contact your developer.')
   return res.status === 201
 }

@@ -49,8 +49,14 @@ export function useContextData(names: CollectionName[] = []) {
   return ctx
 }
 
-type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void> }
-const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {} })
+// Whether the website shows the newest published version yet:
+// 'publishing' while Vercel builds it, 'stalled' if that takes far longer than usual (the build probably failed)
+export type LiveStatus = 'unknown' | 'live' | 'publishing' | 'stalled'
+const CHECK_EVERY_MS = 10_000
+const STALLED_AFTER_MS = 8 * 60_000
+
+type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void>; live: LiveStatus }
+const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {}, live: 'unknown' })
 
 export function DraftsProvider({ children }: { children: ReactNode }) {
   const [drafts, setDrafts] = useState<Drafts | null>(null)
@@ -66,7 +72,29 @@ export function DraftsProvider({ children }: { children: ReactNode }) {
     window.addEventListener(SAVED, refresh)
     return () => window.removeEventListener(SAVED, refresh)
   }, [refresh])
-  return <DraftsContext.Provider value={{ drafts, refresh }}>{children}</DraftsContext.Provider>
+
+  const [live, setLive] = useState<LiveStatus>('unknown')
+  const target = drafts?.live
+  useEffect(() => {
+    if (!target) return
+    let stop = false
+    let timer: number
+    const check = async () => {
+      const version = await api.siteVersion()
+      if (stop) return
+      if (!version || version === 'local') return setLive('unknown')
+      if (version === target.sha) return setLive('live')
+      setLive(Date.now() - new Date(target.at).getTime() > STALLED_AFTER_MS ? 'stalled' : 'publishing')
+      timer = window.setTimeout(check, CHECK_EVERY_MS)
+    }
+    check()
+    return () => {
+      stop = true
+      window.clearTimeout(timer)
+    }
+  }, [target])
+
+  return <DraftsContext.Provider value={{ drafts, refresh, live }}>{children}</DraftsContext.Provider>
 }
 
 export const useDrafts = () => useContext(DraftsContext)

@@ -1,13 +1,15 @@
 // Admin app: login gate, layout (sidebar + top bar with Publish), dashboard and the section screens.
 import { createContext, useContext, useEffect, useState, type FormEvent } from 'react'
 import { createBrowserRouter, Link, NavLink, Outlet, RouterProvider, useParams } from 'react-router-dom'
-import { BadgeCheck, BarChart3, Building2, Download, ExternalLink, FileText, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Type, Undo2, Users, X } from 'lucide-react'
+import { AlertTriangle, BadgeCheck, BarChart3, Building2, CheckCircle2, CircleHelp, Download, ExternalLink, FileText, History, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Type, Undo2, Users, X } from 'lucide-react'
 import { api } from './api'
 import EditPage from './EditPage'
 import ListPage from './ListPage'
 import { sectionByPath, sections, singleByPath, singles } from './sections'
 import SinglePage from './SinglePage'
-import { DraftsProvider, useDrafts } from './store'
+import HistoryPage from './HistoryPage'
+import HelpPage from './HelpPage'
+import { DraftsProvider, useDrafts, type LiveStatus } from './store'
 import { Button, Card, ConfirmHost, confirm, ErrorNotice, Notice, TextInput, toast, ToastHost } from './ui'
 
 const icons = { banners: Images, categories: LayoutGrid, products: Package, clients: Users, stats: BarChart3, testimonials: MessageSquareQuote, interiors: Sofa, downloads: Download, 'why-us': BadgeCheck, about: Building2, settings: Settings, 'page-text': Type } as Record<string, typeof Images>
@@ -73,8 +75,31 @@ function localStorageSet(key: string, value: string) {
   }
 }
 
+// What the top bar says when nothing is waiting to be published
+function LiveNote({ live }: { live: LiveStatus }) {
+  if (live === 'publishing')
+    return (
+      <span className="inline-flex items-center gap-1.5 font-semibold text-blue">
+        <Loader2 className="size-4 animate-spin" /> Publishing… the website updates in about 2 minutes
+      </span>
+    )
+  if (live === 'stalled')
+    return (
+      <span className="inline-flex items-center gap-1.5 font-semibold text-brand" title="The last publish has not reached the website after several minutes. Contact your developer.">
+        <AlertTriangle className="size-4" /> The website hasn't updated yet
+      </span>
+    )
+  if (live === 'live')
+    return (
+      <span className="inline-flex items-center gap-1.5">
+        <CheckCircle2 className="size-4 text-green-600" /> Website is up to date
+      </span>
+    )
+  return <span>All changes are published</span>
+}
+
 function PublishButton() {
-  const { drafts, refresh } = useDrafts()
+  const { drafts, refresh, live } = useDrafts()
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<unknown>(null)
   const pending = drafts?.pending ?? 0
@@ -116,7 +141,9 @@ function PublishButton() {
   return (
     <div className="flex items-center gap-3">
       {error ? <span className="text-xs font-semibold text-brand">{(error as Error).message}</span> : null}
-      <span className="hidden text-sm text-muted sm:inline">{pending ? `${pending} unpublished ${pending === 1 ? 'change' : 'changes'}` : 'All changes are live'}</span>
+      <span className="hidden text-sm text-muted sm:inline" role="status">
+        {pending ? `${pending} unpublished ${pending === 1 ? 'change' : 'changes'}` : <LiveNote live={live} />}
+      </span>
       <Button variant="primary" onClick={publish} busy={busy} disabled={!pending}>
         <Rocket className="size-4" /> Publish
       </Button>
@@ -164,6 +191,13 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
               </NavLink>
             )
           })}
+          <span className="my-3 h-px bg-line" />
+          <NavLink to="/history" className={link}>
+            <History className="size-4" /> History
+          </NavLink>
+          <NavLink to="/help" className={link}>
+            <CircleHelp className="size-4" /> Help
+          </NavLink>
         </nav>
       </aside>
       {open && <div className="fixed inset-0 z-20 bg-ink/40 lg:hidden" onClick={() => setOpen(false)} />}
@@ -196,7 +230,7 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
 }
 
 function Dashboard({ name }: { name: string }) {
-  const { drafts, refresh } = useDrafts()
+  const { drafts, refresh, live } = useDrafts()
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<unknown>(null)
   const discard = async () => {
@@ -222,7 +256,12 @@ function Dashboard({ name }: { name: string }) {
     <div className="grid grid-cols-1 gap-6">
       <div>
         <h1 className="text-2xl font-extrabold tracking-tight">Hello, {name}</h1>
-        <p className="mt-1 text-sm text-muted">Changes you save go to drafts first. Press Publish when you are ready for them to go live.</p>
+        <p className="mt-1 text-sm text-muted">
+          Changes you save go to drafts first. Press Publish when you are ready for them to go live.{' '}
+          <Link to="/help" className="font-semibold text-blue hover:underline">
+            How it works
+          </Link>
+        </p>
       </div>
       <ErrorNotice error={error} onClose={() => setError(null)} />
       <Card
@@ -230,11 +269,6 @@ function Dashboard({ name }: { name: string }) {
         actions={
           drafts && drafts.pending > 0 ? (
             <div className="flex gap-2">
-              {drafts.previewUrl && (
-                <a href={drafts.previewUrl} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 rounded-lg border border-line px-3 py-2 text-sm font-semibold hover:border-ink/30">
-                  Preview <ExternalLink className="size-3.5" />
-                </a>
-              )}
               <Button variant="danger" onClick={discard} busy={busy}>
                 <Undo2 className="size-4" /> Discard
               </Button>
@@ -245,7 +279,13 @@ function Dashboard({ name }: { name: string }) {
         {!drafts ? (
           <p className="text-sm text-muted">Loading…</p>
         ) : drafts.pending === 0 ? (
-          <Notice kind="success">Everything is published. The website shows the latest content.</Notice>
+          live === 'publishing' ? (
+            <Notice kind="info">Everything is published. The website is updating now and will show the changes in about 2 minutes.</Notice>
+          ) : live === 'stalled' ? (
+            <Notice kind="error">The last publish has not reached the website after several minutes. Contact your developer; your changes are saved.</Notice>
+          ) : (
+            <Notice kind="success">Everything is published. The website shows the latest content.</Notice>
+          )
         ) : (
           <>
             <ul className="divide-y divide-line">
@@ -258,9 +298,6 @@ function Dashboard({ name }: { name: string }) {
                 </li>
               ))}
             </ul>
-            {drafts.previewUrl ? (
-              <p className="text-xs text-muted">Preview shows the website with these changes. It takes about 2 minutes to update after each save.</p>
-            ) : null}
           </>
         )}
       </Card>
@@ -313,6 +350,8 @@ export default function App() {
           element: <LayoutRoute />,
           children: [
             { path: '/', element: <DashboardRoute /> },
+            { path: '/history', element: <HistoryPage /> },
+            { path: '/help', element: <HelpPage /> },
             { path: '/:section', element: <SectionRoute /> },
             { path: '/:section/:key', element: <SectionRoute edit /> },
           ],

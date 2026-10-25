@@ -2,7 +2,7 @@
 // POST /api/drafts { action: 'publish' }  → makes them live (Vercel rebuilds the site from main)
 // POST /api/drafts { action: 'discard' }  → throws them away
 import { collections, validateAll, type CollectionName } from '../src/lib/schema.js'
-import { CONTENT_DIR, compareDrafts, discardDrafts, prepareDrafts, publishDrafts, readContent } from './_lib/github.js'
+import { CONTENT_DIR, compareDrafts, discardDrafts, liveHead, prepareDrafts, publishDrafts, readContent } from './_lib/github.js'
 import { handle, HttpError, json, readJson, requireSameOrigin } from './_lib/http.js'
 import { requireSession } from './_lib/session.js'
 
@@ -10,13 +10,13 @@ export function GET(request: Request) {
   return handle(async () => {
     requireSession(request)
     await prepareDrafts()
-    const diff = await compareDrafts()
+    const [diff, live] = await Promise.all([compareDrafts(), liveHead()])
     return json({
+      // The version the website should show once Vercel has built it; the admin compares it with /version.json
+      live,
       pending: diff.ahead_by,
       files: (diff.files ?? []).filter((f) => f.filename.startsWith(`${CONTENT_DIR}/`)).map((f) => f.filename.slice(CONTENT_DIR.length + 1)),
       changes: diff.commits.map((c) => ({ message: c.commit.message, by: c.commit.author.name, at: c.commit.author.date })).reverse(),
-      // Vercel's address for the drafts branch preview, e.g. https://maanran-public-website-git-drafts-<team>.vercel.app
-      previewUrl: process.env.DRAFTS_PREVIEW_URL || undefined,
     })
   })
 }

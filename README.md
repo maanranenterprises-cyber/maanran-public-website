@@ -52,9 +52,9 @@ The site requests resized WebP/AVIF versions automatically. Empty image fields s
 - To use a different Formspree form, replace `formEndpoint` with its URL.
 - **Send on WhatsApp** opens WhatsApp with the enquiry pre-filled.
 
-## Admin (in progress)
+## Admin
 
-The admin is at **/admin** (`admin.html` + `src/admin/`). It edits the files in `src/content/` through the server functions in `api/`. Nothing is stored anywhere else. It currently covers banners, categories, products and clients; the other sections are coming next.
+The admin is at **/admin** (`admin.html` + `src/admin/`). It edits the files in `src/content/` through the server functions in `api/`. Nothing is stored anywhere else. It covers every content file: the list sections (banners, categories, products, clients, stats, testimonials, interiors, downloads) and the single pages (Why us, About, Site settings, Page text). A **Help** page inside the admin explains it for editors.
 
 **Trying it locally:** run `npm run dev`, open http://localhost:5173/admin, and log in with any name and the password `admin`. In development, `scripts/dev-api.ts` runs the real `api/` functions against an in-memory copy of the content. Nothing is written to disk, GitHub or ImageKit, and everything resets when the dev server restarts.
 
@@ -62,13 +62,16 @@ The admin is at **/admin** (`admin.html` + `src/admin/`). It edits the files in 
 - **Drafts**: saves go to the `drafts` branch. Vercel does not build it (`git.deploymentEnabled` in `vercel.json`), so saves don't use up deployments. **Publish** merges `drafts` into `main`, and Vercel then rebuilds the live site in about 1–2 minutes. **Discard** resets `drafts` to `main`.
 - **Checks**: every save is checked against the rules in `src/lib/schema.ts` (for example, required fields, valid links, and products that point to a real category). The build runs the same checks, so broken content never goes live.
 - **Images**: the admin uploads them straight to ImageKit, using a 30-minute permission from `/api/imagekit-auth`.
+- **History and Undo**: `/api/history` lists recent publishes (the merge commits Publish creates) with the edits in each. The latest one can be undone: its content files are restored into drafts, then published.
+- **Live status**: the build writes `dist/version.json` with the commit Vercel built (`VERCEL_GIT_COMMIT_SHA`). The admin compares it with the newest commit on `main` and shows *Publishing…*, *Website is up to date*, or a warning if a publish hasn't reached the site after 8 minutes (usually a failed build).
 
 | Endpoint | Purpose |
 |---|---|
 | `POST /api/login`, `POST /api/logout`, `GET /api/session` | Log in, log out, and check who is logged in |
 | `GET /api/content?name=products`, `PUT /api/content` | Read a section from drafts, or save it |
 | `GET /api/drafts`, `POST /api/drafts` `{action: "publish" \| "discard"}` | List unpublished changes, publish them, or discard them |
-| `GET /api/imagekit-auth` | Upload permission for one image |
+| `GET /api/history`, `POST /api/history` `{action: "undo", sha}` | Recent publishes; undo the latest |
+| `GET /api/imagekit-auth` | Upload permission for one image or PDF |
 
 Vercel environment variables (Settings → Environment Variables, for Production and Preview):
 

@@ -12,3 +12,7 @@ ${paths.map((p) => `  <url><loc>${escape(site.domain + p)}</loc><lastmod>${today
 `
 writeFileSync(new URL('../dist/sitemap.xml', import.meta.url), xml)
 console.log(`sitemap.xml: ${paths.length} URLs`)
+
+// Which commit this build is from, so the admin can tell when a publish has gone live
+const version = { commit: process.env.VERCEL_GIT_COMMIT_SHA ?? 'local', builtAt: new Date().toISOString() }
+writeFileSync(new URL('../dist/version.json', import.meta.url), `${JSON.stringify(version)}\n`)
