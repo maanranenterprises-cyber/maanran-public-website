@@ -1,5 +1,5 @@
 import { Download, FileText } from 'lucide-react'
-import { documents } from '../lib/content'
+import { documents, pages } from '../lib/content'
 import Media from '../components/Media'
 import SectionHeading from '../components/SectionHeading'
 
@@ -17,7 +17,7 @@ export default function Downloads() {
   return (
     <section id="downloads" className="py-20 lg:py-24">
       <div className="container-x">
-        <SectionHeading center eyebrow="Download Catalog & Brochure" title="Catalogs, brochures and company profile" text="Browse our full range offline or share it with your team." />
+        <SectionHeading center eyebrow={pages.home.downloads.eyebrow} title={pages.home.downloads.title} text={pages.home.downloads.text} />
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {documents.map((d) => (
             <li key={d.id} className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-white transition hover:shadow-xl hover:shadow-black/5">

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import { Quote, Star } from 'lucide-react'
-import { testimonials } from '../lib/content'
+import { pages, testimonials } from '../lib/content'
 import Media from '../components/Media'
 import CarouselArrows from '../components/CarouselArrows'
 import SectionHeading from '../components/SectionHeading'
@@ -23,7 +23,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-soft py-20 lg:py-24">
       <div className="container-x">
-        <SectionHeading center eyebrow="Customer Feedback" title="What our customers say" text="Feedback from the schools, businesses and homeowners we have worked with." />
+        <SectionHeading center eyebrow={pages.home.testimonials.eyebrow} title={pages.home.testimonials.title} text={pages.home.testimonials.text} />
         <div className="mt-12 overflow-hidden" ref={emblaRef}>
           <div className="-ml-6 flex">
             {testimonials.map((t) => (

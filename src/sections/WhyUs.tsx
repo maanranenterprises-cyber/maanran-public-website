@@ -36,10 +36,12 @@ export default function WhyUs() {
           <Media src={main} alt="Completed furniture project" width={800} className="col-span-3 aspect-[3/4] w-full rounded-3xl" label="Main photo" />
           <div className="col-span-2 flex flex-col gap-4 pt-12">
             <Media src={second} alt="Furniture detail" width={500} className="aspect-square w-full rounded-3xl" label="Photo" />
-            <div className="rounded-3xl bg-blue p-5 text-white">
-              <p className="text-3xl font-extrabold">100%</p>
-              <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-white/80">In-house delivery and installation</p>
-            </div>
+            {whyUs.badge.value && (
+              <div className="rounded-3xl bg-blue p-5 text-white">
+                <p className="text-3xl font-extrabold">{whyUs.badge.value}</p>
+                <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-white/80">{whyUs.badge.label}</p>
+              </div>
+            )}
           </div>
         </div>
       </div>

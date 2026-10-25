@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import useEmblaCarousel from 'embla-carousel-react'
 import { ArrowRight } from 'lucide-react'
-import { featuredProducts } from '../lib/content'
+import { featuredProducts, pages } from '../lib/content'
 import ProductCard from '../components/ProductCard'
 import CarouselArrows from '../components/CarouselArrows'
 import SectionHeading from '../components/SectionHeading'
@@ -30,7 +30,7 @@ export default function ProductsRail() {
     <section id="products" className="py-20 lg:py-24">
       <div className="container-x">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <SectionHeading eyebrow="Our Products" title="Furniture for every space" text="Office, institutional and steel furniture, made to order in the sizes you need." />
+          <SectionHeading eyebrow={pages.home.products.eyebrow} title={pages.home.products.title} text={pages.home.products.text} />
           <div className="flex items-center gap-4">
             <Link to="/products" className="hidden text-sm font-semibold text-brand hover:underline sm:inline-flex sm:items-center sm:gap-1">
               View all products <ArrowRight className="size-4" />

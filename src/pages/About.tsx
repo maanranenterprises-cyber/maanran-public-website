@@ -1,5 +1,5 @@
 import { CheckCircle2, Eye, Target } from 'lucide-react'
-import { about, site, yearsOfExperience } from '../lib/content'
+import { about, pages, site, yearsOfExperience } from '../lib/content'
 import Seo from '../components/Seo'
 import Media from '../components/Media'
 import PageHeader from './PageHeader'
@@ -11,7 +11,7 @@ export default function About() {
   return (
     <>
       <Seo title="About Us" description={about.intro} path="/about" crumbs={[{ name: 'About', path: '/about' }]} />
-      <PageHeader title={`About ${site.name}`} text={site.tagline} crumbs={[{ label: 'About' }]} image="/images/banners/office-workstations.webp" />
+      <PageHeader title={`About ${site.name}`} text={site.tagline} crumbs={[{ label: 'About' }]} image={pages.about.image} />
       <section className="py-20">
         <div className="container-x grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div>

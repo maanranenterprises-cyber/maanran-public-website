@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { MapPin, X } from 'lucide-react'
-import { instagram, interiors, type InteriorProject } from '../lib/content'
+import { instagram, interiors, pages, type InteriorProject } from '../lib/content'
 import Seo from '../components/Seo'
 import Media from '../components/Media'
 import { InstagramIcon } from '../components/Icons'
@@ -17,7 +17,7 @@ export default function Interiors() {
   return (
     <>
       <Seo title="Home & Office Interiors in Bengaluru" description="Home and office interior design and furnishing in Bengaluru by MAANRAN ENTERPRISES: a gallery of completed homes, offices and commercial spaces." path="/interiors" image="/images/banners/home-interiors.webp" crumbs={[{ name: 'Interiors', path: '/interiors' }]} />
-      <PageHeader title="Home & Office Interiors" text="A look at some of the homes, offices and commercial spaces we have designed and furnished." crumbs={[{ label: 'Interiors' }]} image="/images/banners/home-interiors.webp" />
+      <PageHeader title={pages.interiors.title} text={pages.interiors.text} crumbs={[{ label: 'Interiors' }]} image={pages.interiors.image} />
       <section className="py-12 lg:py-16">
         <div className="container-x">
           <div className="flex flex-wrap gap-2" role="group" aria-label="Filter projects">
@@ -62,15 +62,17 @@ export default function Interiors() {
                 <InstagramIcon className="size-8" />
               </span>
               <span className="flex-1 text-center sm:text-left">
-                <span className="block text-xl font-extrabold">See our latest interiors on Instagram</span>
-                <span className="mt-1 block text-sm text-white/85">New projects, site progress and finished spaces, posted as we complete them. Follow {instagram.handle}</span>
+                <span className="block text-xl font-extrabold">{pages.interiors.instagramTitle}</span>
+                <span className="mt-1 block text-sm text-white/85">
+                  {pages.interiors.instagramText} Follow {instagram.handle}
+                </span>
               </span>
               <span className="btn shrink-0 bg-white text-ink transition group-hover:bg-ink group-hover:text-white">Follow us</span>
             </a>
           )}
           <div className="mt-8 flex flex-col items-center gap-4 rounded-3xl bg-soft px-6 py-10 text-center">
-            <h2 className="h2">Planning an interior project?</h2>
-            <p className="max-w-xl text-muted">Share your floor plan and requirements, and we will suggest a layout and quotation.</p>
+            <h2 className="h2">{pages.interiors.ctaTitle}</h2>
+            <p className="max-w-xl text-muted">{pages.interiors.ctaText}</p>
             <button onClick={() => openEnquiry('Home & Office Interiors')} className="btn-primary px-6 py-3">Get Enquiry</button>
           </div>
         </div>

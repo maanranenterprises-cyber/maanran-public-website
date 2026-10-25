@@ -1,6 +1,6 @@
 import { useLayoutEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { categories, categoryName, products, site } from '../lib/content'
+import { categories, categoryName, pages, products, site } from '../lib/content'
 import Seo from '../components/Seo'
 import ProductCard from '../components/ProductCard'
 import PageHeader from './PageHeader'
@@ -39,7 +39,7 @@ export default function Products() {
         image={current?.image}
         crumbs={[{ name: 'Products', path: '/products' }, ...(current ? [{ name: current.name, path: `/products?category=${current.slug}` }] : [])]}
       />
-      <PageHeader title={current ? current.name : 'Our Products'} text={current?.description ?? 'Office, institutional and steel furniture, made to order in the sizes you need.'} crumbs={current ? [{ label: 'Products', to: '/products' }, { label: current.name }] : [{ label: 'Products' }]} image={current?.image || '/images/banners/office-interiors.webp'} />
+      <PageHeader title={current ? current.name : pages.products.title} text={current?.description ?? pages.products.text} crumbs={current ? [{ label: 'Products', to: '/products' }, { label: current.name }] : [{ label: 'Products' }]} image={current?.image || pages.products.image} />
       <section className="py-12 lg:py-16">
         <div className="container-x">
           <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:px-0" role="group" aria-label="Filter by category">

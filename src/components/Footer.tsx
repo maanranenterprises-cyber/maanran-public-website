@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Clock, Mail, MapPin, Phone } from 'lucide-react'
-import { categories, navigation, site, whatsappLink } from '../lib/content'
+import { categories, navigation, pages, site, whatsappLink } from '../lib/content'
 import { useEnquiry } from './EnquiryContext'
 import { Brand } from './Navbar'
 import { WhatsAppIcon, socialIcons } from './Icons'
@@ -32,10 +32,10 @@ export default function Footer() {
           <div className="absolute -bottom-20 left-1/3 size-56 rounded-full bg-blue/30 blur-2xl" />
           <div className="relative grid items-center gap-8 lg:grid-cols-[1.1fr_1.4fr]">
             <div>
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Start Your Project</h2>
-              <p className="mt-2 text-white/80">Tell us about your space and get a free consultation and quotation.</p>
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{pages.footer.ctaTitle}</h2>
+              <p className="mt-2 text-white/80">{pages.footer.ctaText}</p>
               <button onClick={() => openEnquiry()} className="btn mt-5 bg-white text-brand hover:bg-white/90">
-                Book a Free Consultation <ArrowRight className="size-4" />
+                {pages.footer.ctaButton} <ArrowRight className="size-4" />
               </button>
             </div>
             <ul className="grid gap-3 sm:grid-cols-2">
@@ -70,7 +70,7 @@ export default function Footer() {
       <div className="container-x grid gap-10 border-t border-white/10 py-12 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1.3fr_1.3fr]">
         <div>
           <Brand light />
-          <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/65">{site.tagline}. Office, institutional and steel furniture, designed, made and installed by one team.</p>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/65">{site.tagline}. {pages.footer.blurb}</p>
           <div className="mt-5 flex gap-2">
             {site.social.map((s) => {
               const Icon = socialIcons[s.type as keyof typeof socialIcons]

@@ -11,6 +11,7 @@ import whyUsJson from '../content/why-us.json'
 import testimonialsJson from '../content/testimonials.json'
 import documentsJson from '../content/documents.json'
 import interiorsJson from '../content/interiors.json'
+import pagesJson from '../content/pages.json'
 
 export type Link = { label: string; href: string }
 
@@ -75,6 +76,7 @@ export function live<T extends Publishable>(items: T[], now = new Date()): T[] {
 }
 
 export const site = siteJson
+export const pages = pagesJson
 export const about = aboutJson
 export const whyUs = { ...whyUsJson, benefits: live(whyUsJson.benefits) }
 export const banners = live(bannersJson as Banner[])
@@ -94,6 +96,10 @@ export const instagram = instagramUrl ? { url: instagramUrl, handle: `@${instagr
 
 const facebookUrl = site.social.find((s) => s.type === 'facebook')?.url ?? ''
 export const facebook = facebookUrl ? { url: facebookUrl } : null
+
+// Fills {company}, {email} and {phone} in editable text (used by the legal pages)
+export const fillTokens = (text: string) =>
+  text.replaceAll('{company}', site.name).replaceAll('{email}', site.contact.email).replaceAll('{phone}', site.contact.phoneDisplay)
 
 export const categoryName = (slug: string) => categories.find((c) => c.slug === slug)?.name ?? slug
 

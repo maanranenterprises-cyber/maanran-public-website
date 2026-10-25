@@ -48,5 +48,9 @@
   "cta": {
     "label": "Learn More",
     "href": "/about"
+  },
+  "badge": {
+    "value": "100%",
+    "label": "In-house delivery and installation"
   }
 }

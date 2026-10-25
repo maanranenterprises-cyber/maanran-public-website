@@ -1,4 +1,4 @@
-import { clients, site } from '../lib/content'
+import { clients, pages } from '../lib/content'
 import { imageUrl } from '../lib/media'
 import SectionHeading from '../components/SectionHeading'
 
@@ -76,14 +76,14 @@ export default function Clients() {
     <section id="clients" aria-label="Our trusted clients" className="relative overflow-hidden bg-soft py-20 lg:py-24">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgb(2_79_208/0.06),transparent_60%)]" />
       <div className="container-x relative">
-        <SectionHeading center eyebrow="Our Trusted Clients" title="Trusted by businesses and institutions" text="Schools, offices, hostels and companies that rely on our furniture." />
+        <SectionHeading center eyebrow={pages.home.clients.eyebrow} title={pages.home.clients.title} text={pages.home.clients.text} />
       </div>
       <div className="relative mt-12 grid gap-3">
         <Marquee items={top} reverse />
         {bottom.length > 0 && <Marquee items={bottom} />}
       </div>
       <p className="container-x relative mt-10 text-center text-sm font-medium text-muted">
-        <span className="font-extrabold text-ink">{site.clientsServed}</span> organisations furnished across education, corporate, defence and retail
+        <span className="font-extrabold text-ink">{pages.home.clients.count}</span> {pages.home.clients.countText}
       </p>
     </section>
   )

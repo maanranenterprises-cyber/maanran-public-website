@@ -7,7 +7,13 @@ import { pages } from './pages.mjs'
 
 const dist = new URL('../dist/', import.meta.url)
 const server = new URL('../dist-server/', import.meta.url)
-const { render } = await import(new URL('entry-server.js', server))
+const { render, checkContent } = await import(new URL('entry-server.js', server))
+
+const problems = checkContent()
+if (problems.length) {
+  console.error(`Content check failed:\n  ${problems.join('\n  ')}`)
+  process.exit(1)
+}
 const template = readFileSync(new URL('index.html', dist), 'utf8')
 
 // React puts <title>, <meta> and <link> tags at the front of its output; they belong in <head>

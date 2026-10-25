@@ -1,0 +1,102 @@
+{
+  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json.",
+  "home": {
+    "products": {
+      "eyebrow": "Our Products",
+      "title": "Furniture for every space",
+      "text": "Office, institutional and steel furniture, made to order in the sizes you need."
+    },
+    "clients": {
+      "eyebrow": "Our Trusted Clients",
+      "title": "Trusted by businesses and institutions",
+      "text": "Schools, offices, hostels and companies that rely on our furniture.",
+      "count": "50+",
+      "countText": "organisations furnished across education, corporate, defence and retail"
+    },
+    "testimonials": {
+      "eyebrow": "Customer Feedback",
+      "title": "What our customers say",
+      "text": "Feedback from the schools, businesses and homeowners we have worked with."
+    },
+    "downloads": {
+      "eyebrow": "Download Catalog & Brochure",
+      "title": "Catalogs, brochures and company profile",
+      "text": "Browse our full range offline or share it with your team."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "text": "Office, institutional and steel furniture, made to order in the sizes you need.",
+    "image": "/images/banners/office-interiors.webp"
+  },
+  "interiors": {
+    "title": "Home & Office Interiors",
+    "text": "A look at some of the homes, offices and commercial spaces we have designed and furnished.",
+    "image": "/images/banners/home-interiors.webp",
+    "instagramTitle": "See our latest interiors on Instagram",
+    "instagramText": "New projects, site progress and finished spaces, posted as we complete them.",
+    "ctaTitle": "Planning an interior project?",
+    "ctaText": "Share your floor plan and requirements, and we will suggest a layout and quotation."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "text": "Tell us what you need and we will get back to you with options and a quotation.",
+    "detailsTitle": "Get in touch",
+    "formEyebrow": "Get Enquiry",
+    "formTitle": "Send us your requirements"
+  },
+  "about": {
+    "image": "/images/banners/office-workstations.webp"
+  },
+  "footer": {
+    "ctaTitle": "Start Your Project",
+    "ctaText": "Tell us about your space and get a free consultation and quotation.",
+    "ctaButton": "Book a Free Consultation",
+    "blurb": "Office, institutional and steel furniture, designed, made and installed by one team."
+  },
+  "legal": {
+    "note": "Placeholder text. This page will be updated with the final policy before launch.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "heading": "Information we collect",
+          "body": "When you send an enquiry, we collect the details you enter: name, phone number, email, city and your message. We do not ask for payment details on this website."
+        },
+        {
+          "heading": "How we use it",
+          "body": "We use your details only to reply to your enquiry, prepare quotations and follow up about your order. We do not sell your information."
+        },
+        {
+          "heading": "Third-party services",
+          "body": "Enquiry forms are delivered to us by email through a form service (Formspree), and WhatsApp messages go through WhatsApp. Images are served by ImageKit. These services process data under their own privacy policies."
+        },
+        {
+          "heading": "Contact",
+          "body": "To ask about or delete your information, email {email} or call {phone}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "sections": [
+        {
+          "heading": "Use of this website",
+          "body": "This website gives general information about {company} and its products. Product images, sizes and specifications are for reference and may vary."
+        },
+        {
+          "heading": "Quotations and orders",
+          "body": "Prices, delivery dates and warranties are confirmed in writing in each quotation or order, not on this website."
+        },
+        {
+          "heading": "Intellectual property",
+          "body": "The {company} name, logo and website content belong to {company} and may not be reused without permission."
+        },
+        {
+          "heading": "Contact",
+          "body": "Questions about these terms can be sent to {email}."
+        }
+      ]
+    }
+  }
+}

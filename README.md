@@ -52,6 +52,32 @@ The site requests resized WebP/AVIF versions automatically. Empty image fields s
 - To use a different Formspree form, replace `formEndpoint` with its URL.
 - **Send on WhatsApp** opens WhatsApp with the enquiry pre-filled.
 
+## Admin (in progress)
+
+The admin area edits the files in `src/content/` through the server functions in `api/`. Nothing is stored anywhere else.
+
+- **Login**: one shared password. The login form also asks for the editor's name, which is recorded on every change. A signed cookie keeps the editor logged in for 7 days.
+- **Drafts**: saves go to the `drafts` branch, and Vercel builds a preview of it. **Publish** merges `drafts` into `main`, and Vercel then rebuilds the live site in about 1–2 minutes. **Discard** resets `drafts` to `main`.
+- **Checks**: every save is checked against the rules in `src/lib/schema.ts` (for example, required fields, valid links, and products that point to a real category). The build runs the same checks, so broken content never goes live.
+- **Images**: the admin uploads them straight to ImageKit, using a 30-minute permission from `/api/imagekit-auth`.
+
+| Endpoint | Purpose |
+|---|---|
+| `POST /api/login`, `POST /api/logout`, `GET /api/session` | Log in, log out, and check who is logged in |
+| `GET /api/content?name=products`, `PUT /api/content` | Read a section from drafts, or save it |
+| `GET /api/drafts`, `POST /api/drafts` `{action: "publish" \| "discard"}` | List unpublished changes, publish them, or discard them |
+| `GET /api/imagekit-auth` | Upload permission for one image |
+
+Vercel environment variables (Settings → Environment Variables, for Production and Preview):
+
+| Name | Value |
+|---|---|
+| `ADMIN_PASSWORD` | The admin password (16+ characters) |
+| `SESSION_SECRET` | A long random string (`openssl rand -base64 32`); changing it logs everyone out |
+| `GITHUB_TOKEN` | A fine-grained GitHub token for this repository only, with Contents: Read and write |
+| `IMAGEKIT_PRIVATE_KEY`, `IMAGEKIT_PUBLIC_KEY` | From the ImageKit dashboard → Developer options |
+| `GITHUB_REPO` | Optional; defaults to `maanranenterprises-cyber/maanran-public-website` |
+
 ## Deploying
 
 Vercel (recommended): import the GitHub repository at vercel.com/new. `vercel.json` already sets the build command, the `dist` output folder and the rewrite that makes page refreshes work, and every push to `main` redeploys the site.

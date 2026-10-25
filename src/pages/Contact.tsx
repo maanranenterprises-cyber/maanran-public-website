@@ -1,5 +1,5 @@
 import { Clock, Mail, MapPin, Phone } from 'lucide-react'
-import { facebook, instagram, site, whatsappLink } from '../lib/content'
+import { facebook, instagram, pages, site, whatsappLink } from '../lib/content'
 import Seo from '../components/Seo'
 import EnquiryForm from '../components/EnquiryForm'
 import { FacebookIcon, InstagramIcon, WhatsAppIcon } from '../components/Icons'
@@ -24,11 +24,11 @@ export default function Contact() {
         path="/contact"
         crumbs={[{ name: 'Contact', path: '/contact' }]}
       />
-      <PageHeader title="Contact Us" text="Tell us what you need and we will get back to you with options and a quotation." crumbs={[{ label: 'Contact' }]} />
+      <PageHeader title={pages.contact.title} text={pages.contact.text} crumbs={[{ label: 'Contact' }]} />
       <section className="py-14 lg:py-20">
         <div className="container-x grid gap-10 lg:grid-cols-[1fr_1.5fr]">
           <div>
-            <h2 className="text-2xl font-extrabold tracking-tight">Get in touch</h2>
+            <h2 className="text-2xl font-extrabold tracking-tight">{pages.contact.detailsTitle}</h2>
             <ul className="mt-6 space-y-3">
               {items.map(({ icon: Icon, label, value, href }) => {
                 const inner = (
@@ -57,8 +57,8 @@ export default function Contact() {
             </ul>
           </div>
           <div className="rounded-3xl border border-line p-6 shadow-sm sm:p-8">
-            <p className="eyebrow">Get Enquiry</p>
-            <h2 className="mt-1 text-2xl font-extrabold tracking-tight">Send us your requirements</h2>
+            <p className="eyebrow">{pages.contact.formEyebrow}</p>
+            <h2 className="mt-1 text-2xl font-extrabold tracking-tight">{pages.contact.formTitle}</h2>
             <div className="mt-6">
               <EnquiryForm />
             </div>
