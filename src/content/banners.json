@@ -148,23 +148,6 @@
     "publishUntil": null
   },
   {
-    "id": "b9",
-    "heading": "Wooden storage for offices",
-    "subtitle": "Cabinets, credenzas and filing units made to fit your space.",
-    "imageDesktop": "/images/banners/office-wooden-storage.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Storage",
-        "href": "/products?category=office-wooden-storage"
-      }
-    ],
-    "order": 9,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b10",
     "heading": "Steel furniture for every space",
     "subtitle": "Almirahs, lockers and racks for offices and institutions.",
@@ -176,8 +159,25 @@
         "href": "/products?category=steel-furniture"
       }
     ],
-    "order": 10,
+    "order": 9,
     "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b9",
+    "heading": "Wooden storage for offices",
+    "subtitle": "Cabinets, credenzas and filing units made to fit your space.",
+    "imageDesktop": "/images/banners/office-wooden-storage.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Storage",
+        "href": "/products?category=office-wooden-storage"
+      }
+    ],
+    "order": 10,
+    "published": false,
     "publishFrom": null,
     "publishUntil": null
   },
