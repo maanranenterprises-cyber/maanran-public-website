@@ -14,6 +14,8 @@ export function GET(request: Request) {
       pending: diff.ahead_by,
       files: (diff.files ?? []).filter((f) => f.filename.startsWith(`${CONTENT_DIR}/`)).map((f) => f.filename.slice(CONTENT_DIR.length + 1)),
       changes: diff.commits.map((c) => ({ message: c.commit.message, by: c.commit.author.name, at: c.commit.author.date })).reverse(),
+      // Vercel's address for the drafts branch preview, e.g. https://maanran-public-website-git-drafts-<team>.vercel.app
+      previewUrl: process.env.DRAFTS_PREVIEW_URL || undefined,
     })
   })
 }
