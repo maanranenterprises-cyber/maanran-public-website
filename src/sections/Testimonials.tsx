@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import { Quote, Star } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { MessageSquarePlus, Quote, Star } from 'lucide-react'
 import { pages, testimonials } from '../lib/content'
 import Media from '../components/Media'
 import CarouselArrows from '../components/CarouselArrows'
@@ -54,13 +55,16 @@ export default function Testimonials() {
             ))}
           </div>
         </div>
-        <div className="mt-8 flex items-center justify-center gap-6">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
           <CarouselArrows label="testimonial" onPrev={() => embla?.scrollPrev()} onNext={() => embla?.scrollNext()} />
           <div className="flex gap-1.5">
             {testimonials.map((t, i) => (
               <button key={t.id} onClick={() => embla?.scrollTo(i)} aria-label={`Show testimonial ${i + 1}`} className={`h-1.5 rounded-full transition-all ${i === selected ? 'w-6 bg-brand' : 'w-1.5 bg-ink/20'}`} />
             ))}
           </div>
+          <Link to="/feedback" className="btn-outline">
+            <MessageSquarePlus className="size-4" /> Share your feedback
+          </Link>
         </div>
       </div>
     </section>

@@ -143,6 +143,7 @@ export default function Footer() {
         <div className="container-x flex flex-col items-center justify-between gap-2 py-5 text-xs text-white/55 sm:flex-row">
           <p>© {year} {site.name}. All rights reserved.</p>
           <div className="flex gap-5">
+            <Link to="/feedback" className="hover:text-white">Share feedback</Link>
             <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-white">Terms & Conditions</Link>
           </div>

@@ -86,7 +86,10 @@ export const testimonialSchema = z.looseObject({
   designation: text,
   order,
   published: z.boolean(),
-})
+  // Sent through the website feedback form and not yet approved in the admin (always hidden while pending)
+  pending: z.boolean().optional(),
+  submittedAt: z.string().optional(),
+}).refine((t) => !(t.pending && t.published), { message: 'Feedback awaiting review cannot be visible. Approve it first.', path: ['published'] })
 
 export const documentSchema = z.looseObject({
   id: required('ID'),
@@ -155,6 +158,7 @@ export const pagesSchema = z.looseObject({
   interiors: z.looseObject({ title: required('Title'), text, image: media, instagramTitle: text, instagramText: text, ctaTitle: text, ctaText: text }),
   contact: z.looseObject({ title: required('Title'), text, detailsTitle: text, formEyebrow: text, formTitle: text }),
   about: z.looseObject({ image: media }),
+  feedback: z.looseObject({ title: required('Title'), text, thanks: required('Thank-you message') }),
   footer: z.looseObject({ ctaTitle: text, ctaText: text, ctaButton: text, blurb: text }),
   legal: z.looseObject({ note: text, privacy: legalPage, terms: legalPage }),
 })

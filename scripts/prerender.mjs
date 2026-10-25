@@ -3,7 +3,7 @@
 // /about is written to dist/about.html (Vercel's cleanUrls serves it at /about); unknown URLs get dist/404.html.
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname } from 'node:path'
-import { pages } from './pages.mjs'
+import { pages, unlistedPages } from './pages.mjs'
 
 const dist = new URL('../dist/', import.meta.url)
 const server = new URL('../dist-server/', import.meta.url)
@@ -19,7 +19,7 @@ const template = readFileSync(new URL('index.html', dist), 'utf8')
 // React puts <title>, <meta> and <link> tags at the front of its output; they belong in <head>
 const HEAD_TAG = /^(<title>[^<]*<\/title>|<meta [^>]*\/>|<link [^>]*\/>)/
 
-for (const path of [...pages, '/404']) {
+for (const path of [...pages, ...unlistedPages, '/404']) {
   let body = await render(path)
   let head = ''
   for (let m; (m = body.match(HEAD_TAG)); body = body.slice(m[0].length)) head += m[0]
@@ -31,4 +31,4 @@ for (const path of [...pages, '/404']) {
   writeFileSync(out, html)
 }
 rmSync(server, { recursive: true, force: true })
-console.log(`prerendered ${pages.length + 1} pages`)
+console.log(`prerendered ${pages.length + unlistedPages.length + 1} pages`)

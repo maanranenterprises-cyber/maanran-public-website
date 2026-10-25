@@ -73,14 +73,28 @@ export default function HelpPage() {
         </ul>
       </Topic>
 
-      <Topic title="5. Undoing a publish">
+      <Topic title="5. Customer feedback">
+        <p>
+          Customers can send feedback at <strong>maanran.com/feedback</strong> (also linked under the testimonials and in the footer). Share that link after a delivery. Each one arrives
+          as a hidden testimonial; the menu shows a <strong>new</strong> badge and you also get an email with their contact details.
+        </p>
+        <ul>
+          <li>
+            Open <strong>Testimonials → Awaiting review</strong>, read it, tidy spelling if needed (keep their meaning), add a photo if you have one, then press <strong>Approve</strong>. It
+            appears on the website after you <strong>Publish</strong>.
+          </li>
+          <li>Spam or unsuitable feedback: just delete it.</li>
+        </ul>
+      </Topic>
+
+      <Topic title="6. Undoing a publish">
         <p>
           <strong>History</strong> lists every publish. The most recent one has <strong>Undo this publish</strong>, which puts the website back as it was before it. Publish or discard any
           unpublished changes first.
         </p>
       </Topic>
 
-      <Topic title="6. If something goes wrong">
+      <Topic title="7. If something goes wrong">
         <ul>
           <li>
             <strong>"Someone else changed this"</strong>: another editor saved the same section. Reload the page and make your change again.

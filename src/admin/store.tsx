@@ -56,14 +56,18 @@ export type LiveStatus = 'unknown' | 'live' | 'publishing' | 'stalled'
 const CHECK_EVERY_MS = 10_000
 const STALLED_AFTER_MS = 8 * 60_000
 
-type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void>; live: LiveStatus }
-const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {}, live: 'unknown' })
+// `feedback`: customer feedback from the website form still awaiting review (shown as a badge and on the dashboard)
+type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void>; live: LiveStatus; feedback: number }
+const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {}, live: 'unknown', feedback: 0 })
 
 export function DraftsProvider({ children }: { children: ReactNode }) {
   const [drafts, setDrafts] = useState<Drafts | null>(null)
+  const [feedback, setFeedback] = useState(0)
   const refresh = useCallback(async () => {
     try {
-      setDrafts(await api.drafts())
+      const [d, t] = await Promise.all([api.drafts(), api.load<{ pending?: boolean }[]>('testimonials')])
+      setDrafts(d)
+      setFeedback(t.data.filter((x) => x.pending).length)
     } catch {
       // The top bar just shows no count if this fails; screens show their own errors
     }
@@ -95,7 +99,7 @@ export function DraftsProvider({ children }: { children: ReactNode }) {
     }
   }, [target])
 
-  return <DraftsContext.Provider value={{ drafts, refresh, live }}>{children}</DraftsContext.Provider>
+  return <DraftsContext.Provider value={{ drafts, refresh, live, feedback }}>{children}</DraftsContext.Provider>
 }
 
 export const useDrafts = () => useContext(DraftsContext)

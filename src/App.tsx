@@ -7,6 +7,7 @@ import Products from './pages/Products'
 import ProductDetail from './pages/ProductDetail'
 import Interiors from './pages/Interiors'
 import InteriorDetail from './pages/InteriorDetail'
+import Feedback from './pages/Feedback'
 import Contact from './pages/Contact'
 import Legal from './pages/Legal'
 import NotFound from './pages/NotFound'
@@ -22,6 +23,7 @@ export const routes: RouteObject[] = [
       { path: '/interiors', element: <Interiors /> },
       { path: '/interiors/:slug', element: <InteriorDetail /> },
       { path: '/contact', element: <Contact /> },
+      { path: '/feedback', element: <Feedback /> },
       { path: '/privacy-policy', element: <Legal page="privacy" /> },
       { path: '/terms', element: <Legal page="terms" /> },
       { path: '*', element: <NotFound /> },

@@ -9,7 +9,7 @@ import { formatCode, suggestPrefix } from '../lib/codes'
 import { uniqueKey } from './ListPage'
 import { useCollection, useContextData } from './store'
 import { type Context, type FieldDef, type Item, type Section, slugify } from './sections'
-import { Button, Card, confirm, DateTimeInput, ErrorNotice, NumberInput, Select, TextInput, toast, Toggle } from './ui'
+import { Button, Card, confirm, DateTimeInput, ErrorNotice, Notice, NumberInput, Select, TextInput, toast, Toggle } from './ui'
 
 type Errors = Record<string, string>
 
@@ -44,7 +44,7 @@ export default function EditPage({ section }: { section: Section }) {
   useEffect(() => {
     if (!data || item) return
     // "Add product" from a filtered list starts in that category
-    const preset = section.filter && params.get(section.filter.key) ? { [section.filter.key]: params.get(section.filter.key) } : {}
+    const preset = section.filter && section.filter.preset !== false && params.get(section.filter.key) ? { [section.filter.key]: params.get(section.filter.key) } : {}
     const found = isNew ? { ...section.newItem(), ...preset } : data.find((x) => String(x[section.keyField]) === key)
     if (found) {
       setItem(found)
@@ -91,6 +91,8 @@ export default function EditPage({ section }: { section: Section }) {
   const onSave = async () => {
     if (!item || !data) return
     let toSave = { ...item }
+    // Switching website feedback to visible approves it
+    if (toSave.pending && toSave.published) toSave.pending = false
     if (isNew) {
       if (section.keyField === 'id') toSave.id = uniqueKey(section, data, '')
       toSave.order = data.length + 1
@@ -163,6 +165,12 @@ export default function EditPage({ section }: { section: Section }) {
       </div>
 
       <ErrorNotice error={saveError} onClose={() => setSaveError(null)} />
+      {Boolean(item.pending) && (
+        <Notice kind="info">
+          Sent through the website feedback form{item.submittedAt ? ` on ${new Date(String(item.submittedAt)).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' })}` : ''}. Check the wording
+          (you may tidy spelling, but keep the customer's meaning), add a photo if you have one, then switch on <strong>Visible on the website</strong> and save to approve it.
+        </Notice>
+      )}
 
       <Card>
         {section.fields.map((f) => (

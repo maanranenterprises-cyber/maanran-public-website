@@ -62,7 +62,8 @@ export type Section = {
   schema: z.ZodType
   needs?: CollectionName[]
   // Optional dropdown above the list, e.g. products by category; the choice also pre-fills new items
-  filter?: { key: string; allLabel: string; options: (ctx: Context) => Option[] }
+  // `match` decides membership when it is not a plain field comparison; `preset: false` stops new items copying the filter
+  filter?: { key: string; allLabel: string; options: (ctx: Context) => Option[]; match?: (item: Item, value: string) => boolean; preset?: boolean }
   // Names of other items that depend on this one; deleting is blocked while there are any
   usedBy?: (item: Item, ctx: Context) => string[]
   fields: FieldDef[]
@@ -235,8 +236,13 @@ export const sections: Section[] = [
     keyField: 'id',
     idPrefix: 't',
     titleField: 'name',
-    subtitle: (t) => [t.designation, t.rating ? '★'.repeat(Number(t.rating)) : ''].filter(Boolean).join(' · '),
+    subtitle: (t) =>
+      [t.pending && t.submittedAt ? `Sent ${new Date(String(t.submittedAt)).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}` : '', t.designation, t.rating ? '★'.repeat(Number(t.rating)) : '']
+        .filter(Boolean)
+        .join(' · '),
     imageField: 'photo',
+    // Feedback sent through the website form waits here until approved
+    filter: { key: 'review', allLabel: 'All testimonials', options: () => [{ value: 'pending', label: 'Awaiting review' }], match: (t) => Boolean(t.pending), preset: false },
     folder: 'testimonials',
     schema: testimonialSchema,
     fields: [
@@ -549,6 +555,15 @@ export const singles: SingleSection[] = [
         ],
       },
       { title: 'About page', fields: [{ key: 'about.image', label: 'Header image', type: 'image' }] },
+      {
+        title: 'Feedback page',
+        description: 'The page customers use to send feedback: maanran.com/feedback',
+        fields: [
+          { key: 'feedback.title', label: 'Title', type: 'text', required: true },
+          { key: 'feedback.text', label: 'Text', type: 'textarea' },
+          { key: 'feedback.thanks', label: 'Thank-you message', type: 'textarea', required: true },
+        ],
+      },
       {
         title: 'Footer',
         fields: [

@@ -153,6 +153,7 @@ function PublishButton() {
 
 function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
   const [open, setOpen] = useState(false)
+  const { feedback } = useDrafts()
   const nav = `flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-semibold transition`
   const link = ({ isActive }: { isActive: boolean }) => `${nav} ${isActive ? 'bg-brand/10 text-brand' : 'text-ink/75 hover:bg-ink/5 hover:text-ink'}`
   return (
@@ -179,6 +180,11 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
             return (
               <NavLink key={s.path} to={`/${s.path}`} className={link}>
                 <Icon className="size-4" /> {s.plural}
+                {s.path === 'testimonials' && feedback > 0 && (
+                  <span className="ml-auto rounded-full bg-accent px-2 py-0.5 text-[11px] font-bold text-white" title={`${feedback} awaiting review`}>
+                    {feedback} new
+                  </span>
+                )}
               </NavLink>
             )
           })}
@@ -230,7 +236,7 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
 }
 
 function Dashboard({ name }: { name: string }) {
-  const { drafts, refresh, live } = useDrafts()
+  const { drafts, refresh, live, feedback } = useDrafts()
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<unknown>(null)
   const discard = async () => {
@@ -264,6 +270,16 @@ function Dashboard({ name }: { name: string }) {
         </p>
       </div>
       <ErrorNotice error={error} onClose={() => setError(null)} />
+      {feedback > 0 && (
+        <Notice kind="info">
+          <span className="font-semibold">
+            {feedback} customer {feedback === 1 ? 'review is' : 'reviews are'} waiting for approval.
+          </span>{' '}
+          <Link to="/testimonials?review=pending" className="font-semibold underline">
+            Review now
+          </Link>
+        </Notice>
+      )}
       <Card
         title="Unpublished changes"
         actions={

@@ -1,7 +1,7 @@
 // A section's list: search, drag (or arrow buttons) to reorder, show/hide, duplicate, delete, and links to edit.
 import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { ArrowDown, ArrowUp, Copy, GripVertical, ImageIcon, Pencil, Plus, Search, Trash2 } from 'lucide-react'
+import { ArrowDown, ArrowUp, Check, Copy, GripVertical, ImageIcon, Pencil, Plus, Search, Trash2 } from 'lucide-react'
 import { imageUrl } from '../lib/media'
 import { useCollection, useContextData } from './store'
 import { type Item, type Section, slugify } from './sections'
@@ -72,10 +72,11 @@ export default function ListPage({ section }: { section: Section }) {
   const visible = section.visibleField ?? 'published'
   const isVisible = (it: Item) => Boolean(it[visible])
   const title = (it: Item) => String(it[section.titleField] || `Untitled ${section.singular}`)
-  const inFilter = filterValue ? items.filter((it) => it[section.filter!.key] === filterValue) : items
+  const inGroup = (it: Item, value: string) => (section.filter?.match ? section.filter.match(it, value) : it[section.filter!.key] === value)
+  const inFilter = filterValue ? items.filter((it) => inGroup(it, filterValue)) : items
   const filtered = query ? inFilter.filter((it) => JSON.stringify(it).toLowerCase().includes(query.toLowerCase())) : inFilter
   const filterOptions = section.filter
-    ? section.filter.options(ctx).map((o) => ({ ...o, count: items.filter((it) => it[section.filter!.key] === o.value).length }))
+    ? section.filter.options(ctx).map((o) => ({ ...o, count: items.filter((it) => inGroup(it, o.value)).length }))
     : []
   const keepFilter = filterValue ? `?${section.filter!.key}=${encodeURIComponent(filterValue)}` : ''
   const addLink = `/${section.path}/new${keepFilter}`
@@ -101,8 +102,15 @@ export default function ListPage({ section }: { section: Section }) {
     commit(renumber(next), `Reorder ${section.plural.toLowerCase()}`, 'New order saved to drafts')
   }
 
+  // Approving website feedback makes it visible (it can never be visible while awaiting review)
+  const approve = (i: number) => {
+    const it = items[i]
+    commit(items.map((x, j) => (j === i ? { ...x, pending: false, [visible]: true } : x)), `Approve feedback from ${title(it)}`, 'Approved. Publish to show it on the website.')
+  }
+
   const toggle = (i: number) => {
     const it = items[i]
+    if (it.pending) return approve(i)
     const next = items.map((x, j) => (j === i ? { ...x, [visible]: !isVisible(x) } : x))
     commit(next, `${isVisible(it) ? 'Hide' : 'Show'} ${section.singular}: ${title(it)}`, isVisible(it) ? 'Hidden (saved to drafts)' : 'Visible (saved to drafts)')
   }
@@ -218,6 +226,14 @@ export default function ListPage({ section }: { section: Section }) {
                 <span className="block truncate font-semibold hover:text-brand">{title(it)}</span>
                 <span className="block truncate text-xs text-muted">{section.subtitle?.(it, ctx)}</span>
               </Link>
+              {it.pending ? (
+                <span className="flex shrink-0 items-center gap-2">
+                  <span className="hidden rounded-full bg-accent/15 px-2.5 py-1 text-xs font-bold text-[#b45c00] sm:inline">Awaiting review</span>
+                  <Button variant="primary" onClick={() => approve(i)} className="!px-3 !py-1.5 text-xs">
+                    <Check className="size-3.5" /> Approve
+                  </Button>
+                </span>
+              ) : (
               <button
                 type="button"
                 onClick={() => toggle(i)}
@@ -226,6 +242,7 @@ export default function ListPage({ section }: { section: Section }) {
               >
                 {isVisible(it) ? 'Visible' : 'Hidden'}
               </button>
+              )}
               <span className="flex shrink-0 items-center">
                 {!query && (
                   <>
@@ -242,7 +259,7 @@ export default function ListPage({ section }: { section: Section }) {
             </li>
           )
         })}
-        {!filtered.length && <li className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-muted">{query ? 'Nothing matches your search.' : filterValue ? `No ${section.plural.toLowerCase()} in this category yet.` : `No ${section.plural.toLowerCase()} yet.`}</li>}
+        {!filtered.length && <li className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-muted">{query ? 'Nothing matches your search.' : filterValue ? (section.filter?.match ? 'Nothing here right now.' : `No ${section.plural.toLowerCase()} in this category yet.`) : `No ${section.plural.toLowerCase()} yet.`}</li>}
       </ul>
     </div>
   )
