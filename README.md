@@ -55,4 +55,6 @@ The site requests resized WebP/AVIF versions automatically. Empty image fields s
 
 ## Deploying
 
-Any static host works. On Netlify or Cloudflare Pages: build command `npm run build`, output folder `dist`. `public/_redirects` makes page refreshes work on Netlify; Cloudflare Pages handles single-page apps automatically.
+Vercel (recommended): import the GitHub repository at vercel.com/new. `vercel.json` already sets the build command, the `dist` output folder and the rewrite that makes page refreshes work, and every push to `main` redeploys the site.
+
+Any other static host works too. On Netlify or Cloudflare Pages: build command `npm run build`, output folder `dist`. `public/_redirects` makes page refreshes work on Netlify; Cloudflare Pages handles single-page apps automatically.
