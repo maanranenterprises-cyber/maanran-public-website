@@ -5,6 +5,7 @@ import Footer from './Footer'
 import WhatsAppButton from './WhatsAppButton'
 import { EnquiryProvider } from './EnquiryContext'
 import SplashIntro from './SplashIntro'
+import { BusinessJsonLd } from './Seo'
 
 // Scrolls to the #section in the URL (e.g. /#downloads from another page), or to the top on page change.
 // A new ?query from a link (e.g. a category in the Products menu) also counts as a page change;
@@ -41,6 +42,7 @@ export default function Layout() {
       <Footer />
       <WhatsAppButton />
       <SplashIntro />
+      <BusinessJsonLd />
     </EnquiryProvider>
   )
 }

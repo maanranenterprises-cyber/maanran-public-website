@@ -1,4 +1,5 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { useState } from 'react'
+import { createBrowserRouter, RouterProvider, type RouteObject } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -9,7 +10,7 @@ import Contact from './pages/Contact'
 import Legal from './pages/Legal'
 import NotFound from './pages/NotFound'
 
-const router = createBrowserRouter([
+export const routes: RouteObject[] = [
   {
     element: <Layout />,
     children: [
@@ -24,8 +25,9 @@ const router = createBrowserRouter([
       { path: '*', element: <NotFound /> },
     ],
   },
-])
+]
 
 export default function App() {
+  const [router] = useState(() => createBrowserRouter(routes))
   return <RouterProvider router={router} />
 }

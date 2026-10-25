@@ -1,12 +1,17 @@
+import { useLayoutEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { categories, categoryName, products } from '../lib/content'
+import { categories, categoryName, products, site } from '../lib/content'
 import Seo from '../components/Seo'
 import ProductCard from '../components/ProductCard'
 import PageHeader from './PageHeader'
 
 export default function Products() {
   const [params, setParams] = useSearchParams()
-  const active = params.get('category') ?? ''
+  // The pre-rendered /products page has no ?category, so the first render must match it (all products);
+  // the filter applies right after, before the browser paints
+  const [hydrated, setHydrated] = useState(false)
+  useLayoutEffect(() => setHydrated(true), [])
+  const active = hydrated ? (params.get('category') ?? '') : ''
   const list = active ? products.filter((p) => p.category === active) : products
   const current = categories.find((c) => c.slug === active)
 
@@ -23,7 +28,17 @@ export default function Products() {
 
   return (
     <>
-      <Seo title={current ? current.name : 'Products'} description={current?.description ?? 'Office, institutional and steel furniture from MAANRAN ENTERPRISES.'} path={`/products${active ? `?category=${active}` : ''}`} />
+      <Seo
+        title={current ? `${current.name} in ${site.address.locality}` : `Furniture Products in ${site.address.locality}`}
+        description={
+          current
+            ? `${current.description} Made to order and installed by ${site.name}, ${site.address.locality}.`
+            : `Office workstations, chairs, tables, storage, steel furniture, school, library, hostel and lab furniture from ${site.name}, ${site.address.locality}.`
+        }
+        path={`/products${active ? `?category=${active}` : ''}`}
+        image={current?.image}
+        crumbs={[{ name: 'Products', path: '/products' }, ...(current ? [{ name: current.name, path: `/products?category=${current.slug}` }] : [])]}
+      />
       <PageHeader title={current ? current.name : 'Our Products'} text={current?.description ?? 'Office, institutional and steel furniture, made to order in the sizes you need.'} crumbs={current ? [{ label: 'Products', to: '/products' }, { label: current.name }] : [{ label: 'Products' }]} image={current?.image || '/images/banners/office-interiors.webp'} />
       <section className="py-12 lg:py-16">
         <div className="container-x">

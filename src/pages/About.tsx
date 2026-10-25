@@ -10,7 +10,7 @@ import Clients from '../sections/Clients'
 export default function About() {
   return (
     <>
-      <Seo title="About Us" description={about.intro} path="/about" />
+      <Seo title="About Us" description={about.intro} path="/about" crumbs={[{ name: 'About', path: '/about' }]} />
       <PageHeader title={`About ${site.name}`} text={site.tagline} crumbs={[{ label: 'About' }]} image="/images/banners/office-workstations.webp" />
       <section className="py-20">
         <div className="container-x grid gap-12 lg:grid-cols-2 lg:gap-16">

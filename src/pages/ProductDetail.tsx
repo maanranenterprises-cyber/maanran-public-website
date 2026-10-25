@@ -23,7 +23,17 @@ export default function ProductDetail() {
 
   return (
     <>
-      <Seo title={product.name} description={product.shortDescription} path={`/products/${product.slug}`} />
+      <Seo
+        title={`${product.name} | ${categoryName(product.category)}`}
+        description={`${product.shortDescription} Made to order by ${site.name}, ${site.address.locality}.`}
+        path={`/products/${product.slug}`}
+        image={product.images[0]}
+        crumbs={[
+          { name: 'Products', path: '/products' },
+          { name: categoryName(product.category), path: `/products?category=${product.category}` },
+          { name: product.name, path: `/products/${product.slug}` },
+        ]}
+      />
       <PageHeader
         title={product.name}
         crumbs={[

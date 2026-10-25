@@ -7,13 +7,14 @@ const MOVE_MS = 1200
 
 // Launch intro: the logo fades in alone in the centre, glides into its place in the navbar while the page fades in behind it.
 export default function SplashIntro() {
-  const [done, setDone] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+  const [done, setDone] = useState(false)
   const [loaded, setLoaded] = useState(false)
   const overlayRef = useRef<HTMLDivElement>(null)
   const logoRef = useRef<HTMLImageElement>(null)
 
   useEffect(() => {
     if (done) return
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return setDone(true)
     const root = document.documentElement
     root.dataset.intro = ''
     if (logoRef.current?.complete) setLoaded(true)
@@ -61,7 +62,7 @@ export default function SplashIntro() {
   if (done) return null
 
   return (
-    <div ref={overlayRef} aria-hidden="true" className="fixed inset-0 z-[100] grid place-items-center bg-white">
+    <div ref={overlayRef} aria-hidden="true" data-splash className="fixed inset-0 z-[100] grid place-items-center bg-white">
       <img
         ref={logoRef}
         src={site.logo}

@@ -16,7 +16,7 @@ export default function Interiors() {
 
   return (
     <>
-      <Seo title="Home & Office Interiors" description="A gallery of home and office interior projects completed by MAANRAN ENTERPRISES." path="/interiors" />
+      <Seo title="Home & Office Interiors in Bengaluru" description="Home and office interior design and furnishing in Bengaluru by MAANRAN ENTERPRISES: a gallery of completed homes, offices and commercial spaces." path="/interiors" image="/images/banners/home-interiors.webp" crumbs={[{ name: 'Interiors', path: '/interiors' }]} />
       <PageHeader title="Home & Office Interiors" text="A look at some of the homes, offices and commercial spaces we have designed and furnished." crumbs={[{ label: 'Interiors' }]} image="/images/banners/home-interiors.webp" />
       <section className="py-12 lg:py-16">
         <div className="container-x">

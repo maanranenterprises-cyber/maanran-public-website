@@ -46,7 +46,10 @@
     "phoneDisplay": "+91 98862 77250",
     "whatsapp": "919886277250",
     "email": "info@maanran.com",
-    "hours": "Monday to Sunday, 9 AM to 8 PM"
+    "hours": "Monday to Sunday, 9 AM to 8 PM",
+    "_hoursSchemaNote": "Same hours in 24h form for search engines (Google business info). Keep in step with 'hours'.",
+    "opens": "09:00",
+    "closes": "20:00"
   },
   "address": {
     "lines": [
@@ -54,6 +57,14 @@
       "Vaderahalli, Vidyaranyapura Post",
       "Bengaluru 560097"
     ],
+    "_partsNote": "The same address split into parts for search engines. Keep in step with 'lines'.",
+    "street": "No 5 K No 11/7, Ground Floor, Vaderahalli, Vidyaranyapura Post",
+    "locality": "Bengaluru",
+    "region": "Karnataka",
+    "postalCode": "560097",
+    "country": "IN",
+    "latitude": 13.0935621,
+    "longitude": 77.537586,
     "mapQuery": "13.0935621,77.537586",
     "_mapCidNote": "Google Maps listing ID (the hex after ':' in the place link, as a decimal). When set, the map shows the business listing instead of a plain pin.",
     "mapCid": "4407026438068675215",

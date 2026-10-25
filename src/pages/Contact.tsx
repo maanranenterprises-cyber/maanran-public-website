@@ -18,7 +18,12 @@ export default function Contact() {
   ]
   return (
     <>
-      <Seo title="Contact Us" description={`Call, WhatsApp or email ${site.name} for furniture and interior enquiries.`} path="/contact" />
+      <Seo
+        title="Contact Us"
+        description={`Call ${contact.phoneDisplay}, WhatsApp or email ${site.name} for furniture and interior enquiries. Visit us at ${address.lines.join(', ')}.`}
+        path="/contact"
+        crumbs={[{ name: 'Contact', path: '/contact' }]}
+      />
       <PageHeader title="Contact Us" text="Tell us what you need and we will get back to you with options and a quotation." crumbs={[{ label: 'Contact' }]} />
       <section className="py-14 lg:py-20">
         <div className="container-x grid gap-10 lg:grid-cols-[1fr_1.5fr]">
