@@ -34,5 +34,10 @@
       "source": "/admin/:path*",
       "destination": "/admin.html"
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "drafts": false
+    }
+  }
 }

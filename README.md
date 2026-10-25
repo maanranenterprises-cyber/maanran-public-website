@@ -59,7 +59,7 @@ The admin is at **/admin** (`admin.html` + `src/admin/`). It edits the files in 
 **Trying it locally:** run `npm run dev`, open http://localhost:5173/admin, and log in with any name and the password `admin`. In development, `scripts/dev-api.ts` runs the real `api/` functions against an in-memory copy of the content. Nothing is written to disk, GitHub or ImageKit, and everything resets when the dev server restarts.
 
 - **Login**: one shared password. The login form also asks for the editor's name, which is recorded on every change. A signed cookie keeps the editor logged in for 7 days.
-- **Drafts**: saves go to the `drafts` branch, and Vercel builds a preview of it. **Publish** merges `drafts` into `main`, and Vercel then rebuilds the live site in about 1–2 minutes. **Discard** resets `drafts` to `main`.
+- **Drafts**: saves go to the `drafts` branch. Vercel does not build it (`git.deploymentEnabled` in `vercel.json`), so saves don't use up deployments. **Publish** merges `drafts` into `main`, and Vercel then rebuilds the live site in about 1–2 minutes. **Discard** resets `drafts` to `main`.
 - **Checks**: every save is checked against the rules in `src/lib/schema.ts` (for example, required fields, valid links, and products that point to a real category). The build runs the same checks, so broken content never goes live.
 - **Images**: the admin uploads them straight to ImageKit, using a 30-minute permission from `/api/imagekit-auth`.
 
@@ -79,7 +79,6 @@ Vercel environment variables (Settings → Environment Variables, for Production
 | `GITHUB_TOKEN` | A fine-grained GitHub token for this repository only, with Contents: Read and write |
 | `IMAGEKIT_PRIVATE_KEY`, `IMAGEKIT_PUBLIC_KEY` | From the ImageKit dashboard → Developer options |
 | `GITHUB_REPO` | Optional; defaults to `maanranenterprises-cyber/maanran-public-website` |
-| `DRAFTS_PREVIEW_URL` | Optional; Vercel's address for the `drafts` branch preview, so the dashboard shows a Preview button |
 
 ## Deploying
 
