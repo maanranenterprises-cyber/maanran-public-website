@@ -184,7 +184,7 @@ export default function EditPage({ section }: { section: Section }) {
 }
 
 function FieldInput({ field: f, value, error, onChange, ctx, section, locked }: { field: FieldDef; value: unknown; error?: string; onChange: (v: unknown) => void; ctx: Context; section: Section; locked: boolean }) {
-  const common = { label: f.label, hint: f.hint, error }
+  const common = { label: f.label, hint: f.hint, error, required: f.required }
   switch (f.type) {
     case 'text':
     case 'textarea':
@@ -213,7 +213,7 @@ function FieldInput({ field: f, value, error, onChange, ctx, section, locked }: 
 const rowInput = 'w-full rounded-lg border border-line bg-white px-3 py-2 text-sm outline-none focus:border-blue focus:ring-2 focus:ring-blue/15'
 
 // Specifications are stored as { "Size": "1200 x 600 mm" }; edited as rows so the order and empty rows are kept while typing
-function SpecsInput({ label, hint, error, value, onChange }: { label: string; hint?: string; error?: string; value: Record<string, string>; onChange: (v: Record<string, string>) => void }) {
+function SpecsInput({ label, hint, error, value, onChange }: { label: string; hint?: string; error?: string; required?: boolean; value: Record<string, string>; onChange: (v: Record<string, string>) => void }) {
   const [rows, setRows] = useState(() => Object.entries(value))
   const update = (next: [string, string][]) => {
     setRows(next)
@@ -242,11 +242,19 @@ function SpecsInput({ label, hint, error, value, onChange }: { label: string; hi
   )
 }
 
-function LinksInput({ label, hint, error, value, onChange, max }: { label: string; hint?: string; error?: string; value: { label: string; href: string }[]; onChange: (v: { label: string; href: string }[]) => void; max: number }) {
+function LinksInput({ label, hint, error, required, value, onChange, max }: { label: string; hint?: string; error?: string; required?: boolean; value: { label: string; href: string }[]; onChange: (v: { label: string; href: string }[]) => void; max: number }) {
   const set = (i: number, k: 'label' | 'href', v: string) => onChange(value.map((l, j) => (j === i ? { ...l, [k]: v } : l)))
   return (
     <fieldset>
-      <legend className="text-sm font-semibold">{label}</legend>
+      <legend className="text-sm font-semibold">
+        {label}
+        {required && (
+          <span aria-hidden="true" className="text-brand">
+            {' '}
+            *
+          </span>
+        )}
+      </legend>
       {hint && <p className="mt-0.5 text-xs text-muted">{hint}</p>}
       <div className="mt-2 grid gap-2">
         {value.map((l, i) => (

@@ -7,7 +7,7 @@ export type Item = Record<string, unknown>
 export type Context = Partial<Record<CollectionName, Item[]>>
 type Option = { value: string; label: string }
 
-export type FieldDef = { key: string; label: string; hint?: string } & (
+export type FieldDef = { key: string; label: string; hint?: string; required?: boolean } & (
   | { type: 'text' | 'textarea'; placeholder?: string }
   | { type: 'slug'; from: string }
   | { type: 'number'; min?: number; max?: number }
@@ -60,11 +60,11 @@ export const sections: Section[] = [
     folder: 'banners',
     schema: bannerSchema,
     fields: [
-      { key: 'heading', label: 'Heading', type: 'text' },
-      { key: 'subtitle', label: 'Subtitle', type: 'textarea' },
-      { key: 'imageDesktop', label: 'Image (desktop)', type: 'image', hint: 'Wide photo, ideally 1920 × 1080 or larger.' },
+      { key: 'heading', label: 'Heading', type: 'text', required: true },
+      { key: 'subtitle', label: 'Subtitle', type: 'textarea', required: true },
+      { key: 'imageDesktop', label: 'Image (desktop)', type: 'image', required: true, hint: 'Wide photo, ideally 1920 × 1080 or larger.' },
       { key: 'imageMobile', label: 'Image (mobile)', type: 'image', hint: 'Optional. A taller photo for phones; the desktop image is used if empty.' },
-      { key: 'ctas', label: 'Buttons', type: 'links', max: 3, hint: 'Up to 3. A link can be a page such as /products, or #enquiry to open the enquiry form.' },
+      { key: 'ctas', label: 'Buttons', type: 'links', max: 3, required: true, hint: 'Up to 3. A link can be a page such as /products, or #enquiry to open the enquiry form.' },
       { key: 'publishFrom', label: 'Show from', type: 'datetime', hint: 'Optional. Leave empty to show straight away.' },
       { key: 'publishUntil', label: 'Show until', type: 'datetime', hint: 'Optional. Leave empty to keep showing.' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
@@ -87,10 +87,10 @@ export const sections: Section[] = [
     // Products point at a category by its link name, so a category in use cannot be deleted
     usedBy: (c, ctx) => (ctx.products ?? []).filter((p) => p.category === c.slug).map((p) => String(p.name)),
     fields: [
-      { key: 'name', label: 'Name', type: 'text' },
+      { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products?category=office-chairs. Set automatically from the name and cannot be changed later.' },
-      { key: 'description', label: 'Short description', type: 'textarea' },
-      { key: 'image', label: 'Image', type: 'image', hint: 'Shown in the Products menu and as the category page banner.' },
+      { key: 'description', label: 'Short description', type: 'textarea', required: true },
+      { key: 'image', label: 'Image', type: 'image', required: true, hint: 'Shown in the Products menu and as the category page banner.' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
     ],
     newItem: () => ({ name: '', slug: '', description: '', image: '', published: true }),
@@ -111,13 +111,13 @@ export const sections: Section[] = [
     schema: productSchema,
     needs: ['categories'],
     fields: [
-      { key: 'name', label: 'Name', type: 'text' },
+      { key: 'name', label: 'Name', type: 'text', required: true },
       { key: 'slug', label: 'Link name', type: 'slug', from: 'name', hint: 'Used in the web address, e.g. /products/linear-workstation-4-seater. Set automatically from the name and cannot be changed later.' },
-      { key: 'category', label: 'Category', type: 'select', options: categoryOptions },
+      { key: 'category', label: 'Category', type: 'select', options: categoryOptions, required: true },
       { key: 'brand', label: 'Brand', type: 'text' },
-      { key: 'shortDescription', label: 'Short description', type: 'textarea', hint: 'One or two sentences, shown on product cards and in Google results.' },
-      { key: 'description', label: 'Full description', type: 'textarea' },
-      { key: 'images', label: 'Photos', type: 'images', contain: true },
+      { key: 'shortDescription', label: 'Short description', type: 'textarea', required: true, hint: 'One or two sentences, shown on product cards and in Google results.' },
+      { key: 'description', label: 'Full description', type: 'textarea', required: true },
+      { key: 'images', label: 'Photos', type: 'images', contain: true, required: true },
       { key: 'specs', label: 'Specifications', type: 'specs', hint: 'For example Size → 1200 × 600 mm.' },
       { key: 'featured', label: 'Featured on the home page', type: 'toggle' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
@@ -139,8 +139,8 @@ export const sections: Section[] = [
     folder: 'clients',
     schema: clientSchema,
     fields: [
-      { key: 'name', label: 'Name', type: 'text' },
-      { key: 'logo', label: 'Logo', type: 'image', contain: true, hint: 'PNG or SVG with a white or transparent background works best.' },
+      { key: 'name', label: 'Name', type: 'text', required: true },
+      { key: 'logo', label: 'Logo', type: 'image', contain: true, required: true, hint: 'PNG or SVG with a white or transparent background works best.' },
       { key: 'website', label: 'Website', type: 'text', placeholder: 'https://', hint: 'Optional. Makes the logo clickable.' },
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
     ],

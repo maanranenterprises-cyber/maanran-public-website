@@ -63,7 +63,7 @@ const Preview = ({ path, contain }: { path: string; contain?: boolean }) => (
   <img src={imageUrl(path, 480)} alt="" className={`size-full rounded-lg bg-soft ${contain ? 'object-contain p-2' : 'object-cover'}`} />
 )
 
-export function ImageInput({ label, hint, value, onChange, folder, contain }: { label: string; hint?: string; value: string; onChange: (v: string) => void; folder: string; contain?: boolean }) {
+export function ImageInput({ label, hint, error: fieldError, required, value, onChange, folder, contain }: { label: string; hint?: string; error?: string; required?: boolean; value: string; onChange: (v: string) => void; folder: string; contain?: boolean }) {
   const id = useId()
   const { busy, error, upload } = useUpload(folder)
   const onFiles = async (files: FileList) => {
@@ -71,7 +71,7 @@ export function ImageInput({ label, hint, value, onChange, folder, contain }: { 
     if (path) onChange(path)
   }
   return (
-    <Field label={label} hint={hint} error={error} id={id}>
+    <Field label={label} hint={hint} error={error || fieldError} id={id} required={required}>
       {value ? (
         <div className="flex items-center gap-4">
           <div className="aspect-[4/3] w-48 shrink-0 overflow-hidden rounded-xl border border-line">
@@ -103,7 +103,7 @@ function DropZoneButton({ label, busy, onFiles }: { label: string; busy: boolean
   )
 }
 
-export function ImagesInput({ label, hint, value, onChange, folder, contain }: { label: string; hint?: string; value: string[]; onChange: (v: string[]) => void; folder: string; contain?: boolean }) {
+export function ImagesInput({ label, hint, error: fieldError, required, value, onChange, folder, contain }: { label: string; hint?: string; error?: string; required?: boolean; value: string[]; onChange: (v: string[]) => void; folder: string; contain?: boolean }) {
   const id = useId()
   const { busy, error, upload } = useUpload(folder)
   const move = (i: number, by: number) => {
@@ -112,7 +112,7 @@ export function ImagesInput({ label, hint, value, onChange, folder, contain }: {
     onChange(next)
   }
   return (
-    <Field label={label} hint={hint ?? 'The first image is the main one. Use the arrows to change the order.'} error={error} id={id}>
+    <Field label={label} hint={hint ?? 'The first image is the main one. Use the arrows to change the order.'} error={error || fieldError} id={id} required={required}>
       <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {value.map((path, i) => (
           <li key={`${path}-${i}`} className="group relative aspect-square overflow-hidden rounded-xl border border-line">

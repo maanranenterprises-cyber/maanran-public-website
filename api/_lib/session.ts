@@ -10,10 +10,11 @@ export type Session = { name: string; exp: number }
 
 const sign = (payload: string) => createHmac('sha256', env('SESSION_SECRET')).update(payload).digest('base64url')
 
-// Compares hashes so the check takes the same time whatever the input (no length or timing hints)
+// Compares hashes so the check takes the same time whatever the input (no length or timing hints).
+// Spaces and line breaks at either end are ignored: they easily sneak in when pasting the value into Vercel.
 export function passwordMatches(input: string) {
-  const a = createHash('sha256').update(input).digest()
-  const b = createHash('sha256').update(env('ADMIN_PASSWORD')).digest()
+  const a = createHash('sha256').update(input.trim()).digest()
+  const b = createHash('sha256').update(env('ADMIN_PASSWORD').trim()).digest()
   return timingSafeEqual(a, b)
 }
 

@@ -93,7 +93,23 @@ function PublishButton() {
       toast('Published. The website updates in about 2 minutes.')
       await refresh()
     } catch (e) {
-      setError(e)
+      const details = (e as { details?: string[] }).details
+      if (details?.length) {
+        await confirm({
+          title: 'Cannot publish yet',
+          message: (
+            <>
+              <p>{(e as Error).message}</p>
+              <ul className="mt-2 list-disc pl-5 text-brand-dark">
+                {details.map((d) => (
+                  <li key={d}>{d}</li>
+                ))}
+              </ul>
+            </>
+          ),
+          confirmLabel: 'OK',
+        })
+      } else setError(e)
     } finally {
       setBusy(false)
     }

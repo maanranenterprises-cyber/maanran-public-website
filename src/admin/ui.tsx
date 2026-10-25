@@ -28,11 +28,17 @@ export function Button({
   )
 }
 
-export function Field({ label, hint, error, children, id }: { label: string; hint?: ReactNode; error?: string; children: ReactNode; id: string }) {
+export function Field({ label, hint, error, children, id, required }: { label: string; hint?: ReactNode; error?: string; children: ReactNode; id: string; required?: boolean }) {
   return (
     <div>
       <label htmlFor={id} className="block text-sm font-semibold text-ink">
         {label}
+        {required && (
+          <span aria-hidden="true" className="text-brand">
+            {' '}
+            *
+          </span>
+        )}
       </label>
       {hint && <p className="mt-0.5 text-xs text-muted">{hint}</p>}
       <div className="mt-1.5">{children}</div>
@@ -48,16 +54,16 @@ export function Field({ label, hint, error, children, id }: { label: string; hin
 const inputClass = (error?: string) =>
   `w-full rounded-lg border bg-white px-3 py-2 text-sm outline-none transition focus:ring-2 ${error ? 'border-brand focus:ring-brand/15' : 'border-line focus:border-blue focus:ring-blue/15'}`
 
-type Base = { label: string; hint?: ReactNode; error?: string }
+type Base = { label: string; hint?: ReactNode; error?: string; required?: boolean }
 
-export function TextInput({ label, hint, error, value, onChange, multiline, ...rest }: Base & { value: string; onChange: (v: string) => void; multiline?: boolean; placeholder?: string; readOnly?: boolean }) {
+export function TextInput({ label, hint, error, required, value, onChange, multiline, ...rest }: Base & { value: string; onChange: (v: string) => void; multiline?: boolean; placeholder?: string; readOnly?: boolean }) {
   const id = useId()
   return (
-    <Field label={label} hint={hint} error={error} id={id}>
+    <Field label={label} hint={hint} error={error} id={id} required={required}>
       {multiline ? (
-        <textarea id={id} value={value} onChange={(e) => onChange(e.target.value)} rows={4} className={`${inputClass(error)} min-h-24`} {...rest} />
+        <textarea id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} rows={4} className={`${inputClass(error)} min-h-24`} {...rest} />
       ) : (
-        <input id={id} value={value} onChange={(e) => onChange(e.target.value)} className={`${inputClass(error)} ${rest.readOnly ? 'bg-soft text-muted' : ''}`} {...rest} />
+        <input id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} className={`${inputClass(error)} ${rest.readOnly ? 'bg-soft text-muted' : ''}`} {...rest} />
       )}
     </Field>
   )
@@ -72,11 +78,11 @@ export function NumberInput({ label, hint, error, value, onChange, min, max }: B
   )
 }
 
-export function Select({ label, hint, error, value, onChange, options }: Base & { value: string; onChange: (v: string) => void; options: { value: string; label: string }[] }) {
+export function Select({ label, hint, error, required, value, onChange, options }: Base & { value: string; onChange: (v: string) => void; options: { value: string; label: string }[] }) {
   const id = useId()
   return (
-    <Field label={label} hint={hint} error={error} id={id}>
-      <select id={id} value={value} onChange={(e) => onChange(e.target.value)} className={inputClass(error)}>
+    <Field label={label} hint={hint} error={error} id={id} required={required}>
+      <select id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} className={inputClass(error)}>
         <option value="">Choose…</option>
         {options.map((o) => (
           <option key={o.value} value={o.value}>

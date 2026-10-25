@@ -7,6 +7,7 @@ const text = z.string().trim()
 const required = (label: string) => text.min(1, `${label} is required`)
 // Image or file path: a local /images/... or /downloads/... file, an ImageKit path, a full URL, or empty for a placeholder
 const media = z.string().trim()
+const requiredMedia = (message: string) => media.min(1, message)
 const slug = text.regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Use lowercase letters, numbers and dashes only (e.g. office-chairs)')
 const order = z.number().int().min(0)
 const link = z.looseObject({ label: required('Button text'), href: required('Button link') })
@@ -15,10 +16,10 @@ const isoDate = z.string().datetime({ offset: true, local: true }).or(z.string()
 export const bannerSchema = z.looseObject({
   id: required('ID'),
   heading: required('Heading'),
-  subtitle: text,
-  imageDesktop: media,
+  subtitle: required('Subtitle'),
+  imageDesktop: requiredMedia('Add a desktop image'),
   imageMobile: media,
-  ctas: z.array(link).max(3),
+  ctas: z.array(link).min(1, 'Add at least one button').max(3, 'Use at most 3 buttons'),
   order,
   published: z.boolean(),
   publishFrom: isoDate,
@@ -28,8 +29,8 @@ export const bannerSchema = z.looseObject({
 export const categorySchema = z.looseObject({
   slug,
   name: required('Name'),
-  description: text,
-  image: media,
+  description: required('Description'),
+  image: requiredMedia('Add an image'),
   order,
   published: z.boolean(),
 })
@@ -40,9 +41,9 @@ export const productSchema = z.looseObject({
   name: required('Name'),
   brand: text,
   category: required('Category'),
-  shortDescription: text,
-  description: text,
-  images: z.array(media),
+  shortDescription: required('Short description'),
+  description: required('Full description'),
+  images: z.array(media).min(1, 'Add at least one photo'),
   specs: z.record(z.string(), z.string()),
   featured: z.boolean(),
   order,
@@ -52,7 +53,7 @@ export const productSchema = z.looseObject({
 export const clientSchema = z.looseObject({
   id: required('ID'),
   name: required('Name'),
-  logo: media,
+  logo: requiredMedia('Add a logo'),
   website: text.refine((v) => !v || /^https?:\/\//.test(v), 'Website must start with http:// or https://'),
   order,
   published: z.boolean(),
