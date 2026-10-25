@@ -182,13 +182,5 @@
     "website": "",
     "order": 23,
     "published": true
-  },
-  {
-    "id": "c-5bzlya",
-    "name": "Google",
-    "logo": "/maanran/clients/google_ZzJVRisXt.webp",
-    "website": "https://www.google.com/",
-    "order": 24,
-    "published": true
   }
 ]
