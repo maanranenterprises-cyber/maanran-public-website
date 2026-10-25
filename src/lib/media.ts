@@ -1,4 +1,4 @@
-import { site } from './content'
+import { site } from './content.js'
 
 // Image paths in the content files are either:
 //  - an ImageKit path such as "/products/bunker-cot-1.jpg" (when imagekitUrlEndpoint is set in site.json)

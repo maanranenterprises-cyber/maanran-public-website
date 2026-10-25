@@ -2,7 +2,7 @@
 // Shared by the build (scripts/prerender.mjs fails on broken content), the admin API (rejects bad saves)
 // and the admin forms. Objects keep unknown keys such as "_note", so editing never drops them.
 import { z } from 'zod'
-import { CODE_PATTERN, parseCode, PREFIX_PATTERN } from './codes'
+import { CODE_PATTERN, parseCode, PREFIX_PATTERN } from './codes.js'
 
 const text = z.string().trim()
 const required = (label: string) => text.min(1, `${label} is required`)
