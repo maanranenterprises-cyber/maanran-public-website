@@ -177,7 +177,7 @@
       }
     ],
     "order": 10,
-    "published": false,
+    "published": true,
     "publishFrom": null,
     "publishUntil": null
   },
