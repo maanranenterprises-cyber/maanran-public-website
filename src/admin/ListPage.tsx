@@ -41,6 +41,8 @@ export default function ListPage({ section }: { section: Section }) {
   const [dragging, setDragging] = useState<number | null>(null)
 
   const items = useMemo(() => sorted(data ?? []), [data])
+  const visible = section.visibleField ?? 'published'
+  const isVisible = (it: Item) => Boolean(it[visible])
   const title = (it: Item) => String(it[section.titleField] || `Untitled ${section.singular}`)
   const inFilter = filterValue ? items.filter((it) => it[section.filter!.key] === filterValue) : items
   const filtered = query ? inFilter.filter((it) => JSON.stringify(it).toLowerCase().includes(query.toLowerCase())) : inFilter
@@ -73,13 +75,13 @@ export default function ListPage({ section }: { section: Section }) {
 
   const toggle = (i: number) => {
     const it = items[i]
-    const next = items.map((x, j) => (j === i ? { ...x, published: !x.published } : x))
-    commit(next, `${it.published ? 'Hide' : 'Show'} ${section.singular}: ${title(it)}`, it.published ? 'Hidden (saved to drafts)' : 'Visible (saved to drafts)')
+    const next = items.map((x, j) => (j === i ? { ...x, [visible]: !isVisible(x) } : x))
+    commit(next, `${isVisible(it) ? 'Hide' : 'Show'} ${section.singular}: ${title(it)}`, isVisible(it) ? 'Hidden (saved to drafts)' : 'Visible (saved to drafts)')
   }
 
   const duplicate = (i: number) => {
     const it = items[i]
-    const copy = { ...structuredClone(it), [section.titleField]: `${title(it)} (copy)`, published: false }
+    const copy = { ...structuredClone(it), [section.titleField]: `${title(it)} (copy)`, [visible]: false }
     copy[section.keyField] = uniqueKey(section, items, `${String(it[section.keyField])}-copy`)
     if (section.keyField === 'id' && 'slug' in it) copy.slug = uniqueKey({ ...section, keyField: 'slug' }, items, `${String(it.slug)}-copy`)
     const next = [...items]
@@ -168,11 +170,17 @@ export default function ListPage({ section }: { section: Section }) {
               onDragOver={(e) => e.preventDefault()}
               onDrop={() => dragging !== null && move(dragging, i)}
               onDragEnd={() => setDragging(null)}
-              className={`flex items-center gap-3 rounded-xl border bg-white p-2.5 pr-3 transition ${dragging === i ? 'border-blue opacity-50' : 'border-line'} ${it.published ? '' : 'bg-soft'}`}
+              className={`flex items-center gap-3 rounded-xl border bg-white p-2.5 pr-3 transition ${dragging === i ? 'border-blue opacity-50' : 'border-line'} ${isVisible(it) ? '' : 'bg-soft'}`}
             >
               {!query && <GripVertical className="size-4 shrink-0 cursor-grab text-ink/30" aria-hidden="true" />}
               <span className="grid size-14 shrink-0 place-items-center overflow-hidden rounded-lg border border-line bg-white">
-                {img ? <img src={imageUrl(img, 160)} alt="" className={`size-full ${section.imageContain ? 'object-contain p-1' : 'object-cover'}`} /> : <ImageIcon className="size-5 text-ink/20" />}
+                {section.thumbText ? (
+                  <span className="text-base font-extrabold text-brand">{section.thumbText(it)}</span>
+                ) : img ? (
+                  <img src={imageUrl(img, 160)} alt="" className={`size-full ${section.imageContain ? 'object-contain p-1' : 'object-cover'}`} />
+                ) : (
+                  <ImageIcon className="size-5 text-ink/20" />
+                )}
               </span>
               <Link to={`/${section.path}/${encodeURIComponent(String(it[section.keyField]))}${keepFilter}`} className="min-w-0 flex-1">
                 <span className="block truncate font-semibold hover:text-brand">{title(it)}</span>
@@ -181,10 +189,10 @@ export default function ListPage({ section }: { section: Section }) {
               <button
                 type="button"
                 onClick={() => toggle(i)}
-                className={`hidden shrink-0 rounded-full px-2.5 py-1 text-xs font-bold sm:inline ${it.published ? 'bg-green-50 text-green-700 hover:bg-green-100' : 'bg-ink/10 text-ink/60 hover:bg-ink/15'}`}
-                title={it.published ? 'Click to hide' : 'Click to show'}
+                className={`hidden shrink-0 rounded-full px-2.5 py-1 text-xs font-bold sm:inline ${isVisible(it) ? 'bg-green-50 text-green-700 hover:bg-green-100' : 'bg-ink/10 text-ink/60 hover:bg-ink/15'}`}
+                title={isVisible(it) ? 'Click to hide' : 'Click to show'}
               >
-                {it.published ? 'Visible' : 'Hidden'}
+                {isVisible(it) ? 'Visible' : 'Hidden'}
               </button>
               <span className="flex shrink-0 items-center">
                 {!query && (

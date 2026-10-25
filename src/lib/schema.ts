@@ -101,7 +101,7 @@ export const interiorSchema = z.looseObject({
   type: required('Type'),
   city: text,
   description: text,
-  images: z.array(media),
+  images: z.array(media).min(1, 'Add at least one photo'),
   order,
   published: z.boolean(),
 })

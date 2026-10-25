@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useBlocker, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react'
-import { ImageInput, ImagesInput } from './ImageInput'
+import { FileInput, ImageInput, ImagesInput } from './ImageInput'
 import { uniqueKey } from './ListPage'
 import { useCollection, useContextData } from './store'
 import { type Context, type FieldDef, type Item, type Section, slugify } from './sections'
@@ -67,7 +67,12 @@ export default function EditPage({ section }: { section: Section }) {
   const filterParam = section.filter && params.get(section.filter.key)
   const backTo = `/${section.path}${filterParam ? `?${section.filter!.key}=${encodeURIComponent(filterParam)}` : ''}`
 
-  const set = (field: string, value: unknown) =>
+  // A field's error goes away as soon as it is changed; the full check runs again on Save
+  const clearErrors = (keys: string[]) =>
+    setErrors((prev) => (keys.some((k) => k in prev) ? Object.fromEntries(Object.entries(prev).filter(([k]) => !keys.includes(k))) : prev))
+
+  const set = (field: string, value: unknown) => {
+    clearErrors([field])
     setItem((prev) => {
       if (!prev) return prev
       const next = { ...prev, [field]: value }
@@ -76,6 +81,7 @@ export default function EditPage({ section }: { section: Section }) {
       if (slugField && isNew && !slugTouched) next[slugField.key] = slugify(String(value))
       return next
     })
+  }
 
   const onSave = async () => {
     if (!item || !data) return
@@ -156,6 +162,12 @@ export default function EditPage({ section }: { section: Section }) {
             value={item[f.key]}
             error={errors[f.key]}
             ctx={ctx}
+            items={data}
+            item={item}
+            setMany={(fields) => {
+              clearErrors(Object.keys(fields))
+              setItem((prev) => (prev ? { ...prev, ...fields } : prev))
+            }}
             section={section}
             locked={f.type === 'slug' && !isNew}
             onChange={(v) => {
@@ -188,12 +200,51 @@ export default function EditPage({ section }: { section: Section }) {
   )
 }
 
-function FieldInput({ field: f, value, error, onChange, ctx, section, locked }: { field: FieldDef; value: unknown; error?: string; onChange: (v: unknown) => void; ctx: Context; section: Section; locked: boolean }) {
+type FieldProps = {
+  field: FieldDef
+  value: unknown
+  error?: string
+  onChange: (v: unknown) => void
+  ctx: Context
+  // The whole section and the item being edited, for suggestions and fields that fill in others
+  items: Item[]
+  item: Item
+  setMany: (fields: Item) => void
+  section: Section
+  locked: boolean
+}
+
+function FieldInput({ field: f, value, error, onChange, ctx, items, item, setMany, section, locked }: FieldProps) {
   const common = { label: f.label, hint: f.hint, error, required: f.required }
   switch (f.type) {
     case 'text':
-    case 'textarea':
-      return <TextInput {...common} value={String(value ?? '')} onChange={onChange} multiline={f.type === 'textarea'} placeholder={f.placeholder} />
+    case 'textarea': {
+      const listId = f.suggestions ? `${section.path}-${f.key}-suggestions` : undefined
+      return (
+        <>
+          <TextInput {...common} value={String(value ?? '')} onChange={onChange} multiline={f.type === 'textarea'} placeholder={f.placeholder} list={listId} />
+          {listId && (
+            <datalist id={listId}>
+              {f.suggestions!(items).map((s) => (
+                <option key={s} value={s} />
+              ))}
+            </datalist>
+          )}
+        </>
+      )
+    }
+    case 'file':
+      return (
+        <FileInput
+          {...common}
+          value={String(value ?? '')}
+          details={f.details ? [item[f.details.typeKey], item[f.details.sizeKey]].filter(Boolean).join(' · ') : undefined}
+          folder={section.folder}
+          accept={f.accept}
+          onUploaded={({ url, type, size }) => setMany({ [f.key]: url, ...(f.details ? { [f.details.typeKey]: type, [f.details.sizeKey]: size } : {}) })}
+          onRemove={() => onChange('')}
+        />
+      )
     case 'slug':
       return <TextInput {...common} value={String(value ?? '')} onChange={(v) => onChange(slugify(v))} readOnly={locked} />
     case 'number':

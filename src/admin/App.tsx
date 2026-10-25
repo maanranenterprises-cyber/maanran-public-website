@@ -1,7 +1,7 @@
 // Admin app: login gate, layout (sidebar + top bar with Publish), dashboard and the section screens.
 import { createContext, useContext, useEffect, useState, type FormEvent } from 'react'
 import { createBrowserRouter, Link, NavLink, Outlet, RouterProvider, useParams } from 'react-router-dom'
-import { ExternalLink, FileText, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, Package, Rocket, Settings, Undo2, Users, X } from 'lucide-react'
+import { BarChart3, Download, ExternalLink, FileText, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Undo2, Users, X } from 'lucide-react'
 import { api } from './api'
 import EditPage from './EditPage'
 import ListPage from './ListPage'
@@ -9,9 +9,9 @@ import { sectionByPath, sections } from './sections'
 import { DraftsProvider, useDrafts } from './store'
 import { Button, Card, ConfirmHost, confirm, ErrorNotice, Notice, TextInput, toast, ToastHost } from './ui'
 
-const icons = { banners: Images, categories: LayoutGrid, products: Package, clients: Users } as Record<string, typeof Images>
+const icons = { banners: Images, categories: LayoutGrid, products: Package, clients: Users, stats: BarChart3, testimonials: MessageSquareQuote, interiors: Sofa, downloads: Download } as Record<string, typeof Images>
 // Sections still to come (Phase 3), shown in the menu so editors know where they will be
-const comingSoon = ['Stats', 'Why us', 'About', 'Testimonials', 'Downloads', 'Interiors', 'Site settings', 'Page text']
+const comingSoon = ['Why us', 'About', 'Site settings', 'Page text']
 
 function Login({ onLoggedIn }: { onLoggedIn: (name: string) => void }) {
   const [name, setName] = useState(() => localStorageGet('admin:name'))

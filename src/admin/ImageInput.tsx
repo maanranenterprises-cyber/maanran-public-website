@@ -1,8 +1,8 @@
 // Image fields: upload to ImageKit (drop or choose a file), preview, replace, remove, and reorder for galleries.
 import { useId, useRef, useState } from 'react'
-import { ArrowLeft, ArrowRight, ImagePlus, Loader2, Trash2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, ExternalLink, FileText, ImagePlus, Loader2, Trash2, Upload } from 'lucide-react'
 import { imageUrl } from '../lib/media'
-import { uploadImage } from './api'
+import { uploadFile, uploadImage } from './api'
 import { Field } from './ui'
 
 function useUpload(folder: string) {
@@ -137,6 +137,93 @@ export function ImagesInput({ label, hint, error: fieldError, required, value, o
           <DropZone multiple compact={value.length > 0} busy={busy} onFiles={async (f) => onChange([...value, ...(await upload(f))])} />
         </li>
       </ul>
+    </Field>
+  )
+}
+
+// Downloadable document (PDF): upload, show the current file with an Open link, replace or remove
+export function FileInput({
+  label,
+  hint,
+  error: fieldError,
+  required,
+  value,
+  details,
+  onUploaded,
+  onRemove,
+  folder,
+  accept,
+}: {
+  label: string
+  hint?: string
+  error?: string
+  required?: boolean
+  value: string
+  details?: string
+  onUploaded: (f: { url: string; type: string; size: string }) => void
+  onRemove: () => void
+  folder: string
+  accept: string
+}) {
+  const id = useId()
+  const input = useRef<HTMLInputElement>(null)
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
+  const onFile = async (file?: File) => {
+    if (!file) return
+    setBusy(true)
+    setError('')
+    try {
+      onUploaded(await uploadFile(file, folder, accept))
+    } catch (e) {
+      setError((e as Error).message)
+    } finally {
+      setBusy(false)
+    }
+  }
+  const name = decodeURIComponent(value.split('/').pop()?.split('?')[0] ?? '')
+  return (
+    <Field label={label} hint={hint} error={error || fieldError} id={id} required={required}>
+      <div
+        onDragOver={(e) => e.preventDefault()}
+        onDrop={(e) => {
+          e.preventDefault()
+          onFile(e.dataTransfer.files[0])
+        }}
+        className="flex flex-wrap items-center gap-3 rounded-xl border-2 border-dashed border-line p-3"
+      >
+        <span className="grid size-11 shrink-0 place-items-center rounded-lg bg-brand/10 text-brand">{busy ? <Loader2 className="size-5 animate-spin" /> : <FileText className="size-5" />}</span>
+        <span className="min-w-0 flex-1">
+          <span className="block truncate text-sm font-semibold">{busy ? 'Uploading…' : value ? name : 'No file yet'}</span>
+          <span className="block text-xs text-muted">{value ? details : 'Drop a PDF here or choose one.'}</span>
+        </span>
+        <span className="flex flex-wrap items-center gap-2">
+          {value && !busy && (
+            <a href={value} target="_blank" rel="noopener" className="inline-flex items-center gap-1 rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-ink/30">
+              Open <ExternalLink className="size-3.5" />
+            </a>
+          )}
+          <button type="button" disabled={busy} onClick={() => input.current?.click()} className="inline-flex items-center gap-1.5 rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-ink/30">
+            <Upload className="size-4" /> {value ? 'Replace' : 'Choose file'}
+          </button>
+          {value && !busy && (
+            <button type="button" onClick={onRemove} aria-label="Remove file" className="rounded-lg p-1.5 text-brand hover:bg-brand/10">
+              <Trash2 className="size-4" />
+            </button>
+          )}
+        </span>
+        <input
+          id={id}
+          ref={input}
+          type="file"
+          accept={accept}
+          hidden
+          onChange={(e) => {
+            onFile(e.target.files?.[0])
+            e.target.value = ''
+          }}
+        />
+      </div>
     </Field>
   )
 }

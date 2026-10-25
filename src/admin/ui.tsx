@@ -56,14 +56,14 @@ const inputClass = (error?: string) =>
 
 type Base = { label: string; hint?: ReactNode; error?: string; required?: boolean }
 
-export function TextInput({ label, hint, error, required, value, onChange, multiline, ...rest }: Base & { value: string; onChange: (v: string) => void; multiline?: boolean; placeholder?: string; readOnly?: boolean }) {
+export function TextInput({ label, hint, error, required, value, onChange, multiline, list, ...rest }: Base & { value: string; onChange: (v: string) => void; multiline?: boolean; placeholder?: string; readOnly?: boolean; list?: string }) {
   const id = useId()
   return (
     <Field label={label} hint={hint} error={error} id={id} required={required}>
       {multiline ? (
         <textarea id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} rows={4} className={`${inputClass(error)} min-h-24`} {...rest} />
       ) : (
-        <input id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} className={`${inputClass(error)} ${rest.readOnly ? 'bg-soft text-muted' : ''}`} {...rest} />
+        <input id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-required={required} list={list} autoComplete={list ? 'off' : undefined} className={`${inputClass(error)} ${rest.readOnly ? 'bg-soft text-muted' : ''}`} {...rest} />
       )}
     </Field>
   )

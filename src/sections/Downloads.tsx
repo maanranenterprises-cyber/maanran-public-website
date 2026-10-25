@@ -43,7 +43,7 @@ export default function Downloads() {
                   <FileText className="size-3.5" /> {d.fileType}
                   {d.sizeLabel && ` · ${d.sizeLabel}`}
                 </p>
-                <a href={d.file} download onClick={() => trackDownload(d.title)} className="btn-primary mt-4">
+                <a href={d.file} download target={d.file.startsWith('http') ? '_blank' : undefined} rel="noopener" onClick={() => trackDownload(d.title)} className="btn-primary mt-4">
                   <Download className="size-4" /> Download
                 </a>
               </div>

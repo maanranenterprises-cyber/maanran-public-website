@@ -63,15 +63,13 @@ const safeName = (name: string) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '') || 'image'
 
-// Uploads one image to ImageKit and returns the path to store in the content (shown through imageUrl())
-export async function uploadImage(file: File, folder: string): Promise<string> {
-  if (!file.type.startsWith('image/')) throw new ApiError(400, 'Please choose an image file (JPG, PNG, WebP or SVG).')
+type Uploaded = { filePath: string; url: string }
+
+async function upload(blob: Blob, fileName: string, folder: string): Promise<Uploaded> {
   const auth = await request<{ token: string; expire: number; signature: string; publicKey: string; uploadUrl?: string }>('/api/imagekit-auth')
-  const blob = await shrink(file)
-  const ext = blob.type === 'image/webp' ? 'webp' : (file.name.split('.').pop() ?? 'jpg')
   const form = new FormData()
-  form.append('file', blob, `${safeName(file.name)}.${ext}`)
-  form.append('fileName', `${safeName(file.name)}.${ext}`)
+  form.append('file', blob, fileName)
+  form.append('fileName', fileName)
   form.append('folder', `/maanran/${folder}`)
   form.append('useUniqueFileName', 'true')
   form.append('publicKey', auth.publicKey)
@@ -86,5 +84,26 @@ export async function uploadImage(file: File, folder: string): Promise<string> {
   }
   const data = await res.json().catch(() => ({}))
   if (!res.ok) throw new ApiError(res.status, `Upload failed: ${data.message ?? res.status}`)
-  return data.filePath as string
+  return { filePath: data.filePath, url: data.url ?? data.filePath }
 }
+
+// Uploads one image to ImageKit and returns the path to store in the content (shown through imageUrl())
+export async function uploadImage(file: File, folder: string): Promise<string> {
+  if (!file.type.startsWith('image/')) throw new ApiError(400, 'Please choose an image file (JPG, PNG, WebP or SVG).')
+  const blob = await shrink(file)
+  const ext = blob.type === 'image/webp' ? 'webp' : (file.name.split('.').pop() ?? 'jpg')
+  return (await upload(blob, `${safeName(file.name)}.${ext}`, folder)).filePath
+}
+
+const MAX_FILE_MB = 25
+
+// Uploads a document (e.g. a PDF catalogue) as-is and returns its full address, which download links use directly
+export async function uploadFile(file: File, folder: string, accept: string) {
+  if (accept && !accept.split(',').some((t) => file.type === t.trim())) throw new ApiError(400, 'Please choose a PDF file.')
+  if (file.size > MAX_FILE_MB * 1024 * 1024) throw new ApiError(400, `This file is larger than ${MAX_FILE_MB} MB. Please compress it and try again.`)
+  const ext = (file.name.split('.').pop() ?? 'pdf').toLowerCase()
+  const { url } = await upload(file, `${safeName(file.name)}.${ext}`, folder)
+  return { url, type: ext.toUpperCase(), size: sizeLabel(file.size) }
+}
+
+export const sizeLabel = (bytes: number) => (bytes >= 1024 * 1024 ? `${(bytes / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`)

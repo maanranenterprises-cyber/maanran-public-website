@@ -1,6 +1,6 @@
 // What each admin section edits: its fields, labels and help text. The list and edit screens are built from this.
 import type { z } from 'zod'
-import { bannerSchema, categorySchema, clientSchema, productSchema, type CollectionName } from '../lib/schema'
+import { bannerSchema, categorySchema, clientSchema, documentSchema, interiorSchema, productSchema, statSchema, testimonialSchema, type CollectionName } from '../lib/schema'
 
 export type Item = Record<string, unknown>
 // Other sections' data a form needs, e.g. the category list for the product form
@@ -8,7 +8,8 @@ export type Context = Partial<Record<CollectionName, Item[]>>
 type Option = { value: string; label: string }
 
 export type FieldDef = { key: string; label: string; hint?: string; required?: boolean } & (
-  | { type: 'text' | 'textarea'; placeholder?: string }
+  // `suggestions` offers values already used in this section (e.g. interior types) so spelling stays consistent
+  | { type: 'text' | 'textarea'; placeholder?: string; suggestions?: (items: Item[]) => string[] }
   | { type: 'slug'; from: string }
   | { type: 'number'; min?: number; max?: number }
   | { type: 'toggle' }
@@ -17,6 +18,8 @@ export type FieldDef = { key: string; label: string; hint?: string; required?: b
   | { type: 'datetime' }
   | { type: 'specs' }
   | { type: 'links'; max: number }
+  // A downloadable file (PDF); `details` lists extra fields filled in from the upload, e.g. file type and size
+  | { type: 'file'; accept: string; details?: { typeKey: string; sizeKey: string } }
 )
 
 export type Section = {
@@ -32,6 +35,10 @@ export type Section = {
   subtitle?: (item: Item, ctx: Context) => string
   imageField?: string
   imageContain?: boolean
+  // Shown in the list instead of a picture when a section has no image (e.g. "250+" for a stat)
+  thumbText?: (item: Item) => string
+  // The on/off field for "Visible on the website" (stats use `active`, everything else `published`)
+  visibleField?: string
   // ImageKit folder for this section's uploads, e.g. /maanran/products
   folder: string
   schema: z.ZodType
@@ -43,6 +50,9 @@ export type Section = {
   fields: FieldDef[]
   newItem: () => Item
 }
+
+// Values already used in a field, plus some common starting points
+const usedValues = (key: string, defaults: string[]) => (items: Item[]) => [...new Set([...defaults, ...items.map((i) => String(i[key] ?? '')).filter(Boolean)])]
 
 const categoryOptions = (ctx: Context) => (ctx.categories ?? []).map((c) => ({ value: String(c.slug), label: String(c.name) }))
 const categoryLabel = (slug: unknown, ctx: Context) => String((ctx.categories ?? []).find((c) => c.slug === slug)?.name ?? slug)
@@ -148,6 +158,110 @@ export const sections: Section[] = [
       { key: 'published', label: 'Visible on the website', type: 'toggle' },
     ],
     newItem: () => ({ name: '', logo: '', website: '', published: true }),
+  },
+  {
+    name: 'stats',
+    path: 'stats',
+    singular: 'stat',
+    plural: 'Stats',
+    description: 'The counters on the home and About pages, such as "250+ Client Satisfaction".',
+    keyField: 'id',
+    idPrefix: 's',
+    titleField: 'label',
+    subtitle: (s) => `Icon: ${String(s.icon)}`,
+    thumbText: (s) => `${String(s.value)}${String(s.suffix ?? '')}`,
+    visibleField: 'active',
+    folder: 'stats',
+    schema: statSchema,
+    fields: [
+      { key: 'label', label: 'Label', type: 'text', required: true, placeholder: 'e.g. Successful Projects' },
+      { key: 'value', label: 'Number', type: 'number', min: 0, required: true, hint: 'The number counts up from 0 when visitors scroll to it.' },
+      { key: 'suffix', label: 'After the number', type: 'text', placeholder: '+', hint: 'Optional, e.g. + or %.' },
+      {
+        key: 'icon',
+        label: 'Icon',
+        type: 'select',
+        required: true,
+        options: () => [
+          { value: 'smile', label: 'Smile' },
+          { value: 'briefcase', label: 'Briefcase' },
+          { value: 'users', label: 'People' },
+          { value: 'heart', label: 'Heart' },
+        ],
+      },
+      { key: 'active', label: 'Visible on the website', type: 'toggle' },
+    ],
+    newItem: () => ({ label: '', value: 0, suffix: '+', icon: 'smile', active: true, verified: false }),
+  },
+  {
+    name: 'testimonials',
+    path: 'testimonials',
+    singular: 'testimonial',
+    plural: 'Testimonials',
+    description: 'Customer feedback in the "What our customers say" carousel on the home page.',
+    keyField: 'id',
+    idPrefix: 't',
+    titleField: 'name',
+    subtitle: (t) => [t.designation, t.rating ? '★'.repeat(Number(t.rating)) : ''].filter(Boolean).join(' · '),
+    imageField: 'photo',
+    folder: 'testimonials',
+    schema: testimonialSchema,
+    fields: [
+      { key: 'name', label: 'Customer name', type: 'text', required: true },
+      { key: 'designation', label: 'Role and company', type: 'text', placeholder: 'e.g. Principal, ABC School' },
+      { key: 'text', label: 'What they said', type: 'textarea', required: true },
+      { key: 'rating', label: 'Star rating', type: 'number', min: 0, max: 5, hint: '1 to 5 stars. Use 0 to hide the stars.' },
+      { key: 'photo', label: 'Photo', type: 'image', hint: 'Optional. A square photo works best; without one, their initial is shown.' },
+      { key: 'published', label: 'Visible on the website', type: 'toggle' },
+    ],
+    newItem: () => ({ name: '', photo: '', text: '', rating: 5, designation: '', published: true }),
+  },
+  {
+    name: 'interiors',
+    path: 'interiors',
+    singular: 'project',
+    plural: 'Interiors',
+    description: 'Completed projects in the gallery on the Interiors page.',
+    keyField: 'id',
+    idPrefix: 'i',
+    titleField: 'title',
+    subtitle: (p) => [p.type, p.city].filter(Boolean).join(' · '),
+    imageField: 'images',
+    folder: 'interiors',
+    schema: interiorSchema,
+    fields: [
+      { key: 'title', label: 'Project title', type: 'text', required: true, placeholder: 'e.g. 3BHK apartment interiors' },
+      { key: 'type', label: 'Type', type: 'text', required: true, hint: 'Used as the filter buttons on the Interiors page. Pick an existing one to keep them grouped.', suggestions: usedValues('type', ['Home', 'Office', 'Commercial']) },
+      { key: 'city', label: 'City', type: 'text', suggestions: usedValues('city', ['Bengaluru']) },
+      { key: 'description', label: 'Description', type: 'textarea' },
+      { key: 'images', label: 'Photos', type: 'images', required: true },
+      { key: 'published', label: 'Visible on the website', type: 'toggle' },
+    ],
+    newItem: () => ({ title: '', type: '', city: 'Bengaluru', description: '', images: [], published: true }),
+  },
+  {
+    name: 'documents',
+    path: 'downloads',
+    singular: 'download',
+    plural: 'Downloads',
+    description: 'Catalogues and brochures in the Downloads section of the home page.',
+    keyField: 'id',
+    idPrefix: 'd',
+    titleField: 'title',
+    subtitle: (d) => [d.category, [d.fileType, d.sizeLabel].filter(Boolean).join(' '), d.featured ? 'Featured' : ''].filter(Boolean).join(' · '),
+    imageField: 'cover',
+    folder: 'downloads',
+    schema: documentSchema,
+    fields: [
+      { key: 'title', label: 'Title', type: 'text', required: true, placeholder: 'e.g. Product Catalog 2027' },
+      { key: 'category', label: 'Kind of document', type: 'text', suggestions: usedValues('category', ['Company Profile', 'Product Catalog', 'Product Brochure']) },
+      { key: 'description', label: 'Short description', type: 'textarea' },
+      { key: 'file', label: 'File', type: 'file', accept: 'application/pdf', required: true, details: { typeKey: 'fileType', sizeKey: 'sizeLabel' }, hint: 'PDF, up to 25 MB.' },
+      { key: 'cover', label: 'Cover image', type: 'image', hint: 'Optional. Without one, a branded cover with the title is shown.' },
+      { key: 'featured', label: 'Show a "Featured" badge', type: 'toggle' },
+      { key: 'published', label: 'Visible on the website', type: 'toggle' },
+    ],
+    newItem: () => ({ title: '', category: '', description: '', cover: '', file: '', fileType: 'PDF', sizeLabel: '', featured: false, published: true }),
   },
 ]
 
