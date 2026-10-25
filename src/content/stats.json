@@ -2,7 +2,7 @@
   {
     "id": "s1",
     "label": "Client Satisfaction",
-    "value": 250,
+    "value": 2000,
     "suffix": "+",
     "icon": "smile",
     "order": 1,
