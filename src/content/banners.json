@@ -131,6 +131,23 @@
     "publishUntil": null
   },
   {
+    "id": "b10",
+    "heading": "Steel furniture for every space",
+    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
+    "imageDesktop": "/images/banners/steel-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Steel Furniture",
+        "href": "/products?category=steel-furniture"
+      }
+    ],
+    "order": 8,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
     "id": "b8",
     "heading": "Executive and conference tables",
     "subtitle": "Desks and meeting tables in wood and laminate finishes.",
@@ -142,7 +159,7 @@
         "href": "/products?category=office-tables"
       }
     ],
-    "order": 8,
+    "order": 9,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
@@ -157,23 +174,6 @@
       {
         "label": "View Storage",
         "href": "/products?category=office-wooden-storage"
-      }
-    ],
-    "order": 9,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
-    "id": "b10",
-    "heading": "Steel furniture for every space",
-    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
-    "imageDesktop": "/images/banners/steel-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Steel Furniture",
-        "href": "/products?category=steel-furniture"
       }
     ],
     "order": 10,
