@@ -84,7 +84,8 @@ export function BusinessJsonLd() {
           closes: contact.closes,
         },
         sameAs: [instagram?.url, facebook?.url].filter(Boolean),
-        makesOffer: categories.map((c) => ({ '@type': 'Offer', itemOffered: { '@type': 'Product', name: c.name, description: c.description } })),
+        // What the business deals in. Not marked up as Products: Google would then expect a price or rating for each.
+        knowsAbout: categories.map((c) => c.name),
       }}
     />
   )
