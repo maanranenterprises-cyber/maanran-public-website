@@ -1,10 +1,9 @@
 {
-  "_note": "Values marked PLACEHOLDER must be replaced with real company details before launch.",
   "name": "MAANRAN ENTERPRISES",
   "shortName": "MAANRAN",
   "tagline": "Furniture and interiors for homes, offices and institutions",
   "location": "Bengaluru, Karnataka",
-  "description": "MAANRAN ENTERPRISES designs, manufactures and supplies furniture for homes, offices, schools, colleges, libraries, hostels and laboratories, from modular workstations to heavy-duty MS steel bunker cots. (PLACEHOLDER description)",
+  "description": "MAANRAN ENTERPRISES designs, manufactures and supplies furniture for homes, offices, schools, colleges, libraries, hostels and laboratories, from modular workstations to heavy-duty MS steel bunker cots.",
   "experienceStartYear": 2011,
   "logo": "/images/logo-256.png",
   "imagekitUrlEndpoint": "https://ik.imagekit.io/xpl1ftsyg",
@@ -46,20 +45,19 @@
     "phoneDisplay": "+91 98862 77250",
     "whatsapp": "919886277250",
     "email": "info@maanran.com",
-    "_formEndpointNote": "Formspree form that receives the website enquiry form (formspree.io dashboard decides which inbox it emails).",
     "formEndpoint": "https://formspree.io/f/myeekkdp",
     "hours": "Monday to Sunday, 9 AM to 8 PM",
-    "_hoursSchemaNote": "Same hours in 24h form for search engines (Google business info). Keep in step with 'hours'.",
     "opens": "09:00",
-    "closes": "20:00"
+    "closes": "20:00",
+    "_formEndpointNote": "Formspree form that receives the website enquiry form (formspree.io dashboard decides which inbox it emails).",
+    "_hoursSchemaNote": "Same hours in 24h form for search engines (Google business info). Keep in step with 'hours'."
   },
   "address": {
     "lines": [
-      "No 5 K No 11/7, Ground Floor",
+      "No 5, K No 11/7, Ground Floor",
       "Vaderahalli, Vidyaranyapura Post",
       "Bengaluru 560097"
     ],
-    "_partsNote": "The same address split into parts for search engines. Keep in step with 'lines'.",
     "street": "No 5 K No 11/7, Ground Floor, Vaderahalli, Vidyaranyapura Post",
     "locality": "Bengaluru",
     "region": "Karnataka",
@@ -68,9 +66,10 @@
     "latitude": 13.0935621,
     "longitude": 77.537586,
     "mapQuery": "13.0935621,77.537586",
-    "_mapCidNote": "Google Maps listing ID (the hex after ':' in the place link, as a decimal). When set, the map shows the business listing instead of a plain pin.",
     "mapCid": "4407026438068675215",
-    "mapLink": "https://www.google.com/maps/place/Shivam+Seating+Systems+(MaanRan)/@13.093562,77.537586,17z/data=!4m6!3m5!1s0x3bae2300403fc435:0x3d28e7322cd6a28f!8m2!3d13.0935621!4d77.537586!16s%2Fg%2F11wtw22748?hl=en-GB"
+    "mapLink": "https://www.google.com/maps/place/Shivam+Seating+Systems+(MaanRan)/@13.093562,77.537586,17z/data=!4m6!3m5!1s0x3bae2300403fc435:0x3d28e7322cd6a28f!8m2!3d13.0935621!4d77.537586!16s%2Fg%2F11wtw22748?hl=en-GB",
+    "_partsNote": "The same address split into parts for search engines. Keep in step with 'lines'.",
+    "_mapCidNote": "Google Maps listing ID (the hex after ':' in the place link, as a decimal). When set, the map shows the business listing instead of a plain pin."
   },
   "social": [
     {
@@ -90,5 +89,6 @@
       "url": ""
     }
   ],
-  "whatsappMessage": "Hello MAANRAN ENTERPRISES, I would like to enquire about your furniture."
+  "whatsappMessage": "Hello MAANRAN ENTERPRISES, I would like to enquire about your furniture.",
+  "_note": "Values marked PLACEHOLDER must be replaced with real company details before launch."
 }
