@@ -2,7 +2,7 @@
   {
     "id": "s1",
     "label": "Client Satisfaction",
-    "value": 250,
+    "value": 2000,
     "suffix": "+",
     "icon": "smile",
     "order": 1,
@@ -12,7 +12,7 @@
   {
     "id": "s2",
     "label": "Successful Projects",
-    "value": 180,
+    "value": 300,
     "suffix": "+",
     "icon": "briefcase",
     "order": 2,
@@ -32,7 +32,7 @@
   {
     "id": "s4",
     "label": "Happy Customers",
-    "value": 500,
+    "value": 2000,
     "suffix": "+",
     "icon": "heart",
     "order": 4,
