@@ -1,4 +1,4 @@
-import { clients } from '../lib/content'
+import { clients, site } from '../lib/content'
 import { imageUrl } from '../lib/media'
 import SectionHeading from '../components/SectionHeading'
 
@@ -83,7 +83,7 @@ export default function Clients() {
         {bottom.length > 0 && <Marquee items={bottom} />}
       </div>
       <p className="container-x relative mt-10 text-center text-sm font-medium text-muted">
-        <span className="font-extrabold text-ink">{clients.length}+</span> organisations furnished across education, corporate, defence and retail
+        <span className="font-extrabold text-ink">{site.clientsServed}</span> organisations furnished across education, corporate, defence and retail
       </p>
     </section>
   )
