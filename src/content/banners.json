@@ -131,23 +131,6 @@
     "publishUntil": null
   },
   {
-    "id": "b8",
-    "heading": "Executive and conference tables",
-    "subtitle": "Desks and meeting tables in wood and laminate finishes.",
-    "imageDesktop": "/images/banners/office-tables.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Tables",
-        "href": "/products?category=office-tables"
-      }
-    ],
-    "order": 8,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b10",
     "heading": "Steel furniture for every space",
     "subtitle": "Almirahs, lockers and racks for offices and institutions.",
@@ -159,8 +142,25 @@
         "href": "/products?category=steel-furniture"
       }
     ],
-    "order": 9,
+    "order": 8,
     "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b8",
+    "heading": "Executive and conference tables",
+    "subtitle": "Desks and meeting tables in wood and laminate finishes.",
+    "imageDesktop": "/images/banners/office-tables.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Tables",
+        "href": "/products?category=office-tables"
+      }
+    ],
+    "order": 9,
+    "published": false,
     "publishFrom": null,
     "publishUntil": null
   },
