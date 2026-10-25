@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Link, useBlocker, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react'
 import { FileInput, ImageInput, ImagesInput } from './ImageInput'
+import { LinkInput, ObjectsInput, StringsInput } from './ListInputs'
 import { uniqueKey } from './ListPage'
 import { useCollection, useContextData } from './store'
 import { type Context, type FieldDef, type Item, type Section, slugify } from './sections'
@@ -210,11 +211,12 @@ type FieldProps = {
   items: Item[]
   item: Item
   setMany: (fields: Item) => void
-  section: Section
+  // Where uploads go and how suggestion lists are named
+  section: Pick<Section, 'folder' | 'path'>
   locked: boolean
 }
 
-function FieldInput({ field: f, value, error, onChange, ctx, items, item, setMany, section, locked }: FieldProps) {
+export function FieldInput({ field: f, value, error, onChange, ctx, items, item, setMany, section, locked }: FieldProps) {
   const common = { label: f.label, hint: f.hint, error, required: f.required }
   switch (f.type) {
     case 'text':
@@ -261,6 +263,12 @@ function FieldInput({ field: f, value, error, onChange, ctx, items, item, setMan
       return <ImagesInput {...common} value={(value as string[]) ?? []} onChange={onChange} folder={section.folder} contain={f.contain} />
     case 'specs':
       return <SpecsInput {...common} value={(value as Record<string, string>) ?? {}} onChange={onChange} />
+    case 'strings':
+      return <StringsInput {...common} value={(value as string[]) ?? []} onChange={onChange} addLabel={f.addLabel} multiline={f.multiline} placeholder={f.placeholder} />
+    case 'objects':
+      return <ObjectsInput {...common} value={(value as Item[]) ?? []} onChange={onChange} fields={f.fields} addLabel={f.addLabel} fixed={f.fixed} idPrefix={f.idPrefix} newItem={f.newItem} />
+    case 'link':
+      return <LinkInput {...common} value={(value as { label: string; href: string } | null) ?? null} onChange={onChange} optional={f.optional} />
     case 'links':
       return <LinksInput {...common} value={(value as { label: string; href: string }[]) ?? []} onChange={onChange} max={f.max} />
   }

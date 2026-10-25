@@ -1,17 +1,16 @@
 // Admin app: login gate, layout (sidebar + top bar with Publish), dashboard and the section screens.
 import { createContext, useContext, useEffect, useState, type FormEvent } from 'react'
 import { createBrowserRouter, Link, NavLink, Outlet, RouterProvider, useParams } from 'react-router-dom'
-import { BarChart3, Download, ExternalLink, FileText, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Undo2, Users, X } from 'lucide-react'
+import { BadgeCheck, BarChart3, Building2, Download, ExternalLink, FileText, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Type, Undo2, Users, X } from 'lucide-react'
 import { api } from './api'
 import EditPage from './EditPage'
 import ListPage from './ListPage'
-import { sectionByPath, sections } from './sections'
+import { sectionByPath, sections, singleByPath, singles } from './sections'
+import SinglePage from './SinglePage'
 import { DraftsProvider, useDrafts } from './store'
 import { Button, Card, ConfirmHost, confirm, ErrorNotice, Notice, TextInput, toast, ToastHost } from './ui'
 
-const icons = { banners: Images, categories: LayoutGrid, products: Package, clients: Users, stats: BarChart3, testimonials: MessageSquareQuote, interiors: Sofa, downloads: Download } as Record<string, typeof Images>
-// Sections still to come (Phase 3), shown in the menu so editors know where they will be
-const comingSoon = ['Why us', 'About', 'Site settings', 'Page text']
+const icons = { banners: Images, categories: LayoutGrid, products: Package, clients: Users, stats: BarChart3, testimonials: MessageSquareQuote, interiors: Sofa, downloads: Download, 'why-us': BadgeCheck, about: Building2, settings: Settings, 'page-text': Type } as Record<string, typeof Images>
 
 function Login({ onLoggedIn }: { onLoggedIn: (name: string) => void }) {
   const [name, setName] = useState(() => localStorageGet('admin:name'))
@@ -156,12 +155,15 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
               </NavLink>
             )
           })}
-          <p className="mt-4 px-3 text-[11px] font-bold uppercase tracking-wider text-muted">Coming soon</p>
-          {comingSoon.map((label) => (
-            <span key={label} className={`${nav} cursor-not-allowed text-ink/35`}>
-              <Settings className="size-4" /> {label}
-            </span>
-          ))}
+          <p className="mt-4 px-3 text-[11px] font-bold uppercase tracking-wider text-muted">Pages and settings</p>
+          {singles.map((s) => {
+            const Icon = icons[s.path] ?? FileText
+            return (
+              <NavLink key={s.path} to={`/${s.path}`} className={link}>
+                <Icon className="size-4" /> {s.label}
+              </NavLink>
+            )
+          })}
         </nav>
       </aside>
       {open && <div className="fixed inset-0 z-20 bg-ink/40 lg:hidden" onClick={() => setOpen(false)} />}
@@ -263,7 +265,7 @@ function Dashboard({ name }: { name: string }) {
         )}
       </Card>
       <div className="grid gap-3 sm:grid-cols-2">
-        {sections.map((s) => {
+        {[...sections, ...singles.map((s) => ({ ...s, plural: s.label }))].map((s) => {
           const Icon = icons[s.path] ?? FileText
           return (
             <Link key={s.path} to={`/${s.path}`} className="flex items-start gap-3 rounded-2xl border border-line bg-white p-4 transition hover:border-brand/30 hover:shadow-md">
@@ -285,6 +287,8 @@ function Dashboard({ name }: { name: string }) {
 function SectionRoute({ edit }: { edit?: boolean }) {
   const { section: path = '', key } = useParams()
   const section = sectionByPath(path)
+  const single = singleByPath(path)
+  if (single && !edit) return <SinglePage key={path} section={single} />
   if (!section) return <ErrorNotice error={{ message: 'This page does not exist.' }} />
   return edit ? <EditPage key={`${path}-${key}`} section={section} /> : <ListPage key={path} section={section} />
 }

@@ -1,11 +1,14 @@
 // What each admin section edits: its fields, labels and help text. The list and edit screens are built from this.
 import type { z } from 'zod'
-import { bannerSchema, categorySchema, clientSchema, documentSchema, interiorSchema, productSchema, statSchema, testimonialSchema, type CollectionName } from '../lib/schema'
+import { aboutSchema, bannerSchema, categorySchema, clientSchema, documentSchema, interiorSchema, pagesSchema, productSchema, siteSchema, statSchema, testimonialSchema, whyUsSchema, type CollectionName } from '../lib/schema'
 
 export type Item = Record<string, unknown>
 // Other sections' data a form needs, e.g. the category list for the product form
 export type Context = Partial<Record<CollectionName, Item[]>>
 type Option = { value: string; label: string }
+
+// Fields inside each entry of an `objects` list (e.g. a benefit's title and text)
+export type SubField = { key: string; label: string; type: 'text' | 'textarea' | 'toggle' | 'readonly'; placeholder?: string }
 
 export type FieldDef = { key: string; label: string; hint?: string; required?: boolean } & (
   // `suggestions` offers values already used in this section (e.g. interior types) so spelling stays consistent
@@ -20,6 +23,12 @@ export type FieldDef = { key: string; label: string; hint?: string; required?: b
   | { type: 'links'; max: number }
   // A downloadable file (PDF); `details` lists extra fields filled in from the upload, e.g. file type and size
   | { type: 'file'; accept: string; details?: { typeKey: string; sizeKey: string } }
+  // A list of plain texts, e.g. paragraphs or bullet points
+  | { type: 'strings'; addLabel: string; multiline?: boolean; placeholder?: string }
+  // A list of small records, e.g. benefits or menu items. `fixed` lists can be edited and reordered but not added to
+  | { type: 'objects'; fields: SubField[]; addLabel?: string; fixed?: boolean; idPrefix?: string; newItem?: () => Item }
+  // One button: text + link. `optional` adds a switch to show it or not (stored as null when off)
+  | { type: 'link'; optional?: boolean }
 )
 
 export type Section = {
@@ -273,3 +282,264 @@ export const slugify = (s: string) =>
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
+
+// Sections that are one page of settings rather than a list. Field keys can be paths such as "contact.phone".
+export type SingleSection = {
+  name: CollectionName
+  path: string
+  label: string
+  description: string
+  folder: string
+  schema: z.ZodType
+  groups: { title: string; description?: string; fields: FieldDef[] }[]
+}
+
+const heading = (base: string, what: string): FieldDef[] => [
+  { key: `${base}.eyebrow`, label: 'Small heading', type: 'text', hint: `The short line in red above the ${what} title.` },
+  { key: `${base}.title`, label: 'Title', type: 'text', required: true },
+  { key: `${base}.text`, label: 'Intro text', type: 'textarea' },
+]
+
+const legal = (base: string): FieldDef[] => [
+  { key: `${base}.title`, label: 'Page title', type: 'text', required: true },
+  {
+    key: `${base}.sections`,
+    label: 'Sections',
+    type: 'objects',
+    addLabel: 'Add section',
+    hint: 'You can write {company}, {email} or {phone} and the current details are filled in.',
+    fields: [
+      { key: 'heading', label: 'Heading', type: 'text' },
+      { key: 'body', label: 'Text', type: 'textarea' },
+    ],
+    newItem: () => ({ heading: '', body: '' }),
+  },
+]
+
+export const singles: SingleSection[] = [
+  {
+    name: 'whyUs',
+    path: 'why-us',
+    label: 'Why us',
+    description: 'The "Why Choose Us" section on the home and About pages.',
+    folder: 'why-us',
+    schema: whyUsSchema,
+    groups: [
+      {
+        title: 'Text',
+        fields: [
+          { key: 'visible', label: 'Show this section', type: 'toggle' },
+          { key: 'eyebrow', label: 'Small heading', type: 'text', hint: 'The short line in red above the title.' },
+          { key: 'heading', label: 'Title', type: 'text', required: true },
+          { key: 'description', label: 'Intro text', type: 'textarea' },
+          { key: 'cta', label: 'Button', type: 'link', optional: true },
+        ],
+      },
+      {
+        title: 'Benefits',
+        fields: [
+          {
+            key: 'benefits',
+            label: 'Benefit points',
+            type: 'objects',
+            addLabel: 'Add benefit',
+            idPrefix: 'w',
+            fields: [
+              { key: 'title', label: 'Title', type: 'text' },
+              { key: 'text', label: 'Text', type: 'textarea' },
+            ],
+            newItem: () => ({ title: '', text: '' }),
+          },
+        ],
+      },
+      {
+        title: 'Photos and badge',
+        fields: [
+          { key: 'images', label: 'Photos', type: 'images', hint: 'The first two are used: a tall main photo and a smaller square one.' },
+          { key: 'badge.value', label: 'Badge number', type: 'text', placeholder: '100%', hint: 'The blue box under the photos. Leave empty to hide it.' },
+          { key: 'badge.label', label: 'Badge text', type: 'text' },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'about',
+    path: 'about',
+    label: 'About',
+    description: 'The About section on the home page and the About page.',
+    folder: 'about',
+    schema: aboutSchema,
+    groups: [
+      {
+        title: 'Text',
+        fields: [
+          { key: 'visible', label: 'Show the About section on the home page', type: 'toggle' },
+          { key: 'eyebrow', label: 'Small heading', type: 'text' },
+          { key: 'heading', label: 'Title', type: 'text', required: true },
+          { key: 'intro', label: 'Intro', type: 'textarea', hint: 'Also used as the About page description in Google results.' },
+          { key: 'body', label: 'More paragraphs', type: 'strings', multiline: true, addLabel: 'Add paragraph', hint: 'The home page shows the first one; the About page shows them all.' },
+          { key: 'expertise', label: 'Expertise points', type: 'strings', addLabel: 'Add point', placeholder: 'e.g. Steel furniture fabrication' },
+          { key: 'cta', label: 'Button on the home page', type: 'link' },
+        ],
+      },
+      {
+        title: 'Mission and vision',
+        fields: [
+          { key: 'mission', label: 'Our mission', type: 'textarea' },
+          { key: 'vision', label: 'Our vision', type: 'textarea' },
+        ],
+      },
+      { title: 'Photos', fields: [{ key: 'images', label: 'Photos', type: 'images', hint: 'The home page uses the first two; the About page shows all of them.' }] },
+    ],
+  },
+  {
+    name: 'site',
+    path: 'settings',
+    label: 'Site settings',
+    description: 'Company details, contact information, address, social links and the menu.',
+    folder: 'site',
+    schema: siteSchema,
+    groups: [
+      {
+        title: 'Company',
+        fields: [
+          { key: 'name', label: 'Company name', type: 'text', required: true },
+          { key: 'tagline', label: 'Tagline', type: 'text', hint: 'Shown in the footer and under the About page title.' },
+          { key: 'description', label: 'Description', type: 'textarea', hint: 'Used in Google results for the home page and when the site is shared.' },
+          { key: 'location', label: 'Location shown on banners', type: 'text', placeholder: 'Bengaluru, Karnataka' },
+          { key: 'experienceStartYear', label: 'Year started', type: 'number', min: 1900, max: 2100, hint: 'The "Years of Experience" number is worked out from this.' },
+        ],
+      },
+      {
+        title: 'Contact',
+        fields: [
+          { key: 'contact.phoneDisplay', label: 'Phone (as shown)', type: 'text', required: true, placeholder: '+91 98862 77250' },
+          { key: 'contact.phone', label: 'Phone (for the call button)', type: 'text', required: true, placeholder: '+919886277250', hint: 'With country code and no spaces.' },
+          { key: 'contact.whatsapp', label: 'WhatsApp number', type: 'text', placeholder: '919886277250', hint: 'Digits only, with country code, no + or spaces.' },
+          { key: 'whatsappMessage', label: 'WhatsApp starting message', type: 'textarea', hint: 'Pre-filled when a visitor taps a WhatsApp button.' },
+          { key: 'contact.email', label: 'Email', type: 'text', required: true },
+          { key: 'contact.hours', label: 'Business hours (as shown)', type: 'text', placeholder: 'Monday to Sunday, 9 AM to 8 PM' },
+          { key: 'contact.opens', label: 'Opens at (for Google)', type: 'text', placeholder: '09:00', hint: '24-hour time. Keep in step with the hours above.' },
+          { key: 'contact.closes', label: 'Closes at (for Google)', type: 'text', placeholder: '20:00' },
+          { key: 'contact.formEndpoint', label: 'Enquiry form address (Formspree)', type: 'text', hint: 'Where the website enquiry form sends to, e.g. https://formspree.io/f/…' },
+        ],
+      },
+      {
+        title: 'Address and map',
+        fields: [
+          { key: 'address.lines', label: 'Address as shown', type: 'strings', addLabel: 'Add line' },
+          { key: 'address.street', label: 'Street (for Google)', type: 'text' },
+          { key: 'address.locality', label: 'City', type: 'text' },
+          { key: 'address.region', label: 'State', type: 'text' },
+          { key: 'address.postalCode', label: 'PIN code', type: 'text' },
+          { key: 'address.latitude', label: 'Map latitude', type: 'number' },
+          { key: 'address.longitude', label: 'Map longitude', type: 'number' },
+          { key: 'address.mapLink', label: 'Google Maps link', type: 'text', hint: 'Used for the "Get directions" link.' },
+          { key: 'address.mapCid', label: 'Google Maps listing ID', type: 'text', hint: 'Shows your business listing on the footer map. Ask your developer if you need to change it.' },
+        ],
+      },
+      {
+        title: 'Social links',
+        fields: [
+          {
+            key: 'social',
+            label: 'Profiles',
+            type: 'objects',
+            fixed: true,
+            hint: 'Leave a link empty to grey out that icon.',
+            fields: [
+              { key: 'type', label: 'Network', type: 'readonly' },
+              { key: 'url', label: 'Link', type: 'text', placeholder: 'https://' },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Menu',
+        fields: [
+          {
+            key: 'navigation',
+            label: 'Menu items',
+            type: 'objects',
+            fixed: true,
+            hint: 'Rename, reorder or hide menu items. The page each one opens is fixed.',
+            fields: [
+              { key: 'label', label: 'Text', type: 'text' },
+              { key: 'href', label: 'Opens', type: 'readonly' },
+              { key: 'visible', label: 'Show in menu', type: 'toggle' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'pages',
+    path: 'page-text',
+    label: 'Page text',
+    description: 'Headings and text across the website, the footer and the legal pages.',
+    folder: 'pages',
+    schema: pagesSchema,
+    groups: [
+      { title: 'Home: Products section', fields: heading('home.products', 'products') },
+      {
+        title: 'Home: Clients section',
+        fields: [
+          ...heading('home.clients', 'clients'),
+          { key: 'home.clients.count', label: 'Client count', type: 'text', placeholder: '50+' },
+          { key: 'home.clients.countText', label: 'Text after the count', type: 'text' },
+        ],
+      },
+      { title: 'Home: Testimonials section', fields: heading('home.testimonials', 'testimonials') },
+      { title: 'Home: Downloads section', fields: heading('home.downloads', 'downloads') },
+      {
+        title: 'Products page',
+        fields: [
+          { key: 'products.title', label: 'Title', type: 'text', required: true },
+          { key: 'products.text', label: 'Text', type: 'textarea' },
+          { key: 'products.image', label: 'Header image', type: 'image' },
+        ],
+      },
+      {
+        title: 'Interiors page',
+        fields: [
+          { key: 'interiors.title', label: 'Title', type: 'text', required: true },
+          { key: 'interiors.text', label: 'Text', type: 'textarea' },
+          { key: 'interiors.image', label: 'Header image', type: 'image' },
+          { key: 'interiors.instagramTitle', label: 'Instagram banner title', type: 'text' },
+          { key: 'interiors.instagramText', label: 'Instagram banner text', type: 'textarea' },
+          { key: 'interiors.ctaTitle', label: 'Enquiry box title', type: 'text' },
+          { key: 'interiors.ctaText', label: 'Enquiry box text', type: 'textarea' },
+        ],
+      },
+      {
+        title: 'Contact page',
+        fields: [
+          { key: 'contact.title', label: 'Title', type: 'text', required: true },
+          { key: 'contact.text', label: 'Text', type: 'textarea' },
+          { key: 'contact.detailsTitle', label: 'Contact details heading', type: 'text' },
+          { key: 'contact.formEyebrow', label: 'Form small heading', type: 'text' },
+          { key: 'contact.formTitle', label: 'Form title', type: 'text' },
+        ],
+      },
+      { title: 'About page', fields: [{ key: 'about.image', label: 'Header image', type: 'image' }] },
+      {
+        title: 'Footer',
+        fields: [
+          { key: 'footer.ctaTitle', label: 'Call-to-action title', type: 'text' },
+          { key: 'footer.ctaText', label: 'Call-to-action text', type: 'textarea' },
+          { key: 'footer.ctaButton', label: 'Call-to-action button', type: 'text' },
+          { key: 'footer.blurb', label: 'Text under the logo', type: 'textarea' },
+        ],
+      },
+      {
+        title: 'Privacy and terms pages',
+        fields: [{ key: 'legal.note', label: 'Notice at the top of both pages', type: 'text', hint: 'Leave empty to remove the "placeholder text" notice.' }],
+      },
+      { title: 'Privacy policy', fields: legal('legal.privacy') },
+      { title: 'Terms & conditions', fields: legal('legal.terms') },
+    ],
+  },
+]
+
+export const singleByPath = (path: string) => singles.find((s) => s.path === path)
