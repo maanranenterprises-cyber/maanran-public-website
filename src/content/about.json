@@ -2,10 +2,10 @@
   "visible": true,
   "eyebrow": "About Us",
   "heading": "Furniture and interiors you can rely on",
-  "intro": "MAANRAN ENTERPRISES is a furniture and interiors company serving homes, offices and institutions. (PLACEHOLDER)",
+  "intro": "MAANRAN ENTERPRISES is a furniture and interiors company serving homes, offices and institutions.",
   "body": [
-    "We design, manufacture and install office workstations, chairs, tables and storage, along with institutional furniture for schools, colleges, libraries, hostels and laboratories. (PLACEHOLDER)",
-    "Our in-house steel fabrication covers almirahs, lockers, racks and heavy-duty MS bunker cots, so we can deliver large orders on time and to specification. (PLACEHOLDER)"
+    "We design, manufacture and install office workstations, chairs, tables and storage, along with institutional furniture for schools, colleges, libraries, hostels and laboratories.",
+    "Our in-house steel fabrication covers almirahs, lockers, racks and heavy-duty MS bunker cots, so we can deliver large orders on time and to specification."
   ],
   "expertise": [
     "Office interiors and modular furniture",
@@ -22,6 +22,6 @@
     "label": "About Us",
     "href": "/about"
   },
-  "mission": "To furnish every workspace, classroom and home with furniture that is practical, durable and fairly priced. (PLACEHOLDER)",
-  "vision": "To be the most trusted furniture partner for businesses and institutions in our region. (PLACEHOLDER)"
+  "mission": "To furnish every workspace, classroom and home with furniture that is practical, durable and fairly priced.",
+  "vision": "To be the most trusted furniture partner for businesses and institutions in our region."
 }
