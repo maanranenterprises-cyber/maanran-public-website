@@ -1,7 +1,6 @@
 {
-  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json. \"sections\" switches whole home-page sections on or off.",
   "sections": {
-    "hero": true,
+    "hero": false,
     "products": true,
     "clients": true,
     "stats": true,
@@ -106,5 +105,6 @@
         }
       ]
     }
-  }
+  },
+  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json. \"sections\" switches whole home-page sections on or off."
 }
