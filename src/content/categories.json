@@ -108,5 +108,15 @@
     "image": "/images/banners/ms-steel-bunker-cots.webp",
     "order": 11,
     "published": true
+  },
+  {
+    "slug": "sofas",
+    "name": "Sofas",
+    "codePrefix": "S",
+    "codeCounter": 0,
+    "description": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
+    "image": "/maanran/categories/sofa-banner_aAFrj2EEF.jpg",
+    "order": 12,
+    "published": true
   }
 ]
