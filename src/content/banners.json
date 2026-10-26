@@ -80,6 +80,23 @@
     "publishUntil": null
   },
   {
+    "id": "b-bybbvu",
+    "heading": "Sofas",
+    "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
+    "imageDesktop": "/maanran/banners/sofa-banner_6GKH3yDY2.jpg",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Sofas",
+        "href": "/products?category=sofas"
+      }
+    ],
+    "order": 5,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
     "id": "b5",
     "heading": "Furniture for schools and colleges",
     "subtitle": "Desk benches and lecture seating built for years of daily use.",
@@ -91,7 +108,7 @@
         "href": "/products?category=school-college-desk-benches"
       }
     ],
-    "order": 5,
+    "order": 6,
     "published": true,
     "publishFrom": null,
     "publishUntil": null
@@ -108,7 +125,7 @@
         "href": "/products?category=hostel-pg-furniture"
       }
     ],
-    "order": 6,
+    "order": 7,
     "published": true,
     "publishFrom": null,
     "publishUntil": null
@@ -125,7 +142,7 @@
         "href": "/products?category=ms-steel-bunker-cots"
       }
     ],
-    "order": 7,
+    "order": 8,
     "published": true,
     "publishFrom": null,
     "publishUntil": null
@@ -142,7 +159,7 @@
         "href": "/products?category=steel-furniture"
       }
     ],
-    "order": 8,
+    "order": 9,
     "published": true,
     "publishFrom": null,
     "publishUntil": null
@@ -159,7 +176,7 @@
         "href": "/products?category=office-tables"
       }
     ],
-    "order": 9,
+    "order": 10,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
@@ -176,7 +193,7 @@
         "href": "/products?category=office-wooden-storage"
       }
     ],
-    "order": 10,
+    "order": 11,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
@@ -193,7 +210,7 @@
         "href": "/products?category=cafeteria-furniture"
       }
     ],
-    "order": 11,
+    "order": 12,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
@@ -210,7 +227,7 @@
         "href": "/products?category=library-furniture"
       }
     ],
-    "order": 12,
+    "order": 13,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
@@ -227,7 +244,7 @@
         "href": "/products?category=lab-furniture"
       }
     ],
-    "order": 13,
+    "order": 14,
     "published": false,
     "publishFrom": null,
     "publishUntil": null
