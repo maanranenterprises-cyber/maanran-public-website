@@ -182,23 +182,6 @@
     "publishUntil": null
   },
   {
-    "id": "b11",
-    "heading": "Cafeteria furniture",
-    "subtitle": "Tables and chairs for canteens, food courts and break rooms.",
-    "imageDesktop": "/images/banners/cafeteria-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Cafeteria Furniture",
-        "href": "/products?category=cafeteria-furniture"
-      }
-    ],
-    "order": 11,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -210,8 +193,25 @@
         "href": "/products?category=sofas"
       }
     ],
-    "order": 12,
+    "order": 11,
     "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b11",
+    "heading": "Cafeteria furniture",
+    "subtitle": "Tables and chairs for canteens, food courts and break rooms.",
+    "imageDesktop": "/images/banners/cafeteria-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Cafeteria Furniture",
+        "href": "/products?category=cafeteria-furniture"
+      }
+    ],
+    "order": 12,
+    "published": false,
     "publishFrom": null,
     "publishUntil": null
   },
