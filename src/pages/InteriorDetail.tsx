@@ -23,7 +23,7 @@ export default function InteriorDetail() {
   const where = [project.type, project.city].filter(Boolean).join(' · ')
   // Same type first, then the rest, newest order kept
   const more = [...interiors.filter((p) => p.id !== project.id && p.type === project.type), ...interiors.filter((p) => p.id !== project.id && p.type !== project.type)].slice(0, 3)
-  const enquire = () => openEnquiry(`Interior project like "${project.title}"`)
+  const enquire = () => openEnquiry(`Interior project like "${project.title}"`, 'Home & Office Interiors')
   const [main, ...rest] = photos
 
   return (

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { X } from 'lucide-react'
 import EnquiryForm from './EnquiryForm'
 
-export default function EnquiryModal({ open, product, onClose }: { open: boolean; product?: string; onClose: () => void }) {
+export default function EnquiryModal({ open, product, interest, onClose }: { open: boolean; product?: string; interest?: string; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function EnquiryModal({ open, product, onClose }: { open: boolean
         <p className="eyebrow">Get Enquiry</p>
         <h2 id="enquiry-title" className="mt-1 text-2xl font-extrabold tracking-tight">Tell us what you need</h2>
         <p className="mt-1 text-sm text-muted">We usually reply within one working day.</p>
-        <div className="mt-6">{open && <EnquiryForm product={product} onDone={onClose} />}</div>
+        <div className="mt-6">{open && <EnquiryForm product={product} interest={interest} onDone={onClose} />}</div>
       </div>
     </dialog>
   )

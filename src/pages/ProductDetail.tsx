@@ -79,7 +79,7 @@ export default function ProductDetail() {
               </dl>
             )}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <button onClick={() => openEnquiry(`${product.name} (${product.code})`)} className="btn-primary flex-1 py-3">
+              <button onClick={() => openEnquiry(`${product.name} (${product.code})`, categoryName(product.category))} className="btn-primary flex-1 py-3">
                 <MessageSquareText className="size-4" /> Enquire About This Product
               </button>
               <a href={whatsappLink(`Hello ${site.name}, I am interested in ${product.name} (product code ${product.code}).`)} target="_blank" rel="noopener" className="btn flex-1 bg-[#25D366] py-3 text-white hover:bg-[#1ebe5b]">

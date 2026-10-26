@@ -87,7 +87,7 @@ async function saveToInbox(v: Values, channel: 'form' | 'whatsapp', product: str
 
 // "Send Enquiry" stores the enquiry for the admin and emails the company (either is enough);
 // "Send on WhatsApp" records it, then opens WhatsApp with the message pre-filled.
-export default function EnquiryForm({ product, onDone }: { product?: string; onDone?: () => void }) {
+export default function EnquiryForm({ product, interest, onDone }: { product?: string; interest?: string; onDone?: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [errorReason, setErrorReason] = useState('')
   const [startedAt] = useState(() => Date.now())
@@ -97,7 +97,7 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
     getValues,
     trigger,
     formState: { errors },
-  } = useForm<Values>({ defaultValues: { category: '' } })
+  } = useForm<Values>({ defaultValues: { category: interest && interestOptions.includes(interest) ? interest : '' } })
 
   const sendWhatsApp = async () => {
     if (!(await trigger(['name', 'phone', 'email']))) return

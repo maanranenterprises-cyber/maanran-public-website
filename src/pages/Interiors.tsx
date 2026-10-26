@@ -60,7 +60,7 @@ export default function Interiors() {
           <div className="mt-8 flex flex-col items-center gap-4 rounded-3xl bg-soft px-6 py-10 text-center">
             <h2 className="h2">{pages.interiors.ctaTitle}</h2>
             <p className="max-w-xl text-muted">{pages.interiors.ctaText}</p>
-            <button onClick={() => openEnquiry('Home & Office Interiors')} className="btn-primary px-6 py-3">Get Enquiry</button>
+            <button onClick={() => openEnquiry(undefined, 'Home & Office Interiors')} className="btn-primary px-6 py-3">Get Enquiry</button>
           </div>
         </div>
       </section>
