@@ -58,7 +58,7 @@ The admin is at **/admin** (`admin.html` + `src/admin/`). It edits the files in 
 
 **Trying it locally:** run `npm run dev`, open http://localhost:5173/admin, and log in with any name and the password `admin`. In development, `scripts/dev-api.ts` runs the real `api/` functions against an in-memory copy of the content. Nothing is written to disk, GitHub or ImageKit, and everything resets when the dev server restarts.
 
-- **Login**: one shared password. The login form also asks for the editor's name, which is recorded on every change. A signed cookie keeps the editor logged in for 7 days.
+- **Login**: one shared password. The login form also asks for the editor's name, which is recorded on every change. A signed cookie keeps the editor logged in for 1 day.
 - **Drafts**: saves go to the `drafts` branch. Vercel does not build it (`git.deploymentEnabled` in `vercel.json`), so saves don't use up deployments. **Publish** merges `drafts` into `main`, and Vercel then rebuilds the live site in about 1–2 minutes. **Discard** resets `drafts` to `main`.
 - **Feedback privacy**: testimonials awaiting review are removed from the public build (`stripPendingFeedback` in `vite.config.ts`); the admin reads them through the API.
 - **Checks**: every save is checked against the rules in `src/lib/schema.ts` (for example, required fields, valid links, and products that point to a real category). The build runs the same checks, so broken content never goes live.

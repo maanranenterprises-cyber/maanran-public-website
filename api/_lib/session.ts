@@ -4,7 +4,7 @@ import { createHash, createHmac, timingSafeEqual } from 'node:crypto'
 import { env, HttpError } from './http.js'
 
 const COOKIE = 'maanran_admin'
-const MAX_AGE = 7 * 24 * 60 * 60 // seconds
+const MAX_AGE = 24 * 60 * 60 // seconds: logins last 1 day
 
 export type Session = { name: string; exp: number }
 
@@ -39,7 +39,9 @@ export function readSession(request: Request): Session | null {
   if (expected.length !== given.length || !timingSafeEqual(expected, given)) return null
   try {
     const session = JSON.parse(Buffer.from(payload, 'base64url').toString()) as Session
-    return session.exp > Date.now() / 1000 && typeof session.name === 'string' ? session : null
+    const now = Date.now() / 1000
+    // Also refuses logins issued under an earlier, longer limit (their expiry is further away than MAX_AGE)
+    return session.exp > now && session.exp - now <= MAX_AGE + 60 && typeof session.name === 'string' ? session : null
   } catch {
     return null
   }

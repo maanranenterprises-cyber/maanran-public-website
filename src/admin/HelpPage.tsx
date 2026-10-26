@@ -118,7 +118,7 @@ export default function HelpPage() {
             <strong>"The website hasn't updated"</strong> in the top bar: the update is taking far longer than usual. Contact your developer.
           </li>
           <li>
-            <strong>"Please log in again"</strong>: you were logged out (after 7 days, or when the password changed). Log in and carry on; saved changes are not lost.
+            <strong>"Please log in again"</strong>: you were logged out (logins last 1 day, or the password changed). Log in and carry on; saved changes are not lost.
           </li>
         </ul>
       </Topic>
