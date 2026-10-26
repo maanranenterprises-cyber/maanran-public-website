@@ -43,7 +43,7 @@ async function sendEmail(v: Values, product?: string): Promise<string | null> {
       _subject: `New website enquiry${product ? `: ${product}` : ''}`,
       name: v.name,
       phone: v.phone,
-      email: v.email || undefined,
+      email: v.email,
       city: v.city || undefined,
       product: product || undefined,
       'interested in': v.category || undefined,
@@ -69,7 +69,7 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
   } = useForm<Values>({ defaultValues: { category: '' } })
 
   const sendWhatsApp = async () => {
-    if (!(await trigger(['name', 'phone']))) return
+    if (!(await trigger(['name', 'phone', 'email']))) return
     window.open(whatsappLink(toText(getValues(), product)), '_blank', 'noopener')
   }
 
@@ -129,12 +129,15 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
         {err(errors.phone?.message)}
       </label>
       <label className="block text-sm font-medium">
-        Email
+        Email *
         <input
           className="field mt-1"
           type="email"
           autoComplete="email"
-          {...register('email', { pattern: { value: /^\S+@\S+\.\S+$/, message: 'Please enter a valid email' } })}
+          {...register('email', {
+            required: 'Please enter your email',
+            pattern: { value: /^\S+@\S+\.\S+$/, message: 'Please enter a valid email' },
+          })}
         />
         {err(errors.email?.message)}
       </label>
