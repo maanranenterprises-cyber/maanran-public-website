@@ -4,7 +4,7 @@
     "products": true,
     "clients": true,
     "stats": true,
-    "testimonials": true,
+    "testimonials": false,
     "downloads": false
   },
   "home": {
@@ -54,6 +54,11 @@
   },
   "about": {
     "image": "/images/banners/office-workstations.webp"
+  },
+  "feedback": {
+    "title": "Share your feedback",
+    "text": "Tell us how your furniture or interior project went. With your permission, we may show your feedback on our website.",
+    "thanks": "Thank you! Your feedback has reached us and will appear on the website after a quick review."
   },
   "footer": {
     "ctaTitle": "Start Your Project",
@@ -106,10 +111,5 @@
       ]
     }
   },
-  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json. \"sections\" switches whole home-page sections on or off.",
-  "feedback": {
-    "title": "Share your feedback",
-    "text": "Tell us how your furniture or interior project went. With your permission, we may show your feedback on our website.",
-    "thanks": "Thank you! Your feedback has reached us and will appear on the website after a quick review."
-  }
+  "_note": "Headings and text for page sections. In the legal pages, {company}, {email} and {phone} are replaced with the values from site.json. \"sections\" switches whole home-page sections on or off."
 }
