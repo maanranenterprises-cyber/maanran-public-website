@@ -114,23 +114,6 @@
     "publishUntil": null
   },
   {
-    "id": "b7",
-    "heading": "MS steel bunker cots, built strong",
-    "subtitle": "Powder-coated bunk cots with storage for hostels and labour camps.",
-    "imageDesktop": "/images/banners/ms-steel-bunker-cots.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Bunker Cots",
-        "href": "/products?category=ms-steel-bunker-cots"
-      }
-    ],
-    "order": 7,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -140,6 +123,23 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      }
+    ],
+    "order": 7,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b7",
+    "heading": "MS steel bunker cots, built strong",
+    "subtitle": "Powder-coated bunk cots with storage for hostels and labour camps.",
+    "imageDesktop": "/images/banners/ms-steel-bunker-cots.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Bunker Cots",
+        "href": "/products?category=ms-steel-bunker-cots"
       }
     ],
     "order": 8,
