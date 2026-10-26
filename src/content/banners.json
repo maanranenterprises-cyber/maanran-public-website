@@ -80,23 +80,6 @@
     "publishUntil": null
   },
   {
-    "id": "b5",
-    "heading": "Furniture for schools and colleges",
-    "subtitle": "Desk benches and lecture seating built for years of daily use.",
-    "imageDesktop": "/images/banners/school-college-desk-benches.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Desk Benches",
-        "href": "/products?category=school-college-desk-benches"
-      }
-    ],
-    "order": 5,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -106,6 +89,23 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      }
+    ],
+    "order": 5,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b5",
+    "heading": "Furniture for schools and colleges",
+    "subtitle": "Desk benches and lecture seating built for years of daily use.",
+    "imageDesktop": "/images/banners/school-college-desk-benches.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Desk Benches",
+        "href": "/products?category=school-college-desk-benches"
       }
     ],
     "order": 6,
