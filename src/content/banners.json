@@ -97,23 +97,6 @@
     "publishUntil": null
   },
   {
-    "id": "b6",
-    "heading": "Hostel and PG furniture",
-    "subtitle": "Cots, lockers, study tables and wardrobes that make every room count.",
-    "imageDesktop": "/images/banners/hostel-pg-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Hostel Furniture",
-        "href": "/products?category=hostel-pg-furniture"
-      }
-    ],
-    "order": 6,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -123,6 +106,23 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      }
+    ],
+    "order": 6,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b6",
+    "heading": "Hostel and PG furniture",
+    "subtitle": "Cots, lockers, study tables and wardrobes that make every room count.",
+    "imageDesktop": "/images/banners/hostel-pg-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Hostel Furniture",
+        "href": "/products?category=hostel-pg-furniture"
       }
     ],
     "order": 7,
