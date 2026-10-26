@@ -42,7 +42,7 @@ function toCsv(list: Enquiry[]) {
 }
 
 export default function EnquiriesPage() {
-  const { refreshEnquiries } = useDrafts()
+  const { refreshEnquiries, enquiries: newCount } = useDrafts()
   const [data, setData] = useState<{ enquiries: Enquiry[]; counts: Record<EnquiryStatus, number> } | null>(null)
   const [error, setError] = useState<unknown>(null)
   const [tab, setTab] = useState<EnquiryStatus | 'all'>('new')
@@ -56,11 +56,16 @@ export default function EnquiriesPage() {
       setError(e)
     }
   }, [])
+  // The menu badge and this list share one source of truth: whenever the new-enquiry count changes
+  // (it is checked every minute), the list reloads too, so a "1 new" badge never shows an out-of-date list.
   useEffect(() => {
     load()
-    const t = window.setInterval(load, 60_000)
-    return () => window.clearInterval(t)
-  }, [load])
+  }, [load, newCount])
+  useEffect(() => {
+    const onVisible = () => document.visibilityState === 'visible' && (load(), refreshEnquiries())
+    document.addEventListener('visibilitychange', onVisible)
+    return () => document.removeEventListener('visibilitychange', onVisible)
+  }, [load, refreshEnquiries])
 
   const shown = useMemo(() => {
     const list = (data?.enquiries ?? []).filter((e) => tab === 'all' || e.status === tab)
