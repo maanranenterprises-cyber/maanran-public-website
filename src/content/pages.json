@@ -1,7 +1,7 @@
 {
   "sections": {
     "hero": true,
-    "products": true,
+    "products": false,
     "clients": true,
     "stats": true,
     "testimonials": false,
