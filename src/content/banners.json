@@ -216,23 +216,6 @@
     "publishUntil": null
   },
   {
-    "id": "b13",
-    "heading": "Laboratory furniture",
-    "subtitle": "Lab workbenches, storage and stools for schools and research labs.",
-    "imageDesktop": "/images/banners/lab-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Lab Furniture",
-        "href": "/products?category=lab-furniture"
-      }
-    ],
-    "order": 13,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -244,8 +227,25 @@
         "href": "/products?category=sofas"
       }
     ],
-    "order": 14,
+    "order": 13,
     "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b13",
+    "heading": "Laboratory furniture",
+    "subtitle": "Lab workbenches, storage and stools for schools and research labs.",
+    "imageDesktop": "/images/banners/lab-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Lab Furniture",
+        "href": "/products?category=lab-furniture"
+      }
+    ],
+    "order": 14,
+    "published": false,
     "publishFrom": null,
     "publishUntil": null
   }
