@@ -148,23 +148,6 @@
     "publishUntil": null
   },
   {
-    "id": "b-bybbvu",
-    "heading": "Sofas",
-    "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
-    "imageDesktop": "/maanran/banners/sofa-banner_6GKH3yDY2.jpg",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Sofas",
-        "href": "/products?category=sofas"
-      }
-    ],
-    "order": 9,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b8",
     "heading": "Executive and conference tables",
     "subtitle": "Desks and meeting tables in wood and laminate finishes.",
@@ -176,8 +159,25 @@
         "href": "/products?category=office-tables"
       }
     ],
-    "order": 10,
+    "order": 9,
     "published": false,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b-bybbvu",
+    "heading": "Sofas",
+    "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
+    "imageDesktop": "/maanran/banners/sofa-banner_6GKH3yDY2.jpg",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Sofas",
+        "href": "/products?category=sofas"
+      }
+    ],
+    "order": 10,
+    "published": true,
     "publishFrom": null,
     "publishUntil": null
   },
