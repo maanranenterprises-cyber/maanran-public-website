@@ -1,4 +1,6 @@
 import { useEffect, useRef } from 'react'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Outlet, useLocation, useNavigationType } from 'react-router-dom'
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -43,6 +45,9 @@ export default function Layout() {
       <WhatsAppButton />
       <SplashIntro />
       <BusinessJsonLd />
+      {/* Vercel Web Analytics (visitors, pages, sources; no cookies) and Speed Insights. Public site only, not the admin */}
+      <Analytics />
+      <SpeedInsights />
     </EnquiryProvider>
   )
 }
