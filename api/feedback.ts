@@ -3,28 +3,12 @@
 // Contact details are not taken here: the page emails them to the company separately, so they never reach the public repository.
 import { collections } from '../src/lib/schema.js'
 import { prepareDrafts, readContent, writeContent } from './_lib/github.js'
+import { clean, looksLikeBot, rateLimiter, visitorIp } from './_lib/guard.js'
 import { handle, HttpError, json, readJson, requireSameOrigin } from './_lib/http.js'
 
-const MIN_FILL_MS = 3000
 const MAX_PENDING = 30
-const PER_HOUR = 3
 const LIMITS = { name: [2, 60], designation: [0, 80], text: [10, 800] } as const
-
-// Per visitor (IP) counts. Kept in memory, so it is per server instance: a speed bump, not a hard guarantee
-const recent = new Map<string, number[]>()
-function tooMany(ip: string) {
-  const hourAgo = Date.now() - 3600_000
-  const times = (recent.get(ip) ?? []).filter((t) => t > hourAgo)
-  recent.set(ip, times)
-  return times.length >= PER_HOUR
-}
-
-const clean = (v: unknown, [min, max]: readonly [number, number], label: string) => {
-  const s = typeof v === 'string' ? v.replace(/\s+/g, ' ').trim() : ''
-  if (s.length < min) throw new HttpError(400, min > 2 ? `Please write at least ${min} characters for ${label}.` : `Please enter your ${label}.`)
-  if (s.length > max) throw new HttpError(400, `Please keep ${label} under ${max} characters.`)
-  return s
-}
+const limiter = rateLimiter(3)
 
 type Testimonial = { id: string; order: number; pending?: boolean }
 
@@ -32,12 +16,11 @@ export function POST(request: Request) {
   return handle(async () => {
     requireSameOrigin(request)
     const body = await readJson<Record<string, unknown>>(request)
-    const ip = request.headers.get('x-forwarded-for')?.split(',')[0].trim() || 'unknown'
+    const ip = visitorIp(request)
 
-    // Bots fill hidden fields and submit instantly; reply as if it worked so they learn nothing
-    const startedAt = Number(body.startedAt)
-    if (body.website || !Number.isFinite(startedAt) || Date.now() - startedAt < MIN_FILL_MS) return json({ ok: true })
-    if (tooMany(ip)) throw new HttpError(429, 'Thank you! We already have your feedback. Please try again later if you want to send more.')
+    // Bots get the same reply as people, so they learn nothing
+    if (looksLikeBot(body)) return json({ ok: true })
+    if (limiter.tooMany(ip)) throw new HttpError(429, 'Thank you! We already have your feedback. Please try again later if you want to send more.')
 
     const name = clean(body.name, LIMITS.name, 'name')
     const designation = clean(body.designation ?? '', LIMITS.designation, 'role and company')
@@ -66,7 +49,7 @@ export function POST(request: Request) {
       }
       try {
         await writeContent(collections.testimonials.file, [...list, entry], sha, `New website feedback from ${name} (by website form)`)
-        recent.get(ip)!.push(Date.now())
+        limiter.record(ip)
         return json({ ok: true })
       } catch (e) {
         if (!(e instanceof HttpError && e.status === 409) || attempt === 2) throw e

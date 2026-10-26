@@ -56,10 +56,41 @@ async function sendEmail(v: Values, product?: string): Promise<string | null> {
   return json?.errors?.map((e: { message: string }) => e.message).join(', ') || 'Please try again.'
 }
 
-// "Send Enquiry" emails the company; "Send on WhatsApp" opens WhatsApp with the message pre-filled.
+// Saves the enquiry in the admin's Enquiries inbox (private database). `keepalive` lets the WhatsApp record finish
+// even while the browser switches to WhatsApp. Resolves to true when stored.
+async function saveToInbox(v: Values, channel: 'form' | 'whatsapp', product: string | undefined, startedAt: number) {
+  try {
+    const res = await fetch('/api/enquiry', {
+      method: 'POST',
+      keepalive: true,
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        channel,
+        page: window.location.pathname,
+        name: v.name,
+        phone: v.phone,
+        email: v.email,
+        city: v.city,
+        interest: v.category,
+        quantity: v.quantity,
+        message: v.message,
+        product,
+        startedAt,
+        website: v.botcheck ? 'yes' : '',
+      }),
+    })
+    return res.ok
+  } catch {
+    return false
+  }
+}
+
+// "Send Enquiry" stores the enquiry for the admin and emails the company (either is enough);
+// "Send on WhatsApp" records it, then opens WhatsApp with the message pre-filled.
 export default function EnquiryForm({ product, onDone }: { product?: string; onDone?: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [errorReason, setErrorReason] = useState('')
+  const [startedAt] = useState(() => Date.now())
   const {
     register,
     handleSubmit,
@@ -70,20 +101,21 @@ export default function EnquiryForm({ product, onDone }: { product?: string; onD
 
   const sendWhatsApp = async () => {
     if (!(await trigger(['name', 'phone', 'email']))) return
+    saveToInbox(getValues(), 'whatsapp', product, startedAt)
     window.open(whatsappLink(toText(getValues(), product)), '_blank', 'noopener')
   }
 
   const onSubmit = async (v: Values) => {
     if (v.botcheck) return
     setStatus('sending')
-    try {
-      const reason = await sendEmail(v, product)
-      setErrorReason(reason ?? '')
-      setStatus(reason ? 'error' : 'sent')
-    } catch {
-      setErrorReason('Network error, please check your connection.')
-      setStatus('error')
-    }
+    const [stored, emailed] = await Promise.all([
+      saveToInbox(v, 'form', product, startedAt),
+      sendEmail(v, product).catch(() => 'Network error, please check your connection.'),
+    ])
+    // Either reaching the inbox or being emailed means the enquiry is safe
+    if (stored || emailed === null) return setStatus('sent')
+    setErrorReason(emailed ?? '')
+    setStatus('error')
   }
 
   if (status === 'sent') {

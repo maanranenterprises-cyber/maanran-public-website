@@ -39,6 +39,10 @@ export const api = {
   publish: () => request<{ published: boolean }>('/api/drafts', send('POST', { action: 'publish' })),
   discard: () => request('/api/drafts', send('POST', { action: 'discard' })),
   history: () => request<{ publishes: Publish[] }>('/api/history'),
+  enquiries: () => request<{ enquiries: Enquiry[]; counts: Record<EnquiryStatus, number> }>('/api/enquiries'),
+  newEnquiries: () => request<{ new: number }>('/api/enquiries?count=new'),
+  updateEnquiry: (id: string, changes: { status?: EnquiryStatus; note?: string }) => request<{ enquiry: Enquiry }>('/api/enquiries', send('PATCH', { id, ...changes })),
+  deleteEnquiry: (id: string) => request('/api/enquiries', send('DELETE', { id })),
   undo: (sha: string) => request<{ restored: string[] }>('/api/history', send('POST', { action: 'undo', sha })),
   // The commit the website was built from (written by the build); null if it cannot be read
   siteVersion: async () => {
@@ -52,6 +56,25 @@ export const api = {
 }
 
 export type Drafts = { pending: number; files: string[]; changes: { message: string; by: string; at: string }[]; live: { sha: string; at: string } }
+export type EnquiryStatus = 'new' | 'contacted' | 'quoted' | 'closed' | 'spam'
+export type Enquiry = {
+  id: string
+  at: string
+  channel: 'form' | 'whatsapp'
+  page: string
+  name: string
+  phone: string
+  email: string
+  city: string
+  interest: string
+  quantity: string
+  message: string
+  product: string
+  status: EnquiryStatus
+  note: string
+  updatedBy?: string
+  updatedAt?: string
+}
 export type Publish = { sha: string; by: string; at: string; edits: string[]; files: string[] }
 
 // Photos are resized in the browser before upload, so even large phone photos upload quickly

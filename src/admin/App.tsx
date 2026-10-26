@@ -1,7 +1,7 @@
 // Admin app: login gate, layout (sidebar + top bar with Publish), dashboard and the section screens.
 import { createContext, useContext, useEffect, useState, type FormEvent } from 'react'
 import { createBrowserRouter, Link, NavLink, Outlet, RouterProvider, useParams } from 'react-router-dom'
-import { AlertTriangle, BadgeCheck, BarChart3, Building2, CheckCircle2, CircleHelp, Download, ExternalLink, FileText, History, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Type, Undo2, Users, X } from 'lucide-react'
+import { AlertTriangle, Inbox, BadgeCheck, BarChart3, Building2, CheckCircle2, CircleHelp, Download, ExternalLink, FileText, History, Images, LayoutDashboard, LayoutGrid, Loader2, LogOut, Menu, MessageSquareQuote, Package, Rocket, Settings, Sofa, Type, Undo2, Users, X } from 'lucide-react'
 import { api } from './api'
 import EditPage from './EditPage'
 import ListPage from './ListPage'
@@ -9,6 +9,7 @@ import { sectionByPath, sections, singleByPath, singles } from './sections'
 import SinglePage from './SinglePage'
 import HistoryPage from './HistoryPage'
 import HelpPage from './HelpPage'
+import EnquiriesPage from './EnquiriesPage'
 import { DraftsProvider, useDrafts, type LiveStatus } from './store'
 import { Button, Card, ConfirmHost, confirm, ErrorNotice, Notice, TextInput, toast, ToastHost } from './ui'
 
@@ -153,7 +154,7 @@ function PublishButton() {
 
 function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
   const [open, setOpen] = useState(false)
-  const { feedback } = useDrafts()
+  const { feedback, enquiries } = useDrafts()
   const nav = `flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-semibold transition`
   const link = ({ isActive }: { isActive: boolean }) => `${nav} ${isActive ? 'bg-brand/10 text-brand' : 'text-ink/75 hover:bg-ink/5 hover:text-ink'}`
   return (
@@ -175,6 +176,15 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
           <NavLink to="/" end className={link}>
             <LayoutDashboard className="size-4" /> Dashboard
           </NavLink>
+          <NavLink to="/enquiries" className={link}>
+            <Inbox className="size-4" /> Enquiries
+            {enquiries ? (
+              <span className="ml-auto rounded-full bg-brand px-2 py-0.5 text-[11px] font-bold text-white" title={`${enquiries} new`}>
+                {enquiries} new
+              </span>
+            ) : null}
+          </NavLink>
+          <span className="my-2 h-px bg-line" />
           {sections.map((s) => {
             const Icon = icons[s.path] ?? FileText
             return (
@@ -236,7 +246,7 @@ function Layout({ name, onLogout }: { name: string; onLogout: () => void }) {
 }
 
 function Dashboard({ name }: { name: string }) {
-  const { drafts, refresh, live, feedback } = useDrafts()
+  const { drafts, refresh, live, feedback, enquiries } = useDrafts()
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<unknown>(null)
   const discard = async () => {
@@ -270,6 +280,20 @@ function Dashboard({ name }: { name: string }) {
         </p>
       </div>
       <ErrorNotice error={error} onClose={() => setError(null)} />
+      {enquiries ? (
+        <Link to="/enquiries" className="flex items-center gap-4 rounded-2xl border border-brand/30 bg-brand/[0.04] p-4 transition hover:border-brand/50 sm:p-5">
+          <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-brand text-white">
+            <Inbox className="size-6" />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-lg font-extrabold">
+              {enquiries} new {enquiries === 1 ? 'enquiry' : 'enquiries'}
+            </span>
+            <span className="block text-sm text-muted">Customers waiting to hear from you. Call, WhatsApp or email them from the inbox.</span>
+          </span>
+          <span className="hidden font-semibold text-brand sm:inline">Open inbox →</span>
+        </Link>
+      ) : null}
       {feedback > 0 && (
         <Notice kind="info">
           <span className="font-semibold">
@@ -367,6 +391,7 @@ export default function App() {
           children: [
             { path: '/', element: <DashboardRoute /> },
             { path: '/history', element: <HistoryPage /> },
+            { path: '/enquiries', element: <EnquiriesPage /> },
             { path: '/help', element: <HelpPage /> },
             { path: '/:section', element: <SectionRoute /> },
             { path: '/:section/:key', element: <SectionRoute edit /> },

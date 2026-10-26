@@ -26,7 +26,19 @@ export default function HelpPage() {
         </p>
       </Topic>
 
-      <Topic title="2. Adding and editing">
+      <Topic title="2. New enquiries">
+        <p>
+          Every enquiry from the website appears under <strong>Enquiries</strong> (top of the menu), including people who pressed <strong>Send on WhatsApp</strong>. The menu,
+          the dashboard and the browser tab show how many are new; the admin checks every minute.
+        </p>
+        <ul>
+          <li>Use the <strong>Call</strong>, <strong>WhatsApp</strong> and <strong>Email</strong> buttons to reply, then set the status: Contacted, Quoted, Closed or Spam.</li>
+          <li>Add <strong>private notes</strong> (e.g. "site visit on Monday"). Only admins see enquiries; they are never on the website.</li>
+          <li><strong>Export CSV</strong> downloads the list for Excel or Google Sheets.</li>
+        </ul>
+      </Topic>
+
+      <Topic title="3. Adding and editing">
         <ul>
           <li>Open a section in the menu (for example Products), then press <strong>Add product</strong>, or click an item to edit it.</li>
           <li>
@@ -50,7 +62,7 @@ export default function HelpPage() {
         </ul>
       </Topic>
 
-      <Topic title="3. Photos and files">
+      <Topic title="4. Photos and files">
         <ul>
           <li>Drop a photo onto the upload box or click it to choose one. Large phone photos are made smaller automatically.</li>
           <li>For galleries (products, interiors), the first photo is the main one. Use the arrows on a photo to change the order.</li>
@@ -59,7 +71,7 @@ export default function HelpPage() {
         </ul>
       </Topic>
 
-      <Topic title="4. Pages and settings">
+      <Topic title="5. Pages and settings">
         <ul>
           <li>
             <strong>Site settings</strong> holds the phone number, WhatsApp, email, opening hours, address, social links and menu. Changes appear across the whole website.
@@ -73,7 +85,7 @@ export default function HelpPage() {
         </ul>
       </Topic>
 
-      <Topic title="5. Customer feedback">
+      <Topic title="6. Customer feedback">
         <p>
           Customers can send feedback at <strong>maanran.com/feedback</strong> (also linked under the testimonials and in the footer). Share that link after a delivery. Each one arrives
           as a hidden testimonial; the menu shows a <strong>new</strong> badge and you also get an email with their contact details.
@@ -87,14 +99,14 @@ export default function HelpPage() {
         </ul>
       </Topic>
 
-      <Topic title="6. Undoing a publish">
+      <Topic title="7. Undoing a publish">
         <p>
           <strong>History</strong> lists every publish. The most recent one has <strong>Undo this publish</strong>, which puts the website back as it was before it. Publish or discard any
           unpublished changes first.
         </p>
       </Topic>
 
-      <Topic title="7. If something goes wrong">
+      <Topic title="8. If something goes wrong">
         <ul>
           <li>
             <strong>"Someone else changed this"</strong>: another editor saved the same section. Reload the page and make your change again.

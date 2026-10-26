@@ -3,6 +3,7 @@
 // Log in at http://localhost:5173/admin with the password "admin".
 import { readdirSync, readFileSync } from 'node:fs'
 import { createFakeGitHub } from './fake-github'
+import { createFakeRedis } from './fake-redis'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Plugin, ViteDevServer } from 'vite'
 
@@ -36,6 +37,9 @@ export default function devApi(): Plugin {
       process.env.ADMIN_PASSWORD ||= 'admin'
       process.env.SESSION_SECRET ||= 'dev-only-secret'
       process.env.GITHUB_TOKEN ||= 'dev'
+      process.env.UPSTASH_REDIS_REST_URL ||= 'http://fake-redis.local'
+      process.env.UPSTASH_REDIS_REST_TOKEN ||= 'dev'
+      const enquiriesDb = createFakeRedis()
       const root = server.config.root
       const github = createFakeGitHub(Object.fromEntries(readdirSync(`${root}/src/content`).map((f) => [`src/content/${f}`, readFileSync(`${root}/src/content/${f}`, 'utf8')])))
       let live = github.branchSha('main')
@@ -44,7 +48,9 @@ export default function devApi(): Plugin {
       const realFetch = globalThis.fetch
       globalThis.fetch = ((input: RequestInfo | URL, init?: RequestInit) => {
         const url = new URL(input instanceof Request ? input.url : String(input))
-        return url.hostname === 'api.github.com' ? github.handle(url, init) : realFetch(input, init)
+        if (url.hostname === 'api.github.com') return github.handle(url, init)
+        if (url.hostname === 'fake-redis.local') return enquiriesDb.handle(url, init)
+        return realFetch(input, init)
       }) as typeof fetch
 
       server.middlewares.use(async (req, res, next) => {

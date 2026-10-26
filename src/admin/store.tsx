@@ -57,8 +57,10 @@ const CHECK_EVERY_MS = 10_000
 const STALLED_AFTER_MS = 8 * 60_000
 
 // `feedback`: customer feedback from the website form still awaiting review (shown as a badge and on the dashboard)
-type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void>; live: LiveStatus; feedback: number }
-const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {}, live: 'unknown', feedback: 0 })
+// `enquiries`: new customer enquiries (null until known, e.g. before the enquiries database is connected)
+type DraftsState = { drafts: Drafts | null; refresh: () => Promise<void>; live: LiveStatus; feedback: number; enquiries: number | null; refreshEnquiries: () => Promise<void> }
+const DraftsContext = createContext<DraftsState>({ drafts: null, refresh: async () => {}, live: 'unknown', feedback: 0, enquiries: null, refreshEnquiries: async () => {} })
+const ENQUIRY_CHECK_MS = 60_000
 
 export function DraftsProvider({ children }: { children: ReactNode }) {
   const [drafts, setDrafts] = useState<Drafts | null>(null)
@@ -99,7 +101,32 @@ export function DraftsProvider({ children }: { children: ReactNode }) {
     }
   }, [target])
 
-  return <DraftsContext.Provider value={{ drafts, refresh, live, feedback }}>{children}</DraftsContext.Provider>
+  // New enquiries: checked every minute while the admin is open, and straight away when its tab is shown again
+  const [enquiries, setEnquiries] = useState<number | null>(null)
+  const refreshEnquiries = useCallback(async () => {
+    try {
+      setEnquiries((await api.newEnquiries()).new)
+    } catch {
+      setEnquiries(null)
+    }
+  }, [])
+  useEffect(() => {
+    refreshEnquiries()
+    const timer = window.setInterval(refreshEnquiries, ENQUIRY_CHECK_MS)
+    const onVisible = () => document.visibilityState === 'visible' && refreshEnquiries()
+    document.addEventListener('visibilitychange', onVisible)
+    return () => {
+      window.clearInterval(timer)
+      document.removeEventListener('visibilitychange', onVisible)
+    }
+  }, [refreshEnquiries])
+  // The browser tab shows the count, e.g. "(3) Admin | MAANRAN ENTERPRISES"
+  useEffect(() => {
+    const base = document.title.replace(/^\(\d+\) /, '')
+    document.title = enquiries ? `(${enquiries}) ${base}` : base
+  }, [enquiries])
+
+  return <DraftsContext.Provider value={{ drafts, refresh, live, feedback, enquiries, refreshEnquiries }}>{children}</DraftsContext.Provider>
 }
 
 export const useDrafts = () => useContext(DraftsContext)
