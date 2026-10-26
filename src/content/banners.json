@@ -241,7 +241,7 @@
     "ctas": [
       {
         "label": "View Sofas",
-        "href": "/sofas"
+        "href": "/products?category=sofas"
       }
     ],
     "order": 14,
