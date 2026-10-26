@@ -199,23 +199,6 @@
     "publishUntil": null
   },
   {
-    "id": "b12",
-    "heading": "Library furniture",
-    "subtitle": "Book racks, reading tables and study carrels.",
-    "imageDesktop": "/images/banners/library-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Library Furniture",
-        "href": "/products?category=library-furniture"
-      }
-    ],
-    "order": 12,
-    "published": false,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -227,8 +210,25 @@
         "href": "/products?category=sofas"
       }
     ],
-    "order": 13,
+    "order": 12,
     "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b12",
+    "heading": "Library furniture",
+    "subtitle": "Book racks, reading tables and study carrels.",
+    "imageDesktop": "/images/banners/library-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Library Furniture",
+        "href": "/products?category=library-furniture"
+      }
+    ],
+    "order": 13,
+    "published": false,
     "publishFrom": null,
     "publishUntil": null
   },
