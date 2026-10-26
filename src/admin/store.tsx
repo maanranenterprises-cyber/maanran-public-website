@@ -67,7 +67,9 @@ export function DraftsProvider({ children }: { children: ReactNode }) {
   const [feedback, setFeedback] = useState(0)
   const refresh = useCallback(async () => {
     try {
-      const [d, t] = await Promise.all([api.drafts(), api.load<{ pending?: boolean }[]>('testimonials')])
+      // One after the other: both make sure drafts has caught up with the live site, and doing that twice at once can clash
+      const d = await api.drafts()
+      const t = await api.load<{ pending?: boolean }[]>('testimonials')
       setDrafts(d)
       setFeedback(t.data.filter((x) => x.pending).length)
     } catch {

@@ -30,7 +30,22 @@ export function createFakeGitHub(initialFiles: Record<string, string>) {
   const view = (c: Commit) => ({ sha: c.sha, parents: c.parents.map((sha) => ({ sha })), commit: { message: c.message, author: { name: c.author, date: c.date }, committer: { date: c.date } } })
   const changedFiles = (a: Commit, b: Commit) => [...new Set([...a.files.keys(), ...b.files.keys()])].filter((k) => a.files.get(k)?.sha !== b.files.get(k)?.sha)
 
+  // Tests can make the next matching request fail, optionally after doing its work (as a racing request would)
+  const failures: { method: string; path: string; status: number; applyFirst: boolean }[] = []
+
   async function handle(url: URL, init: RequestInit = {}): Promise<Response> {
+    const path = url.pathname.replace(/^\/repos\/[^/]+\/[^/]+/, '')
+    const method = init.method ?? 'GET'
+    const f = failures.findIndex((x) => x.method === method && path.startsWith(x.path))
+    if (f >= 0) {
+      const [failure] = failures.splice(f, 1)
+      if (failure.applyFirst) await respond(url, init)
+      return new Response(JSON.stringify({ message: 'simulated failure' }), { status: failure.status })
+    }
+    return respond(url, init)
+  }
+
+  async function respond(url: URL, init: RequestInit = {}): Promise<Response> {
     const path = url.pathname.replace(/^\/repos\/[^/]+\/[^/]+/, '')
     const method = init.method ?? 'GET'
     const body = init.body ? JSON.parse(init.body as string) : null
@@ -110,6 +125,7 @@ export function createFakeGitHub(initialFiles: Record<string, string>) {
 
   return {
     handle,
+    failNext: (method: string, path: string, status: number, applyFirst = false) => failures.push({ method, path, status, applyFirst }),
     branchSha: (b: string) => branches.get(b),
     file: (branch: string, path: string) => resolve(branch)?.files.get(path)?.text,
     // Test helper: change a file on a branch directly (as an older version of the admin might have)
