@@ -55,7 +55,6 @@ export function PUT(request: Request) {
             { file: collections.categories.file, data: numbered.categories, sha: others.categories.sha },
           ],
           message,
-          session.name,
         )
         return json({ sha, assigned: numbered.assigned, data: numbered.products })
       }
@@ -63,7 +62,7 @@ export function PUT(request: Request) {
 
     const problems = crossCheck({ ...Object.fromEntries(Object.entries(others).map(([k, v]) => [k, v!.data])), [name]: result.data })
     if (problems.length) throw new HttpError(422, 'This change would break other content.', problems)
-    const sha = await writeContent(collections[name].file, result.data, body.sha, message, session.name)
+    const sha = await writeContent(collections[name].file, result.data, body.sha, message)
     return json({ sha })
   })
 }

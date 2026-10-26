@@ -33,7 +33,7 @@ export function POST(request: Request) {
       const before = await readContent(file, latest.before)
       const current = await readContent(file)
       const label = Object.values(collections).find((c) => c.file === file)?.label ?? file
-      await writeContent(file, before.data, current.sha, `Undo publish of ${when}: ${label} (by ${session.name})`, session.name)
+      await writeContent(file, before.data, current.sha, `Undo publish of ${when}: ${label} (by ${session.name})`)
     }
     return json({ restored: latest.files })
   })

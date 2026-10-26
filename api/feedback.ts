@@ -65,7 +65,7 @@ export function POST(request: Request) {
         submittedAt: new Date().toISOString(),
       }
       try {
-        await writeContent(collections.testimonials.file, [...list, entry], sha, `New website feedback from ${name}`, 'Website feedback')
+        await writeContent(collections.testimonials.file, [...list, entry], sha, `New website feedback from ${name} (by website form)`)
         recent.get(ip)!.push(Date.now())
         return json({ ok: true })
       } catch (e) {

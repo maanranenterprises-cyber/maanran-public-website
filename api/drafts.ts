@@ -2,7 +2,7 @@
 // POST /api/drafts { action: 'publish' }  → makes them live (Vercel rebuilds the site from main)
 // POST /api/drafts { action: 'discard' }  → throws them away
 import { collections, validateAll, type CollectionName } from '../src/lib/schema.js'
-import { CONTENT_DIR, compareDrafts, discardDrafts, liveHead, prepareDrafts, publishDrafts, readContent } from './_lib/github.js'
+import { CONTENT_DIR, compareDrafts, discardDrafts, editorOf, liveHead, prepareDrafts, publishDrafts, readContent } from './_lib/github.js'
 import { handle, HttpError, json, readJson, requireSameOrigin } from './_lib/http.js'
 import { requireSession } from './_lib/session.js'
 
@@ -16,7 +16,7 @@ export function GET(request: Request) {
       live,
       pending: diff.ahead_by,
       files: (diff.files ?? []).filter((f) => f.filename.startsWith(`${CONTENT_DIR}/`)).map((f) => f.filename.slice(CONTENT_DIR.length + 1)),
-      changes: diff.commits.map((c) => ({ message: c.commit.message, by: c.commit.author.name, at: c.commit.author.date })).reverse(),
+      changes: diff.commits.map((c) => ({ message: c.commit.message, by: editorOf(c.commit.message, c.commit.author.name), at: c.commit.author.date })).reverse(),
     })
   })
 }

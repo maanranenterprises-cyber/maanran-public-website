@@ -62,7 +62,7 @@ export async function listPublishes(limit: number) {
       return {
         sha: c.sha,
         before: c.parents[0].sha,
-        by: c.commit.message.match(/\(by (.+)\)$/)?.[1] ?? c.commit.author.name,
+        by: editorOf(c.commit.message, c.commit.author.name),
         at: c.commit.committer.date,
         edits: diff.commits.map((e) => e.commit.message.replace(/ \(by [^)]*\)$/, '')).reverse(),
         files: (diff.files ?? []).filter((f) => f.filename.startsWith(`${CONTENT_DIR}/`)).map((f) => f.filename.slice(CONTENT_DIR.length + 1)),
@@ -96,13 +96,16 @@ export async function readContent(file: string, ref: string = DRAFTS) {
 }
 
 // Saves a JSON file to drafts. `sha` is the version the editor started from; if someone saved in between, GitHub refuses (409).
-export async function writeContent(file: string, data: unknown, sha: string, message: string, author: string) {
+// Commits are made as the token's GitHub account (no separate author), so Vercel always treats them as the owner's —
+// needed once the repository is private on Vercel's Hobby plan. The editor's name is kept in the message: "… (by Ravi)".
+export const editorOf = (message: string, fallback: string) => message.match(/\(by (.+)\)$/)?.[1] ?? fallback
+
+export async function writeContent(file: string, data: unknown, sha: string, message: string) {
   const body = {
     message,
     branch: DRAFTS,
     sha,
     content: Buffer.from(`${JSON.stringify(data, null, 2)}\n`, 'utf8').toString('base64'),
-    author: { name: author, email: 'admin@maanran.com' },
   }
   const res = await gh<{ content: { sha: string } }>(`/contents/${CONTENT_DIR}/${file}`, { method: 'PUT', body: JSON.stringify(body) }, [409])
   if (res.status === 409) throw new HttpError(409, 'Someone else changed this since you opened it. Reload to see the latest version, then make your change again.')
@@ -111,7 +114,7 @@ export async function writeContent(file: string, data: unknown, sha: string, mes
 
 // Saves several JSON files to drafts in one commit (e.g. a new product and its category's code counter).
 // Fails with 409 if drafts moved on since the editor loaded `files[0]` (someone else saved in between).
-export async function writeContents(files: { file: string; data: unknown; sha: string }[], message: string, author: string) {
+export async function writeContents(files: { file: string; data: unknown; sha: string }[], message: string) {
   const head = await branchSha(DRAFTS)
   for (const f of files) {
     const current = await gh<FileData>(`/contents/${CONTENT_DIR}/${f.file}?ref=${head}`)
@@ -125,8 +128,7 @@ export async function writeContents(files: { file: string; data: unknown; sha: s
       tree: files.map((f) => ({ path: `${CONTENT_DIR}/${f.file}`, mode: '100644', type: 'blob', content: `${JSON.stringify(f.data, null, 2)}\n` })),
     }),
   })
-  const who = { name: author, email: 'admin@maanran.com', date: new Date().toISOString() }
-  const { data: commit } = await gh<{ sha: string }>('/git/commits', { method: 'POST', body: JSON.stringify({ message, tree: tree.sha, parents: [head], author: who }) })
+  const { data: commit } = await gh<{ sha: string }>('/git/commits', { method: 'POST', body: JSON.stringify({ message, tree: tree.sha, parents: [head] }) })
   // Not forced: if another save landed after we read `head`, GitHub refuses and nothing is lost
   const moved = await gh(`/git/refs/heads/${DRAFTS}`, { method: 'PATCH', body: JSON.stringify({ sha: commit.sha, force: false }) }, [422])
   if (moved.status === 422) throw new HttpError(409, 'Someone else saved at the same moment. Reload and make your change again.')
