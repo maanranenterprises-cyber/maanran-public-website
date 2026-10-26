@@ -131,23 +131,6 @@
     "publishUntil": null
   },
   {
-    "id": "b10",
-    "heading": "Steel furniture for every space",
-    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
-    "imageDesktop": "/images/banners/steel-furniture.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Steel Furniture",
-        "href": "/products?category=steel-furniture"
-      }
-    ],
-    "order": 8,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b-bybbvu",
     "heading": "Sofas",
     "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
@@ -157,6 +140,23 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      }
+    ],
+    "order": 8,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b10",
+    "heading": "Steel furniture for every space",
+    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
+    "imageDesktop": "/images/banners/steel-furniture.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Steel Furniture",
+        "href": "/products?category=steel-furniture"
       }
     ],
     "order": 9,
