@@ -1,4 +1,4 @@
-import Seo from '../components/Seo'
+import Seo, { WebsiteJsonLd } from '../components/Seo'
 import Hero from '../sections/Hero'
 import AboutPreview from '../sections/AboutPreview'
 import Clients from '../sections/Clients'
@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       <Seo />
+      <WebsiteJsonLd />
       <Hero />
       <AboutPreview />
       <Clients />

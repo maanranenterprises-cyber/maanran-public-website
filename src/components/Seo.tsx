@@ -49,6 +49,11 @@ export default function Seo({ title, description, path = '', image, noindex, cru
   )
 }
 
+// Site name shown in Google results ("MAANRAN ENTERPRISES" instead of "maanran.com"). Rendered on the home page.
+export function WebsiteJsonLd() {
+  return <JsonLd data={{ '@context': 'https://schema.org', '@type': 'WebSite', name: site.name, alternateName: site.shortName, url: `${site.domain}/` }} />
+}
+
 // Business details for Google (name, address, map pin, hours, phone, social profiles). Rendered once on every page.
 export function BusinessJsonLd() {
   const { address, contact } = site
