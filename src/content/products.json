@@ -503,5 +503,25 @@
     "featured": true,
     "order": 25,
     "published": true
+  },
+  {
+    "id": "p-rw3e19",
+    "code": "OEWC-004",
+    "slug": "office-executive-workstation-chairs-3",
+    "name": "Office Executive Workstation Chairs-3",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "images": [
+      "/maanran/products/office-executive-workstation-chairs-3-front-view_9LiQHTC1i.png",
+      "/maanran/products/office-executive-workstation-chairs-3-back-view_b5nZTU8Hh.png",
+      "/maanran/products/office-executive-workstation-chairs-3-angled-view_4y9y1zWdxq.png",
+      "/maanran/products/office-executive-workstation-chairs-3-side-view_LMNDfzIc2.png"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 26,
+    "published": true
   }
 ]
