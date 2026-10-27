@@ -128,5 +128,15 @@
     "image": "/maanran/categories/office-executive-manager-chair-1-front-view_uZTaqfyLWs.png",
     "order": 13,
     "published": true
+  },
+  {
+    "slug": "office-executive-workstation-chairs",
+    "name": "Office Executive Workstation Chairs",
+    "codePrefix": "OEWC",
+    "codeCounter": 0,
+    "description": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "image": "/maanran/categories/office-executive-workstation-chairs-front-view_b0BbOUHvI.jpeg",
+    "order": 14,
+    "published": true
   }
 ]
