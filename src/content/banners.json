@@ -21,15 +21,15 @@
     "publishUntil": null
   },
   {
-    "id": "b2",
-    "heading": "Workspaces built for how your team works",
-    "subtitle": "Modular office workstations, designed and installed end to end.",
-    "imageDesktop": "/images/banners/office-workstations.webp",
+    "id": "b3",
+    "heading": "Home interiors, done right",
+    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
+    "imageDesktop": "/images/banners/home-interiors.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "View Workstations",
-        "href": "/products?category=office-workstations"
+        "label": "See Interiors",
+        "href": "/interiors"
       },
       {
         "label": "Get Enquiry",
@@ -42,15 +42,15 @@
     "publishUntil": null
   },
   {
-    "id": "b3",
-    "heading": "Home interiors, done right",
-    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
-    "imageDesktop": "/images/banners/home-interiors.webp",
+    "id": "b2",
+    "heading": "Workspaces built for how your team works",
+    "subtitle": "Modular office workstations, designed and installed end to end.",
+    "imageDesktop": "/images/banners/office-workstations.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "See Interiors",
-        "href": "/interiors"
+        "label": "View Workstations",
+        "href": "/products?category=office-workstations"
       },
       {
         "label": "Get Enquiry",
