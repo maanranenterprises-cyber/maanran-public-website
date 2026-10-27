@@ -72,6 +72,10 @@
       {
         "label": "View Chairs",
         "href": "/products?category=office-chairs"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 4,
@@ -89,6 +93,10 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 5,
@@ -106,6 +114,10 @@
       {
         "label": "View Desk Benches",
         "href": "/products?category=school-college-desk-benches"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 6,
@@ -123,6 +135,10 @@
       {
         "label": "View Hostel Furniture",
         "href": "/products?category=hostel-pg-furniture"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 7,
@@ -140,6 +156,10 @@
       {
         "label": "View Bunker Cots",
         "href": "/products?category=ms-steel-bunker-cots"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 8,
@@ -157,6 +177,10 @@
       {
         "label": "View Steel Furniture",
         "href": "/products?category=steel-furniture"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 9,
