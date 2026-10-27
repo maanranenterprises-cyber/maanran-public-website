@@ -42,15 +42,15 @@
     "publishUntil": null
   },
   {
-    "id": "b2",
-    "heading": "Workspaces built for how your team works",
-    "subtitle": "Modular office workstations, designed and installed end to end.",
-    "imageDesktop": "/images/banners/office-workstations.webp",
+    "id": "b4",
+    "heading": "Office chairs for every role",
+    "subtitle": "Executive, ergonomic and mesh chairs built for long working days.",
+    "imageDesktop": "/images/banners/office-chairs.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "View Workstations",
-        "href": "/products?category=office-workstations"
+        "label": "View Chairs",
+        "href": "/products?category=office-chairs"
       },
       {
         "label": "Get Enquiry",
@@ -63,15 +63,15 @@
     "publishUntil": null
   },
   {
-    "id": "b4",
-    "heading": "Office chairs for every role",
-    "subtitle": "Executive, ergonomic and mesh chairs built for long working days.",
-    "imageDesktop": "/images/banners/office-chairs.webp",
+    "id": "b2",
+    "heading": "Workspaces built for how your team works",
+    "subtitle": "Modular office workstations, designed and installed end to end.",
+    "imageDesktop": "/images/banners/office-workstations.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "View Chairs",
-        "href": "/products?category=office-chairs"
+        "label": "View Workstations",
+        "href": "/products?category=office-workstations"
       },
       {
         "label": "Get Enquiry",
