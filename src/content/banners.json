@@ -177,6 +177,10 @@
       {
         "label": "View Steel Furniture",
         "href": "/products?category=steel-furniture"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 9,
