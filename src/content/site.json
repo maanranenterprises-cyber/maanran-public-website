@@ -73,19 +73,19 @@
   },
   "social": [
     {
-      "type": "facebook",
-      "url": "https://www.facebook.com/profile.php?id=61595713143367"
-    },
-    {
       "type": "instagram",
       "url": "https://www.instagram.com/maanran_ent_and_interiors/"
     },
     {
-      "type": "linkedin",
-      "url": ""
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61595713143367"
     },
     {
       "type": "youtube",
+      "url": "https://youtube.com/@maanranenterprisesinteriors?si=hZiJiNRtX9z0cmpz"
+    },
+    {
+      "type": "linkedin",
       "url": ""
     }
   ],
