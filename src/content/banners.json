@@ -1,14 +1,14 @@
 [
   {
-    "id": "b1",
-    "heading": "Office interiors that work as hard as you do",
-    "subtitle": "Complete office fit-outs, from workstations and cabins to meeting rooms.",
-    "imageDesktop": "/images/banners/office-interiors.webp",
+    "id": "b3",
+    "heading": "Home interiors, done right",
+    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
+    "imageDesktop": "/images/banners/home-interiors.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "Explore Products",
-        "href": "/products"
+        "label": "See Interiors",
+        "href": "/interiors"
       },
       {
         "label": "Get Enquiry",
@@ -21,15 +21,15 @@
     "publishUntil": null
   },
   {
-    "id": "b3",
-    "heading": "Home interiors, done right",
-    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
-    "imageDesktop": "/images/banners/home-interiors.webp",
+    "id": "b1",
+    "heading": "Office interiors that work as hard as you do",
+    "subtitle": "Complete office fit-outs, from workstations and cabins to meeting rooms.",
+    "imageDesktop": "/images/banners/office-interiors.webp",
     "imageMobile": "",
     "ctas": [
       {
-        "label": "See Interiors",
-        "href": "/interiors"
+        "label": "Explore Products",
+        "href": "/products"
       },
       {
         "label": "Get Enquiry",
