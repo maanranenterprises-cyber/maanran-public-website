@@ -93,6 +93,10 @@
       {
         "label": "View Sofas",
         "href": "/products?category=sofas"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 5,
