@@ -1,50 +1,8 @@
 [
   {
-    "id": "b1",
-    "heading": "Office interiors that work as hard as you do",
-    "subtitle": "Complete office fit-outs, from workstations and cabins to meeting rooms.",
-    "imageDesktop": "/images/banners/office-interiors.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "Explore Products",
-        "href": "/products"
-      },
-      {
-        "label": "Get Enquiry",
-        "href": "#enquiry"
-      }
-    ],
-    "order": 1,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
-    "id": "b2",
-    "heading": "Workspaces built for how your team works",
-    "subtitle": "Modular office workstations, designed and installed end to end.",
-    "imageDesktop": "/images/banners/office-workstations.webp",
-    "imageMobile": "",
-    "ctas": [
-      {
-        "label": "View Workstations",
-        "href": "/products?category=office-workstations"
-      },
-      {
-        "label": "Get Enquiry",
-        "href": "#enquiry"
-      }
-    ],
-    "order": 2,
-    "published": true,
-    "publishFrom": null,
-    "publishUntil": null
-  },
-  {
     "id": "b3",
-    "heading": "Home interiors, done right",
-    "subtitle": "Living rooms, kitchens and wardrobes designed around the way you live.",
+    "heading": "Home Interiors, Crafted for Modern Living",
+    "subtitle": "Transform your home with beautifully designed living rooms, modular kitchens, and custom wardrobes that blend timeless elegance, everyday comfort, and smart functionality.",
     "imageDesktop": "/images/banners/home-interiors.webp",
     "imageMobile": "",
     "ctas": [
@@ -57,21 +15,63 @@
         "href": "#enquiry"
       }
     ],
-    "order": 3,
+    "order": 1,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b1",
+    "heading": "Office Interiors Designed for Productivity",
+    "subtitle": "Create inspiring workspaces with modern office interiors, ergonomic workstations, executive cabins, and collaborative meeting rooms tailored to your business needs.",
+    "imageDesktop": "/images/banners/office-interiors.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "Explore Products",
+        "href": "/products"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
+      }
+    ],
+    "order": 2,
     "published": true,
     "publishFrom": null,
     "publishUntil": null
   },
   {
     "id": "b4",
-    "heading": "Office chairs for every role",
-    "subtitle": "Executive, ergonomic and mesh chairs built for long working days.",
+    "heading": "Office Chairs Designed for Comfort & Performance",
+    "subtitle": "Discover premium executive, ergonomic, and mesh office chairs that combine lasting comfort, modern style, and reliable support for every workspace.",
     "imageDesktop": "/images/banners/office-chairs.webp",
     "imageMobile": "",
     "ctas": [
       {
         "label": "View Chairs",
         "href": "/products?category=office-chairs"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
+      }
+    ],
+    "order": 3,
+    "published": true,
+    "publishFrom": null,
+    "publishUntil": null
+  },
+  {
+    "id": "b2",
+    "heading": "Office Workspaces Designed for Productivity",
+    "subtitle": "Create efficient, modern work environments with modular workstations, ergonomic seating, and smart layouts tailored to your team's workflow and business needs.",
+    "imageDesktop": "/images/banners/office-workstations.webp",
+    "imageMobile": "",
+    "ctas": [
+      {
+        "label": "View Workstations",
+        "href": "/products?category=office-workstations"
       },
       {
         "label": "Get Enquiry",
@@ -85,8 +85,8 @@
   },
   {
     "id": "b-bybbvu",
-    "heading": "Sofas",
-    "subtitle": "Discover our premium sofas, combining modern design, superior comfort, and exceptional craftsmanship to elevate every living space.",
+    "heading": "Premium Sofas for Modern Living",
+    "subtitle": "Elevate your living spaces with beautifully crafted sofas that combine contemporary design, exceptional comfort, and lasting quality for homes and professional interiors.",
     "imageDesktop": "/maanran/banners/sofa-banner_6GKH3yDY2.jpg",
     "imageMobile": "",
     "ctas": [
@@ -106,8 +106,8 @@
   },
   {
     "id": "b5",
-    "heading": "Furniture for schools and colleges",
-    "subtitle": "Desk benches and lecture seating built for years of daily use.",
+    "heading": "Educational Furniture Built to Last",
+    "subtitle": "Create comfortable and productive learning environments with durable school desks, college benches, and classroom seating designed for everyday use.",
     "imageDesktop": "/images/banners/school-college-desk-benches.webp",
     "imageMobile": "",
     "ctas": [
@@ -127,8 +127,8 @@
   },
   {
     "id": "b6",
-    "heading": "Hostel and PG furniture",
-    "subtitle": "Cots, lockers, study tables and wardrobes that make every room count.",
+    "heading": "Hostel & PG Furniture for Comfortable Living",
+    "subtitle": "Furnish hostels and paying guest accommodations with durable beds, space-saving lockers, study tables, and wardrobes designed for comfort, functionality, and everyday use.",
     "imageDesktop": "/images/banners/hostel-pg-furniture.webp",
     "imageMobile": "",
     "ctas": [
@@ -148,8 +148,8 @@
   },
   {
     "id": "b7",
-    "heading": "MS steel bunker cots, built strong",
-    "subtitle": "Powder-coated bunk cots with storage for hostels and labour camps.",
+    "heading": "Heavy-Duty MS Steel Bunk Beds for Reliable Strength",
+    "subtitle": "Maximise sleeping space with durable, powder-coated MS steel bunk beds designed for hostels, PG accommodations, labour camps, and institutional facilities.",
     "imageDesktop": "/images/banners/ms-steel-bunker-cots.webp",
     "imageMobile": "",
     "ctas": [
@@ -169,8 +169,8 @@
   },
   {
     "id": "b10",
-    "heading": "Steel furniture for every space",
-    "subtitle": "Almirahs, lockers and racks for offices and institutions.",
+    "heading": "Premium Steel Furniture for Modern Spaces",
+    "subtitle": "Discover durable steel furniture, including storage almirahs, office lockers, and heavy-duty racks, designed for efficient organisation in offices, industries, and institutions.",
     "imageDesktop": "/images/banners/steel-furniture.webp",
     "imageMobile": "",
     "ctas": [
