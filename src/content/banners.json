@@ -72,6 +72,10 @@
       {
         "label": "View Chairs",
         "href": "/products?category=office-chairs"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 4,
