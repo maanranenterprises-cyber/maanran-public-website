@@ -135,6 +135,10 @@
       {
         "label": "View Hostel Furniture",
         "href": "/products?category=hostel-pg-furniture"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 7,
