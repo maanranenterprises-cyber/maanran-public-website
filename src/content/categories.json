@@ -121,12 +121,22 @@
   },
   {
     "slug": "office-executive-manager-chair",
-    "name": "Office Executive Manager Chair",
+    "name": "Office Executive Manager & Director Chair",
     "codePrefix": "OEMC",
     "codeCounter": 2,
     "description": "Premium Executive Comfort",
     "image": "/maanran/categories/office-executive-manager-chair-1-front-view_uZTaqfyLWs.png",
     "order": 13,
+    "published": true
+  },
+  {
+    "slug": "office-executive-workstation-chairs",
+    "name": "Office Executive Workstation Chairs",
+    "codePrefix": "OEWC",
+    "codeCounter": 4,
+    "description": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "image": "/maanran/categories/office-executive-workstation-chairs-front-view_b0BbOUHvI.jpeg",
+    "order": 14,
     "published": true
   }
 ]

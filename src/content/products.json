@@ -412,7 +412,7 @@
     "id": "p-yb6smc",
     "code": "OEMC-001",
     "slug": "office-executive-manager-chair",
-    "name": "Office Executive Manager Chair",
+    "name": "Office Executive Manager & Director Chair",
     "brand": "MAANRAN",
     "category": "office-executive-manager-chair",
     "shortDescription": "Premium Comfort with Elegant Executive Styling",
@@ -445,6 +445,83 @@
     "specs": {},
     "featured": true,
     "order": 22,
+    "published": true
+  },
+  {
+    "id": "p-hwkld8",
+    "code": "OEWC-001",
+    "slug": "office-executive-workstation-chairs",
+    "name": "Office Executive Workstation Chairs",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "images": [
+      "/maanran/products/office-executive-workstation-chairs-front-view_d6LHw-fsC.jpeg",
+      "/maanran/products/office-executive-workstation-chairs-back-view_YG46tHKxUG.jpeg"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 23,
+    "published": true
+  },
+  {
+    "id": "p-723m4a",
+    "code": "OEWC-002",
+    "slug": "office-executive-workstation-chairs-1",
+    "name": "Office Executive Workstation Chairs-1",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "images": [
+      "/maanran/products/office-executive-workstation-chairs-1-front-view_7hgMMdXjI1.png",
+      "/maanran/products/office-executive-workstation-chairs-1-back-view_pqegOBCocN.png",
+      "/maanran/products/office-executive-workstation-chairs-1-front-angled-view_zs7r-yk751.png",
+      "/maanran/products/office-executive-workstation-chairs-1-side-view_zABmHq9cQx.png",
+      "/maanran/products/office-executive-workstation-chairs-1-back-angled-view_A-WgO_on7.png"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 24,
+    "published": true
+  },
+  {
+    "id": "p-cv3uk4",
+    "code": "OEWC-003",
+    "slug": "office-executive-workstation-chairs-2",
+    "name": "Office Executive Workstation Chairs-2",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "images": [
+      "/maanran/products/office-executive-workstation-chairs-2-front-view_K5E2-j2_H.jpeg",
+      "/maanran/products/office-executive-workstation-chairs-2-back-view_n35C8huBl.jpeg"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 25,
+    "published": true
+  },
+  {
+    "id": "p-rw3e19",
+    "code": "OEWC-004",
+    "slug": "office-executive-workstation-chairs-3",
+    "name": "Office Executive Workstation Chairs-3",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
+    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "images": [
+      "/maanran/products/office-executive-workstation-chairs-3-front-view_9LiQHTC1i.png",
+      "/maanran/products/office-executive-workstation-chairs-3-back-view_b5nZTU8Hh.png",
+      "/maanran/products/office-executive-workstation-chairs-3-angled-view_4y9y1zWdxq.png",
+      "/maanran/products/office-executive-workstation-chairs-3-side-view_LMNDfzIc2.png"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 26,
     "published": true
   }
 ]
