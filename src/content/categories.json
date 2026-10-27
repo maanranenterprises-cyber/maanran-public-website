@@ -118,5 +118,15 @@
     "image": "/maanran/categories/sofa-banner_aAFrj2EEF.jpg",
     "order": 12,
     "published": true
+  },
+  {
+    "slug": "office-executive-manager-chair",
+    "name": "Office Executive Manager Chair",
+    "codePrefix": "OEMC",
+    "codeCounter": 1,
+    "description": "Premium Executive Comfort",
+    "image": "/maanran/categories/office-executive-manager-chair-1-front-view_uZTaqfyLWs.png",
+    "order": 13,
+    "published": true
   }
 ]
