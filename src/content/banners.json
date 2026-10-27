@@ -114,6 +114,10 @@
       {
         "label": "View Desk Benches",
         "href": "/products?category=school-college-desk-benches"
+      },
+      {
+        "label": "Get Enquiry",
+        "href": "#enquiry"
       }
     ],
     "order": 6,
