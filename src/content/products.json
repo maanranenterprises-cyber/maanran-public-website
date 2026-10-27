@@ -523,5 +523,25 @@
     "featured": true,
     "order": 26,
     "published": true
+  },
+  {
+    "id": "p-pjzqnp",
+    "code": "OEMC-003",
+    "slug": "office-executive-manager-and-director-chair-2",
+    "name": "Office Executive Manager & Director Chair-2",
+    "brand": "MAANRAN",
+    "category": "office-executive-manager-chair",
+    "shortDescription": "Premium Comfort with Elegant Executive Styling",
+    "description": "High-back executive Manager Chair with thick padded leatherette upholstery, integrated headrest, loop armrests and a chrome five-star base. Tilt and height adjustable.",
+    "images": [
+      "/maanran/products/office-executive-manager-director-chair-front-view_HoLT6b-gR.png",
+      "/maanran/products/office-executive-manager-director-chair-back-view_qgCF7FWFn.png",
+      "/maanran/products/office-executive-manager-director-chair-angled-view_nfWZoEUJz.png",
+      "/maanran/products/office-executive-manager-director-chair-side-view_9p_pLL8w2e.png"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 27,
+    "published": true
   }
 ]
