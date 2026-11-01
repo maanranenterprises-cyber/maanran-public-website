@@ -2295,5 +2295,31 @@
     "featured": true,
     "order": 101,
     "published": true
+  },
+  {
+    "id": "p-hrypnj",
+    "code": "CF-028",
+    "slug": "modern-rectangular-cafeteria-dining-table",
+    "name": "Modern Rectangular Cafeteria Dining Table",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Minimalist cafeteria dining table featuring a clean white tabletop and a sturdy grey metal frame, designed for everyday use in commercial dining spaces.",
+    "description": "Designed for durability and practicality, this rectangular cafeteria table features a smooth white tabletop supported by a strong grey metal frame with four sturdy legs. Its simple and modern design makes it suitable for corporate cafeterias, restaurants, food courts, canteens and institutional dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-28_nGCmUTGVd.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Table",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Frame Material": "Metal",
+      "Frame Colour": "Grey",
+      "Base Design": "Four-Leg Structure",
+      "Design": "Minimalist & Modern",
+      "Usage": "Cafeterias, Canteens & Restaurants"
+    },
+    "featured": true,
+    "order": 102,
+    "published": true
   }
 ]
