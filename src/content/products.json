@@ -1961,5 +1961,38 @@
     "featured": true,
     "order": 90,
     "published": true
+  },
+  {
+    "id": "p-bkwr8l",
+    "code": "CF-017",
+    "slug": "premium-cafeteria-table-and-bench-seating-set-with-marble-finish",
+    "name": "Premium Cafeteria Table & Bench Seating Set with Marble Finish",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria furniture featuring a marble-finish tabletop, matching benches and stylish X-shaped metal legs for durable and comfortable group dining.",
+    "description": "Upgrade your dining space with premium cafeteria furniture featuring an elegant marble-finish tabletop, matching bench seating and strong X-shaped metal legs. Its contemporary design and sturdy construction make it ideal for corporate cafeterias, colleges, restaurants, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-17_2Awz3D2xW.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Table & Bench Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Marble Finish",
+      "Table Top Colour": "White with Blue & Gold Patterns",
+      "Table Frame": "Wood",
+      "Frame Design": "X-Shaped",
+      "Frame Colour": "Black",
+      "Seating Type": "Matching Bench Seating",
+      "Bench Top Finish": "Marble Finish",
+      "Bench Frame": "Metal",
+      "Bench Frame Design": "X-Shaped",
+      "Seating Arrangement": "Opposite-Side Benches",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafeterias, Colleges, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 91,
+    "published": true
   }
 ]
