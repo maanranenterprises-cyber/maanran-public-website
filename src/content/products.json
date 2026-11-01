@@ -1678,5 +1678,37 @@
     "featured": true,
     "order": 81,
     "published": true
+  },
+  {
+    "id": "p-v5qvum",
+    "code": "CF-008",
+    "slug": "premium-cafeteria-high-table-and-bar-chair-set",
+    "name": "Premium Cafeteria High Table & Bar Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Premium cafeteria furniture featuring wooden-finish high tables and stylish elevated chairs, designed for comfortable dining and modern commercial spaces.",
+    "description": "Enhance your dining area with premium high-table cafeteria furniture featuring elegant wooden-finish tabletops, sturdy metal frames and matching elevated chairs. Designed for durability and practical everyday use, this furniture is ideal for corporate cafeterias, office dining areas, restaurants and modern food courts.",
+    "images": [
+      "/maanran/products/cafeteria-8_nhGlMc8F9.webp"
+    ],
+    "specs": {
+      "Furniture Type": "High Table & Chair Set",
+      "Table Shape": "Rectangular",
+      "Table Height": "Bar Height",
+      "Table Top Finish": "Wooden Finish",
+      "Table Frame": "Metal",
+      "Frame Colour": "Grey",
+      "Chair Type": "High Chair",
+      "Chair Design": "High Backrest",
+      "Chair Frame": "Metal",
+      "Chair Seat": "Cushioned",
+      "Chair Colour": "Black & Red",
+      "Seating Arrangement": "Multiple Seating",
+      "Design": "Contemporary",
+      "Usage": "Office Cafeterias, Restaurants & Food Courts"
+    },
+    "featured": true,
+    "order": 82,
+    "published": true
   }
 ]
