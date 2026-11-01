@@ -2089,5 +2089,266 @@
     "featured": true,
     "order": 94,
     "published": true
+  },
+  {
+    "id": "p-tw8hvl",
+    "code": "CF-021",
+    "slug": "modern-cafeteria-table-and-designer-armchair-set",
+    "name": "Modern Cafeteria Table & Designer Armchair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria furniture featuring a light wood-finish dining table with a sturdy pedestal base and stylish grey designer armchairs.",
+    "description": "Upgrade your dining space with this elegant cafeteria furniture set, featuring a spacious light wood-finish tabletop, a sturdy black metal pedestal base and contemporary grey plastic armchairs with integrated armrests. Its modern design offers comfortable seating and a stylish appearance, making it ideal for cafés, restaurants, office cafeterias and food courts.",
+    "images": [
+      "/maanran/products/cafeteria-21_RfxuWjC6iY.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Light Wood Finish",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Armchair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Integrated Armrests",
+      "Chair Colour": "White / Grey",
+      "Seating Capacity": "2 Persons",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafés, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 95,
+    "published": true
+  },
+  {
+    "id": "p-2qlbi6",
+    "code": "CF-022",
+    "slug": "premium-cafeteria-dining-table-and-white-designer-chair-set",
+    "name": "Premium Cafeteria Dining Table & White Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant cafeteria furniture featuring a white rectangular dining table with a sturdy black pedestal base and matching white chairs for comfortable dining.",
+    "description": "Upgrade your dining space with premium cafeteria furniture featuring a spacious white rectangular tabletop, a strong black metal pedestal base and stylish white designer chairs. Its clean, minimalist design offers a comfortable and elegant dining experience, making it ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-22_mDSxTqTOXh.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Solid Backrest",
+      "Chair Colour": "White",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Minimalist",
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 96,
+    "published": true
+  },
+  {
+    "id": "p-pobsgm",
+    "code": "CF-023",
+    "slug": "modern-cafeteria-dining-table-and-red-and-white-designer-chair-set",
+    "name": "Modern Cafeteria Dining Table & Red and White Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria furniture featuring a white rectangular dining table with a sturdy black pedestal base and elegant red and white designer chairs.",
+    "description": "Create a vibrant and welcoming dining space with modern cafeteria furniture featuring a spacious white tabletop, a sturdy black metal pedestal base and attractive red and white plastic chairs. Designed for comfortable seating, durability and easy maintenance, this set is ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-23_lpNV_K9QY.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Solid Backrest",
+      "Chair Colours": "Red & White",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 97,
+    "published": true
+  },
+  {
+    "id": "p-ehsrtz",
+    "code": "CF-024",
+    "slug": "premium-marble-finish-cafeteria-dining-table-with-designer-chairs",
+    "name": "Premium Marble Finish Cafeteria Dining Table with Designer Chairs",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant cafeteria dining set featuring a premium white marble-finish tabletop, sturdy X-shaped metal base and colourful designer chairs for comfortable dining.",
+    "description": "Enhance your dining space with this modern cafeteria furniture set, featuring a spacious white marble-finish tabletop and a strong X-shaped metal frame for excellent stability. Paired with stylish green and yellow designer chairs, it offers a perfect combination of comfort, durability and contemporary design. Ideal for corporate cafeterias, restaurants, food courts, canteens and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-24_9vUOtLTXJ.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "White Marble Finish",
+      "Table Base Design": "X-Shaped",
+      "Table Frame Material": "Metal",
+      "Frame Colour": "Grey",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Colours": "Green & Yellow",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafeterias, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 98,
+    "published": true
+  },
+  {
+    "id": "p-7rck1c",
+    "code": "CF-025",
+    "slug": "industrial-cafeteria-high-table-with-metal-bar-stools",
+    "name": "Industrial Cafeteria High Table with Metal Bar Stools",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria high table featuring a vibrant orange tabletop, sturdy black metal frame and matching industrial bar stools, designed for comfortable and space-efficient dining.",
+    "description": "Upgrade your cafeteria with this durable high-table dining setup, featuring a spacious orange tabletop supported by a strong black metal frame. Paired with matching metal bar stools, it offers a practical and stylish seating arrangement. Ideal for corporate cafeterias, industrial canteens, food courts and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-25_Y4yE9kzlh.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria High Table Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "Orange",
+      "Table Frame": "Metal",
+      "Frame Colour": "Black",
+      "Seating Type": "Bar Stools",
+      "Stool Material": "Metal",
+      "Stool Colour": "Black",
+      "Design": "Industrial",
+      "Usage": "Cafeterias & Canteens"
+    },
+    "featured": true,
+    "order": 99,
+    "published": true
+  },
+  {
+    "id": "p-hckpb5",
+    "code": "CF-026",
+    "slug": "modern-square-pedestal-cafeteria-dining-table",
+    "name": "Modern Square Pedestal Cafeteria Dining Table",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant square cafeteria table featuring a premium light wood-finish tabletop and a sturdy black metal pedestal base, perfect for modern dining spaces.",
+    "description": "Add a touch of modern elegance to your cafeteria with this square pedestal dining table. Designed with a premium light wood-finish tabletop and a strong black metal single-pedestal base, it offers stability, functionality and a clean contemporary appearance. Ideal for restaurants, corporate cafeterias, food courts, cafés and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-26_S-0L8K_TF.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Table",
+      "Table Shape": "Square",
+      "Table Top Finish": "Light Wood Finish",
+      "Base Design": "Single Pedestal",
+      "Frame Material": "Metal",
+      "Frame Colour": "Black",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Cafés"
+    },
+    "featured": true,
+    "order": 100,
+    "published": true
+  },
+  {
+    "id": "p-rypodv",
+    "code": "CF-027",
+    "slug": "premium-wooden-top-cafeteria-pedestal-dining-table",
+    "name": "Premium Wooden Top Cafeteria Pedestal Dining Table",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria dining table featuring a premium natural wood-finish tabletop and a sturdy black double-column pedestal base for excellent stability and durability.",
+    "description": "Enhance your dining space with this elegant wooden-top cafeteria table. Designed with a natural wood-finish rectangular tabletop and a strong black metal double-column pedestal base, it offers a perfect balance of durability, stability and modern style. Ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-27_3FKJYYpfc.jpeg"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Table",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Natural Wood Finish",
+      "Base Design": "Double-Column Pedestal",
+      "Frame Material": "Metal",
+      "Frame Colour": "Black",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Cafés"
+    },
+    "featured": true,
+    "order": 101,
+    "published": true
+  },
+  {
+    "id": "p-hrypnj",
+    "code": "CF-028",
+    "slug": "modern-rectangular-cafeteria-dining-table",
+    "name": "Modern Rectangular Cafeteria Dining Table",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Minimalist cafeteria dining table featuring a clean white tabletop and a sturdy grey metal frame, designed for everyday use in commercial dining spaces.",
+    "description": "Designed for durability and practicality, this rectangular cafeteria table features a smooth white tabletop supported by a strong grey metal frame with four sturdy legs. Its simple and modern design makes it suitable for corporate cafeterias, restaurants, food courts, canteens and institutional dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-28_nGCmUTGVd.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Table",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Frame Material": "Metal",
+      "Frame Colour": "Grey",
+      "Base Design": "Four-Leg Structure",
+      "Design": "Minimalist & Modern",
+      "Usage": "Cafeterias, Canteens & Restaurants"
+    },
+    "featured": true,
+    "order": 102,
+    "published": true
+  },
+  {
+    "id": "p-wzzppf",
+    "code": "CF-029",
+    "slug": "premium-multi-colour-designer-cafeteria-chairs",
+    "name": "Premium Multi-Colour Designer Cafeteria Chairs",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern designer cafeteria chairs featuring a stylish curved backrest, comfortable seating and vibrant colour options, perfect for contemporary dining spaces.",
+    "description": "Add colour and style to your dining space with these premium designer cafeteria chairs. Featuring an ergonomic curved backrest, integrated armrest design and sturdy metal legs, these chairs offer a comfortable and practical seating solution. Available in attractive colours including blue, green, yellow and orange, they are ideal for corporate cafeterias, restaurants, food courts, cafés and commercial spaces.",
+    "images": [
+      "/maanran/products/cafeteria-29_etl-0MP0l.webp",
+      "/maanran/products/orange_Igl2KEhQU.webp",
+      "/maanran/products/blue_q2DV1rv-H1.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Chair",
+      "Chair Design": "Designer",
+      "Backrest": "Curved",
+      "Armrest": "Integrated",
+      "Seat Material": "Plastic",
+      "Leg Material": "Metal",
+      "Available Colours": "Blue, Green, Yellow & Orange",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Food Courts"
+    },
+    "featured": true,
+    "order": 103,
+    "published": true
   }
 ]
