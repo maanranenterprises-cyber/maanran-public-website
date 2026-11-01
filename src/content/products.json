@@ -1426,7 +1426,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 72,
     "published": true
   },
