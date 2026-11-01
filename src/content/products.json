@@ -2089,5 +2089,37 @@
     "featured": true,
     "order": 94,
     "published": true
+  },
+  {
+    "id": "p-tw8hvl",
+    "code": "CF-021",
+    "slug": "modern-cafeteria-table-and-designer-armchair-set",
+    "name": "Modern Cafeteria Table & Designer Armchair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria furniture featuring a light wood-finish dining table with a sturdy pedestal base and stylish grey designer armchairs.",
+    "description": "Upgrade your dining space with this elegant cafeteria furniture set, featuring a spacious light wood-finish tabletop, a sturdy black metal pedestal base and contemporary grey plastic armchairs with integrated armrests. Its modern design offers comfortable seating and a stylish appearance, making it ideal for cafés, restaurants, office cafeterias and food courts.",
+    "images": [
+      "/maanran/products/cafeteria-21_RfxuWjC6iY.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Light Wood Finish",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Armchair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Integrated Armrests",
+      "Chair Colour": "White / Grey",
+      "Seating Capacity": "2 Persons",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafés, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 95,
+    "published": true
   }
 ]
