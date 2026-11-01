@@ -2185,5 +2185,35 @@
     "featured": true,
     "order": 97,
     "published": true
+  },
+  {
+    "id": "p-ehsrtz",
+    "code": "CF-024",
+    "slug": "premium-marble-finish-cafeteria-dining-table-with-designer-chairs",
+    "name": "Premium Marble Finish Cafeteria Dining Table with Designer Chairs",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant cafeteria dining set featuring a premium white marble-finish tabletop, sturdy X-shaped metal base and colourful designer chairs for comfortable dining.",
+    "description": "Enhance your dining space with this modern cafeteria furniture set, featuring a spacious white marble-finish tabletop and a strong X-shaped metal frame for excellent stability. Paired with stylish green and yellow designer chairs, it offers a perfect combination of comfort, durability and contemporary design. Ideal for corporate cafeterias, restaurants, food courts, canteens and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-24_9vUOtLTXJ.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "White Marble Finish",
+      "Table Base Design": "X-Shaped",
+      "Table Frame Material": "Metal",
+      "Frame Colour": "Grey",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Colours": "Green & Yellow",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafeterias, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 98,
+    "published": true
   }
 ]
