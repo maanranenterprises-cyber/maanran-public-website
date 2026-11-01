@@ -4,7 +4,7 @@
     "products": true,
     "clients": true,
     "stats": true,
-    "testimonials": true,
+    "testimonials": false,
     "downloads": false
   },
   "home": {
