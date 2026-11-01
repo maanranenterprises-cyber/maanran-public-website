@@ -3,11 +3,11 @@
     "id": "p-001",
     "code": "OW-001",
     "slug": "linear-workstation-4-seater",
-    "name": "Linear Workstation, 4 Seater",
+    "name": "Office Workstation-1",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Space-saving 4-seat linear workstation with modesty panels and cable management.",
-    "description": "Space-saving 4-seat linear workstation with modesty panels and cable management. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
+    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
     "images": [
       "/images/banners/office-workstations.webp"
     ],
@@ -24,19 +24,19 @@
     "id": "p-002",
     "code": "OW-002",
     "slug": "l-shaped-workstation",
-    "name": "L-Shaped Workstation",
+    "name": "Office Workstation-2",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "L-shaped workstation with partition screens and an attached pedestal.",
-    "description": "L-shaped workstation with partition screens and an attached pedestal. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
+    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
     "images": [
-      "/images/banners/office-workstations.webp"
+      "/maanran/products/office-workstation-2_z29EXuwex.webp"
     ],
     "specs": {
       "Size": "1500 x 1500 mm",
       "Screen": "Fabric pin-up board"
     },
-    "featured": false,
+    "featured": true,
     "order": 2,
     "published": true
   },
