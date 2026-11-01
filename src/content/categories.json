@@ -3,7 +3,7 @@
     "slug": "office-workstations",
     "name": "Office Workstations",
     "codePrefix": "OW",
-    "codeCounter": 8,
+    "codeCounter": 9,
     "description": "Modular linear, L-shaped and cluster workstations.",
     "image": "/images/banners/office-workstations.webp",
     "order": 1,
