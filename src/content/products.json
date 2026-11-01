@@ -1587,5 +1587,35 @@
     "featured": true,
     "order": 78,
     "published": true
+  },
+  {
+    "id": "p-kym7vn",
+    "code": "CF-005",
+    "slug": "modern-cafeteria-table-and-colourful-plastic-chair-set",
+    "name": "Modern Cafeteria Table & Colourful Plastic Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Compact and stylish cafeteria dining set featuring a white rectangular table and colourful plastic chairs for comfortable everyday seating.",
+    "description": "Designed for modern cafeterias, offices, schools and dining spaces, this furniture set features a spacious white tabletop with a sturdy frame and colourful plastic chairs. Its simple design, comfortable seating and easy-to-clean surfaces make it suitable for everyday commercial use.",
+    "images": [
+      "/maanran/products/cafeteria-5_9p3MDb6K4.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame Colour": "White",
+      "Chair Type": "Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Perforated Backrest",
+      "Chair Colours": "Red & Green",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Compact",
+      "Usage": "Cafeterias, Schools, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 79,
+    "published": true
   }
 ]
