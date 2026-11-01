@@ -2215,5 +2215,33 @@
     "featured": true,
     "order": 98,
     "published": true
+  },
+  {
+    "id": "p-7rck1c",
+    "code": "CF-025",
+    "slug": "industrial-cafeteria-high-table-with-metal-bar-stools",
+    "name": "Industrial Cafeteria High Table with Metal Bar Stools",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria high table featuring a vibrant orange tabletop, sturdy black metal frame and matching industrial bar stools, designed for comfortable and space-efficient dining.",
+    "description": "Upgrade your cafeteria with this durable high-table dining setup, featuring a spacious orange tabletop supported by a strong black metal frame. Paired with matching metal bar stools, it offers a practical and stylish seating arrangement. Ideal for corporate cafeterias, industrial canteens, food courts and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-25_Y4yE9kzlh.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria High Table Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "Orange",
+      "Table Frame": "Metal",
+      "Frame Colour": "Black",
+      "Seating Type": "Bar Stools",
+      "Stool Material": "Metal",
+      "Stool Colour": "Black",
+      "Design": "Industrial",
+      "Usage": "Cafeterias & Canteens"
+    },
+    "featured": true,
+    "order": 99,
+    "published": true
   }
 ]
