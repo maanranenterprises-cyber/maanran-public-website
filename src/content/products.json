@@ -866,5 +866,22 @@
     "featured": true,
     "order": 46,
     "published": true
+  },
+  {
+    "id": "p-1o8t86",
+    "code": "OW-022",
+    "slug": "office-workstation-22",
+    "name": "Office Workstation-22",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
+    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "images": [
+      "/maanran/products/office-workstation-22_WF1SRFIAa.webp"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 47,
+    "published": true
   }
 ]
