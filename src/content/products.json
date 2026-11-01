@@ -234,16 +234,16 @@
     "id": "p-011",
     "code": "SCDB-001",
     "slug": "school-desk-bench-2-seater",
-    "name": "School Desk Bench, 2 Seater",
+    "name": "School & College Student Desk Bench",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Two-seater desk bench with bag shelf for primary and high school classrooms.",
-    "description": "Two-seater desk bench with bag shelf for primary and high school classrooms. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
+    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
     "images": [
-      "/images/banners/school-college-desk-benches.webp"
+      "/maanran/products/school-college-student-desk-bench-1_9QAbY7vv-.jpeg"
     ],
     "specs": {
-      "Seats": "2",
+      "Seats": "1",
       "Frame": "MS tubular",
       "Top": "Pre-laminated board"
     },
