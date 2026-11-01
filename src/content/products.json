@@ -1531,7 +1531,7 @@
       "Usage": "Cafeterias, Restaurants & Food Courts",
       "Maintenance": "Easy to Clean"
     },
-    "featured": false,
+    "featured": true,
     "order": 76,
     "published": true
   },
