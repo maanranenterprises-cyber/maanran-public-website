@@ -1866,5 +1866,36 @@
     "featured": true,
     "order": 87,
     "published": true
+  },
+  {
+    "id": "p-nabska",
+    "code": "CF-014",
+    "slug": "modern-cafeteria-table-and-bench-seating-set",
+    "name": "Modern Cafeteria Table & Bench Seating Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Functional cafeteria furniture featuring a spacious white tabletop with matching bench seating and a sturdy metal frame for comfortable group dining.",
+    "description": "Designed for busy dining environments, this cafeteria furniture set features a spacious rectangular white tabletop, matching side benches and a strong metal support frame. Its practical design provides comfortable group seating while making efficient use of dining space. Ideal for corporate cafeterias, colleges, schools, food courts and industrial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-14_D0WxfgeQa.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Table & Bench Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame Material": "Metal",
+      "Frame Colour": "Dark Grey",
+      "Seating Type": "Fixed Bench Seating",
+      "Bench Design": "Side Bench",
+      "Bench Top Colour": "White",
+      "Bench Frame": "Metal",
+      "Seating Arrangement": "Opposite-Side Benches",
+      "Design": "Modern & Functional",
+      "Usage": "Offices, Colleges, Schools & Industrial Cafeterias",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 88,
+    "published": true
   }
 ]
