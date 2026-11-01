@@ -1929,5 +1929,37 @@
     "featured": true,
     "order": 89,
     "published": true
+  },
+  {
+    "id": "p-7a4tu9",
+    "code": "CF-016",
+    "slug": "classic-cafeteria-dining-table-and-metal-chair-set",
+    "name": "Classic Cafeteria Dining Table & Metal Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Strong and practical cafeteria furniture featuring a black rectangular dining table and matching metal chairs for comfortable everyday dining.",
+    "description": "Designed for durability and everyday use, this cafeteria furniture set features a spacious black tabletop, sturdy metal table frame and matching metal chairs with curved backrests. Its simple and functional design makes it ideal for industrial cafeterias, factories, offices, canteens and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-16_Ch_P17U9H.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "Black",
+      "Table Frame Material": "Garnet",
+      "Frame Colour": "Black",
+      "Chair Type": "Metal Dining Chair",
+      "Chair Material": "Metal",
+      "Chair Seat": "Round Perforated Seat",
+      "Chair Backrest": "Curved Metal Backrest",
+      "Chair Colour": "Black",
+      "Design": "Classic & Functional",
+      "Seating Arrangement": "Multiple Seating",
+      "Usage": "Factories, Offices, Canteens & Cafeterias",
+      "Maintenance": "Easy to Maintain"
+    },
+    "featured": true,
+    "order": 90,
+    "published": true
   }
 ]
