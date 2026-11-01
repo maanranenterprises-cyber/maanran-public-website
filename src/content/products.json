@@ -1741,5 +1741,36 @@
     "featured": true,
     "order": 83,
     "published": true
+  },
+  {
+    "id": "p-hk1p9z",
+    "code": "CF-010",
+    "slug": "modern-cafeteria-high-table-and-designer-bar-stool-set",
+    "name": "Modern Cafeteria High Table & Designer Bar Stool Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Compact cafeteria furniture featuring a wooden-finish high table and stylish designer bar stools for modern dining spaces.",
+    "description": "Create a stylish dining space with this modern cafeteria furniture set, featuring a spacious wooden-finish tabletop, sturdy white metal frame and elevated designer stools. The combination of attractive colours and practical design makes it ideal for office cafeterias, restaurants, cafés and breakout areas.",
+    "images": [
+      "/maanran/products/cafeteria-10_ryth691xS.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria High Table Set",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Wooden Finish",
+      "Table Frame": "Metal",
+      "Table Frame Colour": "White",
+      "Stool Type": "Designer Bar Stool",
+      "Stool Seat Material": "Plastic",
+      "Stool Seat Colours": "Teal Blue & Grey",
+      "Stool Legs": "Wooden Finish",
+      "Stool Design": "Modern",
+      "Seating Capacity": "2 Persons",
+      "Usage": "Cafeterias, Cafés, Offices & Restaurants",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 84,
+    "published": true
   }
 ]
