@@ -255,18 +255,20 @@
     "id": "p-012",
     "code": "SCDB-002",
     "slug": "college-lecture-bench-3-seater",
-    "name": "College Lecture Bench, 3 Seater",
+    "name": "School & College Student Desk Bench",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Three-seater bench with writing top for college lecture halls.",
-    "description": "Three-seater bench with writing top for college lecture halls. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
+    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
     "images": [
-      "/images/banners/school-college-desk-benches.webp"
+      "/maanran/products/school-college-student-desk-bench-2_DScz8682f.webp"
     ],
     "specs": {
-      "Seats": "3"
+      "Seats": "2",
+      "Frame": "MS tubular",
+      "Top": "Pre-laminated board"
     },
-    "featured": false,
+    "featured": true,
     "order": 13,
     "published": true
   },
