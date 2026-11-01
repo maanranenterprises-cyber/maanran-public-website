@@ -2321,5 +2321,34 @@
     "featured": true,
     "order": 102,
     "published": true
+  },
+  {
+    "id": "p-wzzppf",
+    "code": "CF-029",
+    "slug": "premium-multi-colour-designer-cafeteria-chairs",
+    "name": "Premium Multi-Colour Designer Cafeteria Chairs",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern designer cafeteria chairs featuring a stylish curved backrest, comfortable seating and vibrant colour options, perfect for contemporary dining spaces.",
+    "description": "Add colour and style to your dining space with these premium designer cafeteria chairs. Featuring an ergonomic curved backrest, integrated armrest design and sturdy metal legs, these chairs offer a comfortable and practical seating solution. Available in attractive colours including blue, green, yellow and orange, they are ideal for corporate cafeterias, restaurants, food courts, cafés and commercial spaces.",
+    "images": [
+      "/maanran/products/cafeteria-29_etl-0MP0l.webp",
+      "/maanran/products/orange_Igl2KEhQU.webp",
+      "/maanran/products/blue_q2DV1rv-H1.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Chair",
+      "Chair Design": "Designer",
+      "Backrest": "Curved",
+      "Armrest": "Integrated",
+      "Seat Material": "Plastic",
+      "Leg Material": "Metal",
+      "Available Colours": "Blue, Green, Yellow & Orange",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Food Courts"
+    },
+    "featured": true,
+    "order": 103,
+    "published": true
   }
 ]
