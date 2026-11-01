@@ -2153,5 +2153,37 @@
     "featured": true,
     "order": 96,
     "published": true
+  },
+  {
+    "id": "p-pobsgm",
+    "code": "CF-023",
+    "slug": "modern-cafeteria-dining-table-and-red-and-white-designer-chair-set",
+    "name": "Modern Cafeteria Dining Table & Red and White Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria furniture featuring a white rectangular dining table with a sturdy black pedestal base and elegant red and white designer chairs.",
+    "description": "Create a vibrant and welcoming dining space with modern cafeteria furniture featuring a spacious white tabletop, a sturdy black metal pedestal base and attractive red and white plastic chairs. Designed for comfortable seating, durability and easy maintenance, this set is ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-23_lpNV_K9QY.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Solid Backrest",
+      "Chair Colours": "Red & White",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Contemporary",
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 97,
+    "published": true
   }
 ]
