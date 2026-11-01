@@ -2121,5 +2121,37 @@
     "featured": true,
     "order": 95,
     "published": true
+  },
+  {
+    "id": "p-2qlbi6",
+    "code": "CF-022",
+    "slug": "premium-cafeteria-dining-table-and-white-designer-chair-set",
+    "name": "Premium Cafeteria Dining Table & White Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant cafeteria furniture featuring a white rectangular dining table with a sturdy black pedestal base and matching white chairs for comfortable dining.",
+    "description": "Upgrade your dining space with premium cafeteria furniture featuring a spacious white rectangular tabletop, a strong black metal pedestal base and stylish white designer chairs. Its clean, minimalist design offers a comfortable and elegant dining experience, making it ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-22_mDSxTqTOXh.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Dining Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Solid Backrest",
+      "Chair Colour": "White",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Minimalist",
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 96,
+    "published": true
   }
 ]
