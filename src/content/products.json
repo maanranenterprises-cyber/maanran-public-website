@@ -1994,5 +1994,37 @@
     "featured": true,
     "order": 91,
     "published": true
+  },
+  {
+    "id": "p-msp676",
+    "code": "CF-018",
+    "slug": "modern-cafeteria-square-dining-table-and-white-chair-set",
+    "name": "Modern Cafeteria Square Dining Table & White Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Elegant cafeteria furniture featuring a square dining table with a sturdy pedestal base and stylish white plastic chairs for comfortable dining.",
+    "description": "Enhance your dining space with this modern cafeteria furniture set, featuring a spacious square tabletop, a strong central pedestal base and elegant white designer chairs. The compact and contemporary design makes it ideal for cafés, restaurants, food courts, office cafeterias and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-18_50WUe0YrNv.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Square",
+      "Table Top Colour": "White",
+      "Table Base Type": "Central Pedestal",
+      "Table Base Material": "Metal",
+      "Base Colour": "Black",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Backrest": "Perforated Design",
+      "Chair Colour": "White",
+      "Seating Capacity": "2 Persons",
+      "Design": "Modern & Minimalist",
+      "Usage": "Cafés, Restaurants, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 92,
+    "published": true
   }
 ]
