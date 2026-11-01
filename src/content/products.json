@@ -1503,5 +1503,36 @@
     "featured": false,
     "order": 75,
     "published": true
+  },
+  {
+    "id": "p-x17k4g",
+    "code": "CF-003",
+    "slug": "modern-glass-top-cafeteria-table-and-designer-chair-set",
+    "name": "Modern Glass Top Cafeteria Table & Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria dining set featuring elegant glass-top tables and stylish designer chairs for a comfortable and attractive dining space.",
+    "description": "Upgrade your dining space with modern cafeteria furniture featuring elegant round glass-top tables and uniquely designed chairs. The colourful plastic chairs with sturdy metal legs offer a stylish seating arrangement, ideal for cafeterias, restaurants, offices and commercial spaces.",
+    "images": [
+      "/maanran/products/cafeteria-3_EOiVPYY8G.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Round",
+      "Table Top": "Tempered Glass",
+      "Table Base": "Stainless Steel",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Open Pattern Backrest",
+      "Chair Frame": "Metal Legs",
+      "Available Colours": "Red, Yellow, Green & Black",
+      "Seating Capacity": "4 Persons per Table",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": false,
+    "order": 76,
+    "published": true
   }
 ]
