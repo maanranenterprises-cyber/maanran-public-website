@@ -1500,7 +1500,7 @@
       "Usage": "Cafeterias, Food Courts & Dining Areas",
       "Maintenance": "Easy to Clean"
     },
-    "featured": false,
+    "featured": true,
     "order": 75,
     "published": true
   },
