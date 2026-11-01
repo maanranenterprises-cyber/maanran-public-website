@@ -1648,5 +1648,35 @@
     "featured": true,
     "order": 80,
     "published": true
+  },
+  {
+    "id": "p-nyjt91",
+    "code": "CF-007",
+    "slug": "modern-rectangular-cafeteria-table-and-designer-chair-set",
+    "name": "Modern Rectangular Cafeteria Table & Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria furniture featuring white rectangular tables and colourful ergonomic plastic chairs for comfortable everyday dining.",
+    "description": "Upgrade your dining space with modern cafeteria furniture featuring spacious white rectangular tables and vibrant designer plastic chairs. Designed for durability, comfort and easy maintenance, this furniture set is ideal for corporate cafeterias, restaurants, food courts, colleges and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-7__LFrZAVO27.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame Colour": "White",
+      "Table Design": "Modern",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Backrest": "Perforated Design",
+      "Chair Colours": "Green & Orange",
+      "Seating Arrangement": "Multiple Seating",
+      "Usage": "Cafeterias, Offices, Colleges & Restaurants",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 81,
+    "published": true
   }
 ]
