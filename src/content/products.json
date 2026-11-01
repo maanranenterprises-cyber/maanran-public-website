@@ -2269,5 +2269,31 @@
     "featured": true,
     "order": 100,
     "published": true
+  },
+  {
+    "id": "p-rypodv",
+    "code": "CF-027",
+    "slug": "premium-wooden-top-cafeteria-pedestal-dining-table",
+    "name": "Premium Wooden Top Cafeteria Pedestal Dining Table",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria dining table featuring a premium natural wood-finish tabletop and a sturdy black double-column pedestal base for excellent stability and durability.",
+    "description": "Enhance your dining space with this elegant wooden-top cafeteria table. Designed with a natural wood-finish rectangular tabletop and a strong black metal double-column pedestal base, it offers a perfect balance of durability, stability and modern style. Ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-27_3FKJYYpfc.jpeg"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Table",
+      "Table Shape": "Rectangular",
+      "Table Top Finish": "Natural Wood Finish",
+      "Base Design": "Double-Column Pedestal",
+      "Frame Material": "Metal",
+      "Frame Colour": "Black",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Cafés"
+    },
+    "featured": true,
+    "order": 101,
+    "published": true
   }
 ]
