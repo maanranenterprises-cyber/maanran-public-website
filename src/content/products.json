@@ -1294,7 +1294,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 66,
     "published": true
   },
@@ -1338,7 +1338,7 @@
       "Top": "Pre-laminated board",
       "Feet": " 3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 68,
     "published": true
   },
@@ -1360,7 +1360,7 @@
       "Top": "Pre-laminated board",
       "Feet": " 3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 69,
     "published": true
   },
@@ -1382,7 +1382,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 70,
     "published": true
   },
@@ -1404,7 +1404,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 71,
     "published": true
   },
@@ -1426,7 +1426,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 72,
     "published": true
   },
@@ -1448,7 +1448,7 @@
       "Top": "Pre-laminated board",
       "Feet": "6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 73,
     "published": true
   },
@@ -1470,7 +1470,7 @@
       "Top": "Pre-laminated board",
       "Feet": "3ft, 4ft, 5ft and 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 74,
     "published": true
   },
@@ -1500,8 +1500,183 @@
       "Usage": "Cafeterias, Food Courts & Dining Areas",
       "Maintenance": "Easy to Clean"
     },
-    "featured": false,
+    "featured": true,
     "order": 75,
+    "published": true
+  },
+  {
+    "id": "p-x17k4g",
+    "code": "CF-003",
+    "slug": "modern-glass-top-cafeteria-table-and-designer-chair-set",
+    "name": "Modern Glass Top Cafeteria Table & Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria dining set featuring elegant glass-top tables and stylish designer chairs for a comfortable and attractive dining space.",
+    "description": "Upgrade your dining space with modern cafeteria furniture featuring elegant round glass-top tables and uniquely designed chairs. The colourful plastic chairs with sturdy metal legs offer a stylish seating arrangement, ideal for cafeterias, restaurants, offices and commercial spaces.",
+    "images": [
+      "/maanran/products/cafeteria-3_EOiVPYY8G.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Round",
+      "Table Top": "Tempered Glass",
+      "Table Base": "Stainless Steel",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Open Pattern Backrest",
+      "Chair Frame": "Metal Legs",
+      "Available Colours": "Red, Yellow, Green & Black",
+      "Seating Capacity": "4 Persons per Table",
+      "Design": "Modern",
+      "Usage": "Cafeterias, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 76,
+    "published": true
+  },
+  {
+    "id": "p-nzwobk",
+    "code": "SCDB-030",
+    "slug": "school-and-college-student-desk-bench-30",
+    "name": "School & College Student Desk Bench-30",
+    "brand": "MAANRAN",
+    "category": "school-college-desk-benches",
+    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space",
+    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "images": [
+      "/maanran/products/school-college-student-desk-bench-30_iJwlvLP0x.webp"
+    ],
+    "specs": {
+      "Seats": "3",
+      "Frame": "MS tubular",
+      "Top": "Pre-laminated board",
+      "Feet": "3ft, 4ft, 5ft and 6ft"
+    },
+    "featured": true,
+    "order": 77,
+    "published": true
+  },
+  {
+    "id": "p-h4rmjy",
+    "code": "CF-004",
+    "slug": "modern-cafeteria-dining-table-and-designer-plastic-chair-set",
+    "name": "Modern Cafeteria Dining Table & Designer Plastic Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria furniture featuring spacious rectangular tables and colourful designer plastic chairs for comfortable and stylish dining spaces.",
+    "description": "Enhance your cafeteria with modern dining furniture featuring spacious rectangular tables and attractive designer plastic chairs. Built for everyday use, this combination offers comfortable seating, a practical layout and a vibrant appearance, making it ideal for corporate cafeterias, food courts, restaurants and institutional dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-4_VNqTxJXcb.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top": "Laminated Finish",
+      "Table Colour": "Light Wood Finish",
+      "Table Frame": "Metal",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Decorative Open-Pattern Backrest",
+      "Chair Colours": "Orange, Green & Blue",
+      "Seating Arrangement": "Multiple Seating",
+      "Design": "Modern",
+      "Usage": "Offices, Cafeterias, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 78,
+    "published": true
+  },
+  {
+    "id": "p-kym7vn",
+    "code": "CF-005",
+    "slug": "modern-cafeteria-table-and-colourful-plastic-chair-set",
+    "name": "Modern Cafeteria Table & Colourful Plastic Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Compact and stylish cafeteria dining set featuring a white rectangular table and colourful plastic chairs for comfortable everyday seating.",
+    "description": "Designed for modern cafeterias, offices, schools and dining spaces, this furniture set features a spacious white tabletop with a sturdy frame and colourful plastic chairs. Its simple design, comfortable seating and easy-to-clean surfaces make it suitable for everyday commercial use.",
+    "images": [
+      "/maanran/products/cafeteria-5_9p3MDb6K4.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame Colour": "White",
+      "Chair Type": "Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Perforated Backrest",
+      "Chair Colours": "Red & Green",
+      "Seating Capacity": "4 Persons",
+      "Design": "Modern & Compact",
+      "Usage": "Cafeterias, Schools, Offices & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 79,
+    "published": true
+  },
+  {
+    "id": "p-lyx68x",
+    "code": "CF-006",
+    "slug": "premium-cafeteria-dining-table-and-chair-set",
+    "name": "Premium Cafeteria Dining Table & Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria dining furniture featuring elegant white tables and colourful chairs, designed for comfortable seating and everyday commercial use.",
+    "description": "Create a welcoming dining environment with premium cafeteria furniture featuring spacious white tabletops and stylish plastic chairs. Supported by sturdy metal table frames and durable seating, this furniture is ideal for corporate cafeterias, food courts, colleges, restaurants and institutional dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-6_A0cptx16i.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Square / Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame": "Metal",
+      "Table Frame Colour": "Grey",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Design": "Modern",
+      "Chair Colours": "Green, Orange, Blue & Black",
+      "Seating Capacity": "4 Persons per Table",
+      "Design": "Contemporary",
+      "Usage": "Offices, Colleges, Cafeterias & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 80,
+    "published": true
+  },
+  {
+    "id": "p-nyjt91",
+    "code": "CF-007",
+    "slug": "modern-rectangular-cafeteria-table-and-designer-chair-set",
+    "name": "Modern Rectangular Cafeteria Table & Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish cafeteria furniture featuring white rectangular tables and colourful ergonomic plastic chairs for comfortable everyday dining.",
+    "description": "Upgrade your dining space with modern cafeteria furniture featuring spacious white rectangular tables and vibrant designer plastic chairs. Designed for durability, comfort and easy maintenance, this furniture set is ideal for corporate cafeterias, restaurants, food courts, colleges and commercial dining spaces.",
+    "images": [
+      "/maanran/products/cafeteria-7__LFrZAVO27.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "White",
+      "Table Frame Colour": "White",
+      "Table Design": "Modern",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Backrest": "Perforated Design",
+      "Chair Colours": "Green & Orange",
+      "Seating Arrangement": "Multiple Seating",
+      "Usage": "Cafeterias, Offices, Colleges & Restaurants",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 81,
     "published": true
   }
 ]
