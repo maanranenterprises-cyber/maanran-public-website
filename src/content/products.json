@@ -560,5 +560,22 @@
     "featured": true,
     "order": 28,
     "published": true
+  },
+  {
+    "id": "p-rfaen5",
+    "code": "OW-004",
+    "slug": "office-workstation-4",
+    "name": "Office Workstation-4",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
+    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "images": [
+      "/maanran/products/office-workstation-4_dvO_1Q0kc.webp"
+    ],
+    "specs": {},
+    "featured": true,
+    "order": 29,
+    "published": true
   }
 ]
