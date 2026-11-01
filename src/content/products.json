@@ -969,5 +969,26 @@
     "featured": true,
     "order": 51,
     "published": true
+  },
+  {
+    "id": "p-9m4dgh",
+    "code": "SCDB-007",
+    "slug": "school-and-college-student-desk-bench-7",
+    "name": "School & College Student Desk Bench-7",
+    "brand": "MAANRAN",
+    "category": "school-college-desk-benches",
+    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
+    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "images": [
+      "/maanran/products/school-college-student-desk-bench-7_StqbZ3YIM4.webp"
+    ],
+    "specs": {
+      "Seats": "2",
+      "Frame": "MS tubular",
+      "Top": "Pre-laminated board"
+    },
+    "featured": true,
+    "order": 52,
+    "published": true
   }
 ]
