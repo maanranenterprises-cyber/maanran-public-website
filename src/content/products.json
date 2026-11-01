@@ -2058,5 +2058,36 @@
     "featured": true,
     "order": 93,
     "published": true
+  },
+  {
+    "id": "p-3g7w2c",
+    "code": "CF-020",
+    "slug": "modern-cafeteria-dining-table-and-red-designer-chair-set",
+    "name": "Modern Cafeteria Dining Table & Red Designer Chair Set",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Modern cafeteria furniture featuring spacious rectangular tables and vibrant red designer plastic chairs for comfortable group dining.",
+    "description": "Enhance your dining space with modern cafeteria furniture featuring spacious light-grey rectangular tables and stylish red plastic chairs with perforated backrests. Designed for durability, comfortable seating and easy maintenance, this furniture set is ideal for corporate cafeterias, colleges, restaurants, food courts and commercial dining areas.",
+    "images": [
+      "/maanran/products/cafeteria-20_FPAOSNAoD.jpeg"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Dining Set",
+      "Table Shape": "Rectangular",
+      "Table Top Colour": "Light Grey",
+      "Table Frame": "Metal",
+      "Frame Colour": "Light Grey",
+      "Chair Type": "Designer Plastic Chair",
+      "Chair Material": "Plastic",
+      "Chair Backrest": "Perforated Design",
+      "Chair Colour": "Red",
+      "Chair Design": "Modern",
+      "Seating Arrangement": "Multiple Seating",
+      "Usage": "Offices, Colleges, Restaurants & Food Courts",
+      "Maintenance": "Easy to Clean"
+    },
+    "featured": true,
+    "order": 94,
+    "published": true
   }
 ]
