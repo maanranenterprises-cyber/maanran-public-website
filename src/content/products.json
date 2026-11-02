@@ -220,13 +220,17 @@
     "shortDescription": "Compact cafeteria table with four attached seats, easy to clean.",
     "description": "Compact cafeteria table with four attached seats, easy to clean. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
     "images": [
-      "/images/site/cafeteria.webp"
+      "/images/site/cafeteria.webp",
+      "/maanran/products/c1-table_KC0aOKzSR.webp",
+      "/maanran/products/c1-orange-chair_UCWjRUU_U.webp",
+      "/maanran/products/c1-yellow-chair_xRB0XFBZL.webp",
+      "/maanran/products/c1-gray-chair_5Ffu1218C.webp"
     ],
     "specs": {
       "Seats": "4",
       "Top": "Laminate or SS"
     },
-    "featured": false,
+    "featured": true,
     "order": 11,
     "published": true
   },
@@ -1614,7 +1618,10 @@
     "shortDescription": "Compact and stylish cafeteria dining set featuring a white rectangular table and colourful plastic chairs for comfortable everyday seating.",
     "description": "Designed for modern cafeterias, offices, schools and dining spaces, this furniture set features a spacious white tabletop with a sturdy frame and colourful plastic chairs. Its simple design, comfortable seating and easy-to-clean surfaces make it suitable for everyday commercial use.",
     "images": [
-      "/maanran/products/cafeteria-5_9p3MDb6K4.webp"
+      "/maanran/products/cafeteria-5_9p3MDb6K4.webp",
+      "/maanran/products/c5-table_qezC7gaiW.webp",
+      "/maanran/products/c5-red-chair_OwJKWgACE.webp",
+      "/maanran/products/c5-green-chair_Q0U5nxprl.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Dining Set",
@@ -1644,7 +1651,13 @@
     "shortDescription": "Modern cafeteria dining furniture featuring elegant white tables and colourful chairs, designed for comfortable seating and everyday commercial use.",
     "description": "Create a welcoming dining environment with premium cafeteria furniture featuring spacious white tabletops and stylish plastic chairs. Supported by sturdy metal table frames and durable seating, this furniture is ideal for corporate cafeterias, food courts, colleges, restaurants and institutional dining spaces.",
     "images": [
-      "/maanran/products/cafeteria-6_A0cptx16i.webp"
+      "/maanran/products/cafeteria-6_A0cptx16i.webp",
+      "/maanran/products/c6-table_YsTD4lnWN.webp",
+      "/maanran/products/c6-orange-chair_7-Z1NQjah.webp",
+      "/maanran/products/c6-red-chair_v5E7I_Ltj.webp",
+      "/maanran/products/c6-skyblue-chair_8r5K3ZH3t.webp",
+      "/maanran/products/c6-green-chair_ucOSP3qCf.webp",
+      "/maanran/products/c6-black-chair_vRBSKWj5l.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Dining Set",
@@ -1675,7 +1688,10 @@
     "shortDescription": "Stylish cafeteria furniture featuring white rectangular tables and colourful ergonomic plastic chairs for comfortable everyday dining.",
     "description": "Upgrade your dining space with modern cafeteria furniture featuring spacious white rectangular tables and vibrant designer plastic chairs. Designed for durability, comfort and easy maintenance, this furniture set is ideal for corporate cafeterias, restaurants, food courts, colleges and commercial dining spaces.",
     "images": [
-      "/maanran/products/cafeteria-7__LFrZAVO27.webp"
+      "/maanran/products/cafeteria-7__LFrZAVO27.webp",
+      "/maanran/products/c5-table_BrmNjj73i.webp",
+      "/maanran/products/c5-red-chair_QzI53E6eY.webp",
+      "/maanran/products/c5-green-chair_SjRb1tN1A.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Dining Set",
@@ -1705,7 +1721,10 @@
     "shortDescription": "Premium cafeteria furniture featuring wooden-finish high tables and stylish elevated chairs, designed for comfortable dining and modern commercial spaces.",
     "description": "Enhance your dining area with premium high-table cafeteria furniture featuring elegant wooden-finish tabletops, sturdy metal frames and matching elevated chairs. Designed for durability and practical everyday use, this furniture is ideal for corporate cafeterias, office dining areas, restaurants and modern food courts.",
     "images": [
-      "/maanran/products/cafeteria-8_nhGlMc8F9.webp"
+      "/maanran/products/cafeteria-8_nhGlMc8F9.webp",
+      "/maanran/products/c8-table_liLNRy0__o.webp",
+      "/maanran/products/c8-chair-front-view_RUUzcVyv2Y.webp",
+      "/maanran/products/c8-chair-back-view_xTTzTd179.webp"
     ],
     "specs": {
       "Furniture Type": "High Table & Chair Set",
@@ -1737,7 +1756,8 @@
     "shortDescription": "Modern cafeteria bar furniture featuring an extended wooden-finish counter table and stylish high stools for comfortable dining and casual seating.",
     "description": "Enhance your cafeteria or dining space with a modern bar-style furniture setup featuring a long wooden-finish tabletop, sturdy metal support frame and matching elevated stools. Designed for practical use and a contemporary appearance, it is ideal for office cafeterias, restaurants, food courts and breakout areas.",
     "images": [
-      "/maanran/products/cafeteria-9_97U0o7dM9.webp"
+      "/maanran/products/cafeteria-9_97U0o7dM9.webp",
+      "/maanran/products/c9-table_HYPgvWUKm.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Bar Counter Set",
@@ -1799,7 +1819,11 @@
     "shortDescription": "Premium cafeteria furniture featuring comfortable upholstered booth seating and elegant wooden-finish tables for modern dining spaces.",
     "description": "Transform your dining area with premium cafeteria booth furniture featuring comfortable cushioned seating, stylish wooden-finish side panels and matching dining tables. Designed to provide a comfortable and inviting dining experience, this furniture is ideal for corporate cafeterias, restaurants, cafés, food courts and commercial dining spaces.",
     "images": [
-      "/maanran/products/cafeteria-11_myPlqvc5l.webp"
+      "/maanran/products/cafeteria-11_myPlqvc5l.webp",
+      "/maanran/products/c11-table_3_tocOrGy.webp",
+      "/maanran/products/c11-front-view_yCbHTG15o.webp",
+      "/maanran/products/c11-angled-view_8o08fsEJ9.webp",
+      "/maanran/products/c11-side-view_dN1gw_4cX.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Booth Seating Set",
@@ -1830,7 +1854,11 @@
     "shortDescription": "Durable cafeteria furniture featuring a spacious rectangular dining table with matching bench seating, designed for practical and comfortable group dining.",
     "description": "Designed for busy dining spaces, this modern cafeteria furniture set features a spacious rectangular tabletop, sturdy metal frame and matching bench seating. Its simple, functional design provides convenient seating and efficient space utilisation, making it ideal for corporate cafeterias, colleges, schools, food courts and dining areas.",
     "images": [
-      "/maanran/products/cafeteria-12_Z-yN_zVAp.webp"
+      "/maanran/products/cafeteria-12_Z-yN_zVAp.webp",
+      "/maanran/products/c12-full_ESpRUFTQh.webp",
+      "/maanran/products/c12-dining-table-side-view_LihKiPVd4.webp",
+      "/maanran/products/c12-seating-table-side-view_wkcz9cLVG.webp",
+      "/maanran/products/c12-seating-table-front-view_LE7lYiwif.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Table & Bench Set",
@@ -1860,7 +1888,11 @@
     "shortDescription": "Elegant cafeteria furniture featuring a marble-finish dining table with a stylish metal frame and vibrant designer chairs for comfortable group dining.",
     "description": "Enhance your dining space with premium cafeteria furniture featuring a spacious marble-finish tabletop, modern X-design metal legs and attractive lime-green plastic chairs. Designed for durability, comfortable seating and a stylish appearance, this set is ideal for corporate cafeterias, restaurants, food courts and commercial dining areas.",
     "images": [
-      "/maanran/products/cafeteria-13_8rx-VxN0V.webp"
+      "/maanran/products/cafeteria-13_8rx-VxN0V.webp",
+      "/maanran/products/c13-table_BJkN8xtkIq.webp",
+      "/maanran/products/c13-chair-front-view_d8DDQvaRD.webp",
+      "/maanran/products/c13-chair-side-view_wxRCqvdMm.webp",
+      "/maanran/products/c13-chair-back-view_BADfQVJcu.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Dining Set",
@@ -1893,7 +1925,11 @@
     "shortDescription": "Functional cafeteria furniture featuring a spacious white tabletop with matching bench seating and a sturdy metal frame for comfortable group dining.",
     "description": "Designed for busy dining environments, this cafeteria furniture set features a spacious rectangular white tabletop, matching side benches and a strong metal support frame. Its practical design provides comfortable group seating while making efficient use of dining space. Ideal for corporate cafeterias, colleges, schools, food courts and industrial dining areas.",
     "images": [
-      "/maanran/products/cafeteria-14_D0WxfgeQa.webp"
+      "/maanran/products/cafeteria-14_D0WxfgeQa.webp",
+      "/maanran/products/c12-full_hAjk_-vZK.webp",
+      "/maanran/products/c12-dining-table-side-view_5splylHAR0.webp",
+      "/maanran/products/c12-seating-table-side-view_D3PkNUoBT.webp",
+      "/maanran/products/c12-seating-table-front-view_ddIKw0c9x.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Table & Bench Set",
@@ -1924,7 +1960,14 @@
     "shortDescription": "Modern cafeteria furniture featuring spacious white rectangular tables and colourful designer chairs for comfortable and stylish dining.",
     "description": "Upgrade your dining area with modern cafeteria furniture featuring elegant white rectangular tables and vibrant plastic chairs. Designed for everyday comfort, durability and easy maintenance, this furniture set is ideal for corporate cafeterias, restaurants, colleges, food courts and commercial dining spaces.",
     "images": [
-      "/maanran/products/cafeteria-15_CAZLSozzV.webp"
+      "/maanran/products/cafeteria-15_CAZLSozzV.webp",
+      "/maanran/products/c15-table_WG355B3TB.webp",
+      "/maanran/products/c15-yellow-chair_TqsWW0sog.webp",
+      "/maanran/products/c6-orange-chair_DDqaYidY8.webp",
+      "/maanran/products/c6-skyblue-chair_fggZ0P4neF.webp",
+      "/maanran/products/c6-red-chair_htVo4TnZT.webp",
+      "/maanran/products/c6-green-chair_7QVraCFdz.webp",
+      "/maanran/products/c6-black-chair_YxjE-aAOb.webp"
     ],
     "specs": {
       "Furniture Type": "Cafeteria Dining Set",
