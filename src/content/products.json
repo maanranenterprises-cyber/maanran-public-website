@@ -220,13 +220,17 @@
     "shortDescription": "Compact cafeteria table with four attached seats, easy to clean.",
     "description": "Compact cafeteria table with four attached seats, easy to clean. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
     "images": [
-      "/images/site/cafeteria.webp"
+      "/images/site/cafeteria.webp",
+      "/maanran/products/c1-table_KC0aOKzSR.webp",
+      "/maanran/products/c1-orange-chair_UCWjRUU_U.webp",
+      "/maanran/products/c1-yellow-chair_xRB0XFBZL.webp",
+      "/maanran/products/c1-gray-chair_5Ffu1218C.webp"
     ],
     "specs": {
       "Seats": "4",
       "Top": "Laminate or SS"
     },
-    "featured": false,
+    "featured": true,
     "order": 11,
     "published": true
   },
