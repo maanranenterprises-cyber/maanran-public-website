@@ -1504,10 +1504,7 @@
       "Chair Material": "Plastic",
       "Chair Colours": "Green, White, Red, Yellow & Grey",
       "Table Frame": "Metal",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern",
-      "Usage": "Cafeterias, Food Courts & Dining Areas",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Food Courts & Dining Areas"
     },
     "featured": true,
     "order": 75,
@@ -1540,10 +1537,7 @@
       "Chair Design": "Open Pattern Backrest",
       "Chair Frame": "Metal Legs",
       "Available Colours": "Red, Yellow, Green & Black",
-      "Seating Capacity": "4 Persons per Table",
-      "Design": "Modern",
-      "Usage": "Cafeterias, Restaurants & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
     "order": 76,
@@ -1599,10 +1593,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Decorative Open-Pattern Backrest",
       "Chair Colours": "Orange, Green & Blue",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern",
-      "Usage": "Offices, Cafeterias, Restaurants & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
     "order": 78,
@@ -1632,10 +1623,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Perforated Backrest",
       "Chair Colours": "Red & Green",
-      "Seating Capacity": "4 Persons",
-      "Design": "Modern & Compact",
-      "Usage": "Cafeterias, Schools, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Schools, Offices & Food Courts"
     },
     "featured": true,
     "order": 79,
@@ -1669,10 +1657,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Modern",
       "Chair Colours": "Green, Orange, Blue & Black",
-      "Seating Capacity": "4 Persons per Table",
-      "Design": "Contemporary",
-      "Usage": "Offices, Colleges, Cafeterias & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Colleges, Cafeterias & Food Courts"
     },
     "featured": true,
     "order": 80,
@@ -1703,9 +1688,7 @@
       "Chair Material": "Plastic",
       "Chair Backrest": "Perforated Design",
       "Chair Colours": "Green & Orange",
-      "Seating Arrangement": "Multiple Seating",
-      "Usage": "Cafeterias, Offices, Colleges & Restaurants",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Offices, Colleges & Restaurants"
     },
     "featured": true,
     "order": 81,
@@ -1738,8 +1721,6 @@
       "Chair Frame": "Metal",
       "Chair Seat": "Cushioned",
       "Chair Colour": "Black & Red",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Contemporary",
       "Usage": "Office Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
@@ -1770,8 +1751,6 @@
       "Stool Seat": "Cushioned",
       "Stool Frame": "Wooden Finish",
       "Stool Colour": "Brown & Dark Blue",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern",
       "Usage": "Office Cafeterias, Restaurants & Breakout Areas"
     },
     "featured": true,
@@ -1801,9 +1780,7 @@
       "Stool Seat Colours": "Teal Blue & Grey",
       "Stool Legs": "Wooden Finish",
       "Stool Design": "Modern",
-      "Seating Capacity": "2 Persons",
-      "Usage": "Cafeterias, Cafés, Offices & Restaurants",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Cafés, Offices & Restaurants"
     },
     "featured": true,
     "order": 84,
@@ -1836,8 +1813,6 @@
       "Table Top Finish": "Wooden Finish",
       "Table Support": "Metal Pedestal Base",
       "Base Colour": "White",
-      "Seating Capacity": "Multiple Seating",
-      "Design": "Modern & Premium",
       "Usage": "Corporate Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
@@ -1869,10 +1844,7 @@
       "Seating Type": "Bench Seating",
       "Bench Material": "Metal Frame",
       "Bench Top Colour": "Light Grey",
-      "Seating Arrangement": "Opposite-Side Benches",
-      "Design": "Modern & Functional",
-      "Usage": "Offices, Colleges, Schools & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Colleges, Schools & Food Courts"
     },
     "featured": true,
     "order": 86,
@@ -1906,10 +1878,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Slatted Backrest",
       "Chair Colour": "Lime Green",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern & Contemporary",
-      "Usage": "Offices, Restaurants, Cafeterias & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Restaurants, Cafeterias & Food Courts"
     },
     "featured": true,
     "order": 87,
@@ -1941,10 +1910,7 @@
       "Bench Design": "Side Bench",
       "Bench Top Colour": "White",
       "Bench Frame": "Metal",
-      "Seating Arrangement": "Opposite-Side Benches",
-      "Design": "Modern & Functional",
-      "Usage": "Offices, Colleges, Schools & Industrial Cafeterias",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Colleges, Schools & Industrial Cafeterias"
     },
     "featured": true,
     "order": 88,
@@ -1980,10 +1946,7 @@
       "Chair Design": "Modern Solid Backrest",
       "Chair Colours": "Red, Green, Blue, Yellow & Orange",
       "Chair Legs": "Metal",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern & Contemporary",
-      "Usage": "Offices, Restaurants, Colleges & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Restaurants, Colleges & Food Courts"
     },
     "featured": true,
     "order": 89,
