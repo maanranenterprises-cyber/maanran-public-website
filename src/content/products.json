@@ -1979,10 +1979,7 @@
       "Chair Seat": "Round Perforated Seat",
       "Chair Backrest": "Curved Metal Backrest",
       "Chair Colour": "Black",
-      "Design": "Classic & Functional",
-      "Seating Arrangement": "Multiple Seating",
-      "Usage": "Factories, Offices, Canteens & Cafeterias",
-      "Maintenance": "Easy to Maintain"
+      "Usage": "Factories, Offices, Canteens & Cafeterias"
     },
     "featured": true,
     "order": 90,
@@ -2017,10 +2014,7 @@
       "Bench Top Finish": "Marble Finish",
       "Bench Frame": "Metal",
       "Bench Frame Design": "X-Shaped",
-      "Seating Arrangement": "Opposite-Side Benches",
-      "Design": "Modern & Contemporary",
-      "Usage": "Cafeterias, Colleges, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Colleges, Offices & Food Courts"
     },
     "featured": true,
     "order": 91,
@@ -2052,10 +2046,7 @@
       "Chair Material": "Plastic",
       "Chair Backrest": "Perforated Design",
       "Chair Colour": "White",
-      "Seating Capacity": "2 Persons",
-      "Design": "Modern & Minimalist",
-      "Usage": "Cafés, Restaurants, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafés, Restaurants, Offices & Food Courts"
     },
     "featured": true,
     "order": 92,
@@ -2090,10 +2081,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Ergonomic with Armrests",
       "Chair Colour": "White",
-      "Seating Capacity": "4 Persons",
-      "Design": "Modern & Premium",
-      "Usage": "Cafeterias, Cafés, Offices & Restaurants",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Cafés, Offices & Restaurants"
     },
     "featured": true,
     "order": 93,
@@ -2127,10 +2115,7 @@
       "Chair Material": "Plastic",
       "Chair Backrest": "Perforated Design",
       "Chair Colour": "Red",
-      "Chair Design": "Modern",
-      "Seating Arrangement": "Multiple Seating",
-      "Usage": "Offices, Colleges, Restaurants & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Chair Design": "Modern"
     },
     "featured": true,
     "order": 94,
@@ -2165,10 +2150,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Integrated Armrests",
       "Chair Colour": "White / Grey",
-      "Seating Capacity": "2 Persons",
-      "Design": "Modern & Contemporary",
-      "Usage": "Cafés, Restaurants, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafés, Restaurants, Offices & Food Courts"
     },
     "featured": true,
     "order": 95,
@@ -2202,10 +2184,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Solid Backrest",
       "Chair Colour": "White",
-      "Seating Capacity": "4 Persons",
-      "Design": "Modern & Minimalist",
-      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts"
     },
     "featured": true,
     "order": 96,
@@ -2239,10 +2218,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Solid Backrest",
       "Chair Colours": "Red & White",
-      "Seating Capacity": "4 Persons",
-      "Design": "Modern & Contemporary",
-      "Usage": "Cafeterias, Restaurants, Offices & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Restaurants, Offices & Food Courts"
     },
     "featured": true,
     "order": 97,
@@ -2278,9 +2254,7 @@
       "Chair Type": "Designer Dining Chair",
       "Chair Material": "Plastic",
       "Chair Colours": "Green & Yellow",
-      "Design": "Modern & Contemporary",
-      "Usage": "Cafeterias, Restaurants & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
     "order": 98,
@@ -2312,7 +2286,6 @@
       "Seating Type": "Bar Stools",
       "Stool Material": "Metal",
       "Stool Colour": "Black",
-      "Design": "Industrial",
       "Usage": "Cafeterias & Canteens"
     },
     "featured": true,
@@ -2341,7 +2314,6 @@
       "Base Design": "Single Pedestal",
       "Frame Material": "Metal",
       "Frame Colour": "Black",
-      "Design": "Modern",
       "Usage": "Cafeterias, Restaurants & Cafés"
     },
     "featured": true,
@@ -2370,7 +2342,6 @@
       "Base Design": "Double-Column Pedestal",
       "Frame Material": "Metal",
       "Frame Colour": "Black",
-      "Design": "Modern",
       "Usage": "Cafeterias, Restaurants & Cafés"
     },
     "featured": true,
@@ -2399,7 +2370,6 @@
       "Frame Material": "Metal",
       "Frame Colour": "Grey",
       "Base Design": "Four-Leg Structure",
-      "Design": "Minimalist & Modern",
       "Usage": "Cafeterias, Canteens & Restaurants"
     },
     "featured": true,
@@ -2429,7 +2399,6 @@
       "Seat Material": "Plastic",
       "Leg Material": "Metal",
       "Available Colours": "Blue, Green, Yellow & Orange",
-      "Design": "Modern",
       "Usage": "Cafeterias, Restaurants & Food Courts"
     },
     "featured": true,
