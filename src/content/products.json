@@ -1657,10 +1657,7 @@
       "Chair Material": "Plastic",
       "Chair Design": "Modern",
       "Chair Colours": "Green, Orange, Blue & Black",
-      "Seating Capacity": "4 Persons per Table",
-      "Design": "Contemporary",
-      "Usage": "Offices, Colleges, Cafeterias & Food Courts",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Offices, Colleges, Cafeterias & Food Courts"
     },
     "featured": true,
     "order": 80,
