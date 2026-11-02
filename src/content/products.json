@@ -1504,10 +1504,7 @@
       "Chair Material": "Plastic",
       "Chair Colours": "Green, White, Red, Yellow & Grey",
       "Table Frame": "Metal",
-      "Seating Arrangement": "Multiple Seating",
-      "Design": "Modern",
-      "Usage": "Cafeterias, Food Courts & Dining Areas",
-      "Maintenance": "Easy to Clean"
+      "Usage": "Cafeterias, Food Courts & Dining Areas"
     },
     "featured": true,
     "order": 75,
