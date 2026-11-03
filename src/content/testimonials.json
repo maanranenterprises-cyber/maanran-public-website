@@ -10,23 +10,13 @@
     "published": true
   },
   {
-    "id": "t4",
-    "name": "Customer Name 4",
-    "photo": "",
-    "text": "Our library racks and reading tables were made exactly to our layout. (PLACEHOLDER testimonial)",
-    "rating": 5,
-    "designation": "Librarian, College Name",
-    "order": 2,
-    "published": true
-  },
-  {
     "id": "t-ad89bs",
     "name": "Sharada",
     "photo": "",
     "text": "We sourced school benches from Maanran Enterprises. The whole process was very professional and the output quality is excellent. They managed to deliver the project right on time. Special thanks to Mr Jagadeesh and team for their dedication and seamless coordination throughout the process. Highly recommended if you're looking for quality work and budget-friendly interior solutions!",
     "rating": 5,
     "designation": "Secretary, Vidya Public School",
-    "order": 3,
+    "order": 2,
     "published": false,
     "pending": true,
     "submittedAt": "2026-11-03T04:48:42.187Z"
