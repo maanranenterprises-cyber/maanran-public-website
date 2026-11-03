@@ -1,22 +1,12 @@
 [
   {
-    "id": "t1",
-    "name": "Customer Name 1",
-    "photo": "",
-    "text": "The workstations were delivered and installed on time, and the finish is excellent. (PLACEHOLDER testimonial)",
-    "rating": 5,
-    "designation": "Office Manager, Company Name",
-    "order": 1,
-    "published": true
-  },
-  {
     "id": "t2",
     "name": "Customer Name 2",
     "photo": "",
     "text": "We furnished our entire hostel with their bunker cots and wardrobes. Sturdy and well priced. (PLACEHOLDER testimonial)",
     "rating": 5,
     "designation": "Hostel Owner",
-    "order": 2,
+    "order": 1,
     "published": true
   },
   {
@@ -26,7 +16,7 @@
     "text": "Very professional team. The desk benches for our school are holding up well after heavy use. (PLACEHOLDER testimonial)",
     "rating": 5,
     "designation": "Principal, School Name",
-    "order": 3,
+    "order": 2,
     "published": true
   },
   {
@@ -36,7 +26,7 @@
     "text": "Our library racks and reading tables were made exactly to our layout. (PLACEHOLDER testimonial)",
     "rating": 5,
     "designation": "Librarian, College Name",
-    "order": 4,
+    "order": 3,
     "published": true
   },
   {
@@ -46,7 +36,7 @@
     "text": "We sourced school benches from Maanran Enterprises. The whole process was very professional and the output quality is excellent. They managed to deliver the project right on time. Special thanks to Mr Jagadeesh and team for their dedication and seamless coordination throughout the process. Highly recommended if you're looking for quality work and budget-friendly interior solutions!",
     "rating": 5,
     "designation": "Secretary, Vidya Public School",
-    "order": 5,
+    "order": 4,
     "published": false,
     "pending": true,
     "submittedAt": "2026-11-03T04:48:42.187Z"
