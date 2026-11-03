@@ -50,23 +50,13 @@
     "published": true
   },
   {
-    "id": "t6",
-    "name": "Customer Name 6",
-    "photo": "",
-    "text": "They handled our home interiors from design to finish without any hassle. (PLACEHOLDER testimonial)",
-    "rating": 5,
-    "designation": "Homeowner",
-    "order": 6,
-    "published": true
-  },
-  {
     "id": "t-ad89bs",
     "name": "Sharada",
     "photo": "",
     "text": "We sourced school benches from Maanran Enterprises. The whole process was very professional and the output quality is excellent. They managed to deliver the project right on time. Special thanks to Mr Jagadeesh and team for their dedication and seamless coordination throughout the process. Highly recommended if you're looking for quality work and budget-friendly interior solutions!",
     "rating": 5,
     "designation": "Secretary, Vidya Public School",
-    "order": 7,
+    "order": 6,
     "published": false,
     "pending": true,
     "submittedAt": "2026-11-03T04:48:42.187Z"
