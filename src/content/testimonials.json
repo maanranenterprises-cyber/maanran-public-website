@@ -7,8 +7,8 @@
     "rating": 5,
     "designation": "Secretary, Vidya Public School",
     "order": 1,
-    "published": false,
-    "pending": true,
+    "published": true,
+    "pending": false,
     "submittedAt": "2026-11-03T04:48:42.187Z"
   }
 ]
