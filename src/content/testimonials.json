@@ -19,8 +19,8 @@
     "rating": 5,
     "designation": "Customer",
     "order": 2,
-    "published": false,
-    "pending": true,
+    "published": true,
+    "pending": false,
     "submittedAt": "2026-11-04T08:49:00.000Z"
   }
 ]
