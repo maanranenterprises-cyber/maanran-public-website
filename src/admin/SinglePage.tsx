@@ -72,8 +72,9 @@ export default function SinglePage({ section }: { section: SingleSection }) {
     setSaveError(null)
     try {
       const cleaned = section.schema.parse(draft) as Item
-      await save(cleaned, `Update ${section.label.toLowerCase()}`)
-      setDraft(cleaned)
+      // The server may fill in fields (e.g. the map details from a new Google Maps link)
+      const res = await save(cleaned, `Update ${section.label.toLowerCase()}`)
+      setDraft((res?.data as Item | undefined) ?? cleaned)
       toast('Saved to drafts. Publish to make it live.')
     } catch (e) {
       setSaveError(e)

@@ -4,6 +4,7 @@ import { assignCodes } from '../src/lib/codes.js'
 import { collections, crossCheck, isCollection, validateCollection, type CollectionName } from '../src/lib/schema.js'
 import { prepareDrafts, readContent, writeContent, writeContents } from './_lib/github.js'
 import { handle, HttpError, json, readJson, requireSameOrigin } from './_lib/http.js'
+import { placeFromLink } from './_lib/maps.js'
 import { requireSession } from './_lib/session.js'
 
 function collectionName(name: unknown): CollectionName {
@@ -57,6 +58,19 @@ export function PUT(request: Request) {
           message,
         )
         return json({ sha, assigned: numbered.assigned, data: numbered.products })
+      }
+    }
+
+    // A new Google Maps link moves the footer map too: its listing ID and pin come from the link
+    if (name === 'site') {
+      type Address = { mapLink: string; mapCid: string; mapQuery: string; latitude: number; longitude: number }
+      const address = (result.data as { address: Address }).address
+      const saved = (await readContent(collections.site.file)).data as { address: Address }
+      if (address.mapLink && address.mapLink !== saved.address.mapLink) {
+        const place = await placeFromLink(address.mapLink)
+        const data = { ...(result.data as object), address: { ...address, mapCid: place.cid, mapQuery: `${place.latitude},${place.longitude}`, latitude: place.latitude, longitude: place.longitude } }
+        const sha = await writeContent(collections.site.file, data, body.sha, message)
+        return json({ sha, data })
       }
     }
 
