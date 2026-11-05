@@ -19,7 +19,11 @@ export default function ProductDetail() {
   if (!product) return <NotFound />
 
   const images = product.images.length ? product.images : ['', '', '']
-  const related = products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4)
+  // The 2 products before and the 2 after this one in its category, wrapping around at the ends;
+  // small categories simply show every other product, never twice
+  const inCategory = products.filter((p) => p.category === product.category)
+  const at = inCategory.indexOf(product)
+  const related = [...new Set([-2, -1, 1, 2].map((step) => inCategory[(at + step + inCategory.length) % inCategory.length]))].filter((p) => p !== product)
 
   return (
     <>
