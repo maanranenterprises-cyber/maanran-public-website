@@ -10,5 +10,17 @@
     "published": true,
     "pending": false,
     "submittedAt": "2026-11-03T04:48:42.187Z"
+  },
+  {
+    "id": "t-hbqqof",
+    "name": "Sunke Surendra",
+    "photo": "",
+    "text": "The product quality and finishing and fitting was excellent",
+    "rating": 5,
+    "designation": "Customer",
+    "order": 2,
+    "published": false,
+    "pending": true,
+    "submittedAt": "2026-11-04T08:49:00.000Z"
   }
 ]
