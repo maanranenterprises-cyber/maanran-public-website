@@ -52,7 +52,7 @@ export default function InteriorDetail() {
                     aria-label={`Open photo ${i + 1} of ${photos.length}`}
                     className={`group relative overflow-hidden rounded-2xl ${i === 0 ? 'col-span-2' : ''}`}
                   >
-                    <Media src={img} alt={`${project.title}, photo ${i + 1}`} width={i === 0 ? 1400 : 700} eager={i === 0} className={`w-full transition duration-500 group-hover:scale-[1.03] ${i === 0 ? 'aspect-[16/9]' : 'aspect-[4/3]'}`} />
+                    <Media src={img} alt={`${project.title}, photo ${i + 1}`} width={i === 0 ? 1400 : 700} ratio={i === 0 ? 16 / 9 : 4 / 3} eager={i === 0} className={`w-full transition duration-500 group-hover:scale-[1.03] ${i === 0 ? 'aspect-[16/9]' : 'aspect-[4/3]'}`} />
                     <span className="absolute inset-0 grid place-items-center bg-ink/0 transition group-hover:bg-ink/25">
                       <Expand className="size-7 text-white opacity-0 drop-shadow transition group-hover:opacity-100" />
                     </span>

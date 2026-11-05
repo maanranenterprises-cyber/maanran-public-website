@@ -76,7 +76,7 @@ export function ProjectCard({ project: p, index }: { project: InteriorProject; i
     <li className="reveal" style={{ '--i': index } as React.CSSProperties}>
       <Link to={`/interiors/${p.slug}`} className="group block h-full overflow-hidden rounded-2xl border border-line bg-white transition hover:-translate-y-1 hover:shadow-xl hover:shadow-black/5">
         <div className="relative overflow-hidden">
-          <Media src={p.images[0] ?? ''} alt={p.title} width={700} className="aspect-[4/3] w-full transition duration-500 group-hover:scale-[1.04]" label="Project photo" />
+          <Media src={p.images[0] ?? ''} alt={p.title} width={700} ratio={4 / 3} className="aspect-[4/3] w-full transition duration-500 group-hover:scale-[1.04]" label="Project photo" />
           {photos > 1 && (
             <span className="absolute bottom-3 right-3 inline-flex items-center gap-1 rounded-full bg-ink/70 px-2.5 py-1 text-[11px] font-semibold text-white backdrop-blur">
               <Images className="size-3.5" /> {photos} photos

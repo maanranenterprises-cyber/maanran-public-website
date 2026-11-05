@@ -11,11 +11,13 @@ type Props = {
   eager?: boolean
   /** 'contain' shows the whole photo (product shots), 'cover' fills the box */
   fit?: 'cover' | 'contain'
+  /** The box's shape (width ÷ height) when it crops ('cover'): the photo arrives already cropped, watermark intact */
+  ratio?: number
 }
 
 // Renders an ImageKit/local image, or a branded placeholder while the photo is missing.
-export default function Media({ src, alt, width, className = '', label, eager, fit = 'cover' }: Props) {
-  const url = imageUrl(src, width)
+export default function Media({ src, alt, width, className = '', label, eager, fit = 'cover', ratio }: Props) {
+  const url = imageUrl(src, width, fit === 'cover' ? ratio : undefined)
   if (url) {
     return <img src={url} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" className={`${fit === 'contain' ? 'object-contain bg-white' : 'object-cover'} ${className}`} />
   }

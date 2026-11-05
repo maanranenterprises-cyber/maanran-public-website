@@ -9,7 +9,7 @@ export default function ProductCard({ product }: { product: Product }) {
       to={`/products/${product.slug}`}
       className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition hover:-translate-y-1 hover:border-brand/30 hover:shadow-xl hover:shadow-black/5"
     >
-      <Media fit={product.category === 'office-chairs' ? 'contain' : 'cover'} src={product.images[0] ?? ''} alt={product.name} width={480} className="aspect-[4/3] w-full transition duration-500 group-hover:scale-[1.03]" label="Product photo" />
+      <Media fit={product.category === 'office-chairs' ? 'contain' : 'cover'} src={product.images[0] ?? ''} alt={product.name} width={480} ratio={4 / 3} className="aspect-[4/3] w-full transition duration-500 group-hover:scale-[1.03]" label="Product photo" />
       <div className="flex flex-1 flex-col p-4">
         <p className="flex items-center justify-between gap-2 text-[11px] font-bold uppercase tracking-wider text-blue">
           <span className="truncate">{categoryName(product.category)}</span>
