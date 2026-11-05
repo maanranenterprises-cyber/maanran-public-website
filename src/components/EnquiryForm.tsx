@@ -75,7 +75,7 @@ async function saveToInbox(v: Values, channel: 'form' | 'whatsapp', product: str
         quantity: v.quantity,
         message: v.message,
         product,
-        startedAt,
+        elapsed: Date.now() - startedAt,
         website: v.botcheck ? 'yes' : '',
       }),
     })

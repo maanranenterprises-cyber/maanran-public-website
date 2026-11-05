@@ -26,7 +26,7 @@ export default function FeedbackForm() {
       const res = await fetch('/api/feedback', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...feedback, startedAt: startedAt.current, website: get('website') }),
+        body: JSON.stringify({ ...feedback, elapsed: Date.now() - startedAt.current, website: f.get('botcheck') ? 'yes' : '' }),
       })
       if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error ?? 'Sorry, your feedback could not be sent. Please try again.')
       // Email alert for the team; failure here does not affect the saved feedback
@@ -119,8 +119,8 @@ export default function FeedbackForm() {
         <span className="ml-1 font-normal text-muted">(optional, only for our team, never shown)</span>
         <input name="contact" maxLength={80} className={field} />
       </label>
-      {/* Left empty by people; bots that fill every field are ignored */}
-      <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] size-px opacity-0" />
+      {/* Left unticked by people; bots that tick every box are ignored. A checkbox, because browsers autofill text fields */}
+      <input name="botcheck" type="checkbox" tabIndex={-1} aria-hidden="true" className="absolute -left-[9999px] size-px opacity-0" />
       <label className="flex items-start gap-3 text-sm">
         <input name="consent" type="checkbox" required className="mt-0.5 size-4 accent-brand" />
         <span>

@@ -1,4 +1,4 @@
-// POST /api/feedback { name, designation, rating, text, consent, startedAt, website } → saves the customer's feedback as a
+// POST /api/feedback { name, designation, rating, text, consent, elapsed, website } → saves the customer's feedback as a
 // hidden testimonial "awaiting review" in drafts. Public (no login), so it is guarded against bots and floods.
 // Contact details are not taken here: the page emails them to the company separately, so they never reach the public repository.
 import { collections } from '../src/lib/schema.js'
