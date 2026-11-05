@@ -5,6 +5,7 @@ import { categories, categoryName, products, site, whatsappLink } from '../lib/c
 import Seo from '../components/Seo'
 import Media from '../components/Media'
 import ProductCard from '../components/ProductCard'
+import ZoomImage from '../components/ZoomImage'
 import { useEnquiry } from '../components/EnquiryContext'
 import { WhatsAppIcon } from '../components/Icons'
 import PageHeader from './PageHeader'
@@ -50,7 +51,7 @@ export default function ProductDetail() {
       <section className="py-12 lg:py-16">
         <div className="container-x grid gap-10 lg:grid-cols-2 lg:gap-14">
           <div>
-            <Media key={imageIndex} src={images[imageIndex]} alt={product.name} width={1000} eager fit="contain" className="aspect-[4/3] w-full rounded-2xl border border-line" label="Product photo" />
+            <ZoomImage key={imageIndex} src={images[imageIndex]} alt={product.name} className="aspect-[4/3] w-full rounded-2xl border border-line" />
             {images.length > 1 && (
               <div className="mt-4 grid grid-cols-4 gap-3">
                 {images.map((img, i) => (
