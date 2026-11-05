@@ -50,10 +50,15 @@ function score(fields: Field[], word: string) {
 }
 
 export function searchProducts(list: Product[], query: string, categoryName: (slug: string) => string): Product[] {
-  // A product code finds just that product
+  // A product code finds that product ("ow12" is OW-012), followed by the codes it starts while still being typed
+  // ("oc-00" finds OC-001, OC-002…; "ow-01" finds OW-001, then OW-010 to OW-019)
   const code = codeKey(query)
-  const byCode = code ? list.filter((p) => codeKey(p.code) === code) : []
-  if (byCode.length) return byCode
+  const partial = query.toLowerCase().replace(/[\s-]+/g, '')
+  if (code && /^[a-z]{1,6}\d+$/.test(partial)) {
+    const exact = list.filter((p) => codeKey(p.code) === code)
+    const starting = list.filter((p) => !exact.includes(p) && p.code.toLowerCase().replace('-', '').startsWith(partial))
+    if (exact.length || starting.length) return [...exact, ...starting]
+  }
 
   const terms = words(query).filter((w) => !IGNORED.has(w))
   if (!terms.length) return list
