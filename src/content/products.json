@@ -2427,5 +2427,34 @@
     "featured": true,
     "order": 103,
     "published": true
+  },
+  {
+    "id": "p-k3jxd2",
+    "code": "OMCT-001",
+    "slug": "premium-u-shaped-executive-conference-table",
+    "name": "Premium U-Shaped Executive Conference Table",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant U-shaped conference table featuring a rich walnut wood finish, spacious work surfaces, integrated ventilation panels, and a sturdy full-length wooden structure.",
+    "description": "Designed for corporate boardrooms and professional meeting spaces, this premium U-shaped conference table offers a spacious and organised layout for meetings, presentations, and team discussions. Crafted with a rich walnut wood finish, it features a continuous tabletop, matching front panels, and integrated ventilation grilles. Its elegant design and functional layout make it ideal for corporate offices, boardrooms, institutional meeting halls, and conference facilities.",
+    "images": [
+      "/maanran/products/premium-u-shaped-executive-conference-table_LdvbVA2Kd.webp",
+      "/maanran/products/premium-u-shaped-executive-conference-table-1_6TbW7-2sD.webp",
+      "/maanran/products/premium-u-shaped-executive-conference-table-with-humans_gaVrPx9UA.webp",
+      "/maanran/products/premium-u-shaped-executive-conference-table-1_Fr98QEo1L.webp",
+      "/maanran/products/premium-u-shaped-executive-conference-table-with-mics__0Vd_-wL6.webp"
+    ],
+    "specs": {
+      "Table Shape": "U-Shaped ",
+      "Tabletop Material": "Engineered Wood ",
+      "Tabletop Finish": "Premium Walnut Wood Finish",
+      "Base Material": "Wooden Panel Structure",
+      "Panel Finish": "Matching Walnut Finish",
+      "Design Type": "Modular U-Shaped Layout",
+      "Usage": "Boardrooms & Executive Meeting Halls"
+    },
+    "featured": true,
+    "order": 104,
+    "published": true
   }
 ]
