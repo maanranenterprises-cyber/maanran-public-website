@@ -2487,5 +2487,33 @@
     "featured": true,
     "order": 105,
     "published": true
+  },
+  {
+    "id": "p-z6e1v6",
+    "code": "OMCT-003",
+    "slug": "premium-walnut-conference-table-with-white-metal-legs",
+    "name": "Premium Walnut Conference Table with White Metal Legs",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant conference table featuring a rich walnut wood finish, spacious rounded-edge tabletop, integrated cable management ports, and sturdy white metal T-shaped legs.",
+    "description": "Designed for modern boardrooms and professional meeting spaces, this conference table features a spacious walnut-finish tabletop with smooth rounded corners and integrated cable management ports. Its durable white metal frame, perforated side supports, and full-length modesty panel provide stability and a clean contemporary appearance. Ideal for corporate offices, conference rooms, and team collaboration spaces.",
+    "images": [
+      "/maanran/products/premium-walnut-conference-table-with-white-metal-legs-with-chairs-view_2QBcGApeH3.webp",
+      "/maanran/products/premium-walnut-conference-table-with-white-metal-legs-angled-view-with-zoom_K58887GcQB.webp",
+      "/maanran/products/premium-walnut-conference-table-with-white-metal-legs-angled-view_OCqFW9Jjc.webp",
+      "/maanran/products/premium-walnut-conference-table-with-white-metal-legs-length-view_YncKr6_VPR.webp"
+    ],
+    "specs": {
+      "Table Shape": "Rectangular ",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Dark Walnut Wood Finish ",
+      "Frame Material": "Metal",
+      "Frame Colour": "White",
+      "Leg Type": "T-Shaped Metal Legs",
+      "Cable Management": "Integrated Cable Ports"
+    },
+    "featured": true,
+    "order": 106,
+    "published": true
   }
 ]
