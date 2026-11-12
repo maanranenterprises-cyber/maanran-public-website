@@ -2456,5 +2456,36 @@
     "featured": true,
     "order": 104,
     "published": true
+  },
+  {
+    "id": "p-nkxqsd",
+    "code": "OMCT-002",
+    "slug": "premium-rounded-wooden-conference-table",
+    "name": "Premium Rounded Wooden Conference Table",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant wooden conference table with smooth rounded corners, spacious tabletop, and integrated cable management for professional meeting spaces.",
+    "description": "Designed for modern offices and boardrooms, this premium conference table features a spacious wooden tabletop, smooth rounded edges, and a sturdy matching panel base. Its elegant wood finish, integrated cable ports, and comfortable seating arrangement make it ideal for meetings, discussions, and corporate presentations.",
+    "images": [
+      "/maanran/products/premium-rounded-wooden-conference-table-angled-viwe-with-chairs_N7jaVXOD4.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-legth-view-no-chairs_mPtiiEqQ6.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-width-view-no-chairs_JgrZ69tZ6.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-angled-view-with-chairs-1-copy_paI1fBWbG.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-angled-view-with-chairs-1-copy-copy_QL83ySbn4.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-angled-view-with-chairs-1_dP8VU8x6x.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-length-view-with-chairs_uiAbNV3FJ.webp",
+      "/maanran/products/premium-rounded-wooden-conference-table-width-view-with-chairs_7D7Uz3Mpe.webp"
+    ],
+    "specs": {
+      "Table Shape": "Rectangular with Rounded Corners",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Premium Walnut Wood Finish",
+      "Frame Material": "Metal",
+      "Frame Colour": "Grey",
+      "Leg Type": "Angled Metal Legs with Adjustable Feet"
+    },
+    "featured": true,
+    "order": 105,
+    "published": true
   }
 ]
