@@ -2543,5 +2543,32 @@
     "featured": true,
     "order": 107,
     "published": true
+  },
+  {
+    "id": "p-aluux2",
+    "code": "OMCT-005",
+    "slug": "premium-executive-office-desk-with-black-panel-base",
+    "name": "Premium Executive Office Desk with Black Panel Base",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant office desk featuring a premium golden-brown wooden tabletop, sturdy black panel base, full-length modesty panel, and a clean professional design.",
+    "description": "Designed for modern office environments, this executive desk combines a spacious wooden tabletop with a rich golden-brown finish and a durable matte black panel base. Its full-length modesty panel provides a neat and professional appearance, while the sturdy side supports ensure stability. Ideal for executive cabins, manager offices, and professional workspaces.",
+    "images": [
+      "/maanran/products/premium-executive-office-desk-with-black-panel-base-angled-view_6yl17kdGs.webp",
+      "/maanran/products/premium-executive-office-desk-with-black-panel-base-length-view_mqataltYJ.webp",
+      "/maanran/products/premium-executive-office-desk-with-black-panel-base-width-view_Vh2wpUNPk.webp"
+    ],
+    "specs": {
+      "Desk Shape": "Rectangular",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Golden-Brown Wood Finish ",
+      "Base Material": "Engineered Wood Panel",
+      "Base Colour": "Matte Black",
+      "Panel Type": "Full-Length Modesty Panel",
+      "Usage": "Executive Offices & Manager Cabins"
+    },
+    "featured": true,
+    "order": 108,
+    "published": true
   }
 ]
