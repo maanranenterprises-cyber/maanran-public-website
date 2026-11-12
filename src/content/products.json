@@ -2570,5 +2570,33 @@
     "featured": true,
     "order": 108,
     "published": true
+  },
+  {
+    "id": "p-7161ba",
+    "code": "OMCT-006",
+    "slug": "premium-round-office-meeting-table-with-white-metal-pedestal",
+    "name": "Premium Round Office Meeting Table with White Metal Pedestal",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Modern round meeting table featuring a light oak wood-finish tabletop, integrated cable management port, sturdy white metal pedestal, and four-arm X-shaped base.",
+    "description": "Designed for modern office environments, this round meeting table combines a spacious light oak wood-finish tabletop with a sleek white metal pedestal base. The integrated cable management port provides convenient wire organisation, while the four-arm metal base ensures stability and support. Its clean and contemporary design makes it ideal for office meeting rooms, discussion areas, collaborative workspaces, and executive cabins.",
+    "images": [
+      "/maanran/products/premium-round-office-meeting-table-with-white-metal-pedestal-full-chair-view_oFZe1BJCq.webp",
+      "/maanran/products/premium-round-office-meeting-table-with-white-metal-pedestal-side-view_REA9SUOALP.webp",
+      "/maanran/products/premium-round-office-meeting-table-with-white-metal-pedestal-half-chair-view_30cJh7QWv.webp",
+      "/maanran/products/premium-round-office-meeting-table-with-white-metal-pedestal-top-view_r4rD8xETx.webp"
+    ],
+    "specs": {
+      "Table Shape": "Round",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Light Oak Wood Finish",
+      "Pedestal Material": "Metal",
+      "Pedestal Colour": " White",
+      "Base Type": "Four-Arm X-Shaped Metal Base",
+      "Cable Management": "Integrated Cable Port"
+    },
+    "featured": true,
+    "order": 109,
+    "published": true
   }
 ]
