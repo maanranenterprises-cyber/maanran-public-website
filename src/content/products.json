@@ -2626,5 +2626,33 @@
     "featured": true,
     "order": 110,
     "published": true
+  },
+  {
+    "id": "p-ocqlcx",
+    "code": "OMCT-008",
+    "slug": "modern-rectangular-office-meeting-table-with-grey-metal-legs",
+    "name": "Modern Rectangular Office Meeting Table with Grey Metal Legs",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Stylish rectangular office table featuring a premium dark walnut wood-finish tabletop, sturdy grey metal legs, sleek under-table support frame, and adjustable chrome-finish feet.",
+    "description": "Designed for modern office environments, this rectangular meeting table combines a rich dark walnut wood-finish tabletop with a durable grey metal frame. Its four angled metal legs provide excellent stability, while the adjustable chrome-finish feet ensure balanced positioning on different floor surfaces. The clean, minimalist design makes it ideal for office meeting rooms, collaborative workspaces, training rooms, and professional discussion areas.",
+    "images": [
+      "/maanran/products/modern-rectangular-office-meeting-table-with-grey-metal-legs-angled-view-1_XzK9rjPXF.webp",
+      "/maanran/products/modern-rectangular-office-meeting-table-with-grey-metal-legs-angled-view-2_uBNhcDWTNl.webp",
+      "/maanran/products/modern-rectangular-office-meeting-table-with-grey-metal-legs-top-view_sFA5yd77B.webp",
+      "/maanran/products/modern-rectangular-office-meeting-table-with-grey-metal-legs-view_bpj_0vQFc.webp"
+    ],
+    "specs": {
+      "Table Shape": "Rectangular ",
+      "Tabletop Material": "Engineered Wood ",
+      "Tabletop Finish": "Dark Walnut Wood Finish",
+      "Frame Material": "Metal",
+      "Frame Colour": "Light Grey",
+      "Leg Type": "Angled Metal Legs",
+      "Foot Type": " Adjustable Chrome-Finish Feet"
+    },
+    "featured": true,
+    "order": 111,
+    "published": true
   }
 ]
