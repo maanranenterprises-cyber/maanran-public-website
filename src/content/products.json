@@ -2654,5 +2654,30 @@
     "featured": true,
     "order": 111,
     "published": true
+  },
+  {
+    "id": "p-owxd96",
+    "code": "OMCT-009",
+    "slug": "modern-rectangular-office-meeting-table",
+    "name": "Modern Rectangular Office Meeting Table",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant office meeting table featuring a light wood finish, rounded corners, sturdy silver metal legs, and an integrated cable management port.",
+    "description": "Designed for modern office environments, this rectangular meeting table combines a spacious light-wood tabletop with smooth rounded edges and durable silver metal legs. The integrated cable management port keeps wires organised, while its clean and professional design makes it ideal for office meetings, team discussions, and collaborative workspaces.",
+    "images": [
+      "/maanran/products/modern-rectangular-office-meeting-table-angled-view_3JhRly0Kd.webp",
+      "/maanran/products/modern-rectangular-office-meeting-table-view_468Gw_Y9y.webp"
+    ],
+    "specs": {
+      "Table Shape": "Rectangular",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Dark Walnut Wood Finish",
+      "Frame Material": "Metal",
+      "Frame Colour": "Light Grey",
+      "Leg Type": "Angled Metal Legs with Adjustable Feet "
+    },
+    "featured": true,
+    "order": 112,
+    "published": true
   }
 ]
