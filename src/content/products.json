@@ -2598,5 +2598,33 @@
     "featured": true,
     "order": 109,
     "published": true
+  },
+  {
+    "id": "p-wsf2l1",
+    "code": "OMCT-007",
+    "slug": "premium-round-wooden-meeting-table",
+    "name": "Premium Round Wooden Meeting Table",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Elegant round meeting table featuring a premium light oak wood finish, smooth circular tabletop, sturdy intersecting wooden panel base, and adjustable floor-protection feet.",
+    "description": "Designed for modern office meeting spaces, this round wooden table combines a spacious circular tabletop with a natural light oak finish and smooth rounded edges. Its sturdy intersecting panel base provides excellent support and stability, while the compact design makes it suitable for team discussions, small meeting rooms, collaborative workspaces, and office breakout areas.",
+    "images": [
+      "/maanran/products/premium-round-wooden-meeting-table-angled-view_AnD4Et72T.webp",
+      "/maanran/products/premium-round-wooden-meeting-table-angled-zoom-view_wjRDeeRI7.webp",
+      "/maanran/products/premium-round-wooden-meeting-table-top-view_0ZB-piBRM.webp",
+      "/maanran/products/premium-round-wooden-meeting-table-view_acj8wFbBh.webp"
+    ],
+    "specs": {
+      "Table Shape": "Round",
+      "Tabletop Material": "Engineered Wood",
+      "Tabletop Finish": "Light Oak Wood Finish",
+      "Base Material": "Metal",
+      "Base Colour": "Beach  ",
+      "Leg Type": "Four-Arm X-Shaped Pedestal Base",
+      "Cable Management": "Integrated Cable Port"
+    },
+    "featured": true,
+    "order": 110,
+    "published": true
   }
 ]
