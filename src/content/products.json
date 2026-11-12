@@ -2446,7 +2446,12 @@
     ],
     "specs": {
       "Table Shape": "U-Shaped ",
-      "Tabletop Material": "Engineered Wood "
+      "Tabletop Material": "Engineered Wood ",
+      "Tabletop Finish": "Premium Walnut Wood Finish",
+      "Base Material": "Wooden Panel Structure",
+      "Panel Finish": "Matching Walnut Finish",
+      "Design Type": "Modular U-Shaped Layout",
+      "Usage": "Boardrooms & Executive Meeting Halls"
     },
     "featured": true,
     "order": 104,
