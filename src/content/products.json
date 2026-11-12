@@ -2679,5 +2679,30 @@
     "featured": true,
     "order": 112,
     "published": true
+  },
+  {
+    "id": "p-vrbp0d",
+    "code": "OMCT-010",
+    "slug": "premium-wooden-conference-table-with-metal-legs",
+    "name": "Premium Wooden Conference Table with Metal Legs",
+    "brand": "MAANRAN",
+    "category": "office-meeting-and-conference-tables",
+    "shortDescription": "Modern conference table featuring a rich golden-brown wood finish, sleek black metal legs, dual cable management ports, and a sturdy central support panel.",
+    "description": "Designed for modern office meeting spaces, this conference table combines a spacious wooden tabletop with a premium golden-brown finish and a sleek black metal frame. It features two integrated cable management ports for convenient connectivity, sturdy tapered metal legs, and a central support panel for added stability. Its contemporary design makes it ideal for boardrooms, meeting rooms, and collaborative workspaces.",
+    "images": [
+      "/maanran/products/premium-wooden-conference-table-with-metal-legs-view_OIHlLPsGwq.webp"
+    ],
+    "specs": {
+      "Table Shape": "Rectangular",
+      "Tabletop Material": " Engineered Wood",
+      "Tabletop Finish": "Golden-Brown Wood Finish ",
+      "Frame Material": "Metal  ",
+      "Frame Colour": "Black  ",
+      "Leg Type": "Tapered Metal Legs ",
+      "Cable Management": "Dual Integrated Cable Ports"
+    },
+    "featured": true,
+    "order": 113,
+    "published": true
   }
 ]
