@@ -2705,5 +2705,32 @@
     "featured": true,
     "order": 113,
     "published": true
+  },
+  {
+    "id": "p-2f7raz",
+    "code": "VC-001",
+    "slug": "premium-black-mesh-visitor-chair-with-cushioned-seat",
+    "name": "Premium Black Mesh Visitor Chair with Cushioned Seat",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A modern visitor chair featuring a breathable mesh backrest, comfortable cushioned seat, and sturdy metal frame, ideal for offices and reception areas.",
+    "description": "Designed for comfort and durability, this visitor chair features a breathable mesh backrest and a generously cushioned fabric seat. Its sturdy metal frame and contemporary design make it an excellent seating solution for offices, meeting rooms, and waiting areas.",
+    "images": [
+      "/maanran/products/premium-black-mesh-visitor-chair-with-cushioned-seat-front-angled-view_6GnQdgK_M.webp",
+      "/maanran/products/premium-black-mesh-visitor-chair-with-cushioned-seat-side-view_2sAmCDHmb.webp",
+      "/maanran/products/premium-black-mesh-visitor-chair-with-cushioned-seat-back-view_slCaJyKDM4.webp",
+      "/maanran/products/premium-black-mesh-visitor-chair-with-cushioned-seat-front-view_AjqjUmVRv.webp"
+    ],
+    "specs": {
+      "Chair Type": "Visitor Chair",
+      "Backrest Material": "Breathable Mesh ",
+      "Seat Material": "Fabric Upholstery",
+      "Seat Cushion": "High-Density Foam",
+      "Frame Material": "Metal",
+      "Frame Finish": " Black Powder Coated"
+    },
+    "featured": true,
+    "order": 114,
+    "published": true
   }
 ]
