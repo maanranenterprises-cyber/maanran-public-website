@@ -2814,5 +2814,34 @@
     "featured": true,
     "order": 117,
     "published": true
+  },
+  {
+    "id": "p-bnnfgv",
+    "code": "VC-005",
+    "slug": "premium-fabric-visitor-chair-with-cushioned-armrests",
+    "name": "Premium Fabric Visitor Chair with Cushioned Armrests",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A stylish and comfortable visitor chair featuring premium fabric upholstery, cushioned armrests, and a durable metal frame. Ideal for offices, reception areas, and meeting spaces.",
+    "description": "Designed for comfort and durability, this visitor chair features a well-padded seat and backrest with soft fabric upholstery. Its sturdy metal frame and ergonomic armrests provide reliable support, making it suitable for professional office environments.",
+    "images": [
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-front-angled-view_U3zYQDAMT8.webp",
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-back-view_-GSwmiXBu.webp",
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-front-view-1_xjpKPeSP6.webp",
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-front-view_pSf__3fOjZ.webp",
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-left-side-view_hj8eSEooI.webp",
+      "/maanran/products/premium-fabric-visitor-chair-with-cushioned-armrests-right-side-view_VvFVHPUZEs.webp"
+    ],
+    "specs": {
+      "Chair Type": "Visitor Chair  ",
+      "Upholstery Material": "Premium Fabric",
+      "Frame Material": "Powder-Coated Metal",
+      "Armrest Type": "Cushioned Fixed Armrests ",
+      "Base Type": "Four-Leg Metal Frame",
+      "Colors": "Black & Blue"
+    },
+    "featured": true,
+    "order": 118,
+    "published": true
   }
 ]
