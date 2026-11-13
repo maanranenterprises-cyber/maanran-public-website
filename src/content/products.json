@@ -2787,5 +2787,32 @@
     "featured": true,
     "order": 116,
     "published": true
+  },
+  {
+    "id": "p-4dusxa",
+    "code": "VC-004",
+    "slug": "premium-black-leatherette-visitor-chair-with-padded-armrests",
+    "name": "Premium Black Leatherette Visitor Chair with Padded Armrests",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A stylish and comfortable visitor chair featuring premium black leatherette upholstery, cushioned seating, and sturdy metal construction. Ideal for offices, reception areas, and meeting spaces.",
+    "description": "Designed for comfort and durability, this visitor chair features a generously padded backrest and seat with elegant stitched detailing. Its strong metal frame, padded armrests, and protective leg caps provide reliable support and a professional appearance.",
+    "images": [
+      "/maanran/products/premium-black-leatherette-visitor-chair-with-padded-armrests-front-angled-view_qIMMVLIEx.webp",
+      "/maanran/products/premium-black-leatherette-visitor-chair-with-padded-armrests-back-view_M84x9eh_G.webp",
+      "/maanran/products/premium-black-leatherette-visitor-chair-with-padded-armrests-front-view_eH-1rQWc_.webp",
+      "/maanran/products/premium-black-leatherette-visitor-chair-with-padded-armrests-back-angled-view_5x_Fofr_uf.webp"
+    ],
+    "specs": {
+      "Chair Type": "Visitor Chair",
+      "Upholstery Material": "Premium Black Leatherette ",
+      "Backrest Design": "Padded with Stitched Detailing",
+      "Seat Material": "Cushioned Leatherette ",
+      "Frame Material": "Powder-Coated Metal",
+      "Armrest Type": "Padded Fixed Armrests "
+    },
+    "featured": true,
+    "order": 117,
+    "published": true
   }
 ]
