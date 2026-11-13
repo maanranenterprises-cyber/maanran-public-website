@@ -2732,5 +2732,32 @@
     "featured": true,
     "order": 114,
     "published": true
+  },
+  {
+    "id": "p-fgdu33",
+    "code": "VC-002",
+    "slug": "premium-ergonomic-mesh-visitor-chair-with-cushioned-seat",
+    "name": "Premium Ergonomic Mesh Visitor Chair with Cushioned Seat",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A stylish visitor chair featuring a breathable mesh backrest, comfortable fabric-cushioned seat, and sturdy metal sled base, ideal for modern office spaces.",
+    "description": "Designed for comfort and durability, this visitor chair features a breathable mesh backrest, soft cushioned fabric seat, and ergonomically curved armrests. Its sturdy cantilever metal frame provides a modern look and makes it suitable for offices, reception areas, and meeting rooms.",
+    "images": [
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-cushioned-seat-front-angled-view_wV1cDrwKL.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-cushioned-seat-front-view_V7rJOkPeW.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-cushioned-seat-back-view_Ib9BZi7K7.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-cushioned-seat-side-view_yc4AKk3V0.webp"
+    ],
+    "specs": {
+      "Chair Type": "Mesh Visitor Chair",
+      "Backrest Material": "Breathable Mesh",
+      "Seat Material": "Fabric Upholstery",
+      "Seat Cushion": "High-Density Foam",
+      "Armrest Type": "Fixed Curved Armrests",
+      "Base Material": "Metal Cantilever Frame"
+    },
+    "featured": true,
+    "order": 115,
+    "published": true
   }
 ]
