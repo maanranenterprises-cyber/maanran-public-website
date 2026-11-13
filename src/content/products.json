@@ -2759,5 +2759,33 @@
     "featured": true,
     "order": 115,
     "published": true
+  },
+  {
+    "id": "p-zs94ic",
+    "code": "VC-003",
+    "slug": "premium-ergonomic-mesh-visitor-chair-with-lumbar-support",
+    "name": "Premium Ergonomic Mesh Visitor Chair with Lumbar Support",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A modern visitor chair featuring a breathable mesh backrest, integrated lumbar support, comfortable cushioned seat, and sturdy metal frame.",
+    "description": "Designed for comfort and durability, this visitor chair features a breathable mesh backrest with integrated lumbar support and a soft fabric-cushioned seat. Its stylish armrests and sturdy metal sled base make it ideal for offices, reception areas, and meeting rooms.",
+    "images": [
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-front-angled-view__rcZNJ2oe.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-front-view_JfWaq_-ZF.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-back-view_xEdK4msU-.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-side-view-1_O4nHHUXf9.webp",
+      "/maanran/products/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-side-view_CLFDqTNnb.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Visitor Chair",
+      "Backrest Material": "Breathable Mesh",
+      "Lumbar Support": "Integrated Padded Lumbar Support",
+      "Seat Material": "Fabric Upholstery",
+      "Armrest Type": "Fixed Ergonomic Armrests",
+      "Base Material": "Metal Sled Frame"
+    },
+    "featured": true,
+    "order": 116,
+    "published": true
   }
 ]
