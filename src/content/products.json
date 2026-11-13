@@ -2843,5 +2843,38 @@
     "featured": true,
     "order": 118,
     "published": true
+  },
+  {
+    "id": "p-5xlwdy",
+    "code": "VC-006",
+    "slug": "premium-fabric-visitor-p-type-chair-with-back-and-cushion",
+    "name": "Premium Fabric Visitor P Type Chair with Back and Cushion",
+    "brand": "MAANRAN",
+    "category": "visitor-chairs",
+    "shortDescription": "A comfortable visitor chair featuring premium black fabric upholstery, a cushioned seat and backrest, padded armrests, and a durable black metal frame. Ideal for professional office spaces.",
+    "description": "This premium visitor chair combines comfortable cushioned seating with a strong black tubular metal P-type frame. Featuring an ergonomic backrest, padded armrests and a durable design, it is suitable for offices, meeting rooms, reception areas and conference spaces.",
+    "images": [
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-front-angled-view_nQQIxQVr0R.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-left-side-view_ZkUrN4vvP.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-back-view_99YW9BTZLL.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-front-view-1_QPMlgPuPU.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-back-angled-view_ScfIVkZWIO.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-front-view-2_QkGVnFhgi.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-right-side-view_XEyWLTRpXS.webp",
+      "/maanran/products/premium-fabric-visitor-p-type-chair-with-back-and-cushion-top-view_Se6H3JzNpx.webp"
+    ],
+    "specs": {
+      "Chair Type": "Visitor / Guest Chair",
+      "Upholstery Material": "Premium Fabric ",
+      "Seat & Backrest": "Cushioned ",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Black Powder Coated",
+      "Armrest Type": "Padded Fixed Armrests ",
+      "Chair Base": "P-Type Metal Frame ",
+      "Colour": "Black , Blue"
+    },
+    "featured": true,
+    "order": 119,
+    "published": true
   }
 ]
