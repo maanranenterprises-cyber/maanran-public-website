@@ -3040,5 +3040,33 @@
     "featured": true,
     "order": 124,
     "published": true
+  },
+  {
+    "id": "p-kek9he",
+    "code": "OEWC-010",
+    "slug": "premium-black-ergonomic-mesh-office-chair-with-integrated-armrests",
+    "name": "Premium Black Ergonomic Mesh Office Chair with Integrated Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern ergonomic office chair featuring a breathable black mesh backrest, comfortable cushioned seat and integrated loop-style armrests. Designed for everyday comfort with a sleek, contemporary appearance.",
+    "description": "Enhance your workspace with this premium ergonomic mesh office chair, designed with a supportive high-back mesh structure and a generously cushioned seat for comfortable seating. Its integrated armrest and backrest frame provides a seamless, stylish design, while the sturdy five-star nylon base and smooth-rolling castor wheels ensure stability and easy mobility. Ideal for offices, workstations and home offices.",
+    "images": [
+      "/maanran/products/premium-black-ergonomic-mesh-office-chair-with-integrated-armrests-front-view_9ASsEe2a1.webp",
+      "/maanran/products/premium-black-ergonomic-mesh-office-chair-with-integrated-armrests-back-view_v9KBp-8NI.webp",
+      "/maanran/products/premium-black-ergonomic-mesh-office-chair-with-integrated-armrests-back-angled-view_1srFL3QnX.webp",
+      "/maanran/products/premium-black-ergonomic-mesh-office-chair-with-integrated-armrests-front-angled-view_aarCMcw8P.webp",
+      "/maanran/products/premium-black-ergonomic-mesh-office-chair-with-integrated-armrests-side-view_0CaHGg7yq.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Office Chair  ",
+      "Backrest Material": "Breathable Black Mesh Fabric  ",
+      "Seat Material": " Premium Cushioned Fabric Upholstery",
+      "Armrest Type": "Integrated Fixed Loop Armrests ",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base ",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 125,
+    "published": true
   }
 ]
