@@ -512,16 +512,23 @@
     "id": "p-cv3uk4",
     "code": "OEWC-003",
     "slug": "office-executive-workstation-chairs-2",
-    "name": "Office Executive Workstation Chairs-2",
+    "name": "Premium Ergonomic Mesh Back Office Chair with Cushioned Seat and Nylon Base",
     "brand": "MAANRAN",
     "category": "office-executive-workstation-chairs",
-    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
-    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable mesh backrest, comfortable cushioned seat and sturdy armrests. Designed to provide reliable seating comfort and support for everyday office use.",
+    "description": "Enhance your workspace with this Premium Ergonomic Mesh Back Office Chair, featuring a breathable mesh backrest with integrated lumbar support and a generously cushioned black fabric seat. Its sturdy armrests provide added comfort and support during daily work activities.\n\nDesigned with a pneumatic seat height adjustment mechanism, durable five-star nylon base and smooth-rolling castor wheels, this chair offers a practical combination of comfort, stability and modern styling for professional workspaces.",
     "images": [
       "/maanran/products/office-executive-workstation-chairs-2-front-view_K5E2-j2_H.jpeg",
       "/maanran/products/office-executive-workstation-chairs-2-back-view_n35C8huBl.jpeg"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Back Office Chair",
+      "Backrest Material": "Breathable Black Mesh Fabric",
+      "Lumbar Support": "Integrated Lumbar Support",
+      "Seat Material": "Premium Black Fabric Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Heavy-Duty Five-Star Nylon Base"
+    },
     "featured": true,
     "order": 25,
     "published": true
