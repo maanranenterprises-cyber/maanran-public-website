@@ -484,11 +484,11 @@
     "id": "p-723m4a",
     "code": "OEWC-002",
     "slug": "office-executive-workstation-chairs-1",
-    "name": "Office Executive Workstation Chairs-1",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Lumbar Support and Nylon Base",
     "brand": "MAANRAN",
     "category": "office-executive-workstation-chairs",
-    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
-    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "shortDescription": "A professional ergonomic office chair featuring a breathable mesh backrest, integrated lumbar support and a comfortable cushioned seat. Designed for comfortable everyday seating in modern office workspaces.",
+    "description": "Upgrade your workspace with this Premium Ergonomic High-Back Mesh Office Chair, designed with a breathable mesh backrest and integrated lumbar support for enhanced seating comfort. The generously cushioned black fabric seat and adjustable armrests provide reliable support throughout the working day.\n\nFeaturing pneumatic seat height adjustment, a durable five-star nylon base and smooth-rolling castor wheels, this chair offers a practical combination of comfort, stability and contemporary design for offices and workstations.",
     "images": [
       "/maanran/products/office-executive-workstation-chairs-1-front-view_7hgMMdXjI1.png",
       "/maanran/products/office-executive-workstation-chairs-1-back-view_pqegOBCocN.png",
@@ -496,7 +496,14 @@
       "/maanran/products/office-executive-workstation-chairs-1-side-view_zABmHq9cQx.png",
       "/maanran/products/office-executive-workstation-chairs-1-back-angled-view_A-WgO_on7.png"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "Ergonomic High-Back Office Chair",
+      "Backrest Material": "Breathable Black Mesh Fabric",
+      "Lumbar Support": "Integrated Adjustable Lumbar Support",
+      "Seat Material": "Premium Black Fabric Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Heavy-Duty Five-Star Nylon Base"
+    },
     "featured": true,
     "order": 24,
     "published": true
