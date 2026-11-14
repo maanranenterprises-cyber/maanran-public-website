@@ -2985,5 +2985,33 @@
     "featured": true,
     "order": 122,
     "published": true
+  },
+  {
+    "id": "p-phwkif",
+    "code": "OEWC-008",
+    "slug": "premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base",
+    "name": "Premium Ergonomic Mesh Office Chair with Adjustable Lumbar Support and Chrome Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A contemporary ergonomic office chair featuring a breathable mesh backrest, adjustable lumbar support and a generously cushioned seat. Designed to deliver comfortable seating and flexibility for modern office workstations.",
+    "description": "Experience enhanced seating comfort with this Premium Ergonomic Mesh Office Chair, featuring a breathable mesh backrest and a dedicated lumbar support cushion for improved back support. The padded seat and adjustable armrests provide added comfort and convenience during extended working hours.\n\nDesigned with a pneumatic height adjustment mechanism, sturdy chrome-finished five-star metal base and smooth-rolling castor wheels, this chair is an excellent choice for executive offices and professional workspaces.",
+    "images": [
+      "/maanran/products/premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base-front-view_HlubXCi3w.webp",
+      "/maanran/products/premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base-front-angled-view_uUeLv3rei.webp",
+      "/maanran/products/premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base-back-angled-view_RluF0xkDQ.webp",
+      "/maanran/products/premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base-back-view_YZG_2Sal0.webp",
+      "/maanran/products/premium-ergonomic-mesh-office-chair-with-adjustable-lumbar-support-and-chrome-base-side-view_ECTbqnl6Y.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Office Chai",
+      "Backrest Material": " Breathable Black Mesh Fabric",
+      "Lumbar Support": "Integrated Adjustable Lumbar Cushion",
+      "Seat Material": "Premium Black Fabric Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests ",
+      "Base Material": "Chrome-Finished Five-Star Metal Base"
+    },
+    "featured": true,
+    "order": 123,
+    "published": true
   }
 ]
