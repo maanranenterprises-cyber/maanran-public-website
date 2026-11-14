@@ -457,16 +457,25 @@
     "id": "p-hwkld8",
     "code": "OEWC-001",
     "slug": "office-executive-workstation-chairs",
-    "name": "Office Executive Workstation Chairs",
+    "name": "Premium Ergonomic Mesh Back Office Chair with Grey Cushioned Seat and Chrome Base",
     "brand": "MAANRAN",
     "category": "office-executive-workstation-chairs",
-    "shortDescription": "Comfortable mesh office chair with cushioned seating and adjustable armrests.",
-    "description": "Designed for everyday office use, this executive workstation chair features a breathable mesh back, cushioned seat, adjustable armrests, and a sturdy chrome-finished base for lasting comfort and support.",
+    "shortDescription": "A modern office chair featuring a breathable light-grey mesh backrest, comfortable cushioned seat and sturdy armrests. Designed to provide everyday seating comfort with a stylish and professional appearance.",
+    "description": "Enhance your workspace with this Premium Ergonomic Mesh Back Office Chair, featuring a breathable mesh backrest and a generously cushioned grey seat for comfortable seating. The sturdy armrests and supportive backrest provide added convenience for daily office activities.\n\nEquipped with a pneumatic height adjustment mechanism, polished chrome-finished five-star metal base and smooth-rolling castor wheels, this chair combines functionality, durability and contemporary design.",
     "images": [
       "/maanran/products/office-executive-workstation-chairs-front-view_HBpj0ytVC.png",
-      "/maanran/products/office-executive-workstation-chairs-back-angled-view_u3Ma8xaNR.png"
+      "/maanran/products/office-executive-workstation-chairs-back-angled-view_u3Ma8xaNR.png",
+      "/maanran/products/premium-ergonomic-mesh-back-office-chair-with-grey-cushioned-seat-and-chrome-base-front-view_Z2eYFOFgK.jpeg",
+      "/maanran/products/premium-ergonomic-mesh-back-office-chair-with-grey-cushioned-seat-and-chrome-base-back-view_qXiQAt8Gf.jpeg"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Back Office Chair",
+      "Backrest Material": "Breathable Grey Mesh Fabric",
+      "Seat Material": "Premium Grey Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Chrome-Finished Five-Star Metal Base",
+      "Adjustment": "Pneumatic Seat Height Adjustment"
+    },
     "featured": true,
     "order": 23,
     "published": true
