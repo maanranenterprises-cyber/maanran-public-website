@@ -2906,5 +2906,30 @@
     "featured": true,
     "order": 119,
     "published": true
+  },
+  {
+    "id": "p-ooeyd8",
+    "code": "OEWC-005",
+    "slug": "premium-grey-mesh-ergonomic-office-chair-with-chrome-five-star-base",
+    "name": "Premium Grey Mesh Ergonomic Office Chair with Chrome Five-Star Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable grey mesh backrest, comfortable cushioned seat and supportive armrests. Designed to provide comfort and functionality in modern office environments.",
+    "description": "Upgrade your workspace with this premium ergonomic office chair, combining a breathable mesh backrest with a soft, generously cushioned grey seat. Its supportive backrest design, sturdy armrests and adjustable seating mechanism provide comfortable support for everyday office use. The polished chrome-finish five-star metal base with smooth-rolling castor wheels adds durability and a sophisticated professional look.",
+    "images": [
+      "/maanran/products/premium-grey-mesh-ergonomic-office-chair-with-chrome-five-star-base-front-view_lqB281LOi.jpeg",
+      "/maanran/products/premium-grey-mesh-ergonomic-office-chair-with-chrome-five-star-base-back-view_ZEo7Q9XMJ.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Office Chair",
+      "Backrest Material": "Breathable Grey Mesh Fabric",
+      "Seat Material": "Premium Grey Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Chrome-Finished Metal Five-Star Base",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 120,
+    "published": true
   }
 ]
