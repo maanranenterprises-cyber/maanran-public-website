@@ -2958,5 +2958,32 @@
     "featured": true,
     "order": 121,
     "published": true
+  },
+  {
+    "id": "p-l8dli0",
+    "code": "OEWC-007",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern ergonomic office chair featuring a breathable mesh backrest, supportive lumbar cushion and comfortable padded seat. Designed for enhanced comfort and flexibility in professional workspaces.",
+    "description": "Upgrade your workspace with this Premium Ergonomic High-Back Mesh Office Chair, designed with a breathable mesh backrest and integrated lumbar support to encourage comfortable seating. The generously cushioned black fabric seat and adjustable armrests provide added convenience during extended working hours.\n\nEquipped with pneumatic seat height adjustment, a chrome-finished five-star metal base and smooth-rolling castor wheels, this chair offers a perfect combination of functionality, durability and contemporary office style",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-front-angled-view_sozwjLp4m.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-front-view_C5ZymXhii.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-back-view_c36zEsMsT.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-side-view_9okfu-hZQ.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic High-Back Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric ",
+      "Lumbar Support": "Integrated Adjustable Lumbar Support",
+      "Seat Material": "Premium Black Fabric Upholstery ",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Chrome-Finished Five-Star Metal Base"
+    },
+    "featured": true,
+    "order": 122,
+    "published": true
   }
 ]
