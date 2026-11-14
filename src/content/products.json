@@ -3013,5 +3013,32 @@
     "featured": true,
     "order": 123,
     "published": true
+  },
+  {
+    "id": "p-pxgjkf",
+    "code": "OEWC-009",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Adjustable Support",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern ergonomic office chair featuring a breathable mesh backrest, supportive lumbar cushion and comfortable padded seat. Designed to provide excellent seating comfort and flexibility for everyday office use.",
+    "description": "Upgrade your workspace with this Premium Ergonomic High-Back Mesh Office Chair, designed with a breathable mesh backrest and integrated lumbar support for enhanced back comfort. The generously cushioned black fabric seat and adjustable armrests offer comfortable support throughout the working day.\n\nFeaturing a pneumatic height adjustment mechanism, sturdy five-star nylon base and smooth-rolling castor wheels, this chair combines durability, functionality and contemporary styling for modern offices and workstations.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-nylon-base-front-angled-view_YO2wn_lFf.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-nylon-base-front-view_PHx0lZfJA.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-nylon-base-back-view_hR7OlYekYI.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-nylon-base-side-view_p-hQE-5nK2.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic High-Back Office Chair ",
+      "Backrest Material": "Breathable Black Mesh Fabric",
+      "Lumbar Support": "Integrated Adjustable Lumbar Support",
+      "Seat Material": "Premium Black Fabric Upholstery ",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": " Heavy-Duty Five-Star Nylon Base"
+    },
+    "featured": true,
+    "order": 124,
+    "published": true
   }
 ]
