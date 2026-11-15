@@ -3413,5 +3413,31 @@
     "featured": true,
     "order": 137,
     "published": true
+  },
+  {
+    "id": "p-w67qoq",
+    "code": "OWS-006",
+    "slug": "premium-walnut-finish-three-drawer-executive-office-mobile-pedestal-cabinet",
+    "name": "Premium Walnut Finish Three-Drawer Executive Office Mobile Pedestal Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A compact wooden office pedestal featuring three spacious drawers, a premium walnut wood-grain finish and elegant curved metal handles. Designed for convenient storage of office documents, stationery and personal essentials.",
+    "description": "Keep your workspace organized with this premium three-drawer wooden office pedestal, offering practical storage in a compact and space-efficient design. Featuring a rich walnut finish, smooth drawer fronts, a built-in locking system and stylish silver handles, it is an ideal storage solution for executive cabins and workstation setups.",
+    "images": [
+      "/maanran/products/premium-walnut-finish-three-drawer-executive-office-mobile-pedestal-cabinet_5_qs-2sst.webp"
+    ],
+    "specs": {
+      "Product Type": "Wooden Office Drawer Pedestal",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Walnut Wood-Grain Finish",
+      "Number of Drawers": "3 Drawers",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Curved Silver Metal Handles",
+      "Storage Type": "Multi-Drawer Storage",
+      "Application": "Executive Offices and Workstations"
+    },
+    "featured": true,
+    "order": 138,
+    "published": true
   }
 ]
