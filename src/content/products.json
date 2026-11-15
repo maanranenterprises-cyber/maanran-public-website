@@ -3216,5 +3216,36 @@
     "featured": true,
     "order": 130,
     "published": true
+  },
+  {
+    "id": "p-egpztp",
+    "code": "OEWC-016",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Sculpted Frame Design",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable mesh backrest, cushioned fabric seat and distinctive sculpted back support. Designed to provide everyday comfort with a modern professional appearance.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a unique sculpted rear frame, breathable mesh upholstery and integrated back support. The generously cushioned seat, curved loop armrests and durable five-star nylon base with smooth-rolling castors offer a comfortable and practical seating solution for modern offices.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-front-view_IcGXZhSKp.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-front-angled-view_cPIwdlV9K.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-front-angled-view_A39rI3Ral.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-side-view_Y4WNyW5oL.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-side-vide_pbPnpjNEs.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-back-view_MN0O9OJi4.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-back-angled-view_i-H-d0OsJ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-back-angled-view_31Di8o5RD.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Backrest Design": "Sculpted Integrated Support Frame",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Curved Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 131,
+    "published": true
   }
 ]
