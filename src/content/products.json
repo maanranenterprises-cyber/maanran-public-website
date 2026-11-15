@@ -3625,5 +3625,31 @@
     "featured": true,
     "order": 145,
     "published": true
+  },
+  {
+    "id": "p-dqo2fy",
+    "code": "OWS-014",
+    "slug": "premium-executive-wooden-display-and-storage-cabinet-with-glass-doors",
+    "name": "Premium Executive Wooden Display and Storage Cabinet with Glass Doors",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A sophisticated executive wooden storage cabinet featuring upper glass-door display sections and spacious lower closed storage compartments. Ideal for organizing office files, books, awards and essential accessories.",
+    "description": "Upgrade your office interiors with this premium executive display cabinet, designed with transparent glass-front doors, multiple internal shelves and spacious concealed storage at the bottom. Its rich teak wood-grain finish, elegant silver metal handles and secure locking systems combine functionality with a professional appearance for corporate offices, executive cabins and reception areas.",
+    "images": [
+      "/maanran/products/premium-executive-wooden-display-and-storage-cabinet-with-glass-doors_BTrnlpsOw.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Display & Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Upper Section": "Double Glass-Door Display Storage",
+      "Lower Section": "2-Door Closed Storage Cabinet",
+      "Storage Configuration": "Multiple Internal Shelves",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Silver Vertical Metal Handles"
+    },
+    "featured": true,
+    "order": 146,
+    "published": true
   }
 ]
