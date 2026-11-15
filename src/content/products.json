@@ -3311,5 +3311,29 @@
     "featured": true,
     "order": 133,
     "published": true
+  },
+  {
+    "id": "p-lfmfde",
+    "code": "OWS-002",
+    "slug": "premium-three-section-wooden-office-storage-cabinet-with-overhead-display-unit",
+    "name": "Premium Three-Section Wooden Office Storage Cabinet with Overhead Display Unit",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A modern wooden office storage cabinet featuring multiple lockable compartments and an integrated overhead display niche with built-in lighting. Ideal for organized document storage and professional office interiors.",
+    "description": "Enhance your workspace with this elegant wooden storage cabinet, designed with six spacious closed compartments for storing files, documents and office essentials. The integrated overhead open display section with recessed LED lighting adds a stylish touch, while individual locking handles provide secure storage.",
+    "images": [
+      "/maanran/products/premium-three-section-wooden-office-storage-cabinet-with-overhead-display-unit_Od0KKrfLj.webp"
+    ],
+    "specs": {
+      "Product Type": "Wooden Office Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Oak Wood Finish",
+      "Storage Configuration": "6 Closed Storage Compartments",
+      "Lock System": "Individual Key-Lockable Doors",
+      "Display Section": "Open Overhead Shelf with LED Lighting"
+    },
+    "featured": true,
+    "order": 134,
+    "published": true
   }
 ]
