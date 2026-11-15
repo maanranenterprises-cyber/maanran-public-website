@@ -3703,5 +3703,31 @@
     "featured": true,
     "order": 148,
     "published": true
+  },
+  {
+    "id": "p-bl43rr",
+    "code": "OWS-017",
+    "slug": "premium-teak-finish-three-drawer-mobile-office-pedestal-with-central-lock",
+    "name": "Premium Teak Finish Three-Drawer Mobile Office Pedestal with Central Lock",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A compact mobile wooden office pedestal featuring three spacious drawers, a premium teak wood-grain finish and smooth-rolling caster wheels. Designed for convenient storage of office documents, stationery and personal essentials.",
+    "description": "Keep your workspace organized with this premium three-drawer mobile pedestal, offering practical storage for files, documents and everyday office accessories. Its rich teak wood-grain finish, sleek silver metal handles, key-locking system and durable caster wheels make it an ideal storage solution for executive desks and modern office workstations.",
+    "images": [
+      "/maanran/products/premium-teak-finish-three-drawer-mobile-office-pedestal-with-central-lock_Ew88RGtSH.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Wooden Office Pedestal",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Number of Drawers": "3 Drawers",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Silver Metal Handles",
+      "Mobility": "Heavy-Duty Caster Wheels",
+      "Application": "Office Workstations and Executive Desks"
+    },
+    "featured": true,
+    "order": 149,
+    "published": true
   }
 ]
