@@ -3492,5 +3492,31 @@
     "featured": true,
     "order": 140,
     "published": true
+  },
+  {
+    "id": "p-prrgyu",
+    "code": "OWS-009",
+    "slug": "premium-multi-section-executive-wooden-office-storage-cabinet-with-open-display-shelves",
+    "name": "Premium Multi-Section Executive Wooden Office Storage Cabinet with Open Display Shelves",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A versatile executive wooden storage cabinet featuring spacious closed compartments, open display shelves and dedicated storage sections. Designed to combine practical organization with an elegant modern office appearance.",
+    "description": "Enhance your office interiors with this premium multi-section wooden storage cabinet, offering a combination of concealed storage and open shelving for files, documents, books and decorative accessories. Its elegant light walnut wood-grain finish, sleek vertical metal handles, lockable doors and contrasting black bottom base make it ideal for executive cabins, corporate offices and reception areas.",
+    "images": [
+      "/maanran/products/premium-multi-section-executive-wooden-office-storage-cabinet-with-open-display-shelves_eyqAXn-ix.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Modular Wooden Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Walnut Wood-Grain Finish",
+      "Storage Configuration": "Multiple Closed Cabinets and Open Shelves",
+      "Lock System": "Key-Lockable Storage Doors",
+      "Handle Type": "Vertical Silver Metal Handles",
+      "Base Design": "Black Bottom Plinth Base",
+      "Application": "Executive Cabins, Corporate Offices and Reception Areas"
+    },
+    "featured": true,
+    "order": 141,
+    "published": true
   }
 ]
