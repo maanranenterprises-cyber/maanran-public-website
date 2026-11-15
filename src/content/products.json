@@ -3247,5 +3247,37 @@
     "featured": true,
     "order": 131,
     "published": true
+  },
+  {
+    "id": "p-jwtgzc",
+    "code": "OEWC-017",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support and 3D Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A premium ergonomic office chair featuring a breathable mesh backrest, integrated lumbar support and adjustable armrests. Designed to deliver enhanced seating comfort, flexibility and professional styling.",
+    "description": "Upgrade your workspace with this ergonomic high-back mesh office chair, designed with a contoured backrest, integrated lumbar support and a supportive mesh structure. The adjustable armrests, cushioned fabric seat and sturdy five-star base with smooth-rolling castors provide a comfortable and practical seating experience for modern office environments.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-front-view_lDQuBRfqB.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-top-view_TP6JAs4y0.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-front-angled-view_1-UbE7jK-.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-front-angled-view_tbtprsFyH.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-side-view_fBT9srXOZ.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-side-view_klLH314vP.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-back-view_yPPTbqvNF.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-back-angled-view_uV_sNsfDH.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-back-angled-view_VRimpX6QM.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic High-Back Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Back Support": "Integrated Adjustable Lumbar Support",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Adjustable Height Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 132,
+    "published": true
   }
 ]
