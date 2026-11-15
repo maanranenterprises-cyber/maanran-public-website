@@ -3130,5 +3130,32 @@
     "featured": true,
     "order": 127,
     "published": true
+  },
+  {
+    "id": "p-ty5pl9",
+    "code": "OEWC-013",
+    "slug": "premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base",
+    "name": "Premium Ergonomic Mesh Back Office Executive Chair with Wight Net Chrome Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable mesh backrest, cushioned fabric seat and supportive armrests. Designed to provide comfort and flexibility for everyday office and workstation use.",
+    "description": "Enhance your workspace with this Premium Ergonomic Mesh Back Office Chair, designed with a breathable mesh backrest and integrated lumbar support for comfortable seating. The generously cushioned black fabric seat, sturdy armrests and adjustable seat height offer a comfortable working experience.",
+    "images": [
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-front-view_EDo_sXaqm.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-front-angled-view_szIGSv98M.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-side-view_RH-3C6v8z.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-back-view_qs9iUeKDa.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Executive Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Seat Material": "Premium Black Fabric Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Chrome-Finished Metal Base",
+      "Adjustment": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 128,
+    "published": true
   }
 ]
