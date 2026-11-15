@@ -3157,5 +3157,35 @@
     "featured": true,
     "order": 128,
     "published": true
+  },
+  {
+    "id": "p-ln19uz",
+    "code": "OEWC-014",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Chrome Five-Star Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern ergonomic office chair featuring a breathable mesh backrest, cushioned seat and stylish loop armrests. Designed to provide comfort and support in professional workspaces.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a breathable mesh backrest and integrated lumbar support for comfortable seating. The cushioned upholstered seat, ergonomic armrests and polished chrome five-star base offer a perfect combination of functionality, durability and contemporary style.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-view_g_tVHIOnm.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-top-view_QpzYL1-_P.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-angled-view_dsiALVGEQ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-left-side-view_LqVSl3-yW.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-right-side-view_lqC-XrIjq.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-back-view_q4dnFYjTi.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-back-angled-view_LnJ5Ml59d.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Mesh Office Chair",
+      "Backrest Material": "Breathable Nylon Mesh",
+      "Seat Material": "Cushioned Fabric Upholstery",
+      "Armrest Type": "Fixed Loop Armrests",
+      "Base Material": "Chrome-Plated Metal Five-Star Base",
+      "Adjustment": "Pneumatic Seat Height Adjustment"
+    },
+    "featured": true,
+    "order": 129,
+    "published": true
   }
 ]
