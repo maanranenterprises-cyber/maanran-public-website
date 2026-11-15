@@ -3335,5 +3335,31 @@
     "featured": true,
     "order": 134,
     "published": true
+  },
+  {
+    "id": "p-mdo1sp",
+    "code": "OWS-003",
+    "slug": "premium-double-sided-sectional-open-wooden-office-bookcase",
+    "name": "Premium Double-Sided Sectional Open Wooden Office Bookcase",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A spacious wooden office bookcase featuring a dual-column open shelving design for organized storage of files, books, folders and office essentials. Its elegant wood finish complements modern professional workspaces.",
+    "description": "Maximize your office storage with this premium open wooden bookcase, designed with multiple spacious shelves across two vertical sections for convenient organization and easy access. Its rich walnut wood finish, sturdy panel construction and sleek black bottom base make it a practical and stylish addition to corporate offices, libraries and executive workspaces.",
+    "images": [
+      "/maanran/products/premium-double-sided-sectional-open-wooden-office-bookcase_EompaVxGS.webp"
+    ],
+    "specs": {
+      "Product Type": "Open Wooden Office Bookcase",
+      "Material": "Wood-Finish Panel Construction",
+      "Finish": "Premium Walnut Wood Finish",
+      "Storage Configuration": "2 Vertical Sections",
+      "Number of Shelves": "10 Open Storage Compartments",
+      "Base Design": "Black Bottom Plinth Base",
+      "Door Type": "Open Shelving (No Doors)",
+      "Application": "Offices, Libraries and Workspace"
+    },
+    "featured": true,
+    "order": 135,
+    "published": true
   }
 ]
