@@ -3101,5 +3101,34 @@
     "featured": true,
     "order": 126,
     "published": true
+  },
+  {
+    "id": "p-wjskpa",
+    "code": "OEWC-012",
+    "slug": "premium-black-mesh-office-chair-with-chrome-five-star-base",
+    "name": "Premium Black Mesh Office Chair with Chrome Five-Star Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern office chair featuring a breathable black mesh backrest, comfortable cushioned seat and stylish fixed armrests. Designed with a premium chrome-finished base for enhanced stability and a professional appearance.",
+    "description": "Enhance your workspace with this premium black mesh office chair, combining contemporary styling with everyday seating comfort. The breathable mesh backrest supports airflow, while the generously cushioned grey upholstered seat provides a comfortable seating experience. Its ergonomic fixed armrests, sturdy chrome-plated five-star base, smooth-rolling castor wheels and pneumatic height adjustment make it ideal for offices, workstations and home offices.",
+    "images": [
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-front-view_aWojiU4P8.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-front-angled-view_DBz3zVNo7.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-left-side-view_hkyW8wJ_t.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-right-side-view_Q4XjL_-9U.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-back-view_gDLg3hHtc.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-back-angled-view_N4ka3O5vP.webp"
+    ],
+    "specs": {
+      "Chair Type": "Premium Mesh Office Chair",
+      "Backrest Material": "Breathable Black Mesh",
+      "Seat Material": "Grey Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Ergonomic Loop Armrests",
+      "Base Material": "Chrome-Plated Metal Five-Star Base",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 127,
+    "published": true
   }
 ]
