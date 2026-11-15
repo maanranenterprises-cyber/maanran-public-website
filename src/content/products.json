@@ -3361,5 +3361,31 @@
     "featured": true,
     "order": 135,
     "published": true
+  },
+  {
+    "id": "p-5ekb5s",
+    "code": "OWS-004",
+    "slug": "premium-four-door-executive-wooden-office-storage-credenza",
+    "name": "Premium Four-Door Executive Wooden Office Storage Credenza",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A modern executive wooden storage cabinet featuring four spacious closed-door compartments with individual locking systems. Designed with an elegant light wood-grain finish and a contrasting wooden top for practical office storage.",
+    "description": "Organize your workspace efficiently with this premium four-door wooden office storage cabinet, offering ample space for storing files, documents, stationery and office essentials. Its contemporary light wood finish, sleek vertical handles, individual door locks and sturdy raised base make it an ideal addition to corporate offices, reception areas and executive workspaces.",
+    "images": [
+      "/maanran/products/premium-four-door-executive-wooden-office-storage-credenza_veWeUySO6.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Office Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Wood-Grain Finish",
+      "Storage Configuration": "4-Door Closed Storage Compartments",
+      "Lock System": "Individual Key-Lockable Doors",
+      "Handle Type": "Vertical Metal Handles",
+      "Top Panel": "Contrasting Dark Wood-Finish Top",
+      "Base Type": "Raised Support Legs"
+    },
+    "featured": true,
+    "order": 136,
+    "published": true
   }
 ]
