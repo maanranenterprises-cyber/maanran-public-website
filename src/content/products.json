@@ -3075,5 +3075,31 @@
     "featured": true,
     "order": 125,
     "published": true
+  },
+  {
+    "id": "p-cfokiw",
+    "code": "OEWC-011",
+    "slug": "premium-grey-mesh-office-chair-with-integrated-loop-armrests",
+    "name": "Premium Grey Mesh Office Chair with Integrated Loop Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable grey mesh backrest, soft cushioned seat and elegant integrated loop armrests. Designed to provide everyday seating comfort with a modern professional appearance.",
+    "description": "Upgrade your workspace with this premium grey mesh office chair, designed with a breathable mesh backrest and a generously cushioned upholstered seat for enhanced comfort. The integrated loop-style armrests offer a seamless contemporary design, while the sturdy five-star base, smooth-rolling castor wheels and pneumatic height adjustment provide convenience and mobility. Ideal for modern offices, workstations and home offices.",
+    "images": [
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-front-view_jk7zxvtzL.webp",
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-side-view_WPwp0QCkx.webp",
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-back-view_EXyW0pO10.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Office Chair",
+      "Backrest Material": "Breathable Grey Mesh Fabric",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Integrated Fixed Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base ",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 126,
+    "published": true
   }
 ]
