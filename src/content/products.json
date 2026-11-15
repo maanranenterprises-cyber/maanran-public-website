@@ -3651,5 +3651,31 @@
     "featured": true,
     "order": 146,
     "published": true
+  },
+  {
+    "id": "p-erj9wr",
+    "code": "OWS-015",
+    "slug": "premium-executive-wooden-open-display-bookcase-with-lower-storage-cabinet",
+    "name": "Premium Executive Wooden Open Display Bookcase with Lower Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A stylish executive wooden storage cabinet featuring spacious open display shelves and a two-door enclosed storage section. Ideal for organizing books, files, decorative accessories and office essentials.",
+    "description": "Enhance your workspace with this premium executive wooden bookcase, designed with multiple open shelves for easy access and attractive display of office collections. Its rich teak wood-grain finish, spacious lower enclosed storage, elegant silver metal handles and secure locking system make it a practical addition to corporate offices, executive cabins and reception areas.",
+    "images": [
+      "/maanran/products/premium-executive-wooden-open-display-bookcase-with-lower-storage-cabinet_LG5ttlHrs.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Display & Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Upper Section": "Open Display Shelving",
+      "Lower Section": "2-Door Closed Storage Cabinet",
+      "Storage Configuration": "3 Open Shelves with Lower Storage",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Silver Vertical Metal Handles"
+    },
+    "featured": true,
+    "order": 147,
+    "published": true
   }
 ]
