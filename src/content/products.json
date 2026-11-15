@@ -3466,5 +3466,31 @@
     "featured": true,
     "order": 139,
     "published": true
+  },
+  {
+    "id": "p-tql4dq",
+    "code": "OWS-008",
+    "slug": "premium-light-oak-tall-wooden-office-storage-cabinet-with-adjustable-shelving",
+    "name": "Premium Light Oak Tall Wooden Office Storage Cabinet with Adjustable Shelving",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A spacious tall wooden office storage cabinet featuring a single-door design with multiple internal shelves and a contrasting white interior. Ideal for organized storage of files, documents, books and office essentials.",
+    "description": "Maximize your office storage with this premium wooden cabinet, designed with multiple spacious internal compartments for convenient organization and easy accessibility. Its elegant light oak wood-grain finish, white laminated interior, sturdy construction and sleek vertical metal handle make it suitable for corporate offices, workstations and administrative spaces.",
+    "images": [
+      "/maanran/products/premium-light-oak-tall-wooden-office-storage-cabinet-with-adjustable-shelving_cfNSCGuBd.webp"
+    ],
+    "specs": {
+      "Product Type": "Tall Wooden Office Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Oak Wood-Grain Finish",
+      "Interior Finish": "White Laminated Finish",
+      "Door Type": "Double Hinged Door",
+      "Storage Configuration": "Multiple Internal Shelves",
+      "Handle Type": "Silver Metal Handle",
+      "Application": "Corporate Offices, Workspaces and Administrative Areas"
+    },
+    "featured": true,
+    "order": 140,
+    "published": true
   }
 ]
