@@ -3833,5 +3833,31 @@
     "featured": true,
     "order": 153,
     "published": true
+  },
+  {
+    "id": "p-azeow2",
+    "code": "OWS-022",
+    "slug": "premium-four-door-executive-wooden-wardrobe-with-two-drawer-storage",
+    "name": "Premium Four-Door Executive Wooden Wardrobe with Two-Drawer Storage",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A spacious executive wooden wardrobe featuring four hinged doors and two central storage drawers. Designed for organized storage with a modern light wood finish and a professional appearance.",
+    "description": "Upgrade your office storage with this premium four-door wooden wardrobe, offering generous internal space for storing files, documents, office supplies and personal belongings. The two additional lockable drawers provide convenient storage, while the elegant light oak wood-grain finish, sleek handles and sturdy base make it ideal for executive cabins, corporate offices and staff areas.",
+    "images": [
+      "/maanran/products/premium-four-door-executive-wooden-wardrobe-with-two-drawer-storage_DKyaUnICq.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Storage Wardrobe",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Oak Wood-Grain Finish",
+      "Door Configuration": "4 Hinged Doors",
+      "Drawer Configuration": "2 Central Storage Drawers",
+      "Handle Type": "Black and Silver Metal Handles",
+      "Locking System": "Key Lock Facility",
+      "Base Design": "Sturdy Raised Base with Support Legs"
+    },
+    "featured": true,
+    "order": 154,
+    "published": true
   }
 ]
