@@ -3279,5 +3279,37 @@
     "featured": true,
     "order": 132,
     "published": true
+  },
+  {
+    "id": "p-3fnmc4",
+    "code": "OEWC-018",
+    "slug": "premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests",
+    "name": "Premium High-Back Mesh Office Chair with Cushioned Seat and Loop Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish high-back office chair featuring a breathable mesh backrest, comfortable cushioned seat and uniquely designed loop armrests. Ideal for professional office spaces and everyday seating.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a contoured breathable mesh backrest that provides comfortable back support. The cushioned fabric seat, stylish loop-shaped armrests with metallic supports and sturdy five-star nylon base offer a practical combination of comfort, durability and modern aesthetics.",
+    "images": [
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-front-view_ZAs1KU-JK.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-top-view_-PklDrAAQ.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-front-angled-view_UuePROyWs.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-front-angled-view_W3yGdGINp.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-side-view_nMPkKCHme.webp",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-side-view_vqMZpfiQk.webp",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-back-view_qmtXkcYfF.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-back-angled-view_6LwnbtPof.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-back-angled-view_Cji3I7rzp.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Mesh Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Seat Material": "Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Loop Armrests",
+      "Armrest Support": "Metal Frame with Padded Grip",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 133,
+    "published": true
   }
 ]
