@@ -3729,5 +3729,31 @@
     "featured": true,
     "order": 149,
     "published": true
+  },
+  {
+    "id": "p-6z0y8t",
+    "code": "OWS-018",
+    "slug": "premium-teak-finish-executive-wooden-credenza-with-side-cabinet-and-four-drawers",
+    "name": "Premium Teak Finish Executive Wooden Credenza with Side Cabinet and Four Drawers",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A stylish executive wooden storage credenza featuring a spacious side cabinet and four large drawers with a premium teak wood-grain finish. Designed for efficient document storage and organized office workspaces.",
+    "description": "Enhance your office organization with this premium executive credenza, combining a spacious closed-door storage compartment with four generously sized drawers for storing files, documents, stationery and office essentials. Its rich teak wood-grain finish, sleek silver metal handles, key-locking provision and sturdy wooden plinth base make it an elegant addition to executive cabins and corporate offices.",
+    "images": [
+      "/maanran/products/premium-teak-finish-executive-wooden-credenza-with-side-cabinet-and-four-drawers_ON6j8l0_D.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Storage Credenza",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Storage Configuration": "1 Closed Cabinet with 4 Drawers",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Silver Metal Handles",
+      "Base Design": "Wooden Plinth Base",
+      "Application": "Executive Cabins and Corporate Offices"
+    },
+    "featured": true,
+    "order": 150,
+    "published": true
   }
 ]
