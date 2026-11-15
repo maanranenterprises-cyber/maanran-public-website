@@ -3075,5 +3075,241 @@
     "featured": true,
     "order": 125,
     "published": true
+  },
+  {
+    "id": "p-cfokiw",
+    "code": "OEWC-011",
+    "slug": "premium-grey-mesh-office-chair-with-integrated-loop-armrests",
+    "name": "Premium Grey Mesh Office Chair with Integrated Loop Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable grey mesh backrest, soft cushioned seat and elegant integrated loop armrests. Designed to provide everyday seating comfort with a modern professional appearance.",
+    "description": "Upgrade your workspace with this premium grey mesh office chair, designed with a breathable mesh backrest and a generously cushioned upholstered seat for enhanced comfort. The integrated loop-style armrests offer a seamless contemporary design, while the sturdy five-star base, smooth-rolling castor wheels and pneumatic height adjustment provide convenience and mobility. Ideal for modern offices, workstations and home offices.",
+    "images": [
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-front-view_jk7zxvtzL.webp",
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-side-view_WPwp0QCkx.webp",
+      "/maanran/products/premium-grey-mesh-office-chair-with-integrated-loop-armrests-back-view_EXyW0pO10.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Mesh Office Chair",
+      "Backrest Material": "Breathable Grey Mesh Fabric",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Integrated Fixed Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base ",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 126,
+    "published": true
+  },
+  {
+    "id": "p-wjskpa",
+    "code": "OEWC-012",
+    "slug": "premium-black-mesh-office-chair-with-chrome-five-star-base",
+    "name": "Premium Black Mesh Office Chair with Chrome Five-Star Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern office chair featuring a breathable black mesh backrest, comfortable cushioned seat and stylish fixed armrests. Designed with a premium chrome-finished base for enhanced stability and a professional appearance.",
+    "description": "Enhance your workspace with this premium black mesh office chair, combining contemporary styling with everyday seating comfort. The breathable mesh backrest supports airflow, while the generously cushioned grey upholstered seat provides a comfortable seating experience. Its ergonomic fixed armrests, sturdy chrome-plated five-star base, smooth-rolling castor wheels and pneumatic height adjustment make it ideal for offices, workstations and home offices.",
+    "images": [
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-front-view_aWojiU4P8.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-front-angled-view_DBz3zVNo7.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-left-side-view_hkyW8wJ_t.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-right-side-view_Q4XjL_-9U.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-back-view_gDLg3hHtc.webp",
+      "/maanran/products/premium-black-mesh-office-chair-with-chrome-five-star-base-back-angled-view_N4ka3O5vP.webp"
+    ],
+    "specs": {
+      "Chair Type": "Premium Mesh Office Chair",
+      "Backrest Material": "Breathable Black Mesh",
+      "Seat Material": "Grey Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Ergonomic Loop Armrests",
+      "Base Material": "Chrome-Plated Metal Five-Star Base",
+      "Adjustment Mechanism": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 127,
+    "published": true
+  },
+  {
+    "id": "p-ty5pl9",
+    "code": "OEWC-013",
+    "slug": "premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base",
+    "name": "Premium Ergonomic Mesh Back Office Executive Chair with Wight Net Chrome Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable mesh backrest, cushioned fabric seat and supportive armrests. Designed to provide comfort and flexibility for everyday office and workstation use.",
+    "description": "Enhance your workspace with this Premium Ergonomic Mesh Back Office Chair, designed with a breathable mesh backrest and integrated lumbar support for comfortable seating. The generously cushioned black fabric seat, sturdy armrests and adjustable seat height offer a comfortable working experience.",
+    "images": [
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-front-view_EDo_sXaqm.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-front-angled-view_szIGSv98M.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-side-view_RH-3C6v8z.webp",
+      "/maanran/products/premium-ergonomic-mesh-back-office-executive-chair-with-wight-net-chrome-base-back-view_qs9iUeKDa.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic Executive Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Seat Material": "Premium Black Fabric Upholstery",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Base Material": "Chrome-Finished Metal Base",
+      "Adjustment": "Pneumatic Height Adjustment"
+    },
+    "featured": true,
+    "order": 128,
+    "published": true
+  },
+  {
+    "id": "p-ln19uz",
+    "code": "OEWC-014",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Chrome Five-Star Base",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A modern ergonomic office chair featuring a breathable mesh backrest, cushioned seat and stylish loop armrests. Designed to provide comfort and support in professional workspaces.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a breathable mesh backrest and integrated lumbar support for comfortable seating. The cushioned upholstered seat, ergonomic armrests and polished chrome five-star base offer a perfect combination of functionality, durability and contemporary style.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-view_g_tVHIOnm.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-top-view_QpzYL1-_P.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-front-angled-view_dsiALVGEQ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-left-side-view_LqVSl3-yW.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-right-side-view_lqC-XrIjq.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-back-view_q4dnFYjTi.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-chrome-five-star-base-back-angled-view_LnJ5Ml59d.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Mesh Office Chair",
+      "Backrest Material": "Breathable Nylon Mesh",
+      "Seat Material": "Cushioned Fabric Upholstery",
+      "Armrest Type": "Fixed Loop Armrests",
+      "Base Material": "Chrome-Plated Metal Five-Star Base",
+      "Adjustment": "Pneumatic Seat Height Adjustment"
+    },
+    "featured": true,
+    "order": 129,
+    "published": true
+  },
+  {
+    "id": "p-9aidy3",
+    "code": "OEWC-015",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Integrated Lumbar Support",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A contemporary high-back office chair featuring a breathable mesh backrest, integrated lumbar support and a comfortable cushioned seat. Its sleek frame and fixed armrests make it ideal for modern office workspaces.",
+    "description": "Designed for everyday workplace comfort, this ergonomic mesh office chair features a tall breathable backrest with integrated lumbar support to promote proper seating posture. The generously cushioned seat, stylish wraparound armrests and sturdy five-star nylon base with smooth-rolling castors provide a practical and professional seating solution.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-front-view_gWCYvjsCl.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-front-angled-view_ipS1KE3YJ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-left-side-view_q5LA6WYNB.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-right-side-view_cI_G9M_eV.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-back-view_rXCikodxf.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-back-angled-view_pEw2RN7NL.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Back Support": "Integrated Lumbar Support",
+      "Seat Material": "Cushioned Fabric Upholstery",
+      "Armrest Type": "Fixed Integrated Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 130,
+    "published": true
+  },
+  {
+    "id": "p-egpztp",
+    "code": "OEWC-016",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Sculpted Frame Design",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish ergonomic office chair featuring a breathable mesh backrest, cushioned fabric seat and distinctive sculpted back support. Designed to provide everyday comfort with a modern professional appearance.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a unique sculpted rear frame, breathable mesh upholstery and integrated back support. The generously cushioned seat, curved loop armrests and durable five-star nylon base with smooth-rolling castors offer a comfortable and practical seating solution for modern offices.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-front-view_IcGXZhSKp.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-front-angled-view_cPIwdlV9K.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-front-angled-view_A39rI3Ral.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-side-view_Y4WNyW5oL.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-side-vide_pbPnpjNEs.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-back-view_MN0O9OJi4.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-left-back-angled-view_i-H-d0OsJ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-sculpted-frame-design-right-back-angled-view_31Di8o5RD.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Backrest Design": "Sculpted Integrated Support Frame",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Curved Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 131,
+    "published": true
+  },
+  {
+    "id": "p-jwtgzc",
+    "code": "OEWC-017",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support and 3D Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A premium ergonomic office chair featuring a breathable mesh backrest, integrated lumbar support and adjustable armrests. Designed to deliver enhanced seating comfort, flexibility and professional styling.",
+    "description": "Upgrade your workspace with this ergonomic high-back mesh office chair, designed with a contoured backrest, integrated lumbar support and a supportive mesh structure. The adjustable armrests, cushioned fabric seat and sturdy five-star base with smooth-rolling castors provide a comfortable and practical seating experience for modern office environments.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-front-view_lDQuBRfqB.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-top-view_TP6JAs4y0.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-front-angled-view_1-UbE7jK-.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-front-angled-view_tbtprsFyH.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-side-view_fBT9srXOZ.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-side-view_klLH314vP.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-back-view_yPPTbqvNF.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-left-back-angled-view_uV_sNsfDH.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-adjustable-lumbar-support-and-3d-armrests-right-back-angled-view_VRimpX6QM.webp"
+    ],
+    "specs": {
+      "Chair Type": "Ergonomic High-Back Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Back Support": "Integrated Adjustable Lumbar Support",
+      "Seat Material": "Premium Fabric Upholstery with Cushioning",
+      "Armrest Type": "Adjustable Height Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 132,
+    "published": true
+  },
+  {
+    "id": "p-3fnmc4",
+    "code": "OEWC-018",
+    "slug": "premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests",
+    "name": "Premium High-Back Mesh Office Chair with Cushioned Seat and Loop Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A stylish high-back office chair featuring a breathable mesh backrest, comfortable cushioned seat and uniquely designed loop armrests. Ideal for professional office spaces and everyday seating.",
+    "description": "Enhance your workspace with this premium high-back mesh office chair, designed with a contoured breathable mesh backrest that provides comfortable back support. The cushioned fabric seat, stylish loop-shaped armrests with metallic supports and sturdy five-star nylon base offer a practical combination of comfort, durability and modern aesthetics.",
+    "images": [
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-front-view_ZAs1KU-JK.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-top-view_-PklDrAAQ.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-front-angled-view_UuePROyWs.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-front-angled-view_W3yGdGINp.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-side-view_nMPkKCHme.webp",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-side-view_vqMZpfiQk.webp",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-back-view_qmtXkcYfF.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-left-back-angled-view_6LwnbtPof.jpeg",
+      "/maanran/products/premium-high-back-mesh-office-chair-with-cushioned-seat-and-loop-armrests-right-back-angled-view_Cji3I7rzp.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Mesh Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Seat Material": "Fabric Upholstery with Cushioning",
+      "Armrest Type": "Fixed Loop Armrests",
+      "Armrest Support": "Metal Frame with Padded Grip",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 133,
+    "published": true
   }
 ]
