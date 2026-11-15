@@ -3187,5 +3187,34 @@
     "featured": true,
     "order": 129,
     "published": true
+  },
+  {
+    "id": "p-9aidy3",
+    "code": "OEWC-015",
+    "slug": "premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support",
+    "name": "Premium Ergonomic High-Back Mesh Office Chair with Integrated Lumbar Support",
+    "brand": "MAANRAN",
+    "category": "office-executive-workstation-chairs",
+    "shortDescription": "A contemporary high-back office chair featuring a breathable mesh backrest, integrated lumbar support and a comfortable cushioned seat. Its sleek frame and fixed armrests make it ideal for modern office workspaces.",
+    "description": "Designed for everyday workplace comfort, this ergonomic mesh office chair features a tall breathable backrest with integrated lumbar support to promote proper seating posture. The generously cushioned seat, stylish wraparound armrests and sturdy five-star nylon base with smooth-rolling castors provide a practical and professional seating solution.",
+    "images": [
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-front-view_gWCYvjsCl.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-front-angled-view_ipS1KE3YJ.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-left-side-view_q5LA6WYNB.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-right-side-view_cI_G9M_eV.webp",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-back-view_rXCikodxf.jpeg",
+      "/maanran/products/premium-ergonomic-high-back-mesh-office-chair-with-integrated-lumbar-support-back-angled-view_pEw2RN7NL.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Office Chair",
+      "Backrest Material": "Breathable Mesh Fabric",
+      "Back Support": "Integrated Lumbar Support",
+      "Seat Material": "Cushioned Fabric Upholstery",
+      "Armrest Type": "Fixed Integrated Loop Armrests",
+      "Base Material": "Heavy-Duty Nylon Five-Star Base"
+    },
+    "featured": true,
+    "order": 130,
+    "published": true
   }
 ]
