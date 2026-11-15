@@ -3755,5 +3755,31 @@
     "featured": true,
     "order": 150,
     "published": true
+  },
+  {
+    "id": "p-moisak",
+    "code": "OWS-019",
+    "slug": "premium-executive-three-section-wooden-display-and-storage-cabinet",
+    "name": "Premium Executive Three-Section Wooden Display and Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A premium executive wooden storage cabinet featuring three upper display sections with glass doors and spacious lower closed storage compartments. Designed for organized file storage and elegant presentation of office accessories.",
+    "description": "Upgrade your office interiors with this sophisticated three-section executive cabinet, combining upper glass-front display compartments with multiple shelves and spacious lower storage cabinets. Its rich teak wood-grain finish, elegant silver metal handles and secure locking systems make it an ideal choice for executive cabins, corporate offices and reception areas.",
+    "images": [
+      "/maanran/products/premium-executive-three-section-wooden-display-and-storage-cabinet_tcxWqpluj.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Display & Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Upper Section": "3 Glass-Front Display Compartments",
+      "Lower Section": "3-Door Closed Storage Cabinets",
+      "Storage Configuration": "Multiple Internal Display Shelves",
+      "Lock System": "Key Locking System",
+      "Handle Type": "Silver Vertical Metal Handles"
+    },
+    "featured": true,
+    "order": 151,
+    "published": true
   }
 ]
