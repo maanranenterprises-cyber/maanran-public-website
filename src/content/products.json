@@ -3807,5 +3807,31 @@
     "featured": true,
     "order": 152,
     "published": true
+  },
+  {
+    "id": "p-0f5j4g",
+    "code": "OWS-021",
+    "slug": "premium-executive-wooden-display-cabinet-with-six-drawer-storage-unit",
+    "name": "Premium Executive Wooden Display Cabinet with Six-Drawer Storage Unit",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A multifunctional executive wooden storage cabinet featuring three upper open display sections and six spacious lower drawers. Designed for organized document storage and elegant office presentation.",
+    "description": "Enhance your office interiors with this premium executive storage cabinet, combining three spacious upper display sections for books, files and decorative accessories with six large drawers for organized storage of office essentials. Its rich teak wood-grain finish, elegant silver metal handles and sturdy wooden plinth base make it an ideal choice for corporate offices, executive cabins and administrative spaces.",
+    "images": [
+      "/maanran/products/premium-executive-wooden-display-cabinet-with-six-drawer-storage-unit_RUttvnLbC.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Display & Drawer Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood-Grain Finish",
+      "Upper Section": "3 Open Display Sections",
+      "Lower Section": "6 Storage Drawers",
+      "Storage Configuration": "Open Shelves with Multi-Drawer Storage",
+      "Handle Type": "Silver Metal Handles",
+      "Base Design": "Wooden Plinth Base"
+    },
+    "featured": true,
+    "order": 153,
+    "published": true
   }
 ]
