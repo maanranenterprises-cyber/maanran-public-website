@@ -3518,5 +3518,31 @@
     "featured": true,
     "order": 141,
     "published": true
+  },
+  {
+    "id": "p-nngwf1",
+    "code": "OWS-010",
+    "slug": "premium-wooden-double-door-glass-display-cabinet-with-lower-storage-compartments",
+    "name": "Premium Wooden Double-Door Glass Display Cabinet with Lower Storage Compartments",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "An elegant wooden office display cabinet featuring two glass-panel doors, multiple internal display shelves and enclosed bottom storage compartments. Ideal for showcasing awards, books, trophies and office essentials.",
+    "description": "Add a professional touch to your workspace with this premium wooden display cabinet, designed with transparent glass panels for easy visibility and organized presentation of office collections. Its warm teak wood finish, spacious shelving, lockable lower storage compartments and elevated metal legs make it suitable for executive cabins, reception areas and corporate offices.",
+    "images": [
+      "/maanran/products/premium-wooden-double-door-glass-display-cabinet-with-lower-storage-compartments_Cd3Ozb4uC.webp"
+    ],
+    "specs": {
+      "Product Type": "Wooden Office Display Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Teak Wood Finish",
+      "Door Type": "Double Glass-Panel Doors",
+      "Storage Configuration": "Multiple Display Shelves with 2 Lower Storage Compartments",
+      "Lock System": "Key-Lockable Doors",
+      "Base Type": "Elevated Metal Legs",
+      "Application": "Executive Offices, Reception Areas and Display Spaces"
+    },
+    "featured": true,
+    "order": 142,
+    "published": true
   }
 ]
