@@ -17,7 +17,7 @@
     "description": "Executive, ergonomic, mesh and visitor chairs.",
     "image": "/images/banners/office-chairs.webp",
     "order": 2,
-    "published": true
+    "published": false
   },
   {
     "slug": "office-tables",
@@ -87,7 +87,7 @@
     "description": "Cots, study tables, wardrobes and storage for hostels.",
     "image": "/images/banners/hostel-pg-furniture.webp",
     "order": 9,
-    "published": true
+    "published": false
   },
   {
     "slug": "lab-furniture",
@@ -107,7 +107,7 @@
     "description": "Powder-coated mild steel single and double bunk cots.",
     "image": "/images/banners/ms-steel-bunker-cots.webp",
     "order": 11,
-    "published": true
+    "published": false
   },
   {
     "slug": "sofas",
