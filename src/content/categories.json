@@ -17,7 +17,7 @@
     "description": "Executive, ergonomic, mesh and visitor chairs.",
     "image": "/images/banners/office-chairs.webp",
     "order": 2,
-    "published": true
+    "published": false
   },
   {
     "slug": "office-tables",
