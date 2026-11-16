@@ -4003,5 +4003,29 @@
     "featured": true,
     "order": 160,
     "published": true
+  },
+  {
+    "id": "p-hu4cho",
+    "code": "PC-007",
+    "slug": "freshline-single-metal-cot-with-mattress",
+    "name": "FreshLine Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A contemporary single metal cot featuring a sturdy grey frame, vibrant green headboard panel and a comfortable mattress with a white top and navy-blue sides. Designed for practical, comfortable and space-efficient PG accommodation.",
+    "description": "The FreshLine Single Metal Cot combines a durable metal frame with a refreshing green headboard accent for a modern and attractive appearance. Complete with a comfortable mattress featuring a white sleeping surface and navy-blue fabric sides, it is an ideal choice for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/freshline-single-metal-cot-with-mattress_-lyCUouwg9.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": " Metal ",
+      "Frame Finish": "Grey Finish",
+      "Headboard Design": "Green Accent Panel",
+      "Mattress Top Colour": " White  ",
+      "Mattress Side Colour": "Navy Blue"
+    },
+    "featured": true,
+    "order": 161,
+    "published": true
   }
 ]
