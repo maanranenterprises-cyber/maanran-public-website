@@ -4177,5 +4177,32 @@
     "featured": true,
     "order": 167,
     "published": true
+  },
+  {
+    "id": "p-0kc055",
+    "code": "OWS-025",
+    "slug": "premium-three-tier-wooden-open-storage-display-rack",
+    "name": "Premium Three-Tier Wooden Open Storage Display Rack",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A spacious three-tier open storage rack featuring a premium light oak wood finish with a clean, minimalist design. Ideal for organizing office essentials, files, books and display accessories.",
+    "description": "Maximize your storage space with this premium three-tier wooden display rack, designed with wide open shelves and a sturdy panel-based structure. Its elegant light oak finish, contrasting white inner panels and spacious compartments make it a practical storage solution for offices, reception areas and commercial interiors.",
+    "images": [
+      "/maanran/products/premium-three-tier-wooden-open-storage-display-rack-front-view_gNVtr9k-t.webp",
+      "/maanran/products/premium-three-tier-wooden-open-storage-display-rack-side-top-view_b4UOR0wXg.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Tier Open Storage Rack",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Oak Wood-Grain Finish",
+      "Number of Tiers": "3",
+      "Shelf Configuration": "1 Top Surface + 2 Open Shelves",
+      "Inner Panel Finish": "White",
+      "Design": "Open-Front Storage",
+      "Application": "Office, Library & Commercial Spaces"
+    },
+    "featured": true,
+    "order": 168,
+    "published": true
   }
 ]
