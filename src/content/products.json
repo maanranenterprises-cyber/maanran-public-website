@@ -4075,5 +4075,29 @@
     "featured": true,
     "order": 163,
     "published": true
+  },
+  {
+    "id": "p-a8x29l",
+    "code": "MBC-001",
+    "slug": "maanran-premium-twin-level-metal-bunker-cot-with-side-ladder-and-safety-guardrail",
+    "name": "MAANRAN Premium Twin-Level Metal Bunker Cot with Side Ladder & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-bunker-cots",
+    "shortDescription": "A modern two-tier metal bunker cot featuring a sturdy frame, integrated side ladder and upper bunk safety guardrail. Designed for comfortable space-saving sleeping arrangements.",
+    "description": "Designed with a durable metal frame and a practical two-level structure, this bunker cot offers an efficient sleeping solution for hostels, PG accommodations and residential spaces. The integrated side ladder provides convenient upper-bunk access, while the protective guardrail enhances safety and stability.",
+    "images": [
+      "/maanran/products/maanran-premium-twin-level-metal-bunker-cot-with-side-ladder-safety-guardrail_aD-9cpjqy.webp"
+    ],
+    "specs": {
+      "Product Type": " Double-Decker Bunker Cot ",
+      "Frame Material": "Metal",
+      "Frame Design": "Rectangular Tubular Frame ",
+      "Finish": "Metallic Grey ",
+      "Ladder Type": "Integrated Side Ladder ",
+      "Safety Feature": "Upper Bunk Protective Guardrail"
+    },
+    "featured": true,
+    "order": 164,
+    "published": true
   }
 ]
