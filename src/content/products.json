@@ -4027,5 +4027,29 @@
     "featured": true,
     "order": 161,
     "published": true
+  },
+  {
+    "id": "p-ihegsq",
+    "code": "PC-008",
+    "slug": "comfortrest-single-metal-cot-with-cushioned-headrest",
+    "name": "ComfortRest Single Metal Cot with Cushioned Headrest",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single metal cot featuring a sturdy grey-finished frame, elegant wooden-finish footboard and a premium brown upholstered headrest cushion. Designed to provide enhanced comfort, durability and a stylish appearance for PG accommodations.",
+    "description": "The ComfortRest Single Metal Cot combines a durable metal structure with a spacious sleeping platform and an elegant upholstered headrest cushion for added back support and relaxation. Its attractive brown cushioned headrest, wooden-finish footboard and contemporary grey frame make it ideal for PG rooms, hostels and rental accommodations.",
+    "images": [
+      "/maanran/products/comfortrest-single-metal-cot-with-cushioned-headrest_nK_m-19dC.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot",
+      "Frame Material": "Metal",
+      "Frame Finish": "Grey Finish",
+      "Headrest": "Brown Upholstered Cushion",
+      "Footboard Design": " Wooden-Finish Panel  ",
+      "Sleeping Platform": " Flat Platform Design "
+    },
+    "featured": true,
+    "order": 162,
+    "published": true
   }
 ]
