@@ -3979,5 +3979,29 @@
     "featured": true,
     "order": 159,
     "published": true
+  },
+  {
+    "id": "p-pkmd6c",
+    "code": "PC-006",
+    "slug": "royaledge-single-metal-cot-with-mattress",
+    "name": "RoyalEdge Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A premium single metal cot featuring a sturdy grey-finished frame, elegant dark marble-finish headboard and footboard panels, and a comfortable mattress. Designed to provide durability, comfort and a sophisticated appearance for PG accommodations.",
+    "description": "The RoyalEdge Single Metal Cot combines a durable metal structure with stylish dark marble-finish panels for a modern and elegant look. Complete with a matching headboard, footboard and mattress, it offers a practical and comfortable sleeping solution for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/royaledge-single-metal-cot-with-mattress_UABrUbNuB.jpeg"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "Metal",
+      "Frame Finish": "Grey Finish ",
+      "Headboard Design": "Dark Marble-Finish Panel ",
+      "Footboard Design": " Dark Marble-Finish Panel ",
+      "Mattress": "Included"
+    },
+    "featured": true,
+    "order": 160,
+    "published": true
   }
 ]
