@@ -4123,5 +4123,32 @@
     "featured": true,
     "order": 165,
     "published": true
+  },
+  {
+    "id": "p-f3cge2",
+    "code": "OWS-023",
+    "slug": "premium-three-door-executive-wooden-storage-cabinet-with-open-display-shelves",
+    "name": "Premium Three-Door Executive Wooden Storage Cabinet with Open Display Shelves",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A modern three-door wooden storage cabinet featuring a spacious upper display section and enclosed lower storage compartments. Designed with a premium light oak finish for organized and elegant office interiors.",
+    "description": "Enhance your workspace with this premium wooden storage cabinet, featuring three lockable hinged doors and an open upper display section with additional side shelves. The spacious compartments provide convenient storage for office documents, files and essential items, while the elegant light oak finish makes it suitable for executive cabins, offices and reception areas.",
+    "images": [
+      "/maanran/products/premium-three-door-executive-wooden-storage-cabinet-with-open-display-shelves_JqWuxe3F7.webp",
+      "/maanran/products/premium-three-door-executive-wooden-storage-cabinet-with-open-display-shelves-full-view_mXshRvuyxW.webp"
+    ],
+    "specs": {
+      "Product Type": "Executive Wooden Storage Cabinet",
+      "Material": "Engineered Wood Panel",
+      "Finish": "Premium Light Oak Wood-Grain Finish",
+      "Door Configuration": "3 Hinged Doors",
+      "Storage Design": "Enclosed Storage with Upper Open Display Shelves",
+      "Handle Type": "Metal Pull Handles",
+      "Locking System": "Key Lock Facility",
+      "Base Design": "Sturdy Wooden Plinth Base"
+    },
+    "featured": true,
+    "order": 166,
+    "published": true
   }
 ]
