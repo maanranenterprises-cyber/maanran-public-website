@@ -3859,5 +3859,53 @@
     "featured": true,
     "order": 154,
     "published": true
+  },
+  {
+    "id": "p-e9egil",
+    "code": "PC-001",
+    "slug": "urbannest-single-metal-frame-pg-cot",
+    "name": "UrbanNest Single Metal Frame PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single PG cot featuring a sleek black metal frame, elegant wooden-finish headboard and footboard, and a clean white sleeping platform. Designed for durability and a stylish, space-efficient accommodation setup.",
+    "description": "The UrbanNest Single Metal Frame PG Cot combines a sturdy metal structure with attractive wooden-finish panels to create a contemporary and functional sleeping solution. Its elevated frame, smooth platform surface and matching headboard and footboard make it ideal for PG rooms, hostels, rental accommodations and guest rooms.",
+    "images": [
+      "/maanran/products/urbannest-single-metal-frame-pg-cot_hhj8irpvQS.webp"
+    ],
+    "specs": {
+      "Product Type": "Single PG Cot ",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Black Finish",
+      "Platform Design": "Flat White Platform",
+      "Headboard & Footboard": "Wooden-Finish Panels",
+      "Usage": "PG, Hostel & Rental Accommodation"
+    },
+    "featured": true,
+    "order": 155,
+    "published": true
+  },
+  {
+    "id": "p-6svt8x",
+    "code": "PC-002",
+    "slug": "urbanlink-single-upholstered-pg-cot",
+    "name": "UrbanLink Single Upholstered PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A stylish single PG cot featuring a sturdy black metal frame, wooden-finish headboard and footboard, and an attached dual-section tan upholstered mattress. Designed for comfortable and practical PG accommodation.",
+    "description": "The UrbanLink Single Upholstered PG Cot combines a durable metal structure with elegant wooden-finish panels for a modern appearance. Its attached mattress arrangement, cushioned surface and space-efficient design make it suitable for PG rooms, hostels and rental accommodations.",
+    "images": [
+      "/maanran/products/urbanlink-single-upholstered-pg-cot_jI1403bED.webp"
+    ],
+    "specs": {
+      "Product Type": "Single PG Cot ",
+      "Frame Material": "Metal",
+      "Frame Finish": "Black Finish ",
+      "Headboard & Footboard": "Wooden-Finish Panels",
+      "Mattress Design": "Attached Dual-Section Mattress",
+      "Upholstery Colour": "Tan / Beige "
+    },
+    "featured": true,
+    "order": 156,
+    "published": true
   }
 ]
