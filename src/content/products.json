@@ -3931,5 +3931,29 @@
     "featured": true,
     "order": 157,
     "published": true
+  },
+  {
+    "id": "p-yrmw5m",
+    "code": "PC-004",
+    "slug": "metrorest-single-metal-platform-pg-cot",
+    "name": "MetroRest Single Metal Platform PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy metal platform PG cot featuring a sleek grey finish and an elegant wooden-finish headboard. Designed for comfortable, space-efficient accommodation in PGs, hostels and rental rooms.",
+    "description": "The MetroRest Single Metal Platform PG Cot combines a durable metal structure with a smooth, flat sleeping platform for reliable everyday use. Its stylish wooden-finish headboard, raised mattress corner supports and compact design make it an ideal choice for PG accommodations, hostels and guest rooms.",
+    "images": [
+      "/maanran/products/metrorest-single-metal-platform-pg-cot_Le37lLrlk.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Platform Bed ",
+      "Frame Material": " Metal ",
+      "Platform Design": "Flat Metal Platform ",
+      "Headboard": "Wooden-Finish Panel",
+      "Frame Finish": "Grey Powder-Coated Finish",
+      "Usage": "PG, Hostel & Rental Accommodation"
+    },
+    "featured": true,
+    "order": 158,
+    "published": true
   }
 ]
