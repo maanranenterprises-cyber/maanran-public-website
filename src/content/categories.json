@@ -87,7 +87,7 @@
     "description": "Cots, study tables, wardrobes and storage for hostels.",
     "image": "/images/banners/hostel-pg-furniture.webp",
     "order": 9,
-    "published": true
+    "published": false
   },
   {
     "slug": "lab-furniture",
