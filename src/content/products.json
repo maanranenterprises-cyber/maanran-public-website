@@ -4099,5 +4099,29 @@
     "featured": true,
     "order": 164,
     "published": true
+  },
+  {
+    "id": "p-cjdzto",
+    "code": "MBC-002",
+    "slug": "maanran-premium-metal-bunker-cot-with-integrated-storage-cabinet-and-safety-guardrail",
+    "name": "MAANRAN Premium Metal Bunker Cot with Integrated Storage Cabinet & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-bunker-cots",
+    "shortDescription": "A space-efficient metal bunker cot featuring a sturdy two-tier structure, integrated side ladder and upper bunk safety railing. Includes a built-in storage cabinet beneath the lower bunk for convenient space management.",
+    "description": "Designed for modern hostels, PG accommodations and residential spaces, this premium bunker cot combines comfortable sleeping arrangements with practical storage functionality. Its durable metal frame, integrated ladder, protective upper guardrail and under-bed double-door cabinet make it a smart solution for maximizing available space.",
+    "images": [
+      "/maanran/products/maanran-premium-metal-bunker-cot-with-integrated-storage-cabinet-safety-guardrail_4ynIG8sFR.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot ",
+      "Frame Material": "Metal  ",
+      "Frame Design": "Rectangular Tubular Frame ",
+      "Finish": "Metallic Grey",
+      "Ladder Type": " Integrated Side Ladder",
+      "Storage": " Built-in Two-Door Storage Cabinet"
+    },
+    "featured": true,
+    "order": 165,
+    "published": true
   }
 ]
