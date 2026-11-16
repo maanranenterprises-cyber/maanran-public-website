@@ -4150,5 +4150,32 @@
     "featured": true,
     "order": 166,
     "published": true
+  },
+  {
+    "id": "p-qw5tm1",
+    "code": "OWS-024",
+    "slug": "premium-three-tier-wooden-display-rack-with-metal-frame",
+    "name": "Premium Three-Tier Wooden Display Rack with Metal Frame",
+    "brand": "MAANRAN",
+    "category": "office-wooden-storage",
+    "shortDescription": "A modern three-tier display rack featuring a spacious wooden top surface and two lower storage shelves, supported by a sturdy metal frame. Ideal for organized storage and display in offices and commercial spaces.",
+    "description": "Upgrade your workspace with this stylish three-tier display rack, designed with premium wood-finish shelves and a durable metal support structure. Its open-shelf design provides convenient space for organizing office essentials, equipment and accessories while maintaining a clean and professional appearance.",
+    "images": [
+      "/maanran/products/premium-three-tier-wooden-display-rack-with-metal-frame-front-view_NEdkbRf1U.webp",
+      "/maanran/products/premium-three-tier-wooden-display-rack-with-metal-frame-side-view_HZiv0IrQG.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Tier Display Rack",
+      "Frame Material": "Powder-Coated Metal",
+      "Shelf Material": "Engineered Wood",
+      "Finish": "Natural Oak Wood-Grain Finish",
+      "Number of Tiers": "3",
+      "Frame Design": "Angled Metal Support Frame",
+      "Shelf Configuration": "1 Top Surface + 2 Lower Shelves",
+      "Application": "Office, Commercial & Display Areas"
+    },
+    "featured": true,
+    "order": 167,
+    "published": true
   }
 ]
