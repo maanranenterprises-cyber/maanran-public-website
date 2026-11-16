@@ -158,5 +158,25 @@
     "image": "/maanran/categories/premium-ergonomic-mesh-visitor-chair-with-lumbar-support-front-angled-view_tgkj9otlX.webp",
     "order": 16,
     "published": true
+  },
+  {
+    "slug": "ms-bunker-cots",
+    "name": "MS Bunker Cots",
+    "codePrefix": "MBC",
+    "codeCounter": 0,
+    "description": "Explore MAANRAN's range of durable and space-saving ms bunker cots, designed for hostels, PG accommodations, dormitories and institutional spaces. Featuring sturdy metal frames, practical ladder access and functional designs, our bunker cots offer comfortable sleeping arrangements while maximizing available floor space.",
+    "image": "/maanran/categories/maanran-premium-dual-tone-metal-bunker-cot-with-angled-side-ladder-safety-guardrail_ccPtJhrtQ.webp",
+    "order": 17,
+    "published": true
+  },
+  {
+    "slug": "pg-cots",
+    "name": "PG Cots",
+    "codePrefix": "PC",
+    "codeCounter": 0,
+    "description": "Explore MAANRAN's range of durable and stylish PG cots, designed to provide comfortable sleeping solutions with space-efficient designs. Ideal for PG accommodations, hostels, student residences and rental rooms, combining sturdy construction with practical functionality.",
+    "image": "/maanran/categories/comfortrest-single-metal-cot-with-cushioned-headrest_1ARD0fmV8.webp",
+    "order": 18,
+    "published": true
   }
 ]
