@@ -3907,5 +3907,29 @@
     "featured": true,
     "order": 156,
     "published": true
+  },
+  {
+    "id": "p-kmw2qo",
+    "code": "PC-003",
+    "slug": "aquacomfort-single-metal-platform-pg-cot",
+    "name": "AquaComfort Single Metal Platform PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single PG cot featuring a sturdy black metal platform frame and a comfortable upholstered mattress in an attractive aqua-blue finish. Designed for practical, comfortable and space-efficient accommodation.",
+    "description": "The AquaComfort Single Metal Platform PG Cot offers a simple yet contemporary design with a durable metal base and a comfortable cushioned sleeping surface. Its minimal structure and attractive blue upholstery make it an excellent choice for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/aquacomfort-single-metal-platform-pg-cot_EPuP8zjsY.webp"
+    ],
+    "specs": {
+      "Product Type": "Single PG Cot",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Black Finish",
+      "Bed Design": " Low-Profile Platform ",
+      "Mattress Upholstery": "Fabric Upholstery",
+      "Upholstery Colour": "Aqua Blue "
+    },
+    "featured": true,
+    "order": 157,
+    "published": true
   }
 ]
