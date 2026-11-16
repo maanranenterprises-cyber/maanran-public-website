@@ -4051,5 +4051,29 @@
     "featured": true,
     "order": 162,
     "published": true
+  },
+  {
+    "id": "p-qk7kyu",
+    "code": "PC-009",
+    "slug": "gridframe-single-metal-pg-cot",
+    "name": "GridFrame Single Metal PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy single metal PG cot featuring a sleek dark grey finish, flat metal sleeping platform and open rectangular headboard and footboard design. Built for durability, stability and practical everyday use.",
+    "description": "The GridFrame Single Metal PG Cot features a robust metal frame with a smooth, flat sleeping platform for reliable everyday use. Its minimalist open-frame headboard and footboard design, combined with a clean dark grey finish, makes it an ideal choice for PG accommodations, hostels, student residences and rental rooms.",
+    "images": [
+      "/maanran/products/gridframe-single-metal-pg-cot_FdeYwWU_L-.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal PG Cot",
+      "Frame Material": "Metal",
+      "Frame Colour": "Dark Grey ",
+      "Platform Design": "Flat Metal Platform",
+      "Headboard Design": "Open Rectangular Frame",
+      "Footboard Design": "Open Rectangular Frame"
+    },
+    "featured": true,
+    "order": 163,
+    "published": true
   }
 ]
