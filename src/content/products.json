@@ -3955,5 +3955,29 @@
     "featured": true,
     "order": 158,
     "published": true
+  },
+  {
+    "id": "p-yj2kuv",
+    "code": "PC-005",
+    "slug": "woodcraft-single-metal-platform-pg-cot",
+    "name": "WoodCraft Single Metal Platform PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A practical single PG cot featuring a sturdy grey metal frame, smooth platform surface and elegant wooden-finish headboard and footboard panels. Designed for durability and efficient use of accommodation spaces.",
+    "description": "The WoodCraft Single Metal Platform PG Cot combines a strong metal structure with attractive wooden-finish panels for a simple yet modern appearance. Its flat sleeping platform, stable support frame and compact design make it suitable for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/woodcraft-single-metal-platform-pg-cot__6iFQGRlK.webp"
+    ],
+    "specs": {
+      "Product Type": "Single PG Cot ",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Grey Finish ",
+      "Platform Design": "Flat Metal Platform",
+      "Headboard & Footboard": "Wooden-Finish Panels",
+      "Usage": "PG, Hostel & Rental Accommodation"
+    },
+    "featured": true,
+    "order": 159,
+    "published": true
   }
 ]
