@@ -188,5 +188,15 @@
     "image": "/maanran/categories/premium-three-seater-black-cushioned-metal-beam-waiting-area-chair-view-2_ST7LbPs95.webp",
     "order": 19,
     "published": true
+  },
+  {
+    "slug": "writing-pad-chairs",
+    "name": "Writing Pad Chairs",
+    "codePrefix": "WPC",
+    "codeCounter": 0,
+    "description": "Writing Pad Chairs are designed to provide comfortable seating with convenient writing support, making them ideal for classrooms, training centres, seminars, conference rooms, and educational institutions.",
+    "image": "/maanran/categories/premium-black-cushioned-writing-tablet-chair-with-metal-frame-armrests_23a4fPOnQ.webp",
+    "order": 20,
+    "published": true
   }
 ]
