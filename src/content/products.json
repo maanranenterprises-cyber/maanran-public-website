@@ -4626,5 +4626,53 @@
     "featured": true,
     "order": 185,
     "published": true
+  },
+  {
+    "id": "p-0hfwuz",
+    "code": "OT-010",
+    "slug": "modern-wooden-computer-table-with-lockable-drawer-and-storage-cabinet",
+    "name": "Modern Wooden Computer Table with Lockable Drawer & Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A compact and functional computer table featuring a spacious tabletop, premium light wood-grain finish, and integrated lockable drawer and cabinet storage. Ideal for comfortable computer work and organized office spaces.",
+    "description": "Designed for everyday office and computer use, this modern computer table combines a simple design with practical storage solutions. Its spacious tabletop accommodates computer equipment and office essentials, while the integrated lockable drawer and cabinet provide secure storage for documents, stationery, and personal belongings.",
+    "images": [
+      "/maanran/products/modern-wooden-computer-table-with-lockable-drawer-storage-cabinet_2QoYmkZ9x.webp"
+    ],
+    "specs": {
+      "Product Type": "Computer Office Table  ",
+      "Material": "Engineered Wood / Panel Board",
+      "Finish": "Light Oak Wood Grain Finish ",
+      "Design": "Compact Rectangular Design  ",
+      "Storage": " 1 Lockable Drawer & 1 Cabinet  ",
+      "Application": "Offices, Computer Rooms & Workstations"
+    },
+    "featured": true,
+    "order": 186,
+    "published": true
+  },
+  {
+    "id": "p-y3dev9",
+    "code": "OT-011",
+    "slug": "modern-metal-computer-table-with-3-drawer-storage-pedestal",
+    "name": "Modern Metal Computer Table with 3-Drawer Storage Pedestal",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A durable and functional metal computer table featuring a spacious tabletop, sturdy steel frame, and integrated three-drawer storage pedestal. Designed for efficient computer work and organized office spaces.",
+    "description": "A durable and functional metal computer table featuring a spacious tabletop, sturdy steel frame, and integrated three-drawer storage pedestal. Designed for efficient computer work and organized office spaces.",
+    "images": [
+      "/maanran/products/modern-metal-computer-table-with-3-drawer-storage-pedestal_rm_If3FJi.webp"
+    ],
+    "specs": {
+      "Product Type": "Metal Computer Table  ",
+      "Tabletop Material": "Metal",
+      "Frame Material": "Mild Steel (MS)",
+      "Finish": "Grey Powder-Coated Finish ",
+      "Storage": " Integrated 3-Drawer Pedestal ",
+      "Application": "Offices, Computer Labs & Workstations"
+    },
+    "featured": true,
+    "order": 187,
+    "published": true
   }
 ]
