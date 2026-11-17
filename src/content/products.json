@@ -4702,5 +4702,29 @@
     "featured": true,
     "order": 188,
     "published": true
+  },
+  {
+    "id": "p-gt4ef7",
+    "code": "OT-013",
+    "slug": "modern-rectangular-office-table-with-metal-frame",
+    "name": "Modern Rectangular Office Table with Metal Frame",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A simple and durable office table featuring a spacious blue tabletop, sturdy black metal frame, and reinforced cross-support structure. Designed for everyday office activities and versatile workspace requirements.",
+    "description": "Designed for durability and practicality, this rectangular office table offers a spacious working surface supported by a strong metal frame. Its contemporary blue tabletop, black-finished legs, and reinforced support bars provide a functional and stable workspace for offices, institutions, and commercial environments.",
+    "images": [
+      "/maanran/products/modern-rectangular-office-table-with-metal-frame_qluxRmwYQ.webp"
+    ],
+    "specs": {
+      "Product Type": "Rectangular Office Table",
+      "Tabletop Finish": "Blue Finish",
+      "Frame Material": "Mild Steel (MS)",
+      "Frame Finish": "Black Powder-Coated Finish",
+      "Structure": "Metal Frame with Cross Supports",
+      "Application": "Offices, Institutions & Workspaces"
+    },
+    "featured": true,
+    "order": 189,
+    "published": true
   }
 ]
