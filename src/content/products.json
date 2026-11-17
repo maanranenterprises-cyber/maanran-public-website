@@ -4252,5 +4252,29 @@
     "featured": true,
     "order": 170,
     "published": true
+  },
+  {
+    "id": "p-irj687",
+    "code": "MSBC-005",
+    "slug": "maanran-premium-wooden-platform-metal-bunker-cot-with-integrated-side-ladder-and-safety-guardrail",
+    "name": "MAANRAN Premium Wooden Platform Metal Bunker Cot with Integrated Side Ladder & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A durable two-tier metal bunker cot featuring wooden sleeping platforms, a sturdy light blue frame and an integrated side ladder. Designed for practical space utilization in hostels, PG accommodations and dormitories.",
+    "description": "Combining a strong metal framework with spacious wooden sleeping platforms, this bunker cot offers a functional and space-saving sleeping arrangement. The integrated side ladder and upper bunk protective railing provide convenient access and added protection, making it suitable for hostels, student accommodations and institutional spaces.",
+    "images": [
+      "/maanran/products/maanran-premium-wooden-platform-metal-bunker-cot-with-integrated-side-ladder-safety-guardrail_acxgr_8J8.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot ",
+      "Frame Material": " Metal ",
+      "Sleeping Platform": "Wooden Board  ",
+      "Frame Colour": "Light Blue  ",
+      "Ladder Type": "Integrated Metal Side Ladder",
+      "Safety Feature": " Upper Bunk Protective Guardrail"
+    },
+    "featured": true,
+    "order": 171,
+    "published": true
   }
 ]
