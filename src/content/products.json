@@ -4506,5 +4506,29 @@
     "featured": true,
     "order": 180,
     "published": true
+  },
+  {
+    "id": "p-yg83rz",
+    "code": "OT-005",
+    "slug": "l-shaped-office-table-with-separate-cabin-partition-panel",
+    "name": "L-Shaped Office Table with Separate Cabin Partition Panel",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A modern L-shaped office table featuring a spacious wood-finish tabletop, sturdy panel-based structure, and a separate full-height cabin partition panel. Designed for a professional and well-organized office environment.",
+    "description": "Designed for modern office cabins, this L-shaped office table provides an extended workspace with a practical corner arrangement. The separate partition panel creates privacy and visual separation, while the durable panel-based construction and elegant dual-tone finish enhance the overall office interior.",
+    "images": [
+      "/maanran/products/l-shaped-office-table-with-separate-cabin-partition-panel_RWefTqy1Q.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Office Table   ",
+      "Material": "Engineered Wood / Panel Board",
+      "Tabletop Finish": "Wood Grain Laminate Finish",
+      "Design": " L-Shaped Corner Design  ",
+      "Partition": "Separate Cabin Partition Panel  ",
+      "Application": "Office Cabins & Managerial Workspaces"
+    },
+    "featured": true,
+    "order": 181,
+    "published": true
   }
 ]
