@@ -4348,5 +4348,29 @@
     "featured": true,
     "order": 174,
     "published": true
+  },
+  {
+    "id": "p-6u1rsw",
+    "code": "MSBC-009",
+    "slug": "maanran-premium-triple-tier-metal-bunker-cot-with-integrated-side-ladder-and-protective-railings",
+    "name": "MAANRAN Premium Triple-Tier Metal Bunker Cot with Integrated Side Ladder & Protective Railings",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A spacious triple-tier metal bunker cot featuring a sturdy dark grey frame, integrated side ladder and protective railings on the upper sleeping levels. Designed to maximize sleeping capacity while optimizing floor space.",
+    "description": "Engineered with a robust metal framework, this triple-tier bunker cot provides a practical sleeping solution for hostels, dormitories, PG accommodations and institutional facilities. Its three-level sleeping arrangement, integrated access ladder and protective side railings combine space efficiency, functionality and a modern appearance.",
+    "images": [
+      "/maanran/products/maanran-premium-triple-tier-metal-bunker-cot-with-integrated-side-ladder-protective-railings_m8Vdw1qpk.webp"
+    ],
+    "specs": {
+      "Product Type": "Triple-Decker Bunker Cot",
+      "Frame Material": "Metal ",
+      "Frame Design": "Rectangular Tubular Frame  ",
+      "Finish": " Dark Grey",
+      "Ladder Type": "Integrated Side Ladder ",
+      "Safety Feature": "Protective Railings on Upper Levels "
+    },
+    "featured": true,
+    "order": 175,
+    "published": true
   }
 ]
