@@ -4554,5 +4554,29 @@
     "featured": true,
     "order": 182,
     "published": true
+  },
+  {
+    "id": "p-l38yks",
+    "code": "OT-007",
+    "slug": "modern-office-desk-with-3-drawer-lockable-side-pedestal",
+    "name": "Modern Office Desk with 3-Drawer Lockable Side Pedestal",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A compact and functional office desk featuring a premium wood-grain finish, spacious tabletop, integrated three-drawer side pedestal, and lockable top drawer. Designed for efficient storage and comfortable everyday office work.",
+    "description": "Enhance your workspace with this modern office desk, combining a clean design with practical storage solutions. Its spacious work surface, sturdy panel-based construction, three-drawer storage unit, and secure locking facility make it a suitable choice for organized and productive office environments.",
+    "images": [
+      "/maanran/products/modern-office-desk-with-3-drawer-lockable-side-pedestal_LTda9SXPY.jpeg"
+    ],
+    "specs": {
+      "Product Type": "Office Desk with Side Pedestal ",
+      "Material": "Engineered Wood / Panel Board  ",
+      "Finish": "Wood Grain Laminate Finish",
+      "Design": "Modern Rectangular Design ",
+      "Storage": "3-Drawer Side Pedestal ",
+      "Application": "Corporate Offices & Workstations"
+    },
+    "featured": true,
+    "order": 183,
+    "published": true
   }
 ]
