@@ -4480,5 +4480,31 @@
     "featured": true,
     "order": 179,
     "published": true
+  },
+  {
+    "id": "p-5utzfq",
+    "code": "OT-004",
+    "slug": "l-shaped-executive-office-table-with-integrated-storage",
+    "name": "L-Shaped Executive Office Table with Integrated Storage",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A modern L-shaped executive office table featuring a premium light wood finish, spacious work surface, integrated drawer units, and lockable cabinet storage. Designed for an organized and comfortable executive workspace.",
+    "description": "Enhance your office with this elegant L-shaped executive desk, designed to provide maximum workspace and convenient storage. Featuring a smooth tabletop, built-in drawer cabinets, lockable storage compartments, and a dedicated cable management outlet, it combines functionality with a clean, professional appearance.",
+    "images": [
+      "/maanran/products/l-shaped-executive-office-table-with-integrated-storage-view_yxODQUloK.webp",
+      "/maanran/products/l-shaped-executive-office-table-with-integrated-storage-front-view_KMbgCelLe.jpeg",
+      "/maanran/products/l-shaped-executive-office-table-with-integrated-storage-side-view_tyBpWXKtv.webp"
+    ],
+    "specs": {
+      "Product Type": " L-Shaped Executive Office Table  ",
+      "Material": "Engineered Wood / Panel Board ",
+      "Finish": "Premium Light Wood Finish",
+      "Design": "L-Shaped Corner Design ",
+      "Storage": "Multiple Drawers & Lockable Cabinets ",
+      "Application": " Executive Cabins & Managerial Offices "
+    },
+    "featured": true,
+    "order": 180,
+    "published": true
   }
 ]
