@@ -4674,5 +4674,33 @@
     "featured": true,
     "order": 187,
     "published": true
+  },
+  {
+    "id": "p-krf8c7",
+    "code": "OT-012",
+    "slug": "modern-metal-office-table-with-perforated-modesty-panel",
+    "name": "Modern Metal Office Table with Perforated Modesty Panel",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A modern office table featuring a dual-tone grey and white tabletop, sturdy metal frame, and perforated front modesty panel. Designed for a durable, functional, and professional workspace.",
+    "description": "Enhance your workspace with this contemporary metal office table, combining a spacious working surface with a sturdy steel structure. Its elegant grey and white tabletop, white powder-coated frame, and perforated metal modesty panel provide a practical and stylish solution for modern offices and institutional environments.",
+    "images": [
+      "/maanran/products/modern-metal-office-table-with-perforated-modesty-panel-gray-back-view_ko6s2PlWP.webp",
+      "/maanran/products/modern-metal-office-table-with-perforated-modesty-panel-gray-front-view_MiJeLnok1.webp",
+      "/maanran/products/modern-metal-office-table-with-perforated-modesty-panel-wight-back-view_4-xA7bWou.webp",
+      "/maanran/products/modern-metal-office-table-with-perforated-modesty-panel-wight-front-view_SAlvfN9aE.webp"
+    ],
+    "specs": {
+      "Product Type": "Metal Office Table ",
+      "Tabletop Colour": "Grey & White  ",
+      "Tabletop Material": "Metal  ",
+      "Frame Material": "Mild Steel (MS)",
+      "Frame Finish": "White Powder-Coated Finish ",
+      "Front Panel": " Perforated Metal Modesty Panel ",
+      "Application": "Offices, Institutions & Commercial Workspaces"
+    },
+    "featured": true,
+    "order": 188,
+    "published": true
   }
 ]
