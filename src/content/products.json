@@ -113,17 +113,21 @@
     "id": "p-005",
     "code": "OT-001",
     "slug": "executive-office-table",
-    "name": "Executive Office Table",
+    "name": "Modern Executive Office Table with Side Storage",
     "brand": "MAANRAN",
     "category": "office-tables",
-    "shortDescription": "Executive table with side return, storage pedestal and wire manager.",
-    "description": "Executive table with side return, storage pedestal and wire manager. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "A stylish and spacious executive office table featuring a premium wood-finish tabletop, contemporary dark panel detailing, and integrated side storage for an organized and professional workspace.",
+    "description": "Designed for modern executive cabins and corporate offices, this office table combines elegant aesthetics with everyday functionality. Its spacious work surface, sturdy pedestal design, and integrated side storage provide convenient space for office essentials while enhancing the overall workspace appearance.",
     "images": [
-      "/images/site/office-tables.webp"
+      "/maanran/products/modern-executive-office-table-with-side-storage_nCBgx83Y9.webp"
     ],
     "specs": {
-      "Size": "1800 x 900 mm",
-      "Finish": "Laminate, choice of shades"
+      "Product Type": "Executive Office Table",
+      "Tabletop Finish": "Premium Wood Finish",
+      "Design": "Modern Executive Design",
+      "Base Structure": "Panel-Based Pedestal  ",
+      "Storage": "Integrated Side Storage",
+      "Application": "Executive Cabins & Corporate Offices"
     },
     "featured": true,
     "order": 6,
@@ -133,19 +137,23 @@
     "id": "p-006",
     "code": "OT-002",
     "slug": "conference-table-10-seater",
-    "name": "Conference Table, 10 Seater",
+    "name": "Modern Executive Office Desk with Side Storage & Meeting Table",
     "brand": "MAANRAN",
     "category": "office-tables",
-    "shortDescription": "Boat-shaped conference table with central power and data box.",
-    "description": "Boat-shaped conference table with central power and data box. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "A premium office furniture combination featuring a modern executive desk with integrated storage and a spacious meeting table. Designed to create a professional, organized, and collaborative workplace.",
+    "description": "Enhance your workspace with this contemporary office furniture setup, combining an executive desk with a stylish meeting table. Featuring elegant wood-finish surfaces, sturdy metal support structures, and functional storage units, it offers a perfect balance of sophistication, comfort, and practicality for modern corporate environments.",
     "images": [
       "/images/banners/office-tables.webp"
     ],
     "specs": {
-      "Size": "3600 x 1200 mm",
-      "Seats": "10"
+      "Product Type": "Executive Desk & Meeting Table  ",
+      "Tabletop Finish": "Premium Wood Finish",
+      "Design": "Modern Contemporary Design ",
+      "Frame Structure": "Metal & Panel-Based Structure",
+      "Storage": "Integrated Drawer & Side Storage",
+      "Application": "Executive Cabins & Meeting Rooms"
     },
-    "featured": false,
+    "featured": true,
     "order": 7,
     "published": true
   },
@@ -4443,6 +4451,34 @@
     },
     "featured": true,
     "order": 178,
+    "published": true
+  },
+  {
+    "id": "p-4aspi0",
+    "code": "OT-003",
+    "slug": "modern-executive-office-table-with-side-storage",
+    "name": "Modern Office Table with Geometric Z-Shaped Metal Frame",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A stylish and contemporary office table featuring a spacious tabletop, distinctive Z-shaped metal frame, and sturdy cross-support structure. Available in grey, green, and blue tabletop colours to complement different workspace interiors.",
+    "description": "Enhance your workspace with this modern office table, designed with a unique geometric Z-shaped metal frame that combines style and stability. Its spacious tabletop and durable black-finished metal structure make it a practical choice for everyday office activities, educational institutions, and commercial workspaces.",
+    "images": [
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-1_mqWS1l34B.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-2_3oS9gE3TyB.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-back-view_vYuqmuj2V.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-side-view_T7qJmRX981.webp"
+    ],
+    "specs": {
+      "Product Type": "Modern Office Table",
+      "Tabletop Colour": " Grey, Green & Blue  ",
+      "Tabletop Design": " Rectangular  ",
+      "Frame Material": "Mild Steel (MS)",
+      "Frame Design": "Geometric Z-Shaped Structure",
+      "Frame Finish": "Black Powder-Coated Finish ",
+      "Application": "Offices, Institutions & Workspaces"
+    },
+    "featured": true,
+    "order": 179,
     "published": true
   }
 ]
