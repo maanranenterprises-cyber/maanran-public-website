@@ -4324,5 +4324,29 @@
     "featured": true,
     "order": 173,
     "published": true
+  },
+  {
+    "id": "p-owuiib",
+    "code": "MSBC-008",
+    "slug": "maanran-premium-dual-tone-metal-bunker-cot-with-angled-side-ladder-and-safety-guardrail",
+    "name": "MAANRAN Premium Dual-Tone Metal Bunker Cot with Angled Side Ladder & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A contemporary two-tier metal bunker cot featuring a vibrant orange-red frame and elegant dark grey sleeping platforms. Designed with an angled side ladder and upper bunk safety railing for practical and space-efficient sleeping arrangements.",
+    "description": "Crafted with a sturdy metal framework, this dual-tone bunker cot combines durability with a modern appearance. The angled side ladder provides convenient access to the upper bunk, while the protective guardrail enhances safety, making it suitable for hostels, PG accommodations, dormitories and institutional spaces.",
+    "images": [
+      "/maanran/products/maanran-premium-dual-tone-metal-bunker-cot-with-angled-side-ladder-safety-guardrail_Gg9ZFSW7X.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot  ",
+      "Frame Material": "Metal    ",
+      "Frame Colour": "Orange Red ",
+      "Platform Colour": " Dark Grey  ",
+      "Ladder Type": "Integrated Angled Side Ladder ",
+      "Safety Feature": "Upper Bunk Protective Guardrail"
+    },
+    "featured": true,
+    "order": 174,
+    "published": true
   }
 ]
