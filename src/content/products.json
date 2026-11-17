@@ -4602,5 +4602,29 @@
     "featured": true,
     "order": 184,
     "published": true
+  },
+  {
+    "id": "p-wvmsba",
+    "code": "OT-009",
+    "slug": "premium-wooden-computer-table-with-lockable-drawer-and-cabinet",
+    "name": "Premium Wooden Computer Table with Lockable Drawer & Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A compact and elegant computer table featuring a spacious tabletop, rich dark wood-grain finish, and integrated lockable drawer and cabinet storage. Designed for comfortable computer work and organized office spaces.",
+    "description": "Upgrade your workspace with this premium wooden computer table, combining a practical design with a sophisticated appearance. Its spacious work surface provides ample room for computer equipment, while the integrated lockable drawer and cabinet offer secure storage for documents, stationery, and office essentials.",
+    "images": [
+      "/maanran/products/premium-wooden-computer-table-with-lockable-drawer-cabinet_DvS8aF-9E.webp"
+    ],
+    "specs": {
+      "Product Type": "Computer Office Table ",
+      "Material": "Engineered Wood / Panel Board ",
+      "Finish": "Dark Walnut Wood Grain Finish",
+      "Design": "Modern Rectangular Design   ",
+      "Storage": "1 Lockable Drawer & 1 Cabinet ",
+      "Application": "Offices, Computer Rooms & Workstations"
+    },
+    "featured": true,
+    "order": 185,
+    "published": true
   }
 ]

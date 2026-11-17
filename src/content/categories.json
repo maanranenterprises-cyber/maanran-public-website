@@ -23,7 +23,7 @@
     "slug": "office-tables",
     "name": "Office Tables",
     "codePrefix": "OT",
-    "codeCounter": 8,
+    "codeCounter": 9,
     "description": "Executive desks, conference and meeting tables.",
     "image": "/images/banners/office-tables.webp",
     "order": 3,
