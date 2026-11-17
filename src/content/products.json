@@ -4300,5 +4300,29 @@
     "featured": true,
     "order": 172,
     "published": true
+  },
+  {
+    "id": "p-aniuk1",
+    "code": "MSBC-007",
+    "slug": "maanran-premium-scarlet-red-metal-bunker-cot-with-integrated-storage-cabinet-and-front-access-ladder",
+    "name": "MAANRAN Premium Scarlet Red Metal Bunker Cot with Integrated Storage Cabinet & Front Access Ladder",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A stylish two-tier metal bunker cot featuring a vibrant red finish, integrated front access ladder and spacious under-bed storage cabinet. Designed for efficient space utilization in hostels, PG accommodations and dormitories.",
+    "description": "Combining a sturdy metal framework with a bold red finish, this premium bunker cot offers a practical and space-saving sleeping solution. The integrated ladder provides convenient access to the upper bunk, while the built-in two-door storage cabinet beneath the lower bunk offers organized storage for personal belongings.",
+    "images": [
+      "/maanran/products/maanran-premium-scarlet-red-metal-bunker-cot-with-integrated-storage-cabinet-front-access-ladder_ePAZk5icn.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot ",
+      "Frame Material": "Metal    ",
+      "Frame Colour": "Scarlet Red ",
+      "Frame Design": "Tubular Metal Frame",
+      "Ladder Type": "Integrated Front Access Ladder  ",
+      "Storage": "Built-in Two-Door Storage Cabinet "
+    },
+    "featured": true,
+    "order": 173,
+    "published": true
   }
 ]
