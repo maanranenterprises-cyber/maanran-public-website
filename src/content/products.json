@@ -4650,5 +4650,29 @@
     "featured": true,
     "order": 186,
     "published": true
+  },
+  {
+    "id": "p-y3dev9",
+    "code": "OT-011",
+    "slug": "modern-metal-computer-table-with-3-drawer-storage-pedestal",
+    "name": "Modern Metal Computer Table with 3-Drawer Storage Pedestal",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A durable and functional metal computer table featuring a spacious tabletop, sturdy steel frame, and integrated three-drawer storage pedestal. Designed for efficient computer work and organized office spaces.",
+    "description": "A durable and functional metal computer table featuring a spacious tabletop, sturdy steel frame, and integrated three-drawer storage pedestal. Designed for efficient computer work and organized office spaces.",
+    "images": [
+      "/maanran/products/modern-metal-computer-table-with-3-drawer-storage-pedestal_rm_If3FJi.webp"
+    ],
+    "specs": {
+      "Product Type": "Metal Computer Table  ",
+      "Tabletop Material": "Metal",
+      "Frame Material": "Mild Steel (MS)",
+      "Finish": "Grey Powder-Coated Finish ",
+      "Storage": " Integrated 3-Drawer Pedestal ",
+      "Application": "Offices, Computer Labs & Workstations"
+    },
+    "featured": true,
+    "order": 187,
+    "published": true
   }
 ]
