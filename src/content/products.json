@@ -4578,5 +4578,29 @@
     "featured": true,
     "order": 183,
     "published": true
+  },
+  {
+    "id": "p-qswwwr",
+    "code": "OT-008",
+    "slug": "modern-computer-office-table-with-lockable-storage-cabinet",
+    "name": "Modern Computer Office Table with Lockable Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A compact and functional computer office table featuring a spacious tabletop, integrated lockable drawer and cabinet storage, and a premium light wood finish. Designed for comfortable computer work and organized office operations.",
+    "description": "Upgrade your workspace with this modern computer table, combining a practical workstation design with convenient storage facilities. Its spacious tabletop accommodates computer equipment and office essentials, while the integrated lockable drawer and cabinet provide secure storage for documents and personal belongings.",
+    "images": [
+      "/maanran/products/modern-computer-office-table-with-lockable-storage-cabinet_W3tFGsElF.webp"
+    ],
+    "specs": {
+      "Product Type": "Computer Office Table   ",
+      "Material": "Engineered Wood / Panel Board ",
+      "Finish": "Premium Light Wood Grain Finish  ",
+      "Design": "Modern Rectangular Design ",
+      "Storage": " 1 Lockable Drawer & 1 Cabinet",
+      "Application": "Offices, Workstations & Computer Rooms"
+    },
+    "featured": true,
+    "order": 184,
+    "published": true
   }
 ]
