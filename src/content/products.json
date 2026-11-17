@@ -4530,5 +4530,29 @@
     "featured": true,
     "order": 181,
     "published": true
+  },
+  {
+    "id": "p-i6g1ul",
+    "code": "OT-006",
+    "slug": "u-shaped-executive-office-table-with-integrated-storage-cabinet",
+    "name": "U-Shaped Executive Office Table with Integrated Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A premium U-shaped executive office table featuring an elegant dual-tone wood finish, spacious work surface, integrated storage cabinets, and open shelving. Designed for an organized and professional executive workspace.",
+    "description": "Designed to combine functionality and modern aesthetics, this U-shaped executive desk offers an extended workspace with convenient access to integrated storage. Featuring a stylish wood-grain finish, lockable cabinet compartments, and open shelving, it provides an efficient and organized setup for executive offices and managerial cabins.",
+    "images": [
+      "/maanran/products/u-shaped-executive-office-table-with-integrated-storage-cabinet_U909Gyx3x.webp"
+    ],
+    "specs": {
+      "Product Type": "U-Shaped Executive Office Table",
+      "Material": "Engineered Wood / Panel Board ",
+      "Finish": "Dual-Tone Wood Grain Finish ",
+      "Design": " U-Shaped Executive Design  ",
+      "Storage": "Integrated Cabinets & Open Shelves",
+      "Application": "Executive Cabins & Managerial Offices "
+    },
+    "featured": true,
+    "order": 182,
+    "published": true
   }
 ]
