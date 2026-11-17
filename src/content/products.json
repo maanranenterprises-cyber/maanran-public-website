@@ -4396,5 +4396,29 @@
     "featured": true,
     "order": 176,
     "published": true
+  },
+  {
+    "id": "p-s575m3",
+    "code": "MSBC-011",
+    "slug": "maanran-premium-tangerine-orange-metal-bunker-cot-with-dual-level-steel-platforms-and-safety-guardrail",
+    "name": "MAANRAN Premium Tangerine Orange Metal Bunker Cot with Dual-Level Steel Platforms & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A contemporary two-tier metal bunker cot featuring a vibrant orange frame, spacious silver-grey sleeping platforms and an integrated upper bunk safety guardrail. Designed for practical, space-saving sleeping arrangements in hostels, PG accommodations and dormitories.",
+    "description": "Built with a sturdy metal framework and two spacious sleeping platforms, this bunker cot offers a durable and functional sleeping solution for shared accommodation spaces. Its distinctive orange frame, integrated structural side supports and protective upper guardrail combine modern styling with practical space utilization.",
+    "images": [
+      "/maanran/products/maanran-premium-tangerine-orange-metal-bunker-cot-with-dual-level-steel-platforms-safety-guardrail_65SQupdUm.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot",
+      "Frame Material": "Metal ",
+      "Frame Colour": "Tangerine Orange",
+      "Platform Colour": "Silver Grey",
+      "Frame Design": " Rectangular Tubular Frame",
+      "Safety Feature": "Upper Bunk Protective Guardrail "
+    },
+    "featured": true,
+    "order": 177,
+    "published": true
   }
 ]
