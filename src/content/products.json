@@ -4420,5 +4420,29 @@
     "featured": true,
     "order": 177,
     "published": true
+  },
+  {
+    "id": "p-xscoos",
+    "code": "MSBC-012",
+    "slug": "maanran-premium-red-and-blue-metal-bunker-cot-with-integrated-storage-cabinet-side-ladder-and-safety-guardrail",
+    "name": "MAANRAN Premium Red & Blue Metal Bunker Cot with Integrated Storage Cabinet, Side Ladder & Safety Guardrail",
+    "brand": "MAANRAN",
+    "category": "ms-steel-bunker-cots",
+    "shortDescription": "A stylish two-tier metal bunker cot featuring a vibrant red frame, blue-accented sleeping platforms and a built-in double-door storage cabinet. Designed with an integrated side ladder and upper bunk safety railing for efficient space utilization.",
+    "description": "Combining a sturdy metal framework with an attractive red and blue dual-tone finish, this bunker cot offers a practical sleeping and storage solution for hostels, PG accommodations and dormitories. The integrated side ladder provides convenient upper-bunk access, while the spacious under-bed cabinet offers organized storage for personal belongings.",
+    "images": [
+      "/maanran/products/maanran-premium-red-blue-metal-bunker-cot-with-integrated-storage-cabinet-side-ladder-safety-guardrail_CoY456Wr_.webp"
+    ],
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot",
+      "Frame Material": "Metal",
+      "Frame Colour": "Red ",
+      "Platform Finish": "Blue & Wooden Finish",
+      "Ladder Type": "Integrated Side Ladder  ",
+      "Storage": "Built-in Two-Door Storage Cabinet "
+    },
+    "featured": true,
+    "order": 178,
+    "published": true
   }
 ]
