@@ -4457,16 +4457,27 @@
     "id": "p-4aspi0",
     "code": "OT-003",
     "slug": "modern-executive-office-table-with-side-storage",
-    "name": "Modern Executive Office Table with Side Storage",
+    "name": "Modern Office Table with Geometric Z-Shaped Metal Frame",
     "brand": "MAANRAN",
     "category": "office-tables",
-    "shortDescription": "A stylish and spacious executive office table featuring a premium wood-finish tabletop, contemporary dark panel detailing, and integrated side storage for an organized and professional workspace.",
-    "description": "Designed for modern executive cabins and corporate offices, this office table combines elegant aesthetics with everyday functionality. Its spacious work surface, sturdy pedestal design, and integrated side storage provide convenient space for office essentials while enhancing the overall workspace appearance.",
+    "shortDescription": "A stylish and contemporary office table featuring a spacious tabletop, distinctive Z-shaped metal frame, and sturdy cross-support structure. Available in grey, green, and blue tabletop colours to complement different workspace interiors.",
+    "description": "Enhance your workspace with this modern office table, designed with a unique geometric Z-shaped metal frame that combines style and stability. Its spacious tabletop and durable black-finished metal structure make it a practical choice for everyday office activities, educational institutions, and commercial workspaces.",
     "images": [
-      "/maanran/products/modern-executive-office-table-with-side-storage_EUy94-MNl.webp"
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-1_mqWS1l34B.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-2_3oS9gE3TyB.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-back-view_vYuqmuj2V.webp",
+      "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-side-view_T7qJmRX981.webp"
     ],
-    "specs": {},
-    "featured": false,
+    "specs": {
+      "Product Type": "Modern Office Table",
+      "Tabletop Colour": " Grey, Green & Blue  ",
+      "Tabletop Design": " Rectangular  ",
+      "Frame Material": "Mild Steel (MS)",
+      "Frame Design": "Geometric Z-Shaped Structure",
+      "Frame Finish": "Black Powder-Coated Finish ",
+      "Application": "Offices, Institutions & Workspaces"
+    },
+    "featured": true,
     "order": 179,
     "published": true
   }
