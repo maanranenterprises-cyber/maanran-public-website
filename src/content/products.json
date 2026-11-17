@@ -4217,7 +4217,14 @@
     "images": [
       "/maanran/products/maanran-elegant-dual-tone-metal-bunker-cot-with-integrated-side-ladder-safety-railing_H9PoSoNmY.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Product Type": "Double-Decker Bunker Cot",
+      "Frame Material": "Metal ",
+      "Frame Colour": "Bright Pink ",
+      "Platform Colour": "Cream  ",
+      "Ladder Type": "Integrated Side Ladder",
+      "Safety Feature": "Upper Bunk Protective Railing"
+    },
     "featured": true,
     "order": 169,
     "published": true
