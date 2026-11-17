@@ -4444,5 +4444,22 @@
     "featured": true,
     "order": 178,
     "published": true
+  },
+  {
+    "id": "p-4aspi0",
+    "code": "OT-003",
+    "slug": "modern-executive-office-table-with-side-storage",
+    "name": "Modern Executive Office Table with Side Storage",
+    "brand": "MAANRAN",
+    "category": "office-tables",
+    "shortDescription": "A stylish and spacious executive office table featuring a premium wood-finish tabletop, contemporary dark panel detailing, and integrated side storage for an organized and professional workspace.",
+    "description": "Designed for modern executive cabins and corporate offices, this office table combines elegant aesthetics with everyday functionality. Its spacious work surface, sturdy pedestal design, and integrated side storage provide convenient space for office essentials while enhancing the overall workspace appearance.",
+    "images": [
+      "/maanran/products/modern-executive-office-table-with-side-storage_EUy94-MNl.webp"
+    ],
+    "specs": {},
+    "featured": false,
+    "order": 179,
+    "published": true
   }
 ]
