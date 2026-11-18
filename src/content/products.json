@@ -4971,5 +4971,29 @@
     "featured": true,
     "order": 199,
     "published": true
+  },
+  {
+    "id": "p-al7qil",
+    "code": "WAC-009",
+    "slug": "premium-three-seater-black-slatted-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Black Slatted Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A modern three-seater waiting area chair featuring a sleek black finish, horizontal slatted backrests and integrated metal seats. Designed for durable and practical seating in professional and public spaces.",
+    "description": "Enhance your waiting areas with this premium three-seater beam chair, featuring ergonomically designed horizontal slatted backrests and contoured metal seats for comfortable seating. Its sturdy metal construction, integrated curved armrests and stylish black finish make it ideal for offices, hospitals, reception areas and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-three-seater-black-slatted-metal-beam-waiting-area-chair_hJx9fBWz-.webp"
+    ],
+    "specs": {
+      "Seating Capacity": " 3 Seater    ",
+      "Frame Material": "Metal    ",
+      "Frame Finish": "Black Finish",
+      "Seat & Backrest": " Metal ",
+      "Backrest Design": "Horizontal Slatted ",
+      "Armrest Type": "Integrated Curved Metal Armrests"
+    },
+    "featured": true,
+    "order": 200,
+    "published": true
   }
 ]
