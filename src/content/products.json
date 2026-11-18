@@ -4995,5 +4995,29 @@
     "featured": true,
     "order": 200,
     "published": true
+  },
+  {
+    "id": "p-nslut4",
+    "code": "WAC-010",
+    "slug": "premium-two-seater-black-perforated-metal-beam-waiting-area-chair",
+    "name": "Premium Two-Seater Black Perforated Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A modern two-seater waiting area chair featuring fully perforated black metal seats and backrests with a stylish matching frame. Designed for durable, ventilated and low-maintenance seating in professional spaces.",
+    "description": "Enhance your waiting spaces with this premium two-seater metal beam chair, featuring ergonomically designed perforated metal seats and backrests for improved air circulation. Its sturdy metal construction, curved integrated armrests and elegant black finish make it ideal for offices, hospitals, reception areas and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-two-seater-black-perforated-metal-beam-waiting-area-chair_CI-gakrtX.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "2 Seater  ",
+      "Frame Material": "Metal     ",
+      "Frame Finish": " Black Finish",
+      "Seat & Backrest": "Perforated Metal",
+      "Armrest Type": "Curved Metal Armrests",
+      "Seat Design": "Ventilated Perforated Design "
+    },
+    "featured": true,
+    "order": 201,
+    "published": true
   }
 ]
