@@ -4825,5 +4825,29 @@
     "featured": true,
     "order": 193,
     "published": true
+  },
+  {
+    "id": "p-iu9f7t",
+    "code": "WAC-003",
+    "slug": "premium-four-seater-orange-cushioned-metal-beam-waiting-area-chair",
+    "name": "Premium Four-Seater Orange Cushioned Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A premium four-seater waiting area chair featuring elegant brown cushioned seats and backrests with a sturdy silver-finish metal frame. Designed for comfortable and stylish visitor seating.",
+    "description": "Enhance your waiting spaces with this modern four-seater beam chair, featuring individual orange cushioned seats and backrests for comfortable seating. Its durable metal construction, integrated armrests and contemporary silver-finish frame make it suitable for office receptions, hospitals, airports and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-four-seater-brown-cushioned-metal-beam-waiting-area-chair_rfOpfPbg7.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "4 Seater ",
+      "Frame Material": "Metal",
+      "Frame Finish": "Silver Finish",
+      "Seat & Backrest": "Cushioned Upholstery  ",
+      "Upholstery Colour": "Orange ",
+      "Armrest Type": "Integrated Metal Armrests"
+    },
+    "featured": true,
+    "order": 194,
+    "published": true
   }
 ]
