@@ -5019,5 +5019,29 @@
     "featured": true,
     "order": 201,
     "published": true
+  },
+  {
+    "id": "p-zko7ga",
+    "code": "WAC-011",
+    "slug": "premium-three-seater-black-moulded-shell-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Black Moulded Shell Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A contemporary three-seater waiting area chair featuring ergonomically designed black moulded seats and backrests with a sturdy metallic beam frame. Designed for practical, durable and comfortable seating in modern public and commercial spaces.",
+    "description": "Upgrade your waiting spaces with this premium three-seater beam chair, featuring individual moulded seats and backrests with a smooth, contoured design for comfortable seating. Its durable metal support frame, integrated side armrests and modern angular legs make it ideal for offices, hospitals, reception areas, airports and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-three-seater-black-moulded-shell-metal-beam-waiting-area-chair_DO90hHSCp.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater ",
+      "Seat & Backrest Material": "Moulded Plastic ",
+      "Seat & Backrest Colour": "Black",
+      "Frame Material": " Metal   ",
+      "Frame Finish": "Grey Finish ",
+      "Armrest Type": "Integrated Metal Side Armrests"
+    },
+    "featured": true,
+    "order": 202,
+    "published": true
   }
 ]
