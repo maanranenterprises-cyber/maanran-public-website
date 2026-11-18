@@ -4776,5 +4776,30 @@
     "featured": true,
     "order": 191,
     "published": true
+  },
+  {
+    "id": "p-xk1s9x",
+    "code": "WAC-001",
+    "slug": "premium-three-seater-black-cushioned-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Black Cushioned Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A modern three-seater waiting area chair featuring comfortable black cushioned seating, perforated metal back support and a durable chrome-finish frame. Ideal for reception areas, offices, hospitals and commercial spaces.",
+    "description": "Designed for comfort and durability, this three-seater beam chair features individual cushioned seats and backrests with a sturdy perforated metal support structure. Its polished metal frame, integrated armrests and stable legs provide reliable seating with a professional appearance.",
+    "images": [
+      "/maanran/products/premium-three-seater-black-cushioned-metal-beam-waiting-area-chair-view-1_IygYdcQ_G.webp",
+      "/maanran/products/premium-three-seater-black-cushioned-metal-beam-waiting-area-chair-view-2_-w4MqvYxM.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Chrome Finish ",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Back Support": "Perforated Metal    ",
+      "Armrest Type": "Integrated Metal Armrests"
+    },
+    "featured": true,
+    "order": 192,
+    "published": true
   }
 ]
