@@ -5043,5 +5043,29 @@
     "featured": true,
     "order": 202,
     "published": true
+  },
+  {
+    "id": "p-0kxuhe",
+    "code": "WAC-012",
+    "slug": "premium-three-seater-blue-moulded-shell-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Blue Moulded Shell Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A modern three-seater waiting area chair featuring ergonomically designed blue moulded seats and backrests with a sturdy silver-finish metal frame. Ideal for comfortable and stylish seating in professional and public spaces.",
+    "description": "Enhance your waiting spaces with this premium three-seater beam chair, featuring individual blue moulded seats and backrests with a smooth, contoured design for comfortable seating. Its durable metal support frame, integrated side armrests and elegant silver finish make it suitable for offices, hospitals, airports, reception areas and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-three-seater-blue-moulded-shell-metal-beam-waiting-area-chair_94NRkNVeb.webp"
+    ],
+    "specs": {
+      "Seating Capacity": " 3 Seater",
+      "Seat & Backrest Material": " Moulded Plastic",
+      "Seat & Backrest Colour": "Blue",
+      "Frame Material": "Metal",
+      "Frame Finish": "Silver Finish   ",
+      "Armrest Type": "Integrated Metal Armrests"
+    },
+    "featured": true,
+    "order": 203,
+    "published": true
   }
 ]
