@@ -4947,5 +4947,29 @@
     "featured": true,
     "order": 198,
     "published": true
+  },
+  {
+    "id": "p-6iphm2",
+    "code": "WAC-008",
+    "slug": "premium-three-seater-perforated-metal-beam-waiting-area-chair-with-curved-armrests",
+    "name": "Premium Three-Seater Perforated Metal Beam Waiting Area Chair with Curved Armrests",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A sleek three-seater waiting area chair featuring fully perforated metal seats and backrests with a premium silver finish. Designed for durable, ventilated and low-maintenance seating in professional spaces.",
+    "description": "Enhance your waiting areas with this premium three-seater metal beam chair, featuring ergonomically designed perforated metal seats and backrests for improved air circulation. Its sturdy tubular metal frame, curved integrated armrests and stable support legs provide a practical seating solution for offices, hospitals, airports and reception areas.",
+    "images": [
+      "/maanran/products/premium-three-seater-perforated-metal-beam-waiting-area-chair-with-curved-armrests_x1FJH5RWs.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater",
+      "Frame Material": "Metal ",
+      "Frame Finish": "Silver Finish   ",
+      "Seat & Backrest": "Perforated Metal",
+      "Armrest Type": " Curved Metal Armrests",
+      "Leg Design": "Heavy-Duty Tubular Metal Legs "
+    },
+    "featured": true,
+    "order": 199,
+    "published": true
   }
 ]
