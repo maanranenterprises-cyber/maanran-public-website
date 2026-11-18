@@ -4849,5 +4849,29 @@
     "featured": true,
     "order": 194,
     "published": true
+  },
+  {
+    "id": "p-w7mn13",
+    "code": "WAC-004",
+    "slug": "premium-three-seater-purple-cushioned-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Purple Cushioned Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A stylish three-seater waiting area chair featuring comfortable purple cushioned seats and backrests with a sturdy silver-finish metal frame. Designed to offer a comfortable and attractive seating solution for visitors.",
+    "description": "Enhance your reception and waiting spaces with this premium three-seater beam chair, featuring individually cushioned seats and backrests for added comfort. Its durable metal construction, curved armrests and elegant silver finish make it suitable for offices, hospitals, reception areas and commercial spaces.",
+    "images": [
+      "/maanran/products/premium-three-seater-purple-cushioned-metal-beam-waiting-area-chair_Mx9rZZ3Yi.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater ",
+      "Frame Material": " Metal  ",
+      "Frame Finish": "Silver Finish ",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Upholstery Colour": "Purple ",
+      "Armrest Type": "Curved Metal Armrests"
+    },
+    "featured": true,
+    "order": 195,
+    "published": true
   }
 ]
