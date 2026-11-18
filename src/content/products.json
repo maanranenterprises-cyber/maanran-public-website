@@ -4801,5 +4801,29 @@
     "featured": true,
     "order": 192,
     "published": true
+  },
+  {
+    "id": "p-fp4hkm",
+    "code": "WAC-002",
+    "slug": "premium-three-seater-green-cushioned-metal-beam-waiting-area-chair",
+    "name": "Premium Three-Seater Green Cushioned Metal Beam Waiting Area Chair",
+    "brand": "MAANRAN",
+    "category": "waiting-area-chairs",
+    "shortDescription": "A contemporary three-seater waiting area chair featuring elegant green cushioned seats and backrests with a sturdy silver-finish metal frame. Designed to provide comfortable and stylish seating for visitors.",
+    "description": "Create a welcoming seating space with this premium three-seater beam chair, featuring individual green cushioned seats and backrests for enhanced comfort. Its durable metal frame, integrated armrests and sleek silver finish make it an ideal choice for office receptions, hospitals, airports and commercial waiting areas.",
+    "images": [
+      "/maanran/products/premium-three-seater-green-cushioned-metal-beam-waiting-area-chair_gnb-u57Ql.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater ",
+      "Frame Material": "Metal  ",
+      "Frame Finish": "Silver Finish",
+      "Seat & Backrest": "Cushioned Upholstery ",
+      "Upholstery Colour": " Green",
+      "Armrest Type": "Integrated Metal Armrests"
+    },
+    "featured": true,
+    "order": 193,
+    "published": true
   }
 ]
