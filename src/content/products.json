@@ -5570,5 +5570,226 @@
     "featured": true,
     "order": 223,
     "published": true
+  },
+  {
+    "id": "p-7j3g3m",
+    "code": "MSFW-001",
+    "slug": "heavy-duty-ms-mobile-industrial-equipment-support-rack",
+    "name": "Heavy-Duty MS Mobile Industrial Equipment Support Rack",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated MS support rack featuring a reinforced steel frame, multiple equipment mounting sections, and caster wheels for convenient mobility and organized industrial equipment handling.",
+    "description": "Designed for industrial and workshop applications, this custom MS fabricated rack features a sturdy vertical framework with multiple support sections for equipment mounting and storage. Its reinforced base structure and mobile caster wheels provide practical mobility, durability, and efficient workspace organization.",
+    "images": [
+      "/maanran/products/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-1_9kFXf6f7_.webp",
+      "/maanran/products/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-2_wJ-LNQEZx.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Industrial Support Rack",
+      "Material": "Mild Steel (MS)",
+      "Structure": "Multi-Section Fabricated Frame",
+      "Frame Design": "Vertical & Horizontal Reinforcement",
+      "Finish": "Blue Industrial Coating",
+      "Mobility": "Caster Wheels"
+    },
+    "featured": true,
+    "order": 224,
+    "published": true
+  },
+  {
+    "id": "p-hr7nmq",
+    "code": "MSFW-002",
+    "slug": "blue-industrial-two-tier-mobile-fabrication-utility-trolley",
+    "name": "Blue Industrial Two-Tier Mobile Fabrication Utility Trolley",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Heavy-duty MS fabrication trolley featuring two spacious trays, a sturdy metal frame, and smooth-rolling caster wheels for convenient material and tool handling.",
+    "description": "Designed for industrial and workshop use, this two-tier MS trolley provides a durable and practical solution for transporting tools, components, and materials. Its reinforced metal frame, raised tray edges, and mobile caster wheels ensure convenient handling, organized storage, and reliable performance.",
+    "images": [
+      "/maanran/products/blue-industrial-two-tier-mobile-fabrication-utility-trolley-view-1__kFJn237Q.webp",
+      "/maanran/products/blue-industrial-two-tier-mobile-fabrication-utility-trolley-view-2_wcpc2J3dB.webp"
+    ],
+    "specs": {
+      "Product Type": "Two-Tier Utility Trolley",
+      "Material": "Mild Steel (MS)",
+      "Shelves": "2 Tray Levels",
+      "Finish": "Blue Powder-Coated Finish",
+      "Mobility": "Caster Wheels",
+      "Application": "Industrial & Workshop Use"
+    },
+    "featured": true,
+    "order": 225,
+    "published": true
+  },
+  {
+    "id": "p-0qxwbf",
+    "code": "MSFW-003",
+    "slug": "heavy-duty-ms-fabricated-mobile-equipment-base-frame",
+    "name": "Heavy-Duty MS Fabricated Mobile Equipment Base Frame",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Heavy-duty MS fabricated mobile base frame designed for industrial equipment support and material handling, featuring a reinforced steel structure and caster wheels for smooth mobility.",
+    "description": "Manufactured using sturdy mild steel sections, this custom-fabricated mobile base frame provides reliable structural support for industrial equipment and workstations. Its rectangular framework, reinforced cross-members, and caster wheel assembly make it suitable for moving and supporting heavy equipment across workshop and industrial environments.",
+    "images": [
+      "/maanran/products/heavy-duty-ms-fabricated-mobile-equipment-base-frame-view-1_DX7pMSAjm.webp",
+      "/maanran/products/heavy-duty-ms-fabricated-mobile-equipment-base-frame-view-2_NEXfTsa2j.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Equipment Base Frame",
+      "Material": "Mild Steel (MS)",
+      "Frame Structure": "Rectangular Fabricated Frame",
+      "Reinforcement": "Cross-Member Support",
+      "Finish": "Blue Industrial Finish",
+      "Mobility": "Heavy-Duty Caster Wheels"
+    },
+    "featured": true,
+    "order": 226,
+    "published": true
+  },
+  {
+    "id": "p-p5pbuu",
+    "code": "MSFW-004",
+    "slug": "black-ms-fabricated-mobile-equipment-support-frame",
+    "name": "Black MS Fabricated Mobile Equipment Support Frame",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Compact black MS fabricated support frame with a sturdy rectangular structure, integrated mounting platform, and caster wheels for convenient industrial equipment mobility.",
+    "description": "Fabricated from durable mild steel, this compact mobile support frame is designed for equipment mounting and industrial applications. Its rigid rectangular construction, reinforced support members, integrated mounting plate, and caster wheel assembly provide stability, durability, and ease of movement in workshop and production environments.",
+    "images": [
+      "/maanran/products/black-ms-fabricated-mobile-equipment-support-frame_IySFGKSzm.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Equipment Support Frame",
+      "Material": "Mild Steel (MS)",
+      "Frame Design": "Rectangular Fabricated Structure",
+      "Mounting": "Integrated Mounting Platform",
+      "Finish": "Black Industrial Finish",
+      "Mobility": "Caster Wheels"
+    },
+    "featured": true,
+    "order": 227,
+    "published": true
+  },
+  {
+    "id": "p-y4acaf",
+    "code": "MSFW-005",
+    "slug": "ms-fabricated-modular-storage-bench-with-cushioned-seating",
+    "name": "MS Fabricated Modular Storage Bench with Cushioned Seating",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated MS storage bench featuring multiple open compartments and cushioned seating, designed for organized storage and comfortable seating in commercial and institutional spaces.",
+    "description": "This MS fabricated storage bench combines practical storage compartments with cushioned seating in a durable metal structure. Designed for schools, offices, waiting areas, and commercial spaces, it offers convenient storage, comfortable seating, and a space-efficient layout with a clean, functional design.",
+    "images": [
+      "/maanran/products/ms-fabricated-modular-storage-bench-with-cushioned-seating_WKmopETQ5.webp"
+    ],
+    "specs": {
+      "Product Type": "Storage Bench with Seating",
+      "Material": "Mild Steel (MS)",
+      "Structure": "Fabricated Metal Frame",
+      "Storage": "Multiple Open Compartments",
+      "Seating": "Cushioned Top",
+      "Finish": "Grey Industrial Finish"
+    },
+    "featured": true,
+    "order": 228,
+    "published": true
+  },
+  {
+    "id": "p-5uu775",
+    "code": "MSFW-006",
+    "slug": "ms-fabricated-canteen-dining-table-with-ss-seating-tops",
+    "name": "MS Fabricated Canteen Dining Table with SS Seating Tops",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated dining table with sturdy MS legs and frame, featuring stainless steel tabletop and stool seating tops for canteens, cafeterias, and institutional dining spaces.",
+    "description": "This fabricated dining set features a durable mild steel frame and legs combined with stainless steel tabletop and stool tops for practical everyday use. Designed for canteens, cafeterias, factories, and institutional dining areas, it offers a sturdy construction, easy-to-maintain surfaces, and a functional seating arrangement.",
+    "images": [
+      "/maanran/products/ms-fabricated-canteen-dining-table-with-ss-seating-tops_72JKBqI19.webp"
+    ],
+    "specs": {
+      "Product Type": "Canteen Dining Table with Stools",
+      "Table Frame & Legs": "Mild Steel (MS)",
+      "Stool Frame & Legs": "Mild Steel (MS)",
+      "Tabletop": "Stainless Steel (SS)",
+      "Stool Seating Top": "Stainless Steel (SS)",
+      "Frame Finish": "Silver Finish",
+      "Application": "Canteens, Cafeterias & Industrial Dining Areas"
+    },
+    "featured": true,
+    "order": 229,
+    "published": true
+  },
+  {
+    "id": "p-rpdghn",
+    "code": "MSFW-007",
+    "slug": "ss-fabricated-black-granite-top-industrial-worktable",
+    "name": "SS Fabricated Black Granite-Top Industrial Worktable",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Sturdy stainless steel fabricated worktable with a polished black granite top, designed for durable, stable, and reliable performance in industrial, laboratory, and commercial environments.",
+    "description": "This SS fabricated worktable features a solid black granite top supported by a robust stainless steel tubular frame. The granite surface provides a strong, smooth, and practical working platform, making it suitable for laboratories, workshops, industrial workspaces, and specialized commercial applications.",
+    "images": [
+      "/maanran/products/ss-fabricated-black-granite-top-industrial-worktable_S9lrqAb_G.webp"
+    ],
+    "specs": {
+      "Product Type": "Granite-Top Industrial Worktable",
+      "Material": "Stainless Steel (SS)",
+      "Tabletop": "Black Granite Top",
+      "Frame": "SS Tubular Fabricated Structure",
+      "Finish": "Stainless Steel Finish",
+      "Application": "Laboratory, Industrial & Commercial Use"
+    },
+    "featured": true,
+    "order": 230,
+    "published": true
+  },
+  {
+    "id": "p-qsmij5",
+    "code": "MSFW-008",
+    "slug": "ss-fabricated-medical-examination-table-with-integrated-stools",
+    "name": "SS Fabricated Medical Examination Table with Integrated Stools",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated stainless steel examination table with a contoured tabletop and integrated round stools, designed for medical, clinical, and healthcare applications.",
+    "description": "Fabricated using stainless steel, this medical examination table features a smooth contoured tabletop, sturdy tubular support structure, and multiple integrated round stools for practical clinical use. Its durable construction, easy-to-clean surface, and stable frame make it suitable for hospitals, clinics, laboratories, and healthcare facilities.",
+    "images": [
+      "/maanran/products/ss-fabricated-medical-examination-table-with-integrated-stools_U-PybAaE_.webp"
+    ],
+    "specs": {
+      "Product Type": "Medical Examination Table with Stools",
+      "Material": "Stainless Steel (SS)",
+      "Tabletop": "Contoured Stainless Steel Surface",
+      "Seating": "Integrated Round Stools",
+      "Frame": "Stainless Steel Tubular Structure",
+      "Application": "Hospitals, Clinics & Medical Facilities"
+    },
+    "featured": true,
+    "order": 231,
+    "published": true
+  },
+  {
+    "id": "p-ozaekh",
+    "code": "MSFW-009",
+    "slug": "ms-fabricated-canteen-dining-table-with-ss-stool-tops",
+    "name": "MS Fabricated Canteen Dining Table with SS Stool Tops",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated dining table and stools featuring sturdy MS legs and frames, a wooden tabletop, and stainless steel stool seating tops for canteen and institutional use.",
+    "description": "This custom-fabricated dining set combines a durable mild steel frame with a wooden tabletop and stainless steel stool tops. Designed for canteens, cafeterias, industrial dining areas, and institutional spaces, it offers a sturdy structure, practical seating, and easy maintenance for everyday use.",
+    "images": [
+      "/maanran/products/ms-fabricated-canteen-dining-table-with-ss-stool-tops_fiIfop1oT.webp"
+    ],
+    "specs": {
+      "Product Type": "Canteen Dining Table with Stools",
+      "Table Frame": "Mild Steel (MS)",
+      "Stool Frame & Legs": "Mild Steel (MS)",
+      "Tabletop": "Wooden Top",
+      "Stool Seat Top": "Stainless Steel (SS)",
+      "Finish": "Black MS Frame Finish",
+      "Application": "Canteens, Cafeterias & Dining Areas"
+    },
+    "featured": true,
+    "order": 232,
+    "published": true
   }
 ]
