@@ -5570,5 +5570,30 @@
     "featured": true,
     "order": 223,
     "published": true
+  },
+  {
+    "id": "p-7j3g3m",
+    "code": "MSFW-001",
+    "slug": "heavy-duty-ms-mobile-industrial-equipment-support-rack",
+    "name": "Heavy-Duty MS Mobile Industrial Equipment Support Rack",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated MS support rack featuring a reinforced steel frame, multiple equipment mounting sections, and caster wheels for convenient mobility and organized industrial equipment handling.",
+    "description": "Designed for industrial and workshop applications, this custom MS fabricated rack features a sturdy vertical framework with multiple support sections for equipment mounting and storage. Its reinforced base structure and mobile caster wheels provide practical mobility, durability, and efficient workspace organization.",
+    "images": [
+      "/maanran/products/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-1_9kFXf6f7_.webp",
+      "/maanran/products/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-2_wJ-LNQEZx.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Industrial Support Rack",
+      "Material": "Mild Steel (MS)",
+      "Structure": "Multi-Section Fabricated Frame",
+      "Frame Design": "Vertical & Horizontal Reinforcement",
+      "Finish": "Blue Industrial Coating",
+      "Mobility": "Caster Wheels"
+    },
+    "featured": true,
+    "order": 224,
+    "published": true
   }
 ]
