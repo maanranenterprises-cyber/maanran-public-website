@@ -5595,5 +5595,30 @@
     "featured": true,
     "order": 224,
     "published": true
+  },
+  {
+    "id": "p-hr7nmq",
+    "code": "MSFW-002",
+    "slug": "blue-industrial-two-tier-mobile-fabrication-utility-trolley",
+    "name": "Blue Industrial Two-Tier Mobile Fabrication Utility Trolley",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Heavy-duty MS fabrication trolley featuring two spacious trays, a sturdy metal frame, and smooth-rolling caster wheels for convenient material and tool handling.",
+    "description": "Designed for industrial and workshop use, this two-tier MS trolley provides a durable and practical solution for transporting tools, components, and materials. Its reinforced metal frame, raised tray edges, and mobile caster wheels ensure convenient handling, organized storage, and reliable performance.",
+    "images": [
+      "/maanran/products/blue-industrial-two-tier-mobile-fabrication-utility-trolley-view-1__kFJn237Q.webp",
+      "/maanran/products/blue-industrial-two-tier-mobile-fabrication-utility-trolley-view-2_wcpc2J3dB.webp"
+    ],
+    "specs": {
+      "Product Type": "Two-Tier Utility Trolley",
+      "Material": "Mild Steel (MS)",
+      "Shelves": "2 Tray Levels",
+      "Finish": "Blue Powder-Coated Finish",
+      "Mobility": "Caster Wheels",
+      "Application": "Industrial & Workshop Use"
+    },
+    "featured": true,
+    "order": 225,
+    "published": true
   }
 ]
