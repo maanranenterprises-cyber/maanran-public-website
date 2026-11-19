@@ -5268,5 +5268,55 @@
     "featured": true,
     "order": 211,
     "published": true
+  },
+  {
+    "id": "p-13k4i8",
+    "code": "WPC-007",
+    "slug": "premium-wooden-finish-student-writing-tablet-chair-with-contoured-seat-and-backrest",
+    "name": "Premium Wooden Finish Student Writing Tablet Chair with Contoured Seat & Backrest",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern student writing chair featuring a wooden-finish contoured seat and backrest with an integrated wide writing tablet. Designed for comfortable seating and convenient writing in educational and training environments.",
+    "description": "Designed for modern classrooms and learning spaces, this chair features a contoured wooden-finish seat and backrest with a distinctive perforated backrest design. The integrated wide writing tablet and sturdy silver-finish metal frame provide a practical and comfortable seating solution for schools, colleges, coaching centres, and training institutions.",
+    "images": [
+      "/maanran/products/premium-wooden-finish-student-writing-tablet-chair-with-contoured-seat-backrest_BmC8_LhHz.webp"
+    ],
+    "specs": {
+      "Chair Type": "Student Writing Tablet Chair",
+      "Colour": "Natural Wood Finish  ",
+      "Seat & Backrest": " Moulded Wooden Finish ",
+      "Backrest Design": " Circular Cut-Out Pattern ",
+      "Writing Pad": "Integrated Wooden Writing Tablet",
+      "Frame Material": "Metal Frame  ",
+      "Frame Finish": "Silver Finish  "
+    },
+    "featured": true,
+    "order": 212,
+    "published": true
+  },
+  {
+    "id": "p-t1fwz0",
+    "code": "WPC-008",
+    "slug": "premium-natural-wood-finish-student-writing-tablet-chair-with-contoured-seat-and-circular-cut-out-backrest",
+    "name": "Premium Natural Wood Finish Student Writing Tablet Chair with Contoured Seat & Circular Cut-Out Backrest",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A stylish student writing chair featuring a natural wood-finish contoured seat and backrest with a spacious integrated writing tablet. Designed for comfortable seating and convenient writing in educational environments.",
+    "description": "Designed for modern learning spaces, this chair features a smoothly contoured wooden-finish seat and backrest with a distinctive circular cut-out design. The integrated wide writing tablet and sturdy silver-finish metal frame provide a practical seating solution for schools, colleges, coaching centres, and training institutions.",
+    "images": [
+      "/maanran/products/premium-natural-wood-finish-student-writing-tablet-chair-with-contoured-seat-circular-cut-out-backrest_MtUa-wDy5.webp"
+    ],
+    "specs": {
+      "Chair Type": "Student Writing Tablet Chair ",
+      "Colour": " Natural Wood Finish ",
+      "Seat Material": "Moulded Wood Finish",
+      "Backrest Design": "Circular Cut-Out Pattern",
+      "Writing Pad": "Integrated Wooden Writing Tablet",
+      "Frame Material": "Metal Frame  ",
+      "Frame Finish": "Silver Finish  "
+    },
+    "featured": true,
+    "order": 213,
+    "published": true
   }
 ]
