@@ -5419,5 +5419,34 @@
     "featured": true,
     "order": 217,
     "published": true
+  },
+  {
+    "id": "p-1w1qvf",
+    "code": "HCCS-002",
+    "slug": "modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat",
+    "name": "Modern Wooden-Leg Counter Height Bar Stool with Coloured Shell Seat",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A stylish counter-height bar stool featuring a smooth moulded shell seat and warm wood-finish legs, ideal for cafeterias, cafés, breakout spaces and modern interiors.",
+    "description": "Designed for contemporary seating spaces, this bar stool combines a comfortable moulded seat with elegant wood-finish legs and a sturdy metal footrest for added support. Its clean, minimalist design and attractive colour options make it suitable for cafeterias, kitchen counters, cafés and collaborative workspaces.",
+    "images": [
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-full-view_6NFQSmI9c.webp",
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-black_OJRzfJhOe.webp",
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-blue_fYGqpZn9p.webp",
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-gray_HNQNJj5_N.webp",
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-wight_C8-vDjSTi.webp",
+      "/maanran/products/modern-wooden-leg-counter-height-bar-stool-with-coloured-shell-seat-yellow_2mJCPn4a3.webp"
+    ],
+    "specs": {
+      "Product Type": "Counter Height Bar Stool",
+      "Seat Material": "Moulded Plastic",
+      "Frame Material": "Wood-Finish Legs with Metal Support",
+      "Seat Design": "Curved Ergonomic Shell",
+      "Footrest": "Integrated Metal Footrest",
+      "Available Colours": "Blue, Grey, Yellow, White & Black"
+    },
+    "featured": true,
+    "order": 218,
+    "published": true
   }
 ]
