@@ -5165,5 +5165,30 @@
     "featured": true,
     "order": 207,
     "published": true
+  },
+  {
+    "id": "p-q9mo6k",
+    "code": "WPC-003",
+    "slug": "premium-all-black-mesh-back-writing-tablet-chair-with-cushioned-seat-and-metal-frame",
+    "name": "Premium All-Black Mesh Back Writing Tablet Chair with Cushioned Seat & Metal Frame",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern writing tablet chair featuring a breathable mesh backrest, comfortable cushioned seat, and integrated wide writing tablet. Designed for comfortable seating and convenient writing in professional and educational environments.",
+    "description": "Combining contemporary styling with practical functionality, this chair features a breathable black mesh backrest, padded cushioned seat, and sturdy metal frame. The integrated wide writing tablet offers a convenient workspace for writing, reading, and note-taking, making it suitable for training rooms, seminar halls, classrooms, and conference spaces.",
+    "images": [
+      "/maanran/products/premium-all-black-mesh-back-writing-tablet-chair-with-cushioned-seat-metal-frame_A857bzZd5.webp"
+    ],
+    "specs": {
+      "Chair Type": "Mesh Writing Tablet Chair",
+      "Colour": "Black",
+      "Backrest": "Breathable Mesh Backrest",
+      "Seat": "Cushioned Upholstered Seat ",
+      "Writing Pad": "Integrated Wide Writing Tablet",
+      "Armrests": "Integrated Tablet Support Arms",
+      "Frame Material": " Metal Frame"
+    },
+    "featured": true,
+    "order": 208,
+    "published": true
   }
 ]
