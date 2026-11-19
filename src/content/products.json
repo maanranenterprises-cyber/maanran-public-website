@@ -5261,7 +5261,9 @@
       "Colour": "Black ",
       "Seat Material": "Perforated Metal ",
       "Backrest": "Curved Perforated Metal ",
-      "Writing Desk": "Wooden-Finish Writing Tablet"
+      "Writing Desk": "Wooden-Finish Writing Tablet",
+      "Frame Material": " Metal Frame ",
+      "Frame Finish": "Black Finish  "
     },
     "featured": true,
     "order": 211,
