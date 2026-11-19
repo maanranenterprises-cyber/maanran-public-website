@@ -5718,5 +5718,29 @@
     "featured": true,
     "order": 229,
     "published": true
+  },
+  {
+    "id": "p-rpdghn",
+    "code": "MSFW-007",
+    "slug": "ss-fabricated-black-granite-top-industrial-worktable",
+    "name": "SS Fabricated Black Granite-Top Industrial Worktable",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Sturdy stainless steel fabricated worktable with a polished black granite top, designed for durable, stable, and reliable performance in industrial, laboratory, and commercial environments.",
+    "description": "This SS fabricated worktable features a solid black granite top supported by a robust stainless steel tubular frame. The granite surface provides a strong, smooth, and practical working platform, making it suitable for laboratories, workshops, industrial workspaces, and specialized commercial applications.",
+    "images": [
+      "/maanran/products/ss-fabricated-black-granite-top-industrial-worktable_S9lrqAb_G.webp"
+    ],
+    "specs": {
+      "Product Type": "Granite-Top Industrial Worktable",
+      "Material": "Stainless Steel (SS)",
+      "Tabletop": "Black Granite Top",
+      "Frame": "SS Tubular Fabricated Structure",
+      "Finish": "Stainless Steel Finish",
+      "Application": "Laboratory, Industrial & Commercial Use"
+    },
+    "featured": true,
+    "order": 230,
+    "published": true
   }
 ]
