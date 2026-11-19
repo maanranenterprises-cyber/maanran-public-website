@@ -198,5 +198,25 @@
     "image": "/maanran/categories/premium-black-cushioned-writing-tablet-chair-with-metal-frame-armrests_23a4fPOnQ.webp",
     "order": 20,
     "published": true
+  },
+  {
+    "slug": "high-counter-chairs-and-stools",
+    "name": "High Counter Chairs and Stools",
+    "codePrefix": "HCCS",
+    "codeCounter": 0,
+    "description": "Stylish High counter chairs and stools designed for comfort, style, and durability, ideal for cafés, bars, restaurants, kitchen counters, and modern commercial spaces.",
+    "image": "/maanran/categories/modern-black-mesh-back-wooden-leg-counter-bar-stool_JNDPK_m66.webp",
+    "order": 21,
+    "published": true
+  },
+  {
+    "slug": "ms-and-ss-fabrication-works",
+    "name": "MS & SS Fabrication Works",
+    "codePrefix": "MSFW",
+    "codeCounter": 0,
+    "description": "Custom Mild Steel (MS) and Stainless Steel (SS) fabrication solutions designed for strength, durability, precision, and reliable performance across commercial, industrial, and interior applications.",
+    "image": "/maanran/categories/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-1_viUj_N-ph.webp",
+    "order": 22,
+    "published": true
   }
 ]
