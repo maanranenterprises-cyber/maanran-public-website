@@ -5669,5 +5669,29 @@
     "featured": true,
     "order": 227,
     "published": true
+  },
+  {
+    "id": "p-y4acaf",
+    "code": "MSFW-005",
+    "slug": "ms-fabricated-modular-storage-bench-with-cushioned-seating",
+    "name": "MS Fabricated Modular Storage Bench with Cushioned Seating",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated MS storage bench featuring multiple open compartments and cushioned seating, designed for organized storage and comfortable seating in commercial and institutional spaces.",
+    "description": "This MS fabricated storage bench combines practical storage compartments with cushioned seating in a durable metal structure. Designed for schools, offices, waiting areas, and commercial spaces, it offers convenient storage, comfortable seating, and a space-efficient layout with a clean, functional design.",
+    "images": [
+      "/maanran/products/ms-fabricated-modular-storage-bench-with-cushioned-seating_WKmopETQ5.webp"
+    ],
+    "specs": {
+      "Product Type": "Storage Bench with Seating",
+      "Material": "Mild Steel (MS)",
+      "Structure": "Fabricated Metal Frame",
+      "Storage": "Multiple Open Compartments",
+      "Seating": "Cushioned Top",
+      "Finish": "Grey Industrial Finish"
+    },
+    "featured": true,
+    "order": 228,
+    "published": true
   }
 ]
