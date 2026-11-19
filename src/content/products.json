@@ -5472,5 +5472,29 @@
     "featured": true,
     "order": 219,
     "published": true
+  },
+  {
+    "id": "p-1kvjxy",
+    "code": "HCCS-004",
+    "slug": "modern-black-perforated-shell-counter-bar-stool-with-wooden-legs",
+    "name": "Modern Black Perforated Shell Counter Bar Stool with Wooden Legs",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A contemporary bar stool featuring a black perforated moulded seat, elegant wood-finish legs and an integrated footrest for stylish, comfortable seating.",
+    "description": "Featuring a distinctive perforated seat design with a curved wraparound backrest, this bar stool delivers a modern look with practical comfort. The warm wood-finish legs and integrated footrest provide stability and style, making it suitable for cafeterias, cafés, breakfast counters and contemporary commercial spaces.",
+    "images": [
+      "/maanran/products/modern-black-perforated-shell-counter-bar-stool-with-wooden-legs_-KpAV38np.webp"
+    ],
+    "specs": {
+      "Product Type": "Counter Height Bar Stool",
+      "Seat Material": "Moulded Plastic",
+      "Seat & Back Design": "Perforated Shell",
+      "Seat Colour": "Black",
+      "Frame Material": "Wood-Finish Legs",
+      "Footrest": "Integrated Metal Footrest"
+    },
+    "featured": true,
+    "order": 220,
+    "published": true
   }
 ]
