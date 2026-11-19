@@ -5522,5 +5522,29 @@
     "featured": true,
     "order": 221,
     "published": true
+  },
+  {
+    "id": "p-hvznjs",
+    "code": "HCCS-006",
+    "slug": "modern-industrial-wooden-panel-metal-frame-dining-chair",
+    "name": "Modern Industrial Wooden-Panel Metal Frame Dining Chair",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A contemporary chair featuring warm wooden-finish seat and back panels with a sturdy metal frame, designed for dining spaces, cafeterias, restaurants, and commercial seating areas.",
+    "description": "Designed with a durable metal frame and wood-finish seat and backrest panels, this chair combines a clean industrial look with practical everyday functionality. Its rectangular backrest design, sturdy construction, and compact seating profile make it suitable for cafeterias, dining areas, canteens, and commercial interiors.",
+    "images": [
+      "/maanran/products/modern-industrial-wooden-panel-metal-frame-dining-chair_uT2sbQa7U.webp"
+    ],
+    "specs": {
+      "Product Type": " Dining / Cafeteria Chair ",
+      "Frame Material": "Mild Steel Metal Frame",
+      "Seat Material": "Wooden Panel",
+      "Backrest Material": "Wooden Panel",
+      "Frame Finish": "Dark Grey Powder-Coated Finish",
+      "Usage": "Cafeteria, Dining, Restaurant & Commercial Spaces"
+    },
+    "featured": true,
+    "order": 222,
+    "published": true
   }
 ]
