@@ -5318,5 +5318,30 @@
     "featured": true,
     "order": 213,
     "published": true
+  },
+  {
+    "id": "p-8mywoi",
+    "code": "WPC-009",
+    "slug": "premium-black-moulded-back-and-seat-writing-tablet-chair-with-wooden-finish-desk",
+    "name": "Premium Black Moulded Back & Seat Writing Tablet Chair with Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A professional writing tablet chair featuring a smooth black moulded seat and backrest with a spacious wooden-finish writing desk. Designed for comfortable seating and convenient writing in educational and training environments.",
+    "description": "Combining modern design with everyday functionality, this chair features an ergonomically contoured black moulded seat and backrest supported by a sturdy chrome-finish metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking.",
+    "images": [
+      "/maanran/products/premium-black-moulded-back-seat-writing-tablet-chair-with-wooden-finish-desk_9ZDYWyPf1.webp"
+    ],
+    "specs": {
+      "Chair Type": "Moulded Writing Tablet Chair",
+      "Colour": " Black ",
+      "Seat & Backrest": "Moulded Design ",
+      "Writing Pad": "Wooden-Finish Writing Tablet ",
+      "Frame Material": " Metal Frame ",
+      "Frame Finish": "Chrome Finish ",
+      "Application": "Classrooms & Training Centres"
+    },
+    "featured": true,
+    "order": 214,
+    "published": true
   }
 ]
