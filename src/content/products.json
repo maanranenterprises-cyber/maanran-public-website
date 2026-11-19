@@ -5268,5 +5268,30 @@
     "featured": true,
     "order": 211,
     "published": true
+  },
+  {
+    "id": "p-13k4i8",
+    "code": "WPC-007",
+    "slug": "premium-wooden-finish-student-writing-tablet-chair-with-contoured-seat-and-backrest",
+    "name": "Premium Wooden Finish Student Writing Tablet Chair with Contoured Seat & Backrest",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern student writing chair featuring a wooden-finish contoured seat and backrest with an integrated wide writing tablet. Designed for comfortable seating and convenient writing in educational and training environments.",
+    "description": "Designed for modern classrooms and learning spaces, this chair features a contoured wooden-finish seat and backrest with a distinctive perforated backrest design. The integrated wide writing tablet and sturdy silver-finish metal frame provide a practical and comfortable seating solution for schools, colleges, coaching centres, and training institutions.",
+    "images": [
+      "/maanran/products/premium-wooden-finish-student-writing-tablet-chair-with-contoured-seat-backrest_BmC8_LhHz.webp"
+    ],
+    "specs": {
+      "Chair Type": "Student Writing Tablet Chair",
+      "Colour": "Natural Wood Finish  ",
+      "Seat & Backrest": " Moulded Wooden Finish ",
+      "Backrest Design": " Circular Cut-Out Pattern ",
+      "Writing Pad": "Integrated Wooden Writing Tablet",
+      "Frame Material": "Metal Frame  ",
+      "Frame Finish": "Silver Finish  "
+    },
+    "featured": true,
+    "order": 212,
+    "published": true
   }
 ]
