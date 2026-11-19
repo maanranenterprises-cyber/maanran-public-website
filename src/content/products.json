@@ -5766,5 +5766,30 @@
     "featured": true,
     "order": 231,
     "published": true
+  },
+  {
+    "id": "p-ozaekh",
+    "code": "MSFW-009",
+    "slug": "ms-fabricated-canteen-dining-table-with-ss-stool-tops",
+    "name": "MS Fabricated Canteen Dining Table with SS Stool Tops",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated dining table and stools featuring sturdy MS legs and frames, a wooden tabletop, and stainless steel stool seating tops for canteen and institutional use.",
+    "description": "This custom-fabricated dining set combines a durable mild steel frame with a wooden tabletop and stainless steel stool tops. Designed for canteens, cafeterias, industrial dining areas, and institutional spaces, it offers a sturdy structure, practical seating, and easy maintenance for everyday use.",
+    "images": [
+      "/maanran/products/ms-fabricated-canteen-dining-table-with-ss-stool-tops_fiIfop1oT.webp"
+    ],
+    "specs": {
+      "Product Type": "Canteen Dining Table with Stools",
+      "Table Frame": "Mild Steel (MS)",
+      "Stool Frame & Legs": "Mild Steel (MS)",
+      "Tabletop": "Wooden Top",
+      "Stool Seat Top": "Stainless Steel (SS)",
+      "Finish": "Black MS Frame Finish",
+      "Application": "Canteens, Cafeterias & Dining Areas"
+    },
+    "featured": true,
+    "order": 232,
+    "published": true
   }
 ]
