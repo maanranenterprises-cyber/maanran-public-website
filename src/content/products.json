@@ -5448,5 +5448,29 @@
     "featured": true,
     "order": 218,
     "published": true
+  },
+  {
+    "id": "p-og64qv",
+    "code": "HCCS-003",
+    "slug": "modern-black-mesh-back-wooden-leg-counter-bar-stool",
+    "name": "Modern Black Mesh-Back Wooden Leg Counter Bar Stool",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A contemporary bar stool featuring a black mesh-back shell, integrated seat, wooden-finish legs and a sturdy metal footrest for comfortable counter-height seating.",
+    "description": "Designed with a distinctive mesh-pattern backrest and a smooth black seat, this bar stool combines modern aesthetics with practical comfort. Its wooden-finish legs, supportive metal footrest and lightweight design make it ideal for cafeterias, cafés, kitchen counters, lounges and contemporary commercial interiors.",
+    "images": [
+      "/maanran/products/modern-black-mesh-back-wooden-leg-counter-bar-stool_b3em6OVhj.webp"
+    ],
+    "specs": {
+      "Product Type": "Counter Height Bar Stool",
+      "Seat & Backrest": "Moulded Plastic Shell with Mesh Back",
+      "Seat Colour": "Back",
+      "Frame Material": "Wood-Finish Legs",
+      "Footrest": "Integrated Metal Footrest",
+      "Design": "Contemporary Mesh-Back Design"
+    },
+    "featured": true,
+    "order": 219,
+    "published": true
   }
 ]
