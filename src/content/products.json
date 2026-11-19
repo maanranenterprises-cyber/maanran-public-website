@@ -5343,5 +5343,30 @@
     "featured": true,
     "order": 214,
     "published": true
+  },
+  {
+    "id": "p-ataicn",
+    "code": "WPC-010",
+    "slug": "premium-burgundy-cushioned-writing-tablet-chair-with-black-mesh-backrest-and-wooden-desk",
+    "name": "Premium Burgundy Cushioned Writing Tablet Chair with Black Mesh Backrest & Wooden Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A stylish writing tablet chair featuring a comfortable burgundy cushioned seat, black mesh backrest, and integrated wooden-finish writing tablet. Ideal for classrooms, training centres, seminar halls, and educational institutions.",
+    "description": "Designed for comfort and functionality, this chair features a supportive black mesh backrest, a soft burgundy upholstered seat, and a sturdy black metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking, making it suitable for educational and professional environments.",
+    "images": [
+      "/maanran/products/premium-burgundy-cushioned-writing-tablet-chair-with-black-mesh-backrest-wooden-desk_qP1k1EMQR.webp"
+    ],
+    "specs": {
+      "Chair Type": "Cushioned Writing Tablet Chair ",
+      "Seat Colour": "Burgundy",
+      "Backrest": "Black Mesh Backrest ",
+      "Seat Material": "Cushioned Upholstery ",
+      "Writing Pad": "Wooden-Finish Writing Tablet ",
+      "Frame Material": " Black Metal Frame",
+      "Armrests": "Integrated Arm Supports "
+    },
+    "featured": true,
+    "order": 215,
+    "published": true
   }
 ]
