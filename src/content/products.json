@@ -5620,5 +5620,30 @@
     "featured": true,
     "order": 225,
     "published": true
+  },
+  {
+    "id": "p-0qxwbf",
+    "code": "MSFW-003",
+    "slug": "heavy-duty-ms-fabricated-mobile-equipment-base-frame",
+    "name": "Heavy-Duty MS Fabricated Mobile Equipment Base Frame",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Heavy-duty MS fabricated mobile base frame designed for industrial equipment support and material handling, featuring a reinforced steel structure and caster wheels for smooth mobility.",
+    "description": "Manufactured using sturdy mild steel sections, this custom-fabricated mobile base frame provides reliable structural support for industrial equipment and workstations. Its rectangular framework, reinforced cross-members, and caster wheel assembly make it suitable for moving and supporting heavy equipment across workshop and industrial environments.",
+    "images": [
+      "/maanran/products/heavy-duty-ms-fabricated-mobile-equipment-base-frame-view-1_DX7pMSAjm.webp",
+      "/maanran/products/heavy-duty-ms-fabricated-mobile-equipment-base-frame-view-2_NEXfTsa2j.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Equipment Base Frame",
+      "Material": "Mild Steel (MS)",
+      "Frame Structure": "Rectangular Fabricated Frame",
+      "Reinforcement": "Cross-Member Support",
+      "Finish": "Blue Industrial Finish",
+      "Mobility": "Heavy-Duty Caster Wheels"
+    },
+    "featured": true,
+    "order": 226,
+    "published": true
   }
 ]
