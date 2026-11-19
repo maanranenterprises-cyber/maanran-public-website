@@ -198,5 +198,15 @@
     "image": "/maanran/categories/premium-black-cushioned-writing-tablet-chair-with-metal-frame-armrests_23a4fPOnQ.webp",
     "order": 20,
     "published": true
+  },
+  {
+    "slug": "high-counter-chairs-and-stools",
+    "name": "High Counter Chairs and Stools",
+    "codePrefix": "HCCS",
+    "codeCounter": 0,
+    "description": "Stylish High counter chairs and stools designed for comfort, style, and durability, ideal for cafés, bars, restaurants, kitchen counters, and modern commercial spaces.",
+    "image": "/maanran/categories/modern-black-mesh-back-wooden-leg-counter-bar-stool_JNDPK_m66.webp",
+    "order": 21,
+    "published": true
   }
 ]
