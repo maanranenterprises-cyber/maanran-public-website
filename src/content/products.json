@@ -5645,5 +5645,29 @@
     "featured": true,
     "order": 226,
     "published": true
+  },
+  {
+    "id": "p-p5pbuu",
+    "code": "MSFW-004",
+    "slug": "black-ms-fabricated-mobile-equipment-support-frame",
+    "name": "Black MS Fabricated Mobile Equipment Support Frame",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Compact black MS fabricated support frame with a sturdy rectangular structure, integrated mounting platform, and caster wheels for convenient industrial equipment mobility.",
+    "description": "Fabricated from durable mild steel, this compact mobile support frame is designed for equipment mounting and industrial applications. Its rigid rectangular construction, reinforced support members, integrated mounting plate, and caster wheel assembly provide stability, durability, and ease of movement in workshop and production environments.",
+    "images": [
+      "/maanran/products/black-ms-fabricated-mobile-equipment-support-frame_IySFGKSzm.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Equipment Support Frame",
+      "Material": "Mild Steel (MS)",
+      "Frame Design": "Rectangular Fabricated Structure",
+      "Mounting": "Integrated Mounting Platform",
+      "Finish": "Black Industrial Finish",
+      "Mobility": "Caster Wheels"
+    },
+    "featured": true,
+    "order": 227,
+    "published": true
   }
 ]
