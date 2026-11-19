@@ -5241,5 +5241,30 @@
     "featured": true,
     "order": 210,
     "published": true
+  },
+  {
+    "id": "p-3m6hav",
+    "code": "WPC-006",
+    "slug": "premium-black-perforated-metal-writing-chair-with-wooden-finish-integrated-desk",
+    "name": "Premium Black Perforated Metal Writing Chair with Wooden Finish Integrated Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A functional writing chair featuring a perforated metal seat and backrest with a spacious wooden-finish writing desk. Designed to provide comfortable seating and a convenient writing surface for classrooms and educational institutions.",
+    "description": "Designed for practical learning environments, this chair features a curved perforated metal backrest, matching metal seat, and a sturdy black metal frame. The spacious wooden-finish integrated writing desk provides ample room for writing, reading, and note-taking, making it ideal for classrooms, coaching centres, and training facilities.",
+    "images": [
+      "/maanran/products/premium-black-perforated-metal-writing-chair-with-wooden-finish-integrated-desk-view-1_Gk-MjYqOJ.webp",
+      "/maanran/products/premium-black-perforated-metal-writing-chair-with-wooden-finish-integrated-desk-view-2_I9H6OXtZQ.webp",
+      "/maanran/products/premium-black-perforated-metal-writing-chair-with-wooden-finish-integrated-desk-view-3_eHzNPBaJu.webp"
+    ],
+    "specs": {
+      "Chair Type": " Writing Desk Chair ",
+      "Colour": "Black ",
+      "Seat Material": "Perforated Metal ",
+      "Backrest": "Curved Perforated Metal ",
+      "Writing Desk": "Wooden-Finish Writing Tablet"
+    },
+    "featured": true,
+    "order": 211,
+    "published": true
   }
 ]
