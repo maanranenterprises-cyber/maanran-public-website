@@ -5115,5 +5115,29 @@
     "featured": true,
     "order": 205,
     "published": true
+  },
+  {
+    "id": "p-bgdzzi",
+    "code": "WPC-001",
+    "slug": "premium-black-cushioned-writing-tablet-chair-with-metal-frame-and-armrests",
+    "name": "Premium Black Cushioned Writing Tablet Chair with Metal Frame & Armrests",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A comfortable black cushioned writing pad chair featuring supportive armrests and an integrated writing tablet. Ideal for classrooms, training centres, seminar halls, and educational institutions.",
+    "description": "Designed for comfort and practical functionality, this writing tablet chair features a cushioned seat and backrest with a sturdy black metal frame. The integrated side writing pad provides convenient space for writing, note-taking, and classroom activities.",
+    "images": [
+      "/maanran/products/premium-black-cushioned-writing-tablet-chair-with-metal-frame-armrests_-8fdGaZ_8.webp"
+    ],
+    "specs": {
+      "Chair Type": "Writing Tablet Chair",
+      "Colour": "Black ",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Writing Pad": " Integrated Side Writing Tablet",
+      "Armrests": "Fixed Armrests",
+      "Frame Material": "Metal Frame "
+    },
+    "featured": true,
+    "order": 206,
+    "published": true
   }
 ]
