@@ -5393,5 +5393,31 @@
     "featured": true,
     "order": 216,
     "published": true
+  },
+  {
+    "id": "p-d7oh8w",
+    "code": "HCCS-001",
+    "slug": "black-slatted-backrest-wooden-counter-stool-with-red-cross-support",
+    "name": "Black Slatted Backrest Wooden Counter Stool with Red Cross Support",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A modern high counter stool featuring a black slatted backrest, a contoured seat, and warm wood-finish legs with bold red footrest support.",
+    "description": "Designed with a distinctive slatted backrest and a comfortable contoured seat, this counter stool combines modern styling with practical seating comfort. Its wood-finish legs and contrasting red metal footrest create a unique visual appeal, making it ideal for cafeterias, cafés, restaurants, and high-counter spaces.",
+    "images": [
+      "/maanran/products/black-slatted-backrest-wooden-counter-stool-with-red-cross-support-full-view_soOGFAuoE.webp",
+      "/maanran/products/black-slatted-backrest-wooden-counter-stool-with-red-cross-support-front-view_cwquaqGUH.webp",
+      "/maanran/products/black-slatted-backrest-wooden-counter-stool-with-red-cross-support-back-view_1gAn6lAYZ.webp"
+    ],
+    "specs": {
+      "Product Type": "High Counter Stool",
+      "Backrest Design": "Vertical Slatted Backrest",
+      "Seat Material": "Moulded Seat",
+      "Leg Finish": "Natural Wood Finish",
+      "Footrest": "Red Metal Footrest Support",
+      "Recommended Usage": "Cafeterias, Cafés, Restaurants & Counter Spaces"
+    },
+    "featured": true,
+    "order": 217,
+    "published": true
   }
 ]
