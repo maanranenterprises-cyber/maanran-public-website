@@ -5190,5 +5190,30 @@
     "featured": true,
     "order": 208,
     "published": true
+  },
+  {
+    "id": "p-bkdne9",
+    "code": "WPC-004",
+    "slug": "premium-classroom-writing-tablet-chair-with-black-mesh-backrest-and-wooden-finish-desk",
+    "name": "Premium Classroom Writing Tablet Chair with Black Mesh Backrest & Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A practical classroom writing chair featuring a breathable black mesh backrest, comfortable seat, and spacious wooden-finish writing tablet. Ideal for educational institutions, training centres, and lecture halls.",
+    "description": "Designed for modern learning environments, this writing tablet chair combines comfortable seating with a spacious integrated writing surface. It features a supportive black mesh backrest, sturdy metal frame, and a wooden-finish tablet, making it suitable for classrooms, coaching centres, seminar halls, and training facilities.",
+    "images": [
+      "/maanran/products/premium-classroom-writing-tablet-chair-with-black-mesh-backrest-wooden-finish-desk_ovCTU0QwY.webp"
+    ],
+    "specs": {
+      "Chair Type": "Classroom Writing Tablet Chair",
+      "Backrest": "Black Mesh Backrest ",
+      "Seat": "Cushioned Seat",
+      "Writing Pad": "Wooden-Finish Writing Tablet ",
+      "Frame Material": "Metal Frame ",
+      "Frame Colour": " Black   ",
+      "Application": "Classrooms & Training Centre's "
+    },
+    "featured": true,
+    "order": 209,
+    "published": true
   }
 ]
