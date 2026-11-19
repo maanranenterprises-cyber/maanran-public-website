@@ -5368,5 +5368,30 @@
     "featured": true,
     "order": 215,
     "published": true
+  },
+  {
+    "id": "p-m4yiso",
+    "code": "WPC-011",
+    "slug": "premium-black-perforated-metal-writing-tablet-chair-with-white-l-shaped-desk",
+    "name": "Premium Black Perforated Metal Writing Tablet Chair with White L-Shaped Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A practical writing tablet chair featuring a black perforated metal seat and curved backrest with a spacious white L-shaped writing desk. Designed for comfortable seating and convenient writing in educational and institutional environments.",
+    "description": "Combining durability with functional design, this chair features a perforated metal seat and curved backrest supported by a sturdy black metal frame. The spacious white L-shaped writing tablet provides a convenient surface for writing, reading, and note-taking, making it ideal for classrooms, coaching centres, seminar halls, and training institutions.",
+    "images": [
+      "/maanran/products/premium-black-perforated-metal-writing-tablet-chair-with-white-l-shaped-desk_BZUzHA5Nu.webp"
+    ],
+    "specs": {
+      "Chair Type": "Perforated Metal Writing Tablet Chair",
+      "Colour": "Black ",
+      "Seat Material": "Perforated Metal ",
+      "Backrest": "Curved Perforated Metal ",
+      "Writing Pad": "White L-Shaped Writing Tablet  ",
+      "Frame Material": " Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 216,
+    "published": true
   }
 ]
