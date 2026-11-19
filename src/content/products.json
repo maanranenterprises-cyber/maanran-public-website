@@ -5546,5 +5546,29 @@
     "featured": true,
     "order": 222,
     "published": true
+  },
+  {
+    "id": "p-nukfnf",
+    "code": "HCCS-007",
+    "slug": "modern-black-shell-wooden-leg-bar-stool",
+    "name": "Modern Black Shell Wooden-Leg Bar Stool",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A contemporary bar stool featuring a sleek black moulded seat and natural wood-finish legs, designed for stylish counter seating in cafés, restaurants, and modern interiors.",
+    "description": "Designed with a smooth black shell seat and an elegant wooden-finish leg structure, this bar stool combines modern aesthetics with everyday functionality. Its integrated footrest provides added seating comfort, making it ideal for cafés, kitchen counters, bars, and commercial dining spaces.",
+    "images": [
+      "/maanran/products/modern-black-shell-wooden-leg-bar-stool_TLJjcSIz6.webp"
+    ],
+    "specs": {
+      "Product Type": "Bar Stool",
+      "Seat Material": "Moulded Plastic",
+      "Seat Colour": "Black",
+      "Leg Finish": "Natural Wood Finish",
+      "Frame Design": "Four-Legged Structure",
+      "Footrest": "Integrated Metal Footrest"
+    },
+    "featured": true,
+    "order": 223,
+    "published": true
   }
 ]
