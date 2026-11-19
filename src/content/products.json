@@ -5742,5 +5742,29 @@
     "featured": true,
     "order": 230,
     "published": true
+  },
+  {
+    "id": "p-qsmij5",
+    "code": "MSFW-008",
+    "slug": "ss-fabricated-medical-examination-table-with-integrated-stools",
+    "name": "SS Fabricated Medical Examination Table with Integrated Stools",
+    "brand": "MAANRAN",
+    "category": "ms-and-ss-fabrication-works",
+    "shortDescription": "Custom-fabricated stainless steel examination table with a contoured tabletop and integrated round stools, designed for medical, clinical, and healthcare applications.",
+    "description": "Fabricated using stainless steel, this medical examination table features a smooth contoured tabletop, sturdy tubular support structure, and multiple integrated round stools for practical clinical use. Its durable construction, easy-to-clean surface, and stable frame make it suitable for hospitals, clinics, laboratories, and healthcare facilities.",
+    "images": [
+      "/maanran/products/ss-fabricated-medical-examination-table-with-integrated-stools_U-PybAaE_.webp"
+    ],
+    "specs": {
+      "Product Type": "Medical Examination Table with Stools",
+      "Material": "Stainless Steel (SS)",
+      "Tabletop": "Contoured Stainless Steel Surface",
+      "Seating": "Integrated Round Stools",
+      "Frame": "Stainless Steel Tubular Structure",
+      "Application": "Hospitals, Clinics & Medical Facilities"
+    },
+    "featured": true,
+    "order": 231,
+    "published": true
   }
 ]
