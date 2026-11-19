@@ -5496,5 +5496,31 @@
     "featured": true,
     "order": 220,
     "published": true
+  },
+  {
+    "id": "p-nwkp0b",
+    "code": "HCCS-005",
+    "slug": "emerald-green-velvet-gold-finish-adjustable-bar-stool",
+    "name": "Emerald Green Velvet Gold Finish Adjustable Bar Stool",
+    "brand": "MAANRAN",
+    "category": "high-counter-chairs-and-stools",
+    "shortDescription": "A premium bar stool featuring plush emerald green upholstery, a quilted backrest and a polished gold-finish adjustable pedestal base for luxurious seating.",
+    "description": "Designed to bring elegance and sophistication to modern interiors, this bar stool features rich emerald green velvet upholstery with a beautifully tufted backrest and a cushioned seat. Its gold-finish pedestal frame, circular footrest and round base combine luxury aesthetics with functional comfort, making it ideal for bars, cafés, kitchen counters and premium hospitality spaces.",
+    "images": [
+      "/maanran/products/emerald-green-velvet-gold-finish-adjustable-bar-stool_-2v8slbt9.webp"
+    ],
+    "specs": {
+      "Product Type": "Adjustable Bar Stool",
+      "Upholstery": "Velvet Fabric",
+      "Seat & Back Colour": "Emerald Green",
+      "Backrest Design": "Diamond Tufted Upholstered Back",
+      "Frame Finish": "Gold Metallic Finish",
+      "Base Type": "Round Pedestal Base",
+      "Height Adjustment": "Adjustable Height",
+      "Footrest": "Integrated Circular Footrest"
+    },
+    "featured": true,
+    "order": 221,
+    "published": true
   }
 ]
