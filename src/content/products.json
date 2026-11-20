@@ -6164,5 +6164,29 @@
     "featured": true,
     "order": 247,
     "published": true
+  },
+  {
+    "id": "p-10dsk9",
+    "code": "SCL-004",
+    "slug": "heavy-duty-bolt-assembled-adjustable-metal-storage-rack",
+    "name": "Heavy-Duty Bolt-Assembled Adjustable Metal Storage Rack",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A sturdy metal storage rack featuring a bolt-and-nut assembly system and multiple adjustable shelves, designed for organized storage of tools, cartons, materials, and supplies in industrial and commercial environments.",
+    "description": "This heavy-duty metal storage rack is built with a robust steel frame and multiple shelving levels supported by a bolt-and-nut assembly system. Its adjustable shelf configuration allows flexible storage arrangements, making it suitable for warehouses, workshops, factories, offices, stockrooms, and commercial storage areas.",
+    "images": [
+      "/maanran/products/heavy-duty-bolt-assembled-adjustable-metal-storage-rack_U2wbvSVLR.webp"
+    ],
+    "specs": {
+      "Product Type": "Heavy-Duty Metal Storage Rack",
+      "Material": "Mild Steel (MS)",
+      "Rack Configuration": "4-Tier Shelving",
+      "Assembly Type": "Bolt & Nut Assembly",
+      "Shelf Type": "Adjustable Metal Shelves",
+      "Colour": "Dark Grey"
+    },
+    "featured": true,
+    "order": 248,
+    "published": true
   }
 ]
