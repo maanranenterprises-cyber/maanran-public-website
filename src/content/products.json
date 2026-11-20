@@ -6610,5 +6610,29 @@
     "featured": true,
     "order": 265,
     "published": true
+  },
+  {
+    "id": "p-ivxi20",
+    "code": "S-018",
+    "slug": "premium-black-contemporary-three-seater-leatherette-sofa",
+    "name": "Premium Black Contemporary Three-Seater Leatherette Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A modern three-seater sofa featuring sleek black leatherette upholstery, clean-lined cushioning, and broad armrests. Designed for a sophisticated look with comfortable seating and a minimal contemporary style.",
+    "description": "Bring a refined and modern touch to your interiors with this premium black three-seater sofa, featuring a clean geometric backrest and generously cushioned seats. Its wide armrests, smooth leatherette finish, and sturdy base design make it ideal for everyday comfort. Perfect for living rooms, office reception areas, lounges, and waiting spaces.",
+    "images": [
+      "/maanran/products/premium-black-contemporary-three-seater-leatherette-sofa_AUx9-Lf2C.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Seater Sofa",
+      "Upholstery": "Black Leatherette",
+      "Backrest Design": "Modern Panel-Cushioned Backrest",
+      "Armrest Design": "Broad Box-Style Armrests",
+      "Seating Capacity": "3 Persons",
+      "Application": "Living Room, Office & Reception"
+    },
+    "featured": true,
+    "order": 266,
+    "published": true
   }
 ]
