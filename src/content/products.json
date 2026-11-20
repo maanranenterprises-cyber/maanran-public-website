@@ -6562,5 +6562,29 @@
     "featured": true,
     "order": 263,
     "published": true
+  },
+  {
+    "id": "p-duxuoy",
+    "code": "S-016",
+    "slug": "premium-teal-blue-button-tufted-three-seater-sofa-with-wooden-legs",
+    "name": "Premium Teal Blue Button-Tufted Three-Seater Sofa with Wooden Legs",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary three-seater sofa featuring rich teal blue upholstery, elegant button-tufted backrest detailing, and tapered wooden legs. Designed for comfortable seating with a refined modern look.",
+    "description": "Bring style and comfort to your living or lounge space with this premium teal blue three-seater sofa, featuring a beautifully tufted backrest, spacious cushioned seats, and sleek upholstered armrests. Supported by elegant wooden legs, its contemporary design makes it a perfect addition to living rooms, office lounges, reception areas, and modern interiors.",
+    "images": [
+      "/maanran/products/premium-teal-blue-button-tufted-four-seater-sofa-with-wooden-legs_JmT-K7vRk6.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "3 Seater",
+      "Upholstery Colour": "Teal Blue",
+      "Upholstery Material": "Leather",
+      "Backrest Design": "Button-Tufted",
+      "Leg Material": "Wooden",
+      "Suitable For": "Living Room, Office Lounge, Reception & Waiting Areas"
+    },
+    "featured": true,
+    "order": 264,
+    "published": true
   }
 ]
