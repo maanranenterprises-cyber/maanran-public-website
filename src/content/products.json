@@ -5841,5 +5841,30 @@
     "featured": true,
     "order": 234,
     "published": true
+  },
+  {
+    "id": "p-7lbshw",
+    "code": "WPC-014",
+    "slug": "premium-black-cushioned-writing-tablet-chair-with-wooden-finish-side-desk-and-armrests",
+    "name": "Premium Black Cushioned Writing Tablet Chair with Wooden Finish Side Desk & Armrests",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A comfortable writing tablet chair featuring a black cushioned seat and backrest, spacious wooden-finish side writing desk, and supportive armrests. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Designed for comfort and everyday functionality, this chair features a soft black upholstered seat and backrest supported by a sturdy metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking, making it suitable for educational institutions and professional training environments.",
+    "images": [
+      "/maanran/products/premium-black-cushioned-writing-tablet-chair-with-wooden-finish-side-desk-armrests_qzmGHXOdx.webp"
+    ],
+    "specs": {
+      "Chair Type": "Cushioned Writing Tablet Chair",
+      "Colour": "Black",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Writing Pad": "Wooden-Finish Side Writing Tablet",
+      "Armrests": "Fixed Armrests",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 235,
+    "published": true
   }
 ]
