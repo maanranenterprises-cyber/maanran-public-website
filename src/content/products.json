@@ -5816,5 +5816,30 @@
     "featured": true,
     "order": 233,
     "published": true
+  },
+  {
+    "id": "p-3npx9x",
+    "code": "WPC-013",
+    "slug": "premium-pink-upholstered-writing-tablet-chair-with-wide-wooden-finish-desk-and-cushioned-seat",
+    "name": "Premium Pink Upholstered Writing Tablet Chair with Wide Wooden Finish Desk & Cushioned Seat",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A comfortable writing tablet chair featuring a pink upholstered backrest, cushioned seat, and spacious wooden-finish writing desk. Designed for convenient writing and comfortable seating in classrooms, seminar halls, and training centres.",
+    "description": "Combining comfort with practical functionality, this chair features a broad upholstered pink backrest, a cushioned seat, and a sturdy black metal frame. The wide wooden-finish writing desk provides ample workspace for writing, reading, and note-taking, making it suitable for educational institutions, lecture halls, and training facilities.",
+    "images": [
+      "/maanran/products/premium-pink-upholstered-writing-tablet-chair-with-wide-wooden-finish-desk-cushioned-seat_hKhx2m4i4.webp"
+    ],
+    "specs": {
+      "Chair Type": "Upholstered Writing Tablet Chair",
+      "Backrest Colour": "Pink",
+      "Seat": "Cushioned Upholstery",
+      "Writing Pad": "Wide Wooden-Finish Writing Desk",
+      "Frame Material": "Metal Frame",
+      "Frame Colour": "Black",
+      "Backrest Material": "Fabric Upholstery"
+    },
+    "featured": true,
+    "order": 234,
+    "published": true
   }
 ]
