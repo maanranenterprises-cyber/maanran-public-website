@@ -6238,5 +6238,32 @@
     "featured": true,
     "order": 250,
     "published": true
+  },
+  {
+    "id": "p-2whn4t",
+    "code": "S-003",
+    "slug": "imperial-ivory-grande-u-shaped-luxury-leather-sofa-ensemble",
+    "name": "Imperial Ivory Grande U-Shaped Luxury Leather Sofa Ensemble",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A luxurious U-shaped sofa ensemble featuring elegant ivory leather upholstery, plush seating, quilted side detailing and gold-finished accents for a sophisticated interior.",
+    "description": "Designed to create a luxurious and inviting seating space, this U-shaped sofa ensemble features premium ivory leather upholstery, generously cushioned seats, supportive backrests and refined quilted detailing on the side panels. Complemented by matching lounge seating, a glass-top centre table and elegant gold-finished accents, it is ideal for spacious living rooms, luxury residences and premium lounge interiors.",
+    "images": [
+      "/maanran/products/imperial-ivory-grande-u-shaped-luxury-leather-sofa-ensemble-view-1_L3BcTJIHw.webp",
+      "/maanran/products/imperial-ivory-grande-u-shaped-luxury-leather-sofa-ensemble-view-2_yK0zshfLq.webp",
+      "/maanran/products/imperial-ivory-grande-u-shaped-luxury-leather-sofa-ensemble-view-3_no2pcOQ-H.webp",
+      "/maanran/products/imperial-ivory-grande-u-shaped-luxury-leather-sofa-ensemble-view-4_X3e-Udwa_.webp"
+    ],
+    "specs": {
+      "Product Type": "U-Shaped Sofa Ensemble ",
+      "Seating Capacity": " Multi-Seater",
+      "Upholstery Material": " Leather    ",
+      "Upholstery Colour": "Ivory",
+      "Design": "Contemporary Luxury with Quilted Side Detailing  ",
+      "Set Includes": "U-Shaped Sofa, Matching Lounge Chair, Centre Table & Ottoman Seats"
+    },
+    "featured": true,
+    "order": 251,
+    "published": true
   }
 ]
