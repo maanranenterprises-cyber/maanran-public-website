@@ -6016,5 +6016,30 @@
     "featured": true,
     "order": 241,
     "published": true
+  },
+  {
+    "id": "p-gxs7sr",
+    "code": "WPC-021",
+    "slug": "premium-wooden-finish-writing-tablet-chair-with-burgundy-cushioned-seat-and-circular-cut-out-backrest",
+    "name": "Premium Wooden Finish Writing Tablet Chair with Burgundy Cushioned Seat & Circular Cut-Out Backrest",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A stylish writing tablet chair featuring a natural wood-finish seat and backrest, comfortable burgundy cushioned seating, and a spacious integrated writing desk. Ideal for classrooms, colleges, seminar halls, and training institutions.",
+    "description": "Designed for comfort and practical functionality, this chair features a wooden-finish contoured backrest with a distinctive circular cut-out design and a soft burgundy cushioned seat. The integrated wide writing tablet and sturdy silver-finish metal frame provide a convenient and comfortable solution for writing, reading, and note-taking.",
+    "images": [
+      "/maanran/products/premium-wooden-finish-writing-tablet-chair-with-burgundy-cushioned-seat-circular-cut-out-backrest_R8fpaVCNI.webp"
+    ],
+    "specs": {
+      "Chair Type": "Cushioned Writing Tablet Chair",
+      "Seat Colour": "Burgundy",
+      "Backrest": "Wooden Finish with Circular Cut-Outs",
+      "Seat Material": "Cushioned Upholstery",
+      "Writing Pad": "Wooden-Finish Writing Tablet",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Silver Finish"
+    },
+    "featured": true,
+    "order": 242,
+    "published": true
   }
 ]
