@@ -6439,5 +6439,29 @@
     "featured": true,
     "order": 258,
     "published": true
+  },
+  {
+    "id": "p-68347p",
+    "code": "S-011",
+    "slug": "premium-mustard-yellow-l-shaped-power-recliner-sectional-sofa",
+    "name": "Premium Mustard Yellow L-Shaped Power Recliner Sectional Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary mustard yellow L-shaped sectional sofa featuring an integrated power recliner for enhanced comfort and relaxation. Designed with plush cushioning, adjustable reclining support, and a bold modern finish.",
+    "description": "Experience comfort and modern style with this premium mustard yellow sectional sofa, featuring spacious seating and an integrated electric recliner for effortless relaxation. Its clean lines, cushioned backrests, and supportive armrests make it ideal for contemporary living spaces.",
+    "images": [
+      "/maanran/products/premium-mustard-yellow-l-shaped-power-recliner-sectional-sofa_oZG_DWQB4.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa",
+      "Upholstery Color": "Mustard Yellow",
+      "Seating Configuration": "L-Shaped Corner Layout",
+      "Reclining Mechanism": "Electric Power Recliner",
+      "Upholstery": "Premium Soft Upholstered Finish",
+      "Legs": "Black Support Legs"
+    },
+    "featured": true,
+    "order": 259,
+    "published": true
   }
 ]
