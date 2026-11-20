@@ -6341,5 +6341,25 @@
     "featured": true,
     "order": 254,
     "published": true
+  },
+  {
+    "id": "p-euwg73",
+    "code": "S-007",
+    "slug": "aurelio-deep-teal-quilted-l-shape-luxury-leather-sofa",
+    "name": "Aurelio Deep Teal Quilted L-Shape Luxury Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium L-shaped sofa featuring deep teal leather upholstery, plush cushioning, elegant button-tufted detailing and rich wooden accents for a sophisticated interior.",
+    "description": "Crafted for luxurious comfort and contemporary elegance, this L-shaped sofa features rich teal leather upholstery, generously padded seating and beautifully detailed tufted backrests. The curved wooden arm accents, warm wooden base and elegant metal legs create a distinctive premium look, making it ideal for luxury living rooms and modern lounge spaces.",
+    "images": [
+      "/maanran/products/olive-royale-quilted-l-shape-luxury-leather-sofa_RY9wZFoDA.webp"
+    ],
+    "specs": {
+      "Product Type": " L-Shaped Sectional Sofa ",
+      "Seating Capacity": "Multi-Seater"
+    },
+    "featured": false,
+    "order": 255,
+    "published": false
   }
 ]
