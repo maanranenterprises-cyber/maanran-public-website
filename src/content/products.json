@@ -6463,5 +6463,30 @@
     "featured": true,
     "order": 259,
     "published": true
+  },
+  {
+    "id": "p-2e361v",
+    "code": "S-012",
+    "slug": "premium-floral-print-three-seater-lounge-sofa",
+    "name": "Premium Floral Print Three-Seater Lounge Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A stylish three-seater sofa featuring elegant floral-patterned upholstery and plush cushioning for comfortable everyday seating. Its decorative fabric design adds charm and sophistication to residential and lounge interiors.",
+    "description": "Enhance your living space with this premium three-seater sofa, featuring beautiful floral-print upholstery, generously cushioned seating, and a comfortable backrest. Its elegant fabric pattern and refined design create a welcoming atmosphere while offering comfortable seating for family and guests.",
+    "images": [
+      "/maanran/products/premium-floral-print-three-seater-lounge-sofa-view-1_tqGazxHKg.webp",
+      "/maanran/products/premium-floral-print-three-seater-lounge-sofa-view-2_Yu6j-2Iud.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Seater Sofa",
+      "Upholstery Material": "Printed Fabric",
+      "Upholstery Pattern": "Floral Design",
+      "Colour": "Cream with Pink & Grey Floral Print",
+      "Seating Capacity": "3 Persons",
+      "Leg Finish": "Metal Legs with Gold Finish"
+    },
+    "featured": true,
+    "order": 260,
+    "published": true
   }
 ]
