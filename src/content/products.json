@@ -5891,5 +5891,30 @@
     "featured": true,
     "order": 236,
     "published": true
+  },
+  {
+    "id": "p-uihcdx",
+    "code": "WPC-016",
+    "slug": "premium-black-moulded-writing-tablet-chair-with-perforated-backrest-and-wooden-finish-side-desk",
+    "name": "Premium Black Moulded Writing Tablet Chair with Perforated Backrest & Wooden Finish Side Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A functional writing tablet chair featuring a black moulded seat and perforated backrest with a wooden-finish side writing desk. Designed for comfortable seating and convenient writing in classrooms, colleges, and training centres.",
+    "description": "Designed for modern educational environments, this chair features a contoured black moulded seat, a perforated backrest, and a sturdy black metal frame with supportive armrests. The integrated wooden-finish side writing tablet provides a convenient workspace for writing, reading, and note-taking.",
+    "images": [
+      "/maanran/products/premium-black-moulded-writing-tablet-chair-with-perforated-backrest-wooden-finish-side-desk_lJu9GXAkU.webp"
+    ],
+    "specs": {
+      "Chair Type": "Moulded Writing Tablet Chair",
+      "Colour": "Black",
+      "Seat Material": "Moulded Plastic",
+      "Backrest": "Perforated Moulded Backrest",
+      "Writing Pad": "Wooden-Finish Side Writing Tablet",
+      "Armrests": "Fixed Armrests",
+      "Frame Material": "Black Metal Frame"
+    },
+    "featured": true,
+    "order": 237,
+    "published": true
   }
 ]
