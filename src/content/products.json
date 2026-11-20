@@ -6513,5 +6513,29 @@
     "featured": true,
     "order": 261,
     "published": true
+  },
+  {
+    "id": "p-hib27o",
+    "code": "S-014",
+    "slug": "premium-blue-l-shaped-contemporary-fabric-sofa-with-chaise-lounge",
+    "name": "Premium Blue L-Shaped Contemporary Fabric Sofa with Chaise Lounge",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A modern blue L-shaped sofa featuring tufted back cushions, spacious seating, and an extended chaise lounge for added relaxation. Designed to bring comfort and contemporary elegance to living spaces.",
+    "description": "Designed for stylish and comfortable living, this premium sectional sofa combines soft blue fabric upholstery with a generously cushioned seat and button-tufted backrest. The extended chaise provides extra lounging space, while the matching ottoman and wooden legs complement its modern design. Ideal for spacious living rooms, family lounges, and contemporary interiors.",
+    "images": [
+      "/maanran/products/premium-blue-l-shaped-contemporary-fabric-sofa-with-chaise-lounge_3ROd33weZ.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa",
+      "Upholstery": "Blue Fabric",
+      "Configuration": "L-Shaped Sofa with Chaise Lounge",
+      "Backrest Design": "Button-Tufted Cushioned Back",
+      "Additional Component": "Matching Ottoman",
+      "Application": "Living Room, Family Lounge & Modern Interiors"
+    },
+    "featured": true,
+    "order": 262,
+    "published": true
   }
 ]
