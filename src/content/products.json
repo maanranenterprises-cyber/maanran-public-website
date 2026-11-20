@@ -6658,5 +6658,29 @@
     "featured": true,
     "order": 267,
     "published": true
+  },
+  {
+    "id": "p-9xtjvk",
+    "code": "S-020",
+    "slug": "premium-ivory-twin-seater-curved-arm-upholstered-sofa",
+    "name": "Premium Ivory Twin-Seater Curved Arm Upholstered Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A modern two-seater sofa featuring elegant curved armrests, plush cushioning, and a sophisticated ivory finish. Designed to bring comfort and a refined look to contemporary interiors.",
+    "description": "Enhance your living or reception space with this premium ivory two-seater sofa, featuring a smooth upholstered finish, softly curved armrests, and generously cushioned seating. Its minimalist silhouette and neutral colour palette make it an ideal choice for homes, lounges, reception areas, and executive spaces.",
+    "images": [
+      "/maanran/products/premium-ivory-twin-seater-curved-arm-upholstered-sofa_Ijk-0fN8d.webp"
+    ],
+    "specs": {
+      "Product Type": "2-Seater Sofa",
+      "Upholstery": "Leatherette",
+      "Colour": "Ivory",
+      "Armrest Design": "Curved Rounded Armrests",
+      "Seating Capacity": "2 Persons",
+      "Application": "Living Room, Lounge & Reception"
+    },
+    "featured": true,
+    "order": 268,
+    "published": true
   }
 ]
