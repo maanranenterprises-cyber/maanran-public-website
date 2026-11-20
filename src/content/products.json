@@ -5916,5 +5916,30 @@
     "featured": true,
     "order": 237,
     "published": true
+  },
+  {
+    "id": "p-g3mkjj",
+    "code": "WPC-017",
+    "slug": "premium-red-cushioned-writing-tablet-chair-with-black-mesh-backrest-and-wooden-finish-desk",
+    "name": "Premium Red Cushioned Writing Tablet Chair with Black Mesh Backrest & Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern writing tablet chair featuring a breathable black mesh backrest, comfortable red cushioned seat, and spacious wooden-finish side writing desk. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Designed to provide comfort and functionality, this chair features a breathable black mesh backrest, a soft red upholstered seat, and a sturdy black metal frame. The integrated wooden-finish writing tablet offers a convenient workspace for writing, reading, and note-taking, making it suitable for educational institutions and professional training environments.",
+    "images": [
+      "/maanran/products/premium-red-cushioned-writing-tablet-chair-with-black-mesh-backrest-wooden-finish-desk_4fBcRm3-p.webp"
+    ],
+    "specs": {
+      "Chair Type": "Mesh Writing Tablet Chair",
+      "Seat Colour": "Red",
+      "Backrest": "Black Mesh Backrest",
+      "Seat Material": "Cushioned Upholstery",
+      "Writing Pad": "Wooden-Finish Side Writing Tablet",
+      "Frame Material": "Black Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 238,
+    "published": true
   }
 ]
