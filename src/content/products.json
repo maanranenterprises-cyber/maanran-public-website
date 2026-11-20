@@ -6415,5 +6415,29 @@
     "featured": true,
     "order": 257,
     "published": true
+  },
+  {
+    "id": "p-pidhok",
+    "code": "S-010",
+    "slug": "taupe-elegance-diamond-quilted-l-shape-leather-sofa",
+    "name": "Taupe Elegance Diamond-Quilted L-Shape Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary L-shaped sofa featuring elegant taupe leather upholstery, diamond-quilted detailing, generously cushioned seating and a refined design for modern interiors.",
+    "description": "Designed to combine everyday comfort with understated luxury, this L-shaped sofa features soft taupe leather upholstery, spacious cushioned seats and supportive backrests with diamond-quilted detailing. Its broad armrests, subtle wooden legs and neutral colour palette make it an ideal choice for living rooms, apartments, lounges and contemporary residential spaces.",
+    "images": [
+      "/maanran/products/taupe-elegance-diamond-quilted-l-shape-leather-sofa_jSDF4JkTb.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa",
+      "Seating Capacity": "Multi-Seater",
+      "Upholstery Material": "Leather ",
+      "Upholstery Colour": "Taupe / Beige  ",
+      "Design": "Contemporary with Diamond-Quilted Detailing ",
+      "Leg Material & Finish": "Wooden Legs with Natural Finish"
+    },
+    "featured": true,
+    "order": 258,
+    "published": true
   }
 ]
