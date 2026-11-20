@@ -47,7 +47,7 @@
     "description": "Steel almirahs, lockers, racks and cupboards.",
     "image": "/images/banners/steel-furniture.webp",
     "order": 5,
-    "published": true
+    "published": false
   },
   {
     "slug": "cafeteria-furniture",
