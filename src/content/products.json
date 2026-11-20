@@ -6391,5 +6391,29 @@
     "featured": true,
     "order": 256,
     "published": true
+  },
+  {
+    "id": "p-u6kk2o",
+    "code": "S-009",
+    "slug": "sagewood-royale-diamond-quilted-l-shape-leather-sofa",
+    "name": "Sagewood Royale Diamond-Quilted L-Shape Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium L-shaped sofa featuring sage green leather upholstery, diamond-quilted side panels, elegant reddish wood accents and plush seating for a sophisticated living space.",
+    "description": "Designed to bring luxury and comfort together, this L-shaped sofa features soft sage green leather upholstery, generously cushioned seats and stylish quilted detailing on the side panels. Its distinctive curved wooden arm accents, warm wood-finished base and elegant design make it an ideal choice for modern living rooms, premium lounges and upscale interiors.",
+    "images": [
+      "/maanran/products/sagewood-royale-diamond-quilted-l-shape-leather-sofa_J4Zenup-y.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa ",
+      "Seating Capacity": "Multi-Seater ",
+      "Upholstery Material": "Leather",
+      "Upholstery Colour": "Sage Green ",
+      "Design": "Contemporary Diamond-Quilted Sofa",
+      "Base & Arm Finish": "Reddish Wood Finish  "
+    },
+    "featured": true,
+    "order": 257,
+    "published": true
   }
 ]
