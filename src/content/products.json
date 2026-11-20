@@ -6356,10 +6356,14 @@
     ],
     "specs": {
       "Product Type": " L-Shaped Sectional Sofa ",
-      "Seating Capacity": "Multi-Seater"
+      "Seating Capacity": "Multi-Seater",
+      "Upholstery Material": "Leather",
+      "Upholstery Colour": "Deep Teal",
+      "Design": "Contemporary Button-Tufted Sofa ",
+      "Base & Leg Finish": "Wooden Accents with Gold-Finished Metal Legs "
     },
-    "featured": false,
+    "featured": true,
     "order": 255,
-    "published": false
+    "published": true
   }
 ]
