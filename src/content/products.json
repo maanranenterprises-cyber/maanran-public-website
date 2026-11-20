@@ -5866,5 +5866,30 @@
     "featured": true,
     "order": 235,
     "published": true
+  },
+  {
+    "id": "p-ij2wps",
+    "code": "WPC-015",
+    "slug": "premium-blue-moulded-writing-tablet-chair-with-wooden-finish-desk-and-dual-hole-backrest",
+    "name": "Premium Blue Moulded Writing Tablet Chair with Wooden Finish Desk & Dual-Hole Backrest",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern writing tablet chair featuring a blue moulded seat and backrest, distinctive dual-hole backrest design, and spacious wooden-finish writing tablet. Ideal for classrooms, colleges, coaching centres, and training institutions.",
+    "description": "Designed for modern learning environments, this chair features an ergonomically shaped blue seat and backrest with a distinctive dual-hole detailing for a stylish appearance. The integrated wooden-finish writing tablet and sturdy black metal frame provide a practical and functional seating solution for educational institutions, lecture halls, and training centres.",
+    "images": [
+      "/maanran/products/premium-blue-moulded-writing-tablet-chair-with-wooden-finish-desk-dual-hole-backrest_0juUV3r4jO.webp"
+    ],
+    "specs": {
+      "Chair Type": "Moulded Writing Tablet Chair",
+      "Colour": "Blue",
+      "Seat & Backrest": "Moulded Design",
+      "Backrest Design": "Dual-Hole Pattern",
+      "Writing Pad": "Wooden-Finish Writing Tablet",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 236,
+    "published": true
   }
 ]
