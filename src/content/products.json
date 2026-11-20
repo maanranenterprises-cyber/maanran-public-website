@@ -6139,5 +6139,30 @@
     "featured": true,
     "order": 246,
     "published": true
+  },
+  {
+    "id": "p-wztj8w",
+    "code": "SCL-003",
+    "slug": "single-door-steel-storage-cupboard-with-internal-shelving",
+    "name": "Single-Door Steel Storage Cupboard with Internal Shelving",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A sturdy single-door steel cupboard with spacious internal shelving, designed for secure and organized storage in offices, institutions, and commercial environments.",
+    "description": "Built with a durable steel body, this single-door cupboard offers convenient storage for files, office supplies, equipment, and other essentials. Featuring internal shelves, a key-locking door, sturdy metal handles, and an elevated support base, it is ideal for everyday storage applications.",
+    "images": [
+      "/maanran/products/single-door-steel-storage-cupboard-with-internal-shelving-closed-view_vhJS3RrqJ.webp",
+      "/maanran/products/single-door-steel-storage-cupboard-with-internal-shelving-open-view_LCFXDiMQv.webp"
+    ],
+    "specs": {
+      "Product Type": "Single-Door Steel Storage Cupboard",
+      "Material": "Mild Steel (MS)",
+      "Door Configuration": "1 Full-Length Door",
+      "Storage": "Internal Shelves",
+      "Colour": "Grey with Dark Grey Frame",
+      "Features": "Key Lock, Metal Handle & Raised Base"
+    },
+    "featured": true,
+    "order": 247,
+    "published": true
   }
 ]
