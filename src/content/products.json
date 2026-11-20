@@ -6488,5 +6488,30 @@
     "featured": true,
     "order": 260,
     "published": true
+  },
+  {
+    "id": "p-e1l5ui",
+    "code": "S-013",
+    "slug": "premium-grey-and-chocolate-brown-laminated-wooden-sofa-set",
+    "name": "Premium Grey & Chocolate Brown Laminated Wooden Sofa Set",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary sofa set featuring elegant grey upholstery, chocolate brown side panels, and laminated wooden armrest tops. Designed to combine comfort, functionality, and modern styling.",
+    "description": "This premium sofa set features a comfortable grey upholstered seating arrangement with a distinctive cylindrical backrest and chocolate brown side panels complemented by laminated wooden armrest tops. Available in 1-seater and 3-seater configurations, it offers a stylish and practical seating solution for living rooms, reception areas, lounges, and office interiors.",
+    "images": [
+      "/maanran/products/premium-grey-chocolate-brown-laminated-wooden-sofa-set-view-1_IjAqjw1MW.webp",
+      "/maanran/products/premium-grey-chocolate-brown-laminated-wooden-sofa-set-view-2_3Tbc3_kJZ.webp"
+    ],
+    "specs": {
+      "Product Type": "Sofa Set",
+      "Available Configuration": "1-Seater & 3-Seater",
+      "Upholstery Color": "Grey",
+      "Side Panel Color": "Chocolate Brown",
+      "Armrest Finish": "Laminated Wood",
+      "Design Style": "Contemporary Modern"
+    },
+    "featured": true,
+    "order": 261,
+    "published": true
   }
 ]
