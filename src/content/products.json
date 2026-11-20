@@ -6214,5 +6214,29 @@
     "featured": true,
     "order": 249,
     "published": true
+  },
+  {
+    "id": "p-wsktje",
+    "code": "S-002",
+    "slug": "premium-mustard-yellow-l-shaped-sectional-leather-sofa-set",
+    "name": "Premium Mustard Yellow L-Shaped Sectional Leather Sofa Set",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium L-shaped sectional sofa featuring mustard yellow leather upholstery, plush seating, adjustable headrests and a contemporary design for spacious and stylish interiors.",
+    "description": "Designed for modern living spaces, this L-shaped sectional sofa combines luxurious leather upholstery with generously cushioned seats and supportive backrests for enhanced comfort. Its vibrant mustard yellow finish, adjustable headrests, broad armrests and matching centre table make it an elegant choice for living rooms, lounge areas and premium interiors.",
+    "images": [
+      "/maanran/products/premium-mustard-yellow-l-shaped-sectional-leather-sofa-set_90upC_D01.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa",
+      "Seating Capacity": "Multi-Seater",
+      "Upholstery Material": "Leather  ",
+      "Upholstery Colour": "Mustard Yellow ",
+      "Design": "Contemporary Sectional Sofa with Adjustable Headrests ",
+      "Included Furniture": "Matching Centre Table "
+    },
+    "featured": true,
+    "order": 250,
+    "published": false
   }
 ]
