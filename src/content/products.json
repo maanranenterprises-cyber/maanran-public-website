@@ -5991,5 +5991,30 @@
     "featured": true,
     "order": 240,
     "published": true
+  },
+  {
+    "id": "p-82cn19",
+    "code": "WPC-020",
+    "slug": "premium-red-cushioned-writing-tablet-chair-with-black-perforated-backrest-and-chrome-metal-frame",
+    "name": "Premium Red Cushioned Writing Tablet Chair with Black Perforated Backrest & Chrome Metal Frame",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A stylish writing tablet chair featuring a comfortable red cushioned seat, black perforated backrest, and spacious wooden-finish writing desk. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Combining modern styling with practical functionality, this chair features a soft red upholstered seat, a durable black perforated backrest, and a sturdy chrome-finish metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking, making it suitable for educational institutions and professional training environments.",
+    "images": [
+      "/maanran/products/premium-red-cushioned-writing-tablet-chair-with-black-perforated-backrest-chrome-metal-frame_FYGC2ow4I.webp"
+    ],
+    "specs": {
+      "Chair Type": "Cushioned Writing Tablet Chair",
+      "Seat Colour": "Red",
+      "Backrest": "Black Perforated Backrest",
+      "Seat Material": "Cushioned Upholstery",
+      "Writing Pad": "Wooden-Finish Writing Tablet",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Chrome Finish"
+    },
+    "featured": true,
+    "order": 241,
+    "published": true
   }
 ]
