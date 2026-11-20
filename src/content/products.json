@@ -6091,5 +6091,102 @@
     "featured": true,
     "order": 244,
     "published": true
+  },
+  {
+    "id": "p-0iub83",
+    "code": "SCL-001",
+    "slug": "triple-column-modular-steel-personal-storage-locker-with-colour-accent-doors",
+    "name": "Triple-Column Modular Steel Personal Storage Locker with Colour Accent Doors",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A durable modular steel locker unit featuring multiple individual compartments with secure locking provisions and ventilated doors, ideal for organized personal storage in workplaces, institutions, and commercial facilities.",
+    "description": "Designed with a sturdy steel frame and 12 individual locker compartments arranged in three vertical columns, this locker unit offers convenient personal storage for multiple users. The combination of grey and mustard-yellow doors adds a modern appearance, while ventilated door panels and individual locking provisions make it suitable for offices, factories, schools, gyms, and staff rooms.",
+    "images": [
+      "/maanran/products/triple-column-modular-steel-personal-storage-locker-with-colour-accent-doors_0l1KrSFua.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Steel Locker",
+      "Material": "Mild Steel (MS)",
+      "Configuration": "3 Columns × 4 Compartments",
+      "Total Compartments": "12 Lockers",
+      "Colour": "Grey & Mustard Yellow",
+      "Features": "Individual Locking Provision & Ventilation Slots"
+    },
+    "featured": true,
+    "order": 245,
+    "published": true
+  },
+  {
+    "id": "p-wel5md",
+    "code": "SCL-002",
+    "slug": "12-door-multi-user-steel-storage-locker-cabinet",
+    "name": "12-Door Multi-User Steel Storage Locker Cabinet",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A robust steel locker cabinet featuring 12 individual storage compartments with separate locking provisions, designed for secure personal storage in workplaces, institutions, and industrial facilities.",
+    "description": "This multi-user steel locker cabinet features 12 individually compartmentalized doors arranged in three columns and four rows, offering practical storage for employees, students, and staff. Built with a sturdy steel body and a clean grey finish, it is suitable for factories, offices, schools, gyms, and changing rooms.",
+    "images": [
+      "/maanran/products/12-door-multi-user-steel-storage-locker-cabinet_wwxbm5nNQ.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Steel Locker",
+      "Material": "Steel",
+      "Configuration": "3 Columns × 4 Rows",
+      "Total Compartments": "12 Lockers",
+      "Colour": "Grey",
+      "Features": "Individual Locking Provisions & Raised Support Base"
+    },
+    "featured": true,
+    "order": 246,
+    "published": true
+  },
+  {
+    "id": "p-wztj8w",
+    "code": "SCL-003",
+    "slug": "single-door-steel-storage-cupboard-with-internal-shelving",
+    "name": "Single-Door Steel Storage Cupboard with Internal Shelving",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A sturdy single-door steel cupboard with spacious internal shelving, designed for secure and organized storage in offices, institutions, and commercial environments.",
+    "description": "Built with a durable steel body, this single-door cupboard offers convenient storage for files, office supplies, equipment, and other essentials. Featuring internal shelves, a key-locking door, sturdy metal handles, and an elevated support base, it is ideal for everyday storage applications.",
+    "images": [
+      "/maanran/products/single-door-steel-storage-cupboard-with-internal-shelving-closed-view_vhJS3RrqJ.webp",
+      "/maanran/products/single-door-steel-storage-cupboard-with-internal-shelving-open-view_LCFXDiMQv.webp"
+    ],
+    "specs": {
+      "Product Type": "Single-Door Steel Storage Cupboard",
+      "Material": "Mild Steel (MS)",
+      "Door Configuration": "1 Full-Length Door",
+      "Storage": "Internal Shelves",
+      "Colour": "Grey with Dark Grey Frame",
+      "Features": "Key Lock, Metal Handle & Raised Base"
+    },
+    "featured": true,
+    "order": 247,
+    "published": true
+  },
+  {
+    "id": "p-10dsk9",
+    "code": "SCL-004",
+    "slug": "heavy-duty-bolt-assembled-adjustable-metal-storage-rack",
+    "name": "Heavy-Duty Bolt-Assembled Adjustable Metal Storage Rack",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A sturdy metal storage rack featuring a bolt-and-nut assembly system and multiple adjustable shelves, designed for organized storage of tools, cartons, materials, and supplies in industrial and commercial environments.",
+    "description": "This heavy-duty metal storage rack is built with a robust steel frame and multiple shelving levels supported by a bolt-and-nut assembly system. Its adjustable shelf configuration allows flexible storage arrangements, making it suitable for warehouses, workshops, factories, offices, stockrooms, and commercial storage areas.",
+    "images": [
+      "/maanran/products/heavy-duty-bolt-assembled-adjustable-metal-storage-rack_U2wbvSVLR.webp"
+    ],
+    "specs": {
+      "Product Type": "Heavy-Duty Metal Storage Rack",
+      "Material": "Mild Steel (MS)",
+      "Rack Configuration": "4-Tier Shelving",
+      "Assembly Type": "Bolt & Nut Assembly",
+      "Shelf Type": "Adjustable Metal Shelves",
+      "Colour": "Dark Grey"
+    },
+    "featured": true,
+    "order": 248,
+    "published": true
   }
 ]
