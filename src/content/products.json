@@ -6115,5 +6115,29 @@
     "featured": true,
     "order": 245,
     "published": true
+  },
+  {
+    "id": "p-wel5md",
+    "code": "SCL-002",
+    "slug": "12-door-multi-user-steel-storage-locker-cabinet",
+    "name": "12-Door Multi-User Steel Storage Locker Cabinet",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A robust steel locker cabinet featuring 12 individual storage compartments with separate locking provisions, designed for secure personal storage in workplaces, institutions, and industrial facilities.",
+    "description": "This multi-user steel locker cabinet features 12 individually compartmentalized doors arranged in three columns and four rows, offering practical storage for employees, students, and staff. Built with a sturdy steel body and a clean grey finish, it is suitable for factories, offices, schools, gyms, and changing rooms.",
+    "images": [
+      "/maanran/products/12-door-multi-user-steel-storage-locker-cabinet_wwxbm5nNQ.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Steel Locker",
+      "Material": "Steel",
+      "Configuration": "3 Columns × 4 Rows",
+      "Total Compartments": "12 Lockers",
+      "Colour": "Grey",
+      "Features": "Individual Locking Provisions & Raised Support Base"
+    },
+    "featured": true,
+    "order": 246,
+    "published": true
   }
 ]
