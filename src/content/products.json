@@ -5941,5 +5941,30 @@
     "featured": true,
     "order": 238,
     "published": true
+  },
+  {
+    "id": "p-ihum9p",
+    "code": "WPC-018",
+    "slug": "premium-burgundy-upholstered-writing-tablet-chair-with-high-backrest-and-wooden-finish-study-desk",
+    "name": "Premium Burgundy Upholstered Writing Tablet Chair with High Backrest & Wooden Finish Study Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A comfortable writing tablet chair featuring a high upholstered burgundy backrest, cushioned seat, and spacious wooden-finish writing desk. Ideal for classrooms, colleges, lecture halls, and training institutions.",
+    "description": "Designed for comfort and functionality, this chair features a broad upholstered backrest, a cushioned seat, and a sturdy black metal frame. The integrated wooden-finish writing desk provides ample workspace for writing, reading, and note-taking, making it an excellent choice for educational institutions, coaching centres, and seminar halls.",
+    "images": [
+      "/maanran/products/premium-burgundy-upholstered-writing-tablet-chair-with-high-backrest-wooden-finish-study-desk_b_P7FSf0P.webp"
+    ],
+    "specs": {
+      "Chair Type": "Upholstered Writing Tablet Chair",
+      "Colour": "Burgundy",
+      "Seat & Backrest": "Cushioned Fabric Upholstery",
+      "Backrest Design": "High Backrest",
+      "Writing Pad": "Wooden-Finish Writing Desk",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 239,
+    "published": true
   }
 ]
