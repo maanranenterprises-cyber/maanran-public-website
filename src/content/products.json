@@ -6634,5 +6634,29 @@
     "featured": true,
     "order": 266,
     "published": true
+  },
+  {
+    "id": "p-w7vi1q",
+    "code": "S-019",
+    "slug": "premium-cognac-brown-tufted-leatherette-three-seater-sofa",
+    "name": "Premium Cognac Brown Tufted Leatherette Three-Seater Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A sophisticated three-seater sofa featuring rich cognac-brown leatherette upholstery, deep square tufting, and broad padded armrests. Designed to deliver a luxurious appearance with comfortable seating for modern interiors.",
+    "description": "Add a premium touch to your interiors with this elegant cognac-brown sofa, featuring a distinctive square-button tufted backrest and matching tufted seat cushions. Its wide armrests, rich upholstery finish, and solid-looking base design create a blend of comfort and timeless style. Ideal for living rooms, executive lounges, reception areas, and sophisticated seating spaces.",
+    "images": [
+      "/maanran/products/premium-cognac-brown-tufted-leatherette-three-seater-sofa_6F2zwdsO8.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Seater Sofa",
+      "Upholstery": "Cognac Brown Leatherette",
+      "Backrest Design": "Square Button-Tufted Backrest",
+      "Seat Design": "Deep Square-Tufted Cushions",
+      "Armrest Design": "Broad Padded Armrests",
+      "Application": "Living Room, Lounge & Reception"
+    },
+    "featured": true,
+    "order": 267,
+    "published": true
   }
 ]
