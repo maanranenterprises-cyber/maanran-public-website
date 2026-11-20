@@ -6289,5 +6289,33 @@
     "featured": true,
     "order": 252,
     "published": true
+  },
+  {
+    "id": "p-30jcsd",
+    "code": "S-005",
+    "slug": "premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design",
+    "name": "Premium Ivory Sculpted Lounge Sofa Set with Curved Cushion Design",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium ivory sofa set featuring elegant curved armrests, plush cushioning, and a sophisticated contemporary design. Ideal for creating a luxurious and welcoming seating space.",
+    "description": "Enhance your interiors with this premium ivory sofa set, designed with beautifully sculpted armrests, generously cushioned seats, and a smooth upholstered finish. Its elegant curves and soft ivory colour bring a refined, luxurious look to modern interiors.\n\nCombining stylish aesthetics with exceptional seating comfort, this sofa set is perfect for living rooms, luxury lounges, reception areas, and premium residential spaces.",
+    "images": [
+      "/maanran/products/premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design-full-view_n9x3tKh17.webp",
+      "/maanran/products/premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design-2-seater-front-view_mxwIKnozL.webp",
+      "/maanran/products/premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design-1-seater-front-view_GdiFy9hIB.webp",
+      "/maanran/products/premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design-3-seater-front-view_un5JOYCqg.webp",
+      "/maanran/products/premium-ivory-sculpted-lounge-sofa-set-with-curved-cushion-design-3-seater-side-view_WRz2lYmOi.webp"
+    ],
+    "specs": {
+      "Product Type": "Premium Upholstered Sofa Set ",
+      "Configuration": "3-Seater, 2-Seater & Single-Seater   ",
+      "Colour": "Ivory",
+      "Design Style": "Contemporary Curved Design",
+      "Upholstery": "Premium Soft Upholstered Finish ",
+      "Suitable For": "Living Rooms, Lounges, Reception & Waiting Areas"
+    },
+    "featured": true,
+    "order": 253,
+    "published": true
   }
 ]
