@@ -6586,5 +6586,29 @@
     "featured": true,
     "order": 264,
     "published": true
+  },
+  {
+    "id": "p-k4xtp4",
+    "code": "S-017",
+    "slug": "premium-brown-leatherette-sofa-set-with-quilted-backrest",
+    "name": "Premium Brown Leatherette Sofa Set with Quilted Backrest",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A stylish two-piece sofa set featuring one single-seater and one three-seater sofa in rich brown leatherette upholstery. Designed with quilted backrests, wide padded armrests, and a modern finish for comfortable and elegant seating.",
+    "description": "Upgrade your living space with this premium sofa set, featuring one one-seater sofa and one three-seater sofa in a coordinated brown leatherette finish. The elegant square-patterned backrests, plush cushions, and broad armrests offer a balance of comfort and contemporary style. Ideal for living rooms, reception areas, lounges, and waiting spaces.",
+    "images": [
+      "/maanran/products/premium-brown-leatherette-sofa-set-with-quilted-backrest_7Ky591hMa.webp"
+    ],
+    "specs": {
+      "Product Type": "Sofa Set",
+      "Set Configuration": "1 × One-Seater + 1 × Three-Seater",
+      "Upholstery": "Brown Leatherette",
+      "Backrest Design": "Square Quilted Pattern",
+      "Armrest Design": "Wide Padded Armrests",
+      "Application": "Living Room, Lounge & Reception"
+    },
+    "featured": true,
+    "order": 265,
+    "published": true
   }
 ]
