@@ -6188,5 +6188,31 @@
     "featured": true,
     "order": 248,
     "published": true
+  },
+  {
+    "id": "p-3u7lfw",
+    "code": "S-001",
+    "slug": "premium-crimson-luxe-three-seater-contemporary-leather-sofa",
+    "name": "Premium Crimson Luxe Three-Seater Contemporary Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary three-seater leather sofa featuring rich crimson red upholstery, plush cushioning, broad armrests and elegant gold-finished legs for a luxurious seating experience.",
+    "description": "Designed to bring sophistication and comfort to modern interiors, this three-seater sofa features premium red leather upholstery, generously cushioned seating and supportive backrests. Its wide armrests, clean contemporary silhouette and gold-finished metal legs create a refined look, making it ideal for living rooms, lounges, reception areas and premium spaces.",
+    "images": [
+      "/maanran/products/premium-crimson-luxe-three-seater-contemporary-leather-sofa-full-view_8JQiRqUWI.webp",
+      "/maanran/products/premium-crimson-luxe-three-seater-contemporary-leather-sofa_w4osHoLoB.webp",
+      "/maanran/products/premium-crimson-luxe-three-seater-contemporary-leather-sofa-round_dyyRuaIH1.webp"
+    ],
+    "specs": {
+      "Product Type": "3-Seater Sofa  ",
+      "Seating Capacity": "3 Persons  ",
+      "Upholstery Material": "Leather    ",
+      "Upholstery Colour": "Crimson Red ",
+      "Design": "Contemporary Cushioned Sofa ",
+      "Leg Finish": " Gold-Finished Metal Legs"
+    },
+    "featured": true,
+    "order": 249,
+    "published": true
   }
 ]
