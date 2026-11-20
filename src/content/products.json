@@ -5966,5 +5966,30 @@
     "featured": true,
     "order": 239,
     "published": true
+  },
+  {
+    "id": "p-raj5b0",
+    "code": "WPC-019",
+    "slug": "premium-blue-cushioned-writing-tablet-chair-with-black-mesh-backrest-and-wide-wooden-finish-desk",
+    "name": "Premium Blue Cushioned Writing Tablet Chair with Black Mesh Backrest & Wide Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A modern writing tablet chair featuring a comfortable blue cushioned seat, breathable black mesh backrest, and spacious wooden-finish writing desk. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Designed for comfort and practical functionality, this chair features a soft blue cushioned seat, breathable black mesh backrest, and a sturdy black metal frame. The wide wooden-finish writing desk provides ample workspace for writing, reading, and note-taking, making it suitable for educational institutions, coaching centres, and professional training environments.",
+    "images": [
+      "/maanran/products/premium-blue-cushioned-writing-tablet-chair-with-black-mesh-backrest-wide-wooden-finish-desk_QpMbvZ19j.webp"
+    ],
+    "specs": {
+      "Chair Type": "Mesh Writing Tablet Chair",
+      "Seat Colour": "Blue",
+      "Backrest": "Black Mesh Backrest",
+      "Seat Material": "Cushioned Upholstery",
+      "Writing Pad": "Wide Wooden-Finish Writing Desk",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 240,
+    "published": true
   }
 ]
