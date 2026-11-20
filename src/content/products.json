@@ -6066,5 +6066,30 @@
     "featured": true,
     "order": 243,
     "published": true
+  },
+  {
+    "id": "p-jn4ogl",
+    "code": "WPC-023",
+    "slug": "premium-royal-blue-cushioned-writing-tablet-chair-with-round-backrest-and-wooden-finish-desk",
+    "name": "Premium Royal Blue Cushioned Writing Tablet Chair with Round Backrest & Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A stylish writing tablet chair featuring a royal blue cushioned seat and rounded backrest with an integrated wooden-finish writing desk. Ideal for classrooms, colleges, coaching centres, and training institutions.",
+    "description": "Designed for comfort and practical functionality, this chair features a soft royal blue upholstered seat, a matching rounded backrest, and a sturdy black metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking, making it suitable for educational institutions, seminar halls, and training centres.",
+    "images": [
+      "/maanran/products/premium-royal-blue-cushioned-writing-tablet-chair-with-round-backrest-wooden-finish-desk_Z0pyGtNTI.webp"
+    ],
+    "specs": {
+      "Chair Type": "Cushioned Writing Tablet Chair",
+      "Colour": "Royal Blue",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Backrest Design": "Rounded Backrest",
+      "Writing Pad": "Wooden-Finish Writing Tablet",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 244,
+    "published": true
   }
 ]
