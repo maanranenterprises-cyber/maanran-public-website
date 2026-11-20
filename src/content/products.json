@@ -6041,5 +6041,30 @@
     "featured": true,
     "order": 242,
     "published": true
+  },
+  {
+    "id": "p-ne401k",
+    "code": "WPC-022",
+    "slug": "premium-black-upholstered-writing-tablet-chair-with-contoured-backrest-and-wooden-finish-desk",
+    "name": "Premium Black Upholstered Writing Tablet Chair with Contoured Backrest & Wooden Finish Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A premium writing tablet chair featuring a comfortable black upholstered seat and backrest, integrated wooden-finish writing desk, and elegant chrome-finish metal frame. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Designed for comfort and functionality, this chair features a smoothly contoured black upholstered seat and supportive high backrest, complemented by a sturdy chrome-finish metal frame. The integrated wooden-finish writing tablet provides a convenient workspace for writing, reading, and note-taking, making it suitable for educational institutions and professional training environments.",
+    "images": [
+      "/maanran/products/premium-black-upholstered-writing-tablet-chair-with-contoured-backrest-wooden-finish-desk_mW-Az3O2G.webp"
+    ],
+    "specs": {
+      "Chair Type": "Upholstered Writing Tablet Chair",
+      "Colour": "Black",
+      "Seat & Backrest": "Upholstered Cushioning",
+      "Backrest Design": "Contoured High Backrest",
+      "Writing Pad": "Wooden-Finish Writing Tablet",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Chrome Finish"
+    },
+    "featured": true,
+    "order": 243,
+    "published": true
   }
 ]
