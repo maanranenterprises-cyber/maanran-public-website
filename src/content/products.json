@@ -6091,5 +6091,29 @@
     "featured": true,
     "order": 244,
     "published": true
+  },
+  {
+    "id": "p-0iub83",
+    "code": "SCL-001",
+    "slug": "triple-column-modular-steel-personal-storage-locker-with-colour-accent-doors",
+    "name": "Triple-Column Modular Steel Personal Storage Locker with Colour Accent Doors",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A durable modular steel locker unit featuring multiple individual compartments with secure locking provisions and ventilated doors, ideal for organized personal storage in workplaces, institutions, and commercial facilities.",
+    "description": "Designed with a sturdy steel frame and 12 individual locker compartments arranged in three vertical columns, this locker unit offers convenient personal storage for multiple users. The combination of grey and mustard-yellow doors adds a modern appearance, while ventilated door panels and individual locking provisions make it suitable for offices, factories, schools, gyms, and staff rooms.",
+    "images": [
+      "/maanran/products/triple-column-modular-steel-personal-storage-locker-with-colour-accent-doors_0l1KrSFua.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Steel Locker",
+      "Material": "Mild Steel (MS)",
+      "Configuration": "3 Columns × 4 Compartments",
+      "Total Compartments": "12 Lockers",
+      "Colour": "Grey & Mustard Yellow",
+      "Features": "Individual Locking Provision & Ventilation Slots"
+    },
+    "featured": true,
+    "order": 245,
+    "published": true
   }
 ]
