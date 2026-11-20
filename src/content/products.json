@@ -6317,5 +6317,29 @@
     "featured": true,
     "order": 253,
     "published": true
+  },
+  {
+    "id": "p-k1waf7",
+    "code": "S-006",
+    "slug": "olive-royale-quilted-l-shape-luxury-leather-sofa",
+    "name": "Olive Royale Quilted L-Shape Luxury Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium L-shaped sofa featuring sophisticated olive-grey leather upholstery, diamond-quilted detailing, plush cushions and elegant wooden trim with gold-finished legs.",
+    "description": "Designed for luxurious comfort and modern elegance, this L-shaped sofa features premium leather upholstery, generously cushioned seating, supportive backrests and intricate diamond-quilted detailing along the sides. Its warm wooden base accents, sleek gold-finished legs and coordinated throw pillows create a refined look, making it ideal for luxury living rooms and contemporary interiors.",
+    "images": [
+      "/maanran/products/olive-royale-quilted-l-shape-luxury-leather-sofa_LzsI1snr1.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sectional Sofa",
+      "Seating Capacity": "Multi-Seater ",
+      "Upholstery Material": "Leather  ",
+      "Upholstery Colour": "Olive Grey  ",
+      "Design": " Contemporary Quilted Luxury Sofa ",
+      "Base & Leg Finish": "Wooden Accents with Gold-Finished Metal Legs"
+    },
+    "featured": true,
+    "order": 254,
+    "published": true
   }
 ]
