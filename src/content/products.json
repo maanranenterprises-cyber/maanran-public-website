@@ -6537,5 +6537,30 @@
     "featured": true,
     "order": 262,
     "published": true
+  },
+  {
+    "id": "p-t4xhev",
+    "code": "S-015",
+    "slug": "premium-dark-walnut-brown-contemporary-three-seater-sofa-set",
+    "name": "Premium Dark Walnut Brown Contemporary Three-Seater Sofa Set",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A sophisticated three-seater sofa featuring rich dark walnut brown upholstery, a modern grid-patterned backrest, and broad cushioned armrests. Designed to deliver lasting comfort with a refined, professional appearance.",
+    "description": "Elevate your living space with this premium dark brown three-seater sofa, featuring a structured backrest with elegant square-panel detailing and generously cushioned seating. Its rich brown upholstery, clean silhouette, and sleek metallic-finish support legs create a timeless contemporary look.",
+    "images": [
+      "/maanran/products/premium-dark-walnut-brown-contemporary-three-seater-sofa-set-full-view_Bl-_elEgm.webp",
+      "/maanran/products/premium-dark-walnut-brown-contemporary-three-seater-sofa-set_7a-Suvgdl.webp"
+    ],
+    "specs": {
+      "Product Type": "Three-Seater Sofa",
+      "Upholstery Colour": "Dark Walnut Brown",
+      "Upholstery Material": "Premium Leatherette",
+      "Backrest Design": "Square Grid-Padded Backrest",
+      "Seating Capacity": "3 Persons",
+      "Leg Finish": "Metal Legs with Silver Finish"
+    },
+    "featured": true,
+    "order": 263,
+    "published": true
   }
 ]
