@@ -5791,5 +5791,30 @@
     "featured": true,
     "order": 232,
     "published": true
+  },
+  {
+    "id": "p-s9jo62",
+    "code": "WPC-012",
+    "slug": "premium-blue-upholstered-writing-tablet-chair-with-cushioned-backrest-and-integrated-side-desk",
+    "name": "Premium Blue Upholstered Writing Tablet Chair with Cushioned Backrest & Integrated Side Desk",
+    "brand": "MAANRAN",
+    "category": "writing-pad-chairs",
+    "shortDescription": "A comfortable writing tablet chair featuring a blue upholstered cushioned seat and backrest, padded armrests, and a spacious integrated side writing desk. Ideal for classrooms, colleges, seminar halls, and training centres.",
+    "description": "Designed for comfort and functionality, this chair features a soft blue upholstered seat and supportive cushioned backrest with a sturdy black metal frame. The integrated side writing tablet offers a convenient workspace for writing, reading, and note-taking, making it an excellent choice for educational institutions and professional training environments.",
+    "images": [
+      "/maanran/products/premium-blue-upholstered-writing-tablet-chair-with-cushioned-backrest-integrated-side-desk_zFNv1e4P_.webp"
+    ],
+    "specs": {
+      "Chair Type": "Upholstered Writing Tablet Chair",
+      "Colour": "Blue",
+      "Seat & Backrest": "Cushioned Upholstery",
+      "Writing Pad": "Integrated Side Writing Tablet",
+      "Armrests": "Padded Armrests",
+      "Frame Material": "Metal Frame",
+      "Frame Finish": "Black Finish"
+    },
+    "featured": true,
+    "order": 233,
+    "published": true
   }
 ]
