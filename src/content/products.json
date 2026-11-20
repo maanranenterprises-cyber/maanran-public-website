@@ -6365,5 +6365,29 @@
     "featured": true,
     "order": 255,
     "published": true
+  },
+  {
+    "id": "p-o1vtx7",
+    "code": "S-008",
+    "slug": "premium-teal-blue-tufted-contemporary-sofa-set-with-gold-accent-legs",
+    "name": "Premium Teal Blue Tufted Contemporary Sofa Set with Gold Accent Legs",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium teal blue sofa set featuring elegant tufted backrests, plush cushioning, and refined gold-finish legs. Designed to bring a sophisticated and luxurious look to modern living spaces.",
+    "description": "Enhance your living space with this stylish teal blue sofa set, featuring a beautifully tufted backrest, generously cushioned seating, and elegant curved armrests for enhanced comfort. The rich upholstery paired with sleek gold-finish legs creates a perfect balance of contemporary elegance and timeless luxury. Ideal for premium homes, lounges, reception areas, and modern interiors.",
+    "images": [
+      "/maanran/products/sagewood-royale-diamond-quilted-l-shape-leather-sofa_MRYaf0R5E.webp"
+    ],
+    "specs": {
+      "Product Type": "Contemporary Sofa Set",
+      "Upholstery Color": "Teal Blue    ",
+      "Backrest Design": "Button-Tufted",
+      "Seating Style": "Plush Cushioned Seating ",
+      "Armrest Design": " Curved Upholstered Armrests",
+      "Leg Finish": " Gold-Finish Metal Legs"
+    },
+    "featured": true,
+    "order": 256,
+    "published": true
   }
 ]
