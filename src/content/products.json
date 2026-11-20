@@ -6265,5 +6265,29 @@
     "featured": true,
     "order": 251,
     "published": true
+  },
+  {
+    "id": "p-7dhsxt",
+    "code": "S-004",
+    "slug": "verdant-heritage-l-shaped-designer-leather-sofa",
+    "name": "Verdant Heritage L-Shaped Designer Leather Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium L-shaped sofa featuring rich olive green upholstery, deep cushioned seating, distinctive wooden arm accents and an elegant wooden base for a refined contemporary look.",
+    "description": "Designed to blend modern comfort with timeless elegance, this L-shaped sofa features luxurious green upholstery, generously cushioned seats and supportive backrests with stylish tufted detailing. Its distinctive curved wooden arm accents and rich wooden base create a sophisticated contrast, making it ideal for living rooms, premium lounges and contemporary residential interiors.",
+    "images": [
+      "/maanran/products/verdant-heritage-l-shaped-designer-leather-sofa_Vxn7QnDRa.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sofa ",
+      "Seating Capacity": "Multi-Seater ",
+      "Upholstery Material": "Leather",
+      "Upholstery Colour": "Olive Green",
+      "Design": "Contemporary with Tufted Backrests & Wooden Arm Accents",
+      "Base & Arm Finish": "Wood Finish "
+    },
+    "featured": true,
+    "order": 252,
+    "published": true
   }
 ]
