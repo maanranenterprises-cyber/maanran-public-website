@@ -7092,5 +7092,29 @@
     "featured": true,
     "order": 285,
     "published": true
+  },
+  {
+    "id": "p-2qjp8c",
+    "code": "SCL-013",
+    "slug": "heavy-duty-double-door-steel-storage-cabinet-with-shelving",
+    "name": "Heavy-Duty Double-Door Steel Storage Cabinet with Shelving",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Robust steel storage cabinet featuring a spacious interior with multiple shelves and a secure locking door, ideal for organized storage in offices, workshops, and industrial environments.",
+    "description": "Designed for reliable storage and everyday use, this heavy-duty steel cabinet features a spacious interior with multiple shelves for neatly organizing tools, equipment, files, and supplies. Its sturdy metal construction, enclosed design, and secure locking mechanism make it suitable for offices, factories, workshops, and commercial spaces.",
+    "images": [
+      "/maanran/products/heavy-duty-double-door-steel-storage-cabinet-with-shelving_Y7-J3qPwR.webp"
+    ],
+    "specs": {
+      "Product Type": "Steel Storage Cabinet ",
+      "Material": "Mild Steel (MS) ",
+      "Door Type": "Single Door",
+      "Storage Design": "Multiple Shelves with Vertical Dividers",
+      "Locking System": " Key Lock",
+      "Application": " Office, Industrial, Workshop & Commercial Storage "
+    },
+    "featured": true,
+    "order": 286,
+    "published": true
   }
 ]
