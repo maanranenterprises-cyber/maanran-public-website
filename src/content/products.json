@@ -7068,5 +7068,29 @@
     "featured": true,
     "order": 284,
     "published": true
+  },
+  {
+    "id": "p-3wc4bj",
+    "code": "SCL-012",
+    "slug": "heavy-duty-multi-compartment-steel-storage-rack",
+    "name": "Heavy-Duty Multi-Compartment Steel Storage Rack",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Durable steel storage rack featuring multiple divided compartments for organized storage of tools, components, files, and materials in industrial and commercial environments.",
+    "description": "This heavy-duty steel storage rack is designed with multiple vertical compartments and horizontal sections for efficient storage and easy item segregation. Its robust metal construction provides dependable support for workshop, warehouse, factory, and utility storage applications.",
+    "images": [
+      "/maanran/products/heavy-duty-multi-compartment-steel-storage-rack_PkmywI2g9.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Storage Rack ",
+      "Material": "Mild Steel (MS) ",
+      "Structure": "Heavy-Duty Steel Frame ",
+      "Storage Design": " Multiple Divided Compartments",
+      "Finish": "Industrial Protective Coating ",
+      "Application": " Industrial, Workshop, Warehouse & Utility Storage"
+    },
+    "featured": true,
+    "order": 285,
+    "published": true
   }
 ]
