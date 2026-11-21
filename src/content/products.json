@@ -6706,5 +6706,29 @@
     "featured": false,
     "order": 269,
     "published": true
+  },
+  {
+    "id": "p-f3mmow",
+    "code": "S-022",
+    "slug": "premium-teal-blue-button-tufted-two-seater-sofa-with-broad-armrests",
+    "name": "Premium Teal Blue Button-Tufted Two-Seater Sofa with Broad Armrests",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A stylish two-seater sofa upholstered in rich teal blue with elegant button detailing and wide cushioned armrests. Designed to provide comfortable seating with a bold, modern appearance.",
+    "description": "Enhance your living or reception space with this premium teal blue two-seater sofa, featuring a button-tufted backrest, spacious seating cushions, and broad padded armrests. Its sleek, contemporary design and rich upholstery make it an ideal choice for homes, offices, lounges, and reception areas.",
+    "images": [
+      "/maanran/products/premium-teal-blue-button-tufted-two-seater-sofa-with-broad-armrests_340l3gjPZ.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "2 Seater",
+      "Upholstery Colour": "Teal Blue",
+      "Upholstery Material": "Leatherette",
+      "Backrest Design": "Button-Tufted",
+      "Armrest Type": "Broad Padded Armrests",
+      "Suitable For": "Living Rooms, Offices, Lounges & Reception Areas"
+    },
+    "featured": true,
+    "order": 270,
+    "published": true
   }
 ]
