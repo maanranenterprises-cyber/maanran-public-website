@@ -7260,5 +7260,53 @@
     "featured": true,
     "order": 292,
     "published": true
+  },
+  {
+    "id": "p-thcnar",
+    "code": "SCL-020",
+    "slug": "heavy-duty-steel-storage-cabinet-with-internal-lockable-compartment",
+    "name": "Heavy-Duty Steel Storage Cabinet with Internal Lockable Compartment",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Strong steel storage cabinet with spacious shelving and an integrated lockable compartment for secure storage of documents, tools, equipment, and office essentials.",
+    "description": "Designed for secure and organized storage, this heavy-duty steel cabinet features spacious shelves and a separate lockable internal compartment for storing valuable items. Its robust metal construction, dual-door design, and durable grey finish make it suitable for offices, industrial facilities, workshops, and institutional environments.",
+    "images": [
+      "/maanran/products/heavy-duty-steel-storage-cabinet-with-internal-lockable-compartment_xT7sXrsmo.webp"
+    ],
+    "specs": {
+      "Product Type": "Steel Storage Cabinet",
+      "Material": "CRCA Steel ",
+      "Storage Configuration": " Multi-Level Shelving with Internal Compartment ",
+      "Door Type": "Dual Swing Doors",
+      "Locking System": "Key Lock with Internal Lockable Compartment ",
+      "Finish": "Grey Powder-Coated Finish"
+    },
+    "featured": true,
+    "order": 293,
+    "published": true
+  },
+  {
+    "id": "p-fcb3h1",
+    "code": "SCL-021",
+    "slug": "high-density-mobile-filing-storage-system",
+    "name": "High-Density Mobile Filing Storage System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Space-efficient mobile filing cabinet system designed to maximize document storage capacity while minimizing wasted floor space. Ideal for offices, archives, libraries, and record rooms.",
+    "description": "This high-density mobile filing system features multiple storage units with smooth hand-crank movement, allowing compact storage and convenient access to files and documents. Its sturdy steel construction, adjustable shelving, and space-saving movable design make it ideal for organized document management in offices, institutions, and archive facilities.",
+    "images": [
+      "/maanran/products/high-density-mobile-filing-storage-system_5M1Yy0-dV.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Filing Storage System  ",
+      "Material": " Heavy-Duty Steel",
+      "Storage Configuration": " Multi-Level Adjustable Shelving  ",
+      "Movement System": "Hand-Crank Operated Mobile System ",
+      "Application": " Files, Documents & Records Storage",
+      "Finish": " Powder-Coated Finish "
+    },
+    "featured": true,
+    "order": 294,
+    "published": true
   }
 ]
