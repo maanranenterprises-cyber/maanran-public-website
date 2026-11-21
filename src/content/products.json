@@ -6730,5 +6730,29 @@
     "featured": true,
     "order": 270,
     "published": true
+  },
+  {
+    "id": "p-22sexu",
+    "code": "S-023",
+    "slug": "premium-contemporary-ivory-two-seater-sofa-with-geometric-backrest",
+    "name": "Premium Contemporary Ivory Two-Seater Sofa with Geometric Backrest",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A stylish two-seater sofa featuring a soft ivory finish, structured geometric back cushions, and broad armrests. Designed for comfortable seating with a clean, contemporary aesthetic.",
+    "description": "Bring elegance and comfort to your interior with this premium ivory two-seater sofa, featuring a neatly segmented backrest, spacious cushioned seats, and wide modern armrests. Its minimal design and neutral colour tone make it ideal for office reception areas, lounges, waiting spaces, and contemporary living rooms.",
+    "images": [
+      "/maanran/products/premium-contemporary-ivory-two-seater-sofa-with-geometric-backrest_7yS8EY9Q4.webp"
+    ],
+    "specs": {
+      "Product Type": "2-Seater Sofa",
+      "Upholstery": "Leatherette",
+      "Colour": "Ivory + White ",
+      "Backrest Design": "Geometric Panelled Backrest",
+      "Armrest Type": "Wide Rectangular Armrests",
+      "Application": "Reception, Lounge & Living Room"
+    },
+    "featured": true,
+    "order": 271,
+    "published": true
   }
 ]
