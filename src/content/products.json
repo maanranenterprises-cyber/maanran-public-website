@@ -6828,5 +6828,29 @@
     "featured": true,
     "order": 274,
     "published": true
+  },
+  {
+    "id": "p-qbuw8f",
+    "code": "S-027",
+    "slug": "premium-black-modular-lounge-sofa-set-with-chrome-frame-accents",
+    "name": "Premium Black Modular Lounge Sofa Set with Chrome Frame Accents",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary black sofa set featuring clean geometric upholstery, sleek chrome frame detailing, and a minimalist design. Ideal for modern office reception areas, lounges, waiting spaces, and executive interiors.",
+    "description": "Designed for modern professional spaces, this premium black sofa set combines comfortable cushioned seating with a distinctive chrome-finished frame. Its clean lines, structured armrests, and contemporary styling create an elegant and organized seating arrangement for reception areas, offices, and lounge spaces.",
+    "images": [
+      "/maanran/products/premium-black-modular-lounge-sofa-set-with-chrome-frame-accents_2x2Tv9D7FU.webp"
+    ],
+    "specs": {
+      "Seating Configuration": "1 Three-Seater + 2 Single-Seaters",
+      "Upholstery Colour": "Black ",
+      "Upholstery Material": "Leatherette",
+      "Frame Material": "Metal",
+      "Frame Finish": "Chrome Finish",
+      "Suitable For": "Reception, Office Lounge, Waiting Area & Commercial Spaces"
+    },
+    "featured": true,
+    "order": 275,
+    "published": true
   }
 ]
