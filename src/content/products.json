@@ -7140,5 +7140,29 @@
     "featured": true,
     "order": 287,
     "published": true
+  },
+  {
+    "id": "p-6lt0uh",
+    "code": "SCL-015",
+    "slug": "industrial-modular-workbench-with-integrated-tool-storage",
+    "name": "Industrial Modular Workbench with Integrated Tool Storage",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Heavy-duty industrial workbench featuring a spacious work surface, integrated three-drawer storage cabinet, perforated tool pegboard, and electrical power outlets for efficient workshop operations.",
+    "description": "Designed for industrial workshops, assembly units, inspection areas, and maintenance facilities, this workstation combines a sturdy worktable with integrated drawer storage and a perforated tool-organizing panel. The built-in electrical outlets, overhead shelf, and durable metal frame provide a practical and organized workspace for daily technical and manufacturing activities.",
+    "images": [
+      "/maanran/products/industrial-modular-workbench-with-integrated-tool-storage_lk7deGECM.webp"
+    ],
+    "specs": {
+      "Product Type": " Industrial Workbench / Inspection Table  ",
+      "Frame Material": " Mild Steel (MS)",
+      "Tabletop": "Heavy-Duty Work Surface ",
+      "Storage": "3 Integrated Lockable Drawers",
+      "Back Panel": "Perforated Tool Pegboard with Electrical Outlets ",
+      "Application": "Workshop, Assembly, Inspection & Maintenance"
+    },
+    "featured": true,
+    "order": 288,
+    "published": true
   }
 ]
