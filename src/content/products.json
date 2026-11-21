@@ -7476,5 +7476,29 @@
     "featured": true,
     "order": 301,
     "published": true
+  },
+  {
+    "id": "p-ugigm2",
+    "code": "SCL-029",
+    "slug": "dual-panel-steel-home-storage-cabinet-with-full-length-mirror",
+    "name": "Dual-Panel Steel Home Storage Cabinet with Full-Length Mirror",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Modern steel home cabinet featuring a full-length mirror panel, spacious internal storage, and a secure locking system for everyday household use.",
+    "description": "Designed for functionality and style, this steel home cabinet combines a spacious storage interior with an integrated full-length mirror on the front panel. Its elegant blue-and-white finish, sturdy construction, and secure locking mechanism make it ideal for bedrooms, dressing areas, and residential spaces.",
+    "images": [
+      "/maanran/products/dual-panel-steel-home-storage-cabinet-with-full-length-mirror_9brWpIAq1Q.webp"
+    ],
+    "specs": {
+      "Product Type": "Home Storage Cabinet ",
+      "Material": "Mild Steel (MS)",
+      "Door Design": "Double Door",
+      "Mirror": "Full-Length Front Mirror Panel  ",
+      "Locking System": " Key Lock ",
+      "Finish": " Blue & White Powder-Coated Finish"
+    },
+    "featured": true,
+    "order": 302,
+    "published": true
   }
 ]
