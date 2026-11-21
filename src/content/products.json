@@ -6682,5 +6682,29 @@
     "featured": true,
     "order": 268,
     "published": true
+  },
+  {
+    "id": "p-rl81cz",
+    "code": "S-021",
+    "slug": "premium-contemporary-tan-two-seater-sofa-with-geometric-backrest",
+    "name": "Premium Contemporary Tan Two-Seater Sofa with Geometric Backrest",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A stylish two-seater sofa featuring a soft tan finish, structured geometric back cushions, and broad armrests. Designed for comfortable seating with a clean, contemporary aesthetic.",
+    "description": "Bring elegance and comfort to your interior with this premium tan two-seater sofa, featuring a neatly segmented backrest, spacious cushioned seats, and wide modern armrests. Its minimal design and neutral colour tone make it ideal for office reception areas, lounges, waiting spaces, and contemporary living rooms.",
+    "images": [
+      "/maanran/products/premium-caramel-brown-contemporary-two-seater-sofa-with-panelled-backrest_cwxZb7neA.webp"
+    ],
+    "specs": {
+      "Product Type": "2-Seater Sofa",
+      "Upholstery": "Leatherette",
+      "Colour": "Tan",
+      "Backrest Design": "Geometric Panelled Backrest",
+      "Armrest Type": "Wide Rectangular Armrests",
+      "Application": "Reception, Lounge & Living Room"
+    },
+    "featured": false,
+    "order": 269,
+    "published": true
   }
 ]
