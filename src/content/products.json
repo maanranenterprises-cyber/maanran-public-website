@@ -7260,5 +7260,29 @@
     "featured": true,
     "order": 292,
     "published": true
+  },
+  {
+    "id": "p-thcnar",
+    "code": "SCL-020",
+    "slug": "heavy-duty-steel-storage-cabinet-with-internal-lockable-compartment",
+    "name": "Heavy-Duty Steel Storage Cabinet with Internal Lockable Compartment",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Strong steel storage cabinet with spacious shelving and an integrated lockable compartment for secure storage of documents, tools, equipment, and office essentials.",
+    "description": "Designed for secure and organized storage, this heavy-duty steel cabinet features spacious shelves and a separate lockable internal compartment for storing valuable items. Its robust metal construction, dual-door design, and durable grey finish make it suitable for offices, industrial facilities, workshops, and institutional environments.",
+    "images": [
+      "/maanran/products/heavy-duty-steel-storage-cabinet-with-internal-lockable-compartment_xT7sXrsmo.webp"
+    ],
+    "specs": {
+      "Product Type": "Steel Storage Cabinet",
+      "Material": "CRCA Steel ",
+      "Storage Configuration": " Multi-Level Shelving with Internal Compartment ",
+      "Door Type": "Dual Swing Doors",
+      "Locking System": "Key Lock with Internal Lockable Compartment ",
+      "Finish": "Grey Powder-Coated Finish"
+    },
+    "featured": true,
+    "order": 293,
+    "published": true
   }
 ]
