@@ -7308,5 +7308,29 @@
     "featured": true,
     "order": 294,
     "published": true
+  },
+  {
+    "id": "p-3rcbav",
+    "code": "SCL-022",
+    "slug": "industrial-heavy-duty-multi-level-cantilever-storage-rack-system",
+    "name": "Industrial Heavy-Duty Multi-Level Cantilever Storage Rack System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Heavy-duty industrial cantilever rack system featuring a robust steel frame with adjustable orange storage arms. Designed for organized storage of bulky materials, components, and industrial goods.",
+    "description": "This industrial storage rack is built with a sturdy structural steel framework and adjustable cantilever arms for flexible storage arrangements. Its durable blue-and-orange finish offers high visibility, while the modular design makes it suitable for warehouses, manufacturing units, and material handling facilities.",
+    "images": [
+      "/maanran/products/industrial-heavy-duty-multi-level-cantilever-storage-rack-system_3wEEY-mc3.webp"
+    ],
+    "specs": {
+      "Product Type": "Industrial Cantilever Storage Rack    ",
+      "Frame Material": " Heavy-Duty Structural Steel",
+      "Storage Arms": "Adjustable Steel Cantilever Arms",
+      "Finish": " Powder-Coated  ",
+      "Color": " Blue & Orange  ",
+      "Application": " Warehouse, Factory & Industrial Storage"
+    },
+    "featured": true,
+    "order": 295,
+    "published": true
   }
 ]
