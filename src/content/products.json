@@ -6754,5 +6754,31 @@
     "featured": true,
     "order": 271,
     "published": true
+  },
+  {
+    "id": "p-hu8dia",
+    "code": "S-024",
+    "slug": "cream-and-coffee-brown-upholstered-l-shaped-three-seater-sofa-set",
+    "name": "Cream & Coffee Brown Upholstered L-Shaped Three-Seater Sofa Set",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "Elegant L-shaped three-seater sofa featuring a cream and coffee brown combination, comfortable cushioned seating, and a coordinated fabric design for a stylish living room setup.",
+    "description": "This L-shaped three-seater sofa set combines cream-toned upholstery with coffee brown detailing to create a warm and inviting living space. Designed with comfortable cushioned seating, supportive backrests, broad armrests, and a spacious corner arrangement, it is ideal for homes, lounges, and living rooms.",
+    "images": [
+      "/maanran/products/cream-coffee-brown-upholstered-l-shaped-three-seater-sofa-set-full-view_QePbnLVBc.webp",
+      "/maanran/products/cream-coffee-brown-upholstered-l-shaped-three-seater-sofa-set-view-1_G6qI9e_46.webp",
+      "/maanran/products/cream-coffee-brown-upholstered-l-shaped-three-seater-sofa-set-view-2_tAk7QmLT9.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sofa Set",
+      "Seating Capacity": "3 Seaters",
+      "Upholstery Colour": "Cream & Coffee Brown",
+      "Upholstery Material": "Fabric",
+      "Frame Material": "Wooden Frame",
+      "Design": "Contemporary L-Shaped Design"
+    },
+    "featured": true,
+    "order": 272,
+    "published": true
   }
 ]
