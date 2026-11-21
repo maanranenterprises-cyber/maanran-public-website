@@ -7020,5 +7020,29 @@
     "featured": true,
     "order": 282,
     "published": true
+  },
+  {
+    "id": "p-7r0ymq",
+    "code": "SCL-010",
+    "slug": "industrial-multi-aisle-bolt-assembled-steel-warehouse-shelving-system",
+    "name": "Industrial Multi-Aisle Bolt-Assembled Steel Warehouse Shelving System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A heavy-duty industrial steel shelving system featuring multiple storage aisles, multi-tier shelves, and a robust metal framework, designed for organized warehouse inventory and bulk material storage.",
+    "description": "Designed for high-volume storage environments, this multi-aisle steel shelving system provides extensive storage capacity with multiple shelving levels and long rows for organized inventory management. Its sturdy steel frame, perforated upright supports, and modular shelf arrangement make it suitable for warehouses, distribution centres, stockrooms, and industrial facilities.",
+    "images": [
+      "/maanran/products/industrial-multi-aisle-bolt-assembled-steel-warehouse-shelving-system_-U_Dsqy7f.webp"
+    ],
+    "specs": {
+      "Product Type": " Industrial Warehouse Shelving System ",
+      "Material": "Mild Steel (MS)",
+      "Configuration": "Multi-Aisle Storage Shelving  ",
+      "Shelf Design": " Multi-Level Metal Shelves ",
+      "Colour": "Blue-Grey / Industrial Grey",
+      "Application": " Warehouse, Inventory, Stockroom & Bulk Storage"
+    },
+    "featured": true,
+    "order": 283,
+    "published": true
   }
 ]
