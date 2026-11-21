@@ -7452,5 +7452,29 @@
     "featured": true,
     "order": 300,
     "published": true
+  },
+  {
+    "id": "p-x6j1fa",
+    "code": "SCL-028",
+    "slug": "premium-steel-two-shelf-secure-storage-cabinet",
+    "name": "Premium Steel Two-Shelf Secure Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Durable steel storage cabinet featuring two spacious shelves and a lockable hinged door, designed for secure and organized storage in offices, institutions, and commercial spaces.",
+    "description": "This premium steel storage cabinet is designed with a sturdy metal construction and two spacious compartments for convenient storage of documents, equipment, and essential supplies. Its hinged door with a secure locking mechanism provides controlled access, while the elevated base supports stable placement in professional environments.",
+    "images": [
+      "/maanran/products/premium-steel-two-shelf-secure-storage-cabinet_vPGIlUH8Mv.webp"
+    ],
+    "specs": {
+      "Product Type": " Steel Storage Cabinet ",
+      "Material": " Mild Steel (MS)   ",
+      "Storage Design": "2 Shelves / 3 Compartments ",
+      "Door Type": "Single Hinged Door ",
+      "Locking System": "Key Lock",
+      "Application": "Offices, Institutions & Commercial Spaces"
+    },
+    "featured": true,
+    "order": 301,
+    "published": true
   }
 ]
