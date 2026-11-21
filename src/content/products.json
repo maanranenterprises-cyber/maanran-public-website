@@ -6924,5 +6924,29 @@
     "featured": true,
     "order": 278,
     "published": true
+  },
+  {
+    "id": "p-bqnl54",
+    "code": "SCL-006",
+    "slug": "heavy-duty-bolt-assembled-4-tier-steel-storage-rack",
+    "name": "Heavy-Duty Bolt-Assembled 4-Tier Steel Storage Rack",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A sturdy four-tier steel storage rack with a bolt-and-nut assembly structure, designed for organized storage of goods, tools, cartons, and materials.",
+    "description": "Constructed with a strong steel frame, this four-tier storage rack provides spacious shelves for storing and organizing materials across industrial and commercial environments. Its bolted assembly, solid metal shelving, and reinforced upright structure make it suitable for warehouses, workshops, factories, stockrooms, and offices.",
+    "images": [
+      "/maanran/products/heavy-duty-bolt-assembled-4-tier-steel-storage-rack_ozRDHVoeH.webp"
+    ],
+    "specs": {
+      "Product Type": "Industrial Metal Storage Rack",
+      "Material": "Mild Steel (MS)",
+      "Rack Configuration": "4-Tier Shelving ",
+      "Assembly Type": " Bolt & Nut Assembly ",
+      "Shelf Design": "Fixed Metal Shelves",
+      "Colour": "Dark Grey"
+    },
+    "featured": true,
+    "order": 279,
+    "published": true
   }
 ]
