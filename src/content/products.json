@@ -7116,5 +7116,29 @@
     "featured": true,
     "order": 286,
     "published": true
+  },
+  {
+    "id": "p-8onrby",
+    "code": "SCL-014",
+    "slug": "multi-tier-personal-locker-storage-system",
+    "name": "Multi-Tier Personal Locker Storage System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Secure, space-efficient steel locker system featuring multiple individual compartments with separate locking mechanisms for organized personal storage in institutions and commercial facilities.",
+    "description": "Designed for secure storage of personal belongings, this multi-compartment locker system features individual locker doors with integrated locking facilities and ventilation slots. Its durable steel construction and organized compartment layout make it ideal for schools, colleges, offices, factories, gyms, and staff facilities.",
+    "images": [
+      "/maanran/products/multi-tier-personal-locker-storage-system_uw5CPHkGg.webp"
+    ],
+    "specs": {
+      "Product Type": "Multi-Compartment Locker System  ",
+      "Material": "Mild Steel (MS) ",
+      "Configuration": " Multiple Individual Lockers ",
+      "Locking System": " Individual Key / Padlock Locking",
+      "Door Features": "Ventilation Slots & Label Identification ",
+      "Application": " Schools, Offices, Factories, Gyms & Institutions "
+    },
+    "featured": true,
+    "order": 287,
+    "published": true
   }
 ]
