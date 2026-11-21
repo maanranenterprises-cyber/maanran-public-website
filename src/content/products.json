@@ -7284,5 +7284,29 @@
     "featured": true,
     "order": 293,
     "published": true
+  },
+  {
+    "id": "p-fcb3h1",
+    "code": "SCL-021",
+    "slug": "high-density-mobile-filing-storage-system",
+    "name": "High-Density Mobile Filing Storage System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Space-efficient mobile filing cabinet system designed to maximize document storage capacity while minimizing wasted floor space. Ideal for offices, archives, libraries, and record rooms.",
+    "description": "This high-density mobile filing system features multiple storage units with smooth hand-crank movement, allowing compact storage and convenient access to files and documents. Its sturdy steel construction, adjustable shelving, and space-saving movable design make it ideal for organized document management in offices, institutions, and archive facilities.",
+    "images": [
+      "/maanran/products/high-density-mobile-filing-storage-system_5M1Yy0-dV.webp"
+    ],
+    "specs": {
+      "Product Type": "Mobile Filing Storage System  ",
+      "Material": " Heavy-Duty Steel",
+      "Storage Configuration": " Multi-Level Adjustable Shelving  ",
+      "Movement System": "Hand-Crank Operated Mobile System ",
+      "Application": " Files, Documents & Records Storage",
+      "Finish": " Powder-Coated Finish "
+    },
+    "featured": true,
+    "order": 294,
+    "published": true
   }
 ]
