@@ -7404,5 +7404,29 @@
     "featured": true,
     "order": 298,
     "published": true
+  },
+  {
+    "id": "p-0b3kcp",
+    "code": "SCL-026",
+    "slug": "laboratory-modular-steel-workbench-with-wooden-top",
+    "name": "Laboratory Modular Steel Workbench with Wooden Top",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Durable laboratory workbench featuring a spacious wooden tabletop and a sturdy steel frame, designed for organized and efficient laboratory work.",
+    "description": "This laboratory workbench combines a robust steel structure with a smooth wooden tabletop, offering a stable and practical workspace for laboratory and institutional environments.\\\nDesigned with integrated storage cabinets, drawers, and a spacious work surface, it provides functionality, durability, and organized storage for daily laboratory operations.",
+    "images": [
+      "/maanran/products/laboratory-modular-steel-workbench-with-wooden-top_uvGj34N18.webp"
+    ],
+    "specs": {
+      "Product Type": "Laboratory Workbench  ",
+      "Tabletop Material": " Wooden Top ",
+      "Frame Material": "MS Steel ",
+      "Storage": " Integrated Cabinets and Drawers   ",
+      "Colour": " Blue and White ",
+      "Application": " Laboratory, Research & Educational Institutions"
+    },
+    "featured": true,
+    "order": 299,
+    "published": true
   }
 ]
