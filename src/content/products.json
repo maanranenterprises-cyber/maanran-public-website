@@ -6780,5 +6780,29 @@
     "featured": true,
     "order": 272,
     "published": true
+  },
+  {
+    "id": "p-y9jfx5",
+    "code": "S-025",
+    "slug": "premium-blue-upholstered-l-shaped-leather-sofa-with-wooden-panel-interior",
+    "name": "Premium Blue Upholstered L-Shaped Leather Sofa with Wooden Panel Interior",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary L-shaped sofa featuring rich blue leather upholstery and a sleek wooden panel finish. Designed to combine comfortable seating with a modern, premium interior appearance.",
+    "description": "Enhance your interior with this premium blue upholstered L-shaped sofa, featuring generously cushioned seating, a supportive backrest, and a stylish wooden panel finish. Its modern design seamlessly blends comfort and sophistication, making it an ideal choice for lounge areas, office interiors, reception spaces, and premium living environments.",
+    "images": [
+      "/maanran/products/premium-blue-upholstered-l-shaped-leather-sofa-with-wooden-panel-interior_zBEvo1sEw.webp"
+    ],
+    "specs": {
+      "Product Type": "L-Shaped Sofa",
+      "Upholstery": "Leatherette",
+      "Colour": "Royal Blue",
+      "Frame Material": "Wooden Structure",
+      "Seating Capacity": "6 Persons",
+      "Application": "Living Room, Lounge & Reception Areas"
+    },
+    "featured": true,
+    "order": 273,
+    "published": true
   }
 ]
