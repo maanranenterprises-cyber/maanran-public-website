@@ -7380,5 +7380,29 @@
     "featured": true,
     "order": 297,
     "published": true
+  },
+  {
+    "id": "p-zauq2f",
+    "code": "SCL-025",
+    "slug": "premium-laboratory-workbench-with-granite-surface-and-steel-storage",
+    "name": "Premium Laboratory Workbench with Granite Surface & Steel Storage",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Heavy-duty laboratory workbench featuring a polished black granite countertop, robust steel construction, and integrated storage cabinets. Designed for laboratory environments requiring a durable, stable, and easy-to-maintain workspace.",
+    "description": "Engineered for demanding laboratory applications, this workbench combines a durable granite work surface with a sturdy steel cabinet structure for strength and reliability. The integrated storage compartments provide convenient space for laboratory equipment, tools, and essentials, while the granite top offers a smooth, hard-wearing working surface.",
+    "images": [
+      "/maanran/products/premium-laboratory-workbench-with-granite-surface-steel-storage_C06WofWUC.webp"
+    ],
+    "specs": {
+      "Product Type": " Laboratory Workbench  ",
+      "Worktop Material": "Black Granite        ",
+      "Frame Material": " Heavy-Duty Steel  ",
+      "Storage": "Integrated Steel Cabinets ",
+      "Cabinet Finish": " Grey & Blue ",
+      "Application": "Laboratories, Testing & Research Facilities "
+    },
+    "featured": true,
+    "order": 298,
+    "published": true
   }
 ]
