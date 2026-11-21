@@ -7164,5 +7164,29 @@
     "featured": true,
     "order": 288,
     "published": true
+  },
+  {
+    "id": "p-73sqhr",
+    "code": "SCL-016",
+    "slug": "premium-four-tier-glass-front-steel-storage-cabinet",
+    "name": "Premium Four-Tier Glass-Front Steel Storage Cabinet",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Durable steel storage cabinet featuring four spacious glass-front compartments with individual handles and locking provisions, ideal for organized storage and display.",
+    "description": "This premium steel storage cabinet features four vertically arranged glass-front compartments, providing convenient visibility and organized storage for files, documents, equipment, and office essentials. Its sturdy metal construction, sleek grey finish, and individual compartment access make it suitable for offices, laboratories, institutions, and commercial environments.",
+    "images": [
+      "/maanran/products/premium-four-tier-glass-front-steel-storage-cabinet_DI_nRFj3N.webp"
+    ],
+    "specs": {
+      "Product Type": " Glass-Front Storage Cabinet ",
+      "Material": "Mild Steel (MS)",
+      "Configuration": " 4-Tier Compartments",
+      "Door Type": "Glass-Front Doors ",
+      "Finish": "Grey Powder-Coated Finish ",
+      "Application": " Office, Laboratory, Institution & Commercial Storage"
+    },
+    "featured": true,
+    "order": 289,
+    "published": true
   }
 ]
