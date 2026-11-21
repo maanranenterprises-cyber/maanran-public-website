@@ -7212,5 +7212,29 @@
     "featured": true,
     "order": 290,
     "published": true
+  },
+  {
+    "id": "p-ywf6wz",
+    "code": "SCL-018",
+    "slug": "premium-wooden-top-metal-executive-desk-with-side-storage",
+    "name": "Premium Wooden-Top Metal Executive Desk with Side Storage",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Modern metal office desk featuring a warm wood-finish tabletop, one lockable cabinet, and three storage drawers for efficient workspace organization.",
+    "description": "Designed for professional office environments, this executive desk combines a durable metal frame with a wood-finish tabletop for a stylish and functional workspace. It features a lockable side cabinet and three drawers to keep documents, stationery, and office essentials neatly organized while providing a spacious working surface.",
+    "images": [
+      "/maanran/products/premium-wooden-top-metal-executive-desk-with-side-storage_hHwsXmP_Y.webp"
+    ],
+    "specs": {
+      "Product Type": "Metal Office Desk ",
+      "Tabletop Material": "Wooden / Laminated Board  ",
+      "Frame Material": "Metal ",
+      "Storage": "3 Drawers + 1 Cabinet ",
+      "Locking System": "Key Lock",
+      "Finish": "Wood Finish with Metal Frame "
+    },
+    "featured": true,
+    "order": 291,
+    "published": true
   }
 ]
