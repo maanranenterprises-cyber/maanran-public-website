@@ -6972,5 +6972,29 @@
     "featured": true,
     "order": 280,
     "published": true
+  },
+  {
+    "id": "p-1jssoa",
+    "code": "SCL-008",
+    "slug": "blue-grey-framed-glass-door-steel-storage-almirah",
+    "name": "Blue-Grey Framed Glass Door Steel Storage Almirah",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A modern steel almirah featuring four glass viewing panels, internal shelves, and a secure locking system, designed for organized storage and display in offices and institutional environments.",
+    "description": "This glass almirah combines a sturdy steel frame with dual doors featuring four vertically arranged glass panels for convenient visibility of stored items. Equipped with internal shelves, a central locking system, metallic handles, and a raised support base, it is suitable for offices, schools, laboratories, and commercial spaces.",
+    "images": [
+      "/maanran/products/blue-grey-framed-glass-door-steel-storage-almirah_y2VeD39c_.webp"
+    ],
+    "specs": {
+      "Product Type": "Glass Door Steel Almirah ",
+      "Material": " Mild Steel (MS) & Glass  ",
+      "Door Configuration": "2 Glass-Panel Doors",
+      "Storage": "Internal Shelves ",
+      "Colour": " Blue-Grey   ",
+      "Features": "Glass Viewing Panels, Central Lock, Metal Handle & Raised Base "
+    },
+    "featured": true,
+    "order": 281,
+    "published": true
   }
 ]
