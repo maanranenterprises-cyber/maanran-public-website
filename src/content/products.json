@@ -6900,5 +6900,29 @@
     "featured": true,
     "order": 277,
     "published": true
+  },
+  {
+    "id": "p-uage0j",
+    "code": "SCL-005",
+    "slug": "progressive-three-tier-steel-filing-cabinet-set",
+    "name": "Progressive Three-Tier Steel Filing Cabinet Set",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A professional steel filing cabinet set featuring three cabinets of varying heights with spacious drawers, designed for organized document storage and efficient office filing.",
+    "description": "This steel filing cabinet set consists of three drawer cabinets in different heights, offering convenient storage for files, documents, records, and office stationery. Featuring a clean light-grey finish, integrated drawer handles, and key-locking provisions, the cabinets are suitable for offices, administrative departments, institutions, and commercial workspaces.",
+    "images": [
+      "/maanran/products/progressive-three-tier-steel-filing-cabinet-set_Ai1Z5kH5y.webp"
+    ],
+    "specs": {
+      "Product Type": " Steel Filing Cabinet  ",
+      "Material": "Mild Steel (MS)",
+      "Configuration": "3 Cabinets of Varying Heights",
+      "Drawer Arrangement": "4-Drawer, 3-Drawer & 2-Drawer Units ",
+      "Colour": "Light Grey",
+      "Features": "File Storage Drawers, Recessed Handles & Key Locking "
+    },
+    "featured": true,
+    "order": 278,
+    "published": true
   }
 ]
