@@ -6948,5 +6948,29 @@
     "featured": true,
     "order": 279,
     "published": true
+  },
+  {
+    "id": "p-mdhjal",
+    "code": "SCL-007",
+    "slug": "blue-grey-glass-panel-steel-storage-cupboard",
+    "name": "Blue-Grey Glass-Panel Steel Storage Cupboard",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A modern steel storage cupboard featuring glass-panelled doors, internal shelving, and a secure locking system, ideal for organized storage and display in offices and commercial spaces.",
+    "description": "Designed with a sturdy steel frame and glass-panelled double doors, this cupboard offers convenient visibility of stored items while keeping them organized and protected. Its internal shelves, metallic handles, key-locking system, and elevated base make it suitable for offices, institutions, and professional environments.",
+    "images": [
+      "/maanran/products/blue-grey-glass-panel-steel-storage-cupboard_B3JR2lGJj.webp"
+    ],
+    "specs": {
+      "Product Type": " Glass-Panel Steel Storage Cupboard ",
+      "Material": "Mild Steel (MS) & Glass",
+      "Door Configuration": "2 Glass-Panel Doors ",
+      "Storage": "4 Internal Storage Sections  ",
+      "Colour": "Blue-Grey",
+      "Features": " Glass Viewing Panels, Key Lock, Metal Handle & Raised Base"
+    },
+    "featured": true,
+    "order": 280,
+    "published": true
   }
 ]
