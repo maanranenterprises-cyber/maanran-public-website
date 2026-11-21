@@ -6804,5 +6804,29 @@
     "featured": true,
     "order": 273,
     "published": true
+  },
+  {
+    "id": "p-01qojn",
+    "code": "S-026",
+    "slug": "premium-chestnut-brown-contemporary-nailhead-accent-lounge-chair",
+    "name": "Premium Chestnut Brown Contemporary Nailhead Accent Lounge Chair",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A premium single-seater lounge chair featuring rich chestnut brown upholstery, wide cushioned armrests, and elegant nailhead detailing. Designed to offer a comfortable seating experience with a sophisticated executive look.",
+    "description": "Add timeless elegance to your interior with this premium chestnut brown accent chair, featuring a generously cushioned seat, broad armrests, and a supportive upholstered backrest. The decorative nailhead detailing along the armrests adds a distinctive touch of sophistication and character.",
+    "images": [
+      "/maanran/products/premium-chestnut-brown-contemporary-nailhead-accent-lounge-chair_kvgZ2kRWb.webp"
+    ],
+    "specs": {
+      "Product Type": "Single-Seater Lounge Chair",
+      "Upholstery Colour": "Chestnut Brown",
+      "Upholstery Material": "Premium Leatherette",
+      "Armrest Design": "Wide Upholstered Armrests with Nailhead Detailing",
+      "Seating Capacity": "1 Person",
+      "Leg Material / Finish": "Metal Legs with Chrome Finish"
+    },
+    "featured": true,
+    "order": 274,
+    "published": true
   }
 ]
