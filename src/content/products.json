@@ -6852,5 +6852,29 @@
     "featured": true,
     "order": 275,
     "published": true
+  },
+  {
+    "id": "p-yuosrx",
+    "code": "S-028",
+    "slug": "premium-black-contemporary-two-seater-sofa-with-sleek-metal-legs",
+    "name": "Premium Black Contemporary Two-Seater Sofa with Sleek Metal Legs",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A modern black two-seater sofa featuring clean-lined upholstery, wide armrests, and elevated metal legs. Designed for comfortable seating with a minimalist, professional appearance.",
+    "description": "Bring a sophisticated touch to your space with this contemporary two-seater sofa, featuring smooth black leatherette upholstery, supportive back cushions, and spacious seating. Its box-style armrests and sleek metal legs create a modern look, making it ideal for offices, reception areas, lounges, and living spaces.",
+    "images": [
+      "/maanran/products/premium-black-contemporary-two-seater-sofa-with-sleek-metal-legs_K8aMcEJXE.webp"
+    ],
+    "specs": {
+      "Seating Capacity": "2 Seater",
+      "Upholstery Colour": "Black",
+      "Upholstery Material": "Leatherette",
+      "Backrest Design": "Contemporary Panel Back",
+      "Armrest Type": "Wide Box Armrests",
+      "Leg Material": "Metal"
+    },
+    "featured": true,
+    "order": 276,
+    "published": true
   }
 ]
