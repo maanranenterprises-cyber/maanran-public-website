@@ -6876,5 +6876,29 @@
     "featured": true,
     "order": 276,
     "published": true
+  },
+  {
+    "id": "p-wni5z2",
+    "code": "S-029",
+    "slug": "premium-orange-upholstered-metal-leg-two-seater-bench-sofa",
+    "name": "Premium Orange Upholstered Metal-Leg Two-Seater Bench Sofa",
+    "brand": "MAANRAN",
+    "category": "sofas",
+    "shortDescription": "A contemporary two-seater bench sofa featuring vibrant orange upholstery and a sleek black metal leg frame. Designed for stylish, comfortable seating in modern spaces.",
+    "description": "Add a bold and modern touch to your interior with this orange upholstered two-seater bench sofa, featuring a smooth cushioned seat, a matching upholstered backrest, and sturdy black metal legs. Its minimalist design and vibrant colour make it ideal for reception areas, waiting lounges, office spaces, and commercial interiors.",
+    "images": [
+      "/maanran/products/premium-orange-upholstered-metal-leg-two-seater-bench-sofa_m7usjNUfe.webp"
+    ],
+    "specs": {
+      "Product Type": "2-Seater Bench Sofa",
+      "Upholstery": "Leatherette",
+      "Colour": "Orange",
+      "Frame Material": "Metal",
+      "Leg Finish": "Black Powder-Coated",
+      "Application": "Reception, Waiting Area & Lounge"
+    },
+    "featured": true,
+    "order": 277,
+    "published": true
   }
 ]
