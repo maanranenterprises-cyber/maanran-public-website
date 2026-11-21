@@ -7236,5 +7236,29 @@
     "featured": true,
     "order": 291,
     "published": true
+  },
+  {
+    "id": "p-vxhuwt",
+    "code": "SCL-019",
+    "slug": "heavy-duty-multi-shelf-steel-storage-cabinet-with-dual-access-doors",
+    "name": "Heavy-Duty Multi-Shelf Steel Storage Cabinet with Dual Access Doors",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Robust steel storage cabinet featuring spacious internal shelves and a dual-door design for organized storage of tools, files, equipment, and office essentials.",
+    "description": "Built for demanding storage requirements, this heavy-duty steel cabinet offers a spacious interior with multiple shelves for systematic storage and easy access. Its durable metal construction, secure locking system, and elevated base make it suitable for offices, factories, workshops, warehouses, and institutional environments.",
+    "images": [
+      "/maanran/products/heavy-duty-multi-shelf-steel-storage-cabinet-with-dual-access-doors_vU-0Su1eE.webp"
+    ],
+    "specs": {
+      "Product Type          |": " Heavy-Duty Steel Storage Cabinet                     ",
+      "Material": "CRCA Steel    ",
+      "Storage Configuration": " Multi-Shelf Storage  ",
+      "Door Type": "Dual Swing Doors  ",
+      "Locking System": "Key Lock ",
+      "Finish": " Grey Powder-Coated Finish  "
+    },
+    "featured": true,
+    "order": 292,
+    "published": true
   }
 ]
