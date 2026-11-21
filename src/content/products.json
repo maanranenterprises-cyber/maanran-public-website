@@ -6996,5 +6996,29 @@
     "featured": true,
     "order": 281,
     "published": true
+  },
+  {
+    "id": "p-jloqde",
+    "code": "SCL-009",
+    "slug": "heavy-duty-industrial-multi-level-steel-storage-rack-system",
+    "name": "Heavy-Duty Industrial Multi-Level Steel Storage Rack System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A robust industrial storage rack system featuring heavy-duty steel frames, reinforced cross-bracing, and multiple storage levels, designed for organized storage of bulk materials, cartons, and industrial goods.",
+    "description": "Engineered for industrial storage applications, this heavy-duty rack system features sturdy blue steel upright frames, red horizontal support beams, and diagonal bracing for structural stability. Its multi-level design provides efficient space utilization and organized storage, making it suitable for warehouses, factories, stockrooms, and material handling facilities.",
+    "images": [
+      "/maanran/products/heavy-duty-industrial-multi-level-steel-storage-rack-system_xKbO0mEZx.webp"
+    ],
+    "specs": {
+      "Product Type": "Heavy-Duty Industrial Storage Rack",
+      "Material": " Structural Steel",
+      "Rack Structure": " Multi-Level Rack System ",
+      "Frame Colour": " Blue  ",
+      "Beam Colour": " Orange-Red  ",
+      "Features": "Reinforced Diagonal Bracing & Heavy-Duty Load-Support Structure"
+    },
+    "featured": true,
+    "order": 282,
+    "published": true
   }
 ]
