@@ -7188,5 +7188,29 @@
     "featured": true,
     "order": 289,
     "published": true
+  },
+  {
+    "id": "p-na4rwb",
+    "code": "SCL-017",
+    "slug": "dual-compartment-steel-storage-cabinet-with-lockable-doors",
+    "name": "Dual-Compartment Steel Storage Cabinet with Lockable Doors",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Durable steel storage cabinet featuring two upper and two lower compartments for organized storage of office supplies, documents, tools, and equipment.",
+    "description": "Designed for practical and secure storage, this steel cabinet combines spacious compartments with a sturdy metal construction for everyday commercial and industrial use. Its dual-section design provides convenient organization, while ventilated doors and secure locking handles help maintain functionality and safety.",
+    "images": [
+      "/maanran/products/dual-compartment-steel-storage-cabinet-with-lockable-doors_4FQkm1cAY.webp"
+    ],
+    "specs": {
+      "Product Type": "Steel Storage Cabinet   ",
+      "Material": " CRCA Steel",
+      "Configuration": " Upper & Lower Storage Compartments",
+      "Door Type": "Swing Doors",
+      "Locking System": "Key Lock ",
+      "Finish": " Powder-Coated Grey  "
+    },
+    "featured": true,
+    "order": 290,
+    "published": true
   }
 ]
