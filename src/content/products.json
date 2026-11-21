@@ -7044,5 +7044,29 @@
     "featured": true,
     "order": 283,
     "published": true
+  },
+  {
+    "id": "p-8hp2h6",
+    "code": "SCL-011",
+    "slug": "heavy-duty-industrial-pallet-storage-rack-frame-system",
+    "name": "Heavy-Duty Industrial Pallet Storage Rack Frame System",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "A heavy-duty industrial pallet rack featuring reinforced steel uprights, horizontal load beams, and diagonal bracing, designed for organized storage of pallets, bulk goods, and warehouse materials.",
+    "description": "Engineered for industrial storage applications, this pallet rack system features a robust blue steel frame with orange-red horizontal beams and reinforced diagonal supports for structural stability. Its open-frame design accommodates palletized goods and bulk materials, making it suitable for warehouses, factories, logistics centres, and distribution facilities.",
+    "images": [
+      "/maanran/products/heavy-duty-industrial-pallet-storage-rack-frame-system_gWX7cT--E.webp"
+    ],
+    "specs": {
+      "Product Type": "Industrial Pallet Storage Rack",
+      "Material": "Structural Steel ",
+      "Rack Configuration": "4-Level Beam Structure",
+      "Frame Colour": "Blue ",
+      "Beam Colour": " Orange-Red",
+      "Features": " Reinforced Diagonal Bracing & Heavy-Duty Pallet Support Structure"
+    },
+    "featured": true,
+    "order": 284,
+    "published": true
   }
 ]
