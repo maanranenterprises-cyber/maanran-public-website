@@ -7428,5 +7428,29 @@
     "featured": true,
     "order": 299,
     "published": true
+  },
+  {
+    "id": "p-x3a2fk",
+    "code": "SCL-027",
+    "slug": "ss-laboratory-workbench-with-granite-surface-and-utility-sink",
+    "name": "SS Laboratory Workbench with Granite Surface & Utility Sink",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Heavy-duty laboratory workbench featuring a granite worktop, integrated utility sink, and sturdy steel frame, designed for laboratory testing and research environments.",
+    "description": "This laboratory workbench combines a durable granite countertop with a robust steel structure and an integrated sink for practical laboratory operations. Its functional design provides a reliable workspace for experiments, equipment handling, washing, and routine laboratory activities. Suitable for educational institutions, research facilities, and industrial laboratories.",
+    "images": [
+      "/maanran/products/ss-laboratory-workbench-with-granite-surface-utility-sink_prTQMnx4E.webp"
+    ],
+    "specs": {
+      "Product Type": "Laboratory Workbench ",
+      "Frame Material": " Fabricated Steel ",
+      "Worktop Material": "Granite ",
+      "Sink": "Integrated Laboratory Sink",
+      "Structure": "Heavy-Duty Steel Frame   ",
+      "Application": "Laboratories, Research Centres & Educational Institutions"
+    },
+    "featured": true,
+    "order": 300,
+    "published": true
   }
 ]
