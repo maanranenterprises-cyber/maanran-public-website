@@ -7332,5 +7332,29 @@
     "featured": true,
     "order": 295,
     "published": true
+  },
+  {
+    "id": "p-kuve6q",
+    "code": "SCL-023",
+    "slug": "premium-four-drawer-steel-office-filing-cabinet",
+    "name": "Premium Four-Drawer Steel Office Filing Cabinet",
+    "brand": "MAANRAN",
+    "category": "steel-cupboards-and-lockers",
+    "shortDescription": "Compact steel filing cabinet featuring four spacious drawers with smooth sliding mechanisms and recessed black handles. Ideal for organized document storage in offices and workspaces.",
+    "description": "Designed for efficient document management, this four-drawer filing cabinet offers convenient storage for files, paperwork, and office essentials. Its sturdy steel construction, clean finish, and space-saving vertical design make it a practical choice for professional office environments.",
+    "images": [
+      "/maanran/products/premium-four-drawer-steel-office-filing-cabinet_Oo7_rVgeH.webp"
+    ],
+    "specs": {
+      "Product Type": "Office Filing Cabinet ",
+      "Material": "Mild Steel (MS)  ",
+      "Number of Drawers": "4 Drawers ",
+      "Drawer Mechanism": "Smooth Sliding  ",
+      "Handle Type": " Recessed Black Handles ",
+      "Finish": " Powder-Coated Light Grey"
+    },
+    "featured": true,
+    "order": 296,
+    "published": true
   }
 ]
