@@ -514,15 +514,22 @@
     "id": "p-rfaen5",
     "code": "OW-004",
     "slug": "office-workstation-4",
-    "name": "Office Workstation-4",
+    "name": "Modern Dual-Desk Office Workstation with Colour-Coded Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern two-person office workstation featuring white desktops, sturdy black metal legs, and blue and mustard-yellow privacy screens for a clean, organized workspace.",
+    "description": "Designed for modern offices, this dual-desk workstation features spacious white laminated worktops supported by a sturdy black metal frame. Frosted blue and mustard-yellow privacy panels provide individual workspace separation while maintaining an open, collaborative environment ideal for shared office use.",
     "images": [
       "/maanran/products/office-workstation-4_dvO_1Q0kc.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Dual-Desk Shared Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Black Powder-Coated Metal Legs",
+      "Partition Panels": "Frosted Blue & Mustard Yellow Privacy Screens",
+      "Worktop Design": "Side-by-Side Individual Workspaces",
+      "Configuration": "Two-Person Collaborative Workstation"
+    },
     "featured": true,
     "order": 22,
     "published": true
