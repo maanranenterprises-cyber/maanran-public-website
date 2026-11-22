@@ -658,15 +658,22 @@
     "id": "p-86nvt4",
     "code": "OW-010",
     "slug": "office-workstation-10",
-    "name": "Office Workstation-10",
+    "name": "Premium Modular Cubicle Workstation with Wood-Finish Pedestals & Power Outlets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modular cubicle workstations featuring framed privacy partitions, spacious work surfaces, integrated power outlets, and individual wood-finish drawer pedestals for an organized and efficient office setup.",
+    "description": "Designed for modern offices, these modular cubicle workstations provide individual workspaces with privacy, functionality, and a professional appearance. The combination of beige and grey partition panels, dark brown worktops, and matching storage pedestals creates a well-organized workspace with convenient access to integrated power outlets.",
     "images": [
       "/maanran/products/office-workstation-10_L8cIifBVb.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Partition Structure": "Grey Framed Modular Partition System",
+      "Panel Finish": "Beige, Grey & Dark Brown Privacy Panels",
+      "Storage": "Individual 3-Drawer Wood-Finish Pedestal Cabinets",
+      "Accessories": "Integrated Electrical Socket Panels"
+    },
     "featured": true,
     "order": 28,
     "published": true
