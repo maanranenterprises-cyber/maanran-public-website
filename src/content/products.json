@@ -586,15 +586,22 @@
     "id": "p-s8emah",
     "code": "OW-007",
     "slug": "office-workstation-7",
-    "name": "Office Workstation-7",
+    "name": "Premium Enclosed Cubicle Workstation with Integrated Storage & Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modular cubicle workstation featuring individual enclosed desk spaces, integrated lockable storage cabinets, and coloured privacy panels for a well-organized and focused office environment.",
+    "description": "Designed for efficient office space utilization, this cubicle workstation combines spacious white worktops, sturdy modular partitions, and integrated storage cabinets for individual workspaces. The blue, green, and grey privacy panels create a structured and professional layout, providing workspace separation while maintaining a clean, functional office design.",
     "images": [
       "/maanran/products/office-workstation-7_NTEn2U0Ta.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Structure": "Full-Height Side Panels with Modular Dividers",
+      "Privacy Panels": "Blue, Green & Grey Panel Finishes",
+      "Storage": "Integrated Lockable Storage Cabinets",
+      "Configuration": "Individual Cubicle Workspaces in Modular Layout"
+    },
     "featured": true,
     "order": 25,
     "published": true
