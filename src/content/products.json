@@ -3,18 +3,21 @@
     "id": "p-001",
     "code": "OW-001",
     "slug": "linear-workstation-4-seater",
-    "name": "Office Workstation-1",
+    "name": "Premium Modular Multi-User Office Workstation with Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Premium modular office workstations with wood-finish desktops, grey privacy panels, metal frames, and integrated storage for modern, organized office spaces.",
+    "description": "Designed for modern offices, these workstations combine elegant wood finishes, grey privacy partitions, and sturdy metal frames. Integrated drawer storage and spacious work surfaces create an organized, comfortable, and efficient workspace for corporate teams.",
     "images": [
       "/images/banners/office-workstations.webp"
     ],
     "specs": {
-      "Size": "1200 x 600 mm per seat",
-      "Top": "25 mm pre-laminated board",
-      "Frame": "Powder-coated MS"
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Worktop Material": "Engineered Wood with Laminated Finish",
+      "Frame Structure": "Heavy-Duty Metal Support Frame",
+      "Privacy Panels": "Desk-Mounted Partition Panels",
+      "Storage": "Integrated Drawer Pedestal Storage",
+      "Configuration": "Customizable Multi-User Workstation Layout"
     },
     "featured": true,
     "order": 1,
