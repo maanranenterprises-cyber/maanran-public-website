@@ -7395,5 +7395,32 @@
     "featured": true,
     "order": 295,
     "published": true
+  },
+  {
+    "id": "p-ene65j",
+    "code": "OEMC-005",
+    "slug": "aeroflex-high-back-ergonomic-executive-manager-and-director-chair-with-adjustable-headrest",
+    "name": "AeroFlex High-Back Ergonomic Executive Manager & Director Chair with Adjustable Headrest",
+    "brand": "MAANRAN",
+    "category": "office-executive-manager-chair",
+    "shortDescription": "Premium high-back ergonomic executive chair featuring a breathable black mesh backrest, cushioned fabric seat, adjustable headrest, and stylish chrome-finish base for enhanced comfort and professional office styling.",
+    "description": "Designed for executive cabins, manager offices, and modern workspaces, this chair features a breathable mesh backrest with integrated lumbar support and a separate adjustable headrest for improved seating support. Its generously cushioned fabric seat, adjustable padded armrests with silver-finish accents, and polished five-star chrome base combine ergonomic comfort with contemporary design.",
+    "images": [
+      "/maanran/products/aeroflex-high-back-ergonomic-executive-manager-director-chair-with-adjustable-headrest-front-view_5zt-BaPqq.webp",
+      "/maanran/products/aeroflex-high-back-ergonomic-executive-manager-director-chair-with-adjustable-headrest-angled-view_cXH1wbVNI.webp",
+      "/maanran/products/aeroflex-high-back-ergonomic-executive-manager-director-chair-with-adjustable-headrest-side-view_NBWpOtQCi.webp",
+      "/maanran/products/aeroflex-high-back-ergonomic-executive-manager-director-chair-with-adjustable-headrest-back-view_5k-L4YU17.webp"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Executive Manager & Director Chair",
+      "Backrest": "Breathable Black Mesh with Integrated Lumbar Support",
+      "Headrest": "Adjustable Mesh Headrest",
+      "Seat": "Black Fabric Upholstered Cushioned Seat",
+      "Armrests": "Adjustable Padded Armrests with Silver-Finish Accents",
+      "Base": "Polished Chrome-Finish Five-Star Metal Base with Twin-Wheel Castors"
+    },
+    "featured": true,
+    "order": 296,
+    "published": true
   }
 ]
