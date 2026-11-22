@@ -802,7 +802,7 @@
     "id": "p-b4lrdq",
     "code": "OW-016",
     "slug": "office-workstation-16",
-    "name": "Office Workstation-16",
+    "name": "Premium Curved-Panel Modular Office Cubicle Workstation",
     "brand": "MAANRAN",
     "category": "office-workstations",
     "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
@@ -810,7 +810,14 @@
     "images": [
       "/maanran/products/office-workstation-16_-dRGzw3u7.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Cubicle Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Partition Design": "Curved Side Privacy Panels",
+      "Panel Finish": "Light Grey and Dark Grey Combination",
+      "Structure": "Panel-Supported Modular Workstation",
+      "Configuration": "Individual Work Bays in Linear Arrangement"
+    },
     "featured": true,
     "order": 34,
     "published": true
