@@ -437,18 +437,25 @@
     "id": "p-yb6smc",
     "code": "OEMC-001",
     "slug": "office-executive-manager-chair",
-    "name": "Office Executive Manager & Director Chair",
+    "name": "Premium High-Back Ergonomic Executive Manager & Director Chair with Brown Contrast Stitching",
     "brand": "MAANRAN",
     "category": "office-executive-manager-chair",
-    "shortDescription": "Premium Comfort with Elegant Executive Styling",
-    "description": "High-back executive Manager Chair with thick padded leatherette upholstery, integrated headrest, loop armrests and a chrome five-star base. Tilt and height adjustable.",
+    "shortDescription": "Premium high-back executive chair featuring rich dark-brown leatherette upholstery, elegant brown contrast stitching, and stylish silver-finish armrests for a sophisticated office workspace.",
+    "description": "Designed for executive cabins, manager offices, and professional workspaces, this chair features a generously cushioned high-back design with an integrated headrest for enhanced seating comfort. Its dark-brown leatherette upholstery, matching brown contrast stitching, sculpted silver-finish armrests, and sturdy five-star metal base combine executive elegance with everyday functionality.",
     "images": [
       "/maanran/products/office-executive-manager-chair-1-front-view_zqxkPeDYH.png",
       "/maanran/products/office-executive-manager-chair-1-back-view_EyO9-DOLz.png",
       "/maanran/products/office-executive-manager-chair-1-side-view_2TUPriGuj.png",
       "/maanran/products/office-executive-manager-chair-1-angled-view_afY-SORMy.png"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Executive Manager & Director Chair",
+      "Upholstery": "Dark Brown Leatherette",
+      "Stitching": "Brown Contrast Stitching",
+      "Backrest": "High-Back with Integrated Headrest",
+      "Armrests": "Padded Armrests with Silver-Finish Frame",
+      "Base": "Five-Star Metal Base with Twin-Wheel Castors"
+    },
     "featured": true,
     "order": 21,
     "published": true
@@ -457,17 +464,24 @@
     "id": "p-pzk9ws",
     "code": "OEMC-002",
     "slug": "office-executive-manager-and-director-chair",
-    "name": "Office Executive Manager & Director Chair",
+    "name": "High-Back Ergonomic Executive Manager & Director Chair with Adjustable Headrest and Chrome Base",
     "brand": "MAANRAN",
     "category": "office-executive-manager-chair",
-    "shortDescription": "Premium Comfort with Elegant Executive Styling",
-    "description": "High-back executive Manager Chair with thick padded leatherette upholstery, integrated headrest, loop armrests and a chrome five-star base. Tilt and height adjustable.",
+    "shortDescription": "Premium ergonomic executive chair featuring a breathable mesh backrest, cushioned seat, adjustable headrest, and chrome-finish base for comfortable seating and a modern professional workspace.",
+    "description": "Designed for executive offices, managerial cabins, and professional workspaces, this chair combines a breathable mesh backrest with a cushioned seat for enhanced comfort during extended sitting. Its adjustable headrest, height-adjustable armrests, ergonomic back support, and polished chrome five-star base deliver a combination of functionality, comfort, and contemporary executive styling.",
     "images": [
       "/maanran/products/executive-manager-director-chairs-front-view_kqi7v4h7rP.png",
       "/maanran/products/executive-manager-director-chairs-back-view_Q1Q16cjdg.png",
       "/maanran/products/executive-manager-director-chairs-angled-view_f6y1ysqHl.png"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Executive Manager & Director Chair",
+      "Backrest": "Breathable Mesh with Ergonomic Support Frame",
+      "Headrest": "Adjustable Padded Headrest",
+      "Seat": "Cushioned Upholstered Seat",
+      "Armrests": "Height-Adjustable Armrests",
+      "Base": "Chrome Five-Star Base with Twin-Wheel Castors"
+    },
     "featured": true,
     "order": 22,
     "published": true
@@ -583,18 +597,25 @@
     "id": "p-pjzqnp",
     "code": "OEMC-003",
     "slug": "office-executive-manager-and-director-chair-2",
-    "name": "Office Executive Manager & Director Chair-2",
+    "name": "Premium High-Back Ergonomic Executive Manager & Director Chair with Chrome Armrests",
     "brand": "MAANRAN",
     "category": "office-executive-manager-chair",
-    "shortDescription": "Premium Comfort with Elegant Executive Styling",
-    "description": "High-back executive Manager Chair with thick padded leatherette upholstery, integrated headrest, loop armrests and a chrome five-star base. Tilt and height adjustable.",
+    "shortDescription": "High-back ergonomic executive chair featuring premium black upholstery, a cushioned headrest, adjustable armrests, and a polished chrome-finish base for a professional and comfortable office setup.",
+    "description": "Designed for executive cabins, manager offices, and modern workspaces, this chair features a high-back ergonomic design with a supportive headrest and generously cushioned seating. The premium black upholstery, elegant chrome-finish armrest frames, adjustable armrests, and polished five-star base provide a combination of comfort, durability, and executive styling.",
     "images": [
       "/maanran/products/office-executive-manager-director-chair-front-view_HoLT6b-gR.png",
       "/maanran/products/office-executive-manager-director-chair-back-view_qgCF7FWFn.png",
       "/maanran/products/office-executive-manager-director-chair-angled-view_nfWZoEUJz.png",
       "/maanran/products/office-executive-manager-director-chair-side-view_9p_pLL8w2e.png"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Executive Manager & Director Chair",
+      "Upholstery": "Black Leatherette",
+      "Backrest": "High-Back Ergonomic Padded Backrest with Headrest",
+      "Armrests": "Adjustable Padded Armrests with Chrome-Finish Frame",
+      "Base": "Polished Chrome-Finish Five-Star Metal Base",
+      "Mechanism": "Height Adjustment with Tilt / Recline Mechanism"
+    },
     "featured": true,
     "order": 27,
     "published": true
