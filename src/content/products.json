@@ -7363,5 +7363,37 @@
     "featured": true,
     "order": 294,
     "published": true
+  },
+  {
+    "id": "p-6q2zdy",
+    "code": "OEMC-004",
+    "slug": "high-back-ergonomic-executive-manager-and-director-chair-with-integrated-lumbar-support-and-adjustable-armrests",
+    "name": "High-Back Ergonomic Executive Manager & Director Chair with Integrated Lumbar Support and Adjustable Armrests",
+    "brand": "MAANRAN",
+    "category": "office-executive-manager-chair",
+    "shortDescription": "Premium high-back ergonomic executive chair featuring a breathable mesh backrest, integrated lumbar support, adjustable padded armrests, and a cushioned seat for superior seating comfort.",
+    "description": "Designed for executive offices, manager cabins, and professional workspaces, this chair combines ergonomic support with a modern executive design. It features an integrated lumbar support system, adjustable padded armrests, a supportive headrest, and a comfortable cushioned seat. The heavy-duty five-star nylon base ensures stability and smooth mobility.",
+    "images": [
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-front-view_wFXv_f0hZ.webp",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-top-view_9GoWEV76L.jpeg",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-front-right-angled-view_K4hLsb4Z1.jpeg",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-front-left-angled-view_PV7rqOHIs.jpeg",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-left-side-view_MP0NFH8OG.webp",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-right-side-view_ZrrMa8f9A.webp",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-back-view_XjL4Nn_Gc.webp",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-back-left-angled-view_S2ja4pl2M.jpeg",
+      "/maanran/products/high-back-ergonomic-executive-manager-director-chair-with-integrated-lumbar-support-and-adjustable-armrests-back-right-angled-view_oGbGHf49G.jpeg"
+    ],
+    "specs": {
+      "Chair Type": "High-Back Ergonomic Executive Manager & Director Chair",
+      "Backrest Material": "Breathable Mesh",
+      "Lumbar Support": "Integrated Lumbar Support",
+      "Armrest Type": "Adjustable Padded Armrests",
+      "Headrest": "Adjustable Padded Headrest",
+      "Base Material": "Heavy-Duty Five-Star Nylon Base"
+    },
+    "featured": true,
+    "order": 295,
+    "published": true
   }
 ]
