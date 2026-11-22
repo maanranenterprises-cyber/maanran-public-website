@@ -490,15 +490,22 @@
     "id": "p-jtxpf3",
     "code": "OW-003",
     "slug": "office-workstation-3",
-    "name": "Office Workstation-3",
+    "name": "Premium Linear Multi-User Office Workstation with Tinted Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Elegant multi-user office workstation featuring dark brown desktops, beige tinted privacy screens, and individual drawer pedestals for an organized and comfortable workplace.",
+    "description": "Designed for modern office environments, this workstation combines dark brown work surfaces, light grey metal supports, and beige privacy panels for a professional appearance. Individual three-drawer storage pedestals provide convenient storage, while the linear layout supports efficient team working and workspace organization.",
     "images": [
       "/maanran/products/office-workstation-3_a5AaLjpMd.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Frame Structure": "Metal Frame with Light Grey Finish",
+      "Partition Panels": "Beige Tinted Desk-Mounted Privacy Screens",
+      "Storage": "Individual 3-Drawer Pedestal Cabinets",
+      "Configuration": "Side-by-Side Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 21,
     "published": true
