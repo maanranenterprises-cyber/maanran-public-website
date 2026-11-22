@@ -946,15 +946,22 @@
     "id": "p-1o8t86",
     "code": "OW-022",
     "slug": "office-workstation-22",
-    "name": "Office Workstation-22",
+    "name": "Contemporary Linear Office Workstation with Full-Length Privacy Dividers",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Contemporary multi-user office workstations featuring spacious desktops, full-length privacy partitions, and sturdy panel-based supports for a clean, organized, and efficient workspace.",
+    "description": "Designed for modern corporate and commercial environments, this linear office workstation offers a practical and spacious working arrangement for multiple users. It features continuous work surfaces, full-length desk-mounted privacy partitions, and sturdy panel-based supports that provide stability while maintaining a neat and uniform appearance. Its minimal design and neutral finish make it ideal for offices, team workspaces, administrative departments, and large working areas.",
     "images": [
       "/maanran/products/office-workstation-22_WF1SRFIAa.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Beige / Off-White",
+      "Privacy Partitions": "Full-Length Horizontal Desk Dividers",
+      "Support Structure": "Panel-Based Structural Supports",
+      "Configuration": "Straight Row Multi-User Layout"
+    },
     "featured": true,
     "order": 40,
     "published": true
