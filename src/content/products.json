@@ -730,15 +730,22 @@
     "id": "p-lriohw",
     "code": "OW-013",
     "slug": "office-workstation-13",
-    "name": "Office Workstation-13",
+    "name": "Premium Modular Office Workstation with Green & Yellow Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A versatile modular office workstation featuring green and yellow privacy panels, spacious white worktops, and a structured cubicle layout designed for comfortable, organized, and efficient teamwork.",
+    "description": "Designed for modern office environments, this modular workstation provides dedicated workspaces with practical privacy and efficient space utilization. The combination of green and yellow partition panels, white laminated desktops, and modular dividers creates a bright, professional, and organized workspace for multi-user office setups.",
     "images": [
       "/maanran/products/office-workstation-13_RmcUrpBwm.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Modular Panel-Based Workstation Structure",
+      "Privacy Panels": "Green and Yellow Colour Combination Panels",
+      "Partition Design": "Full-Height Modular Desk Dividers",
+      "Configuration": "Multi-User Cluster Workstation Layout"
+    },
     "featured": true,
     "order": 31,
     "published": true
