@@ -4440,11 +4440,11 @@
     "id": "p-4aspi0",
     "code": "OT-003",
     "slug": "modern-executive-office-table-with-side-storage",
-    "name": "Modern Office Table with Geometric Z-Shaped Metal Frame",
+    "name": "Modern Executive Office Table with 3-Drawer Side Pedestal",
     "brand": "MAANRAN",
     "category": "office-tables",
-    "shortDescription": "A stylish and contemporary office table featuring a spacious tabletop, distinctive Z-shaped metal frame, and sturdy cross-support structure. Available in grey, green, and blue tabletop colours to complement different workspace interiors.",
-    "description": "Enhance your workspace with this modern office table, designed with a unique geometric Z-shaped metal frame that combines style and stability. Its spacious tabletop and durable black-finished metal structure make it a practical choice for everyday office activities, educational institutions, and commercial workspaces.",
+    "shortDescription": "A stylish executive office table featuring a spacious tabletop, premium natural wood-grain finish, and integrated three-drawer side storage. Designed to provide a comfortable and organized workspace for everyday office activities.",
+    "description": "Enhance your office with this modern executive desk, combining a clean design with practical storage functionality. Its spacious work surface, sturdy panel-based construction, and integrated three-drawer pedestal with a lockable top drawer provide convenient storage for documents, stationery, and office essentials.",
     "images": [
       "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-1_mqWS1l34B.webp",
       "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-front-view-2_3oS9gE3TyB.webp",
@@ -4452,13 +4452,14 @@
       "/maanran/products/modern-executive-office-table-with-3-drawer-side-pedestal-side-view_T7qJmRX981.webp"
     ],
     "specs": {
-      "Product Type": "Modern Office Table",
-      "Tabletop Colour": " Grey, Green & Blue  ",
-      "Tabletop Design": " Rectangular  ",
-      "Frame Material": "Mild Steel (MS)",
-      "Frame Design": "Geometric Z-Shaped Structure",
-      "Frame Finish": "Black Powder-Coated Finish ",
-      "Application": "Offices, Institutions & Workspaces"
+      "Product Type": "Executive Office Table",
+      "Material": "Engineered Wood / Panel Board",
+      "Tabletop Design": "Natural Oak Wood Grain Finish",
+      "Finish": "Modern Rectangular Design",
+      "Design": "Geometric Z-Shaped Structure",
+      "Storage": "Integrated 3-Drawer Side Pedestal ",
+      "Locking System": "Lockable Top Drawer",
+      "Application": "Executive Cabins, Managerial Offices & Workspaces"
     },
     "featured": true,
     "order": 170,
