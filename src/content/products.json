@@ -634,15 +634,22 @@
     "id": "p-mvw306",
     "code": "OW-009",
     "slug": "office-workstation-9",
-    "name": "Office Workstation-9",
+    "name": "Premium Linear Office Workstation with Glass Dividers & Pedestal Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A contemporary linear office workstation featuring individual workspaces, transparent glass divider extensions, and integrated drawer pedestals for organized and efficient office use.",
+    "description": "Designed for modern workplaces, this linear workstation combines dark-brown laminated worktops, modular partition panels, and transparent glass dividers for a professional and structured workspace. Individual drawer pedestals provide convenient storage, while the multi-user layout maximizes workspace utilization and maintains a clean, organized office environment.",
     "images": [
       "/maanran/products/office-workstation-9_LKYX2q3BD.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Structure": "Modular Panel-Supported Workstation Structure",
+      "Privacy Panels": "Alternating Dark Brown & Light Grey Partition Panels",
+      "Glass Panels": "Transparent Glass Divider Extensions",
+      "Storage": "Individual Integrated Drawer Pedestal Cabinets"
+    },
     "featured": true,
     "order": 27,
     "published": true
