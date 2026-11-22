@@ -437,18 +437,25 @@
     "id": "p-yb6smc",
     "code": "OEMC-001",
     "slug": "office-executive-manager-chair",
-    "name": "Office Executive Manager & Director Chair",
+    "name": "Premium Executive High-Back Manager Chair with Brown Contrast Stitching",
     "brand": "MAANRAN",
     "category": "office-executive-manager-chair",
-    "shortDescription": "Premium Comfort with Elegant Executive Styling",
-    "description": "High-back executive Manager Chair with thick padded leatherette upholstery, integrated headrest, loop armrests and a chrome five-star base. Tilt and height adjustable.",
+    "shortDescription": "Premium high-back executive manager chair featuring rich dark-brown leatherette upholstery, elegant brown contrast stitching, and stylish silver-finish armrests for a sophisticated office workspace.",
+    "description": "Designed for executive cabins, manager offices, and professional workspaces, this chair features a generously cushioned high-back design with an integrated headrest for enhanced seating comfort. Its dark-brown leatherette upholstery, matching brown contrast stitching, sculpted silver-finish armrests, and sturdy five-star metal base combine executive elegance with everyday functionality.",
     "images": [
       "/maanran/products/office-executive-manager-chair-1-front-view_zqxkPeDYH.png",
       "/maanran/products/office-executive-manager-chair-1-back-view_EyO9-DOLz.png",
       "/maanran/products/office-executive-manager-chair-1-side-view_2TUPriGuj.png",
       "/maanran/products/office-executive-manager-chair-1-angled-view_afY-SORMy.png"
     ],
-    "specs": {},
+    "specs": {
+      "Chair Type": "Executive / Manager High-Back Chair",
+      "Upholstery": "Dark Brown Leatherette",
+      "Stitching": "Brown Contrast Stitching",
+      "Backrest": "High-Back with Integrated Headrest",
+      "Armrests": "Padded Armrests with Silver-Finish Frame",
+      "Base": "Five-Star Metal Base with Twin-Wheel Castors"
+    },
     "featured": true,
     "order": 21,
     "published": true
