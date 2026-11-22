@@ -7569,5 +7569,29 @@
     "featured": true,
     "order": 296,
     "published": true
+  },
+  {
+    "id": "p-yn5ara",
+    "code": "OW-023",
+    "slug": "compact-l-shaped-office-workstation-with-blue-privacy-panels",
+    "name": "Compact L-Shaped Office Workstation with Blue Privacy Panels",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "Compact L-shaped office workstations featuring dual-sided work surfaces, blue privacy partitions, and a space-efficient design for organized and productive office environments.",
+    "description": "This compact office workstation is designed to maximize workspace functionality while maintaining a clean and professional office appearance. Featuring an L-shaped desk configuration, contrasting blue privacy panels, and spacious individual work surfaces, it provides a practical setup for computer-based work and daily office operations. Its modular layout makes it suitable for small offices, team workspaces, customer support departments, and administrative environments.",
+    "images": [
+      "/maanran/products/compact-l-shaped-office-workstation-with-blue-privacy-panels_BIUFPrKJt.webp"
+    ],
+    "specs": {
+      "Workstation Type": "L-Shaped Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Grey / Off-White",
+      "Privacy Panels": "Blue Laminated Desk-Mounted Screens",
+      "Configuration": "Corner / L-Shaped Workstation Layout",
+      "Application": "Corporate Offices, Admin & Computer Workspaces"
+    },
+    "featured": true,
+    "order": 297,
+    "published": true
   }
 ]
