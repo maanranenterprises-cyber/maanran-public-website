@@ -754,15 +754,22 @@
     "id": "p-q03odx",
     "code": "OW-014",
     "slug": "office-workstation-14",
-    "name": "Office Workstation-14",
+    "name": "Premium Linear Multi-User Office Workstation with Orange Privacy Screens & Integrated Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern linear office workstations featuring individual orange privacy screens, spacious work surfaces, and integrated storage units for an organized and productive office environment.",
+    "description": "This premium linear office workstation features a continuous wooden-finish tabletop, individual orange privacy screens, and integrated drawer storage units for multiple users. Supported by a sturdy metal frame, it combines functionality, durability, and a professional appearance, making it ideal for corporate offices, team workspaces, and commercial environments.",
     "images": [
       "/maanran/products/office-workstation-14_shkI63b5l.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Wood-Grain Laminate Finish",
+      "Frame Structure": "Metal Frame with Black Finish",
+      "Privacy Panels": "Orange Desk-Mounted Privacy Screens",
+      "Storage": "Integrated Drawer Pedestal Units",
+      "Configuration": "Straight Row Multi-User Workstation"
+    },
     "featured": true,
     "order": 32,
     "published": true
