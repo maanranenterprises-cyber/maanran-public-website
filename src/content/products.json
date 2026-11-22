@@ -229,11 +229,11 @@
     "id": "p-010",
     "code": "CF-001",
     "slug": "cafeteria-table-4-seater",
-    "name": "Cafeteria Table Set, 4 Seater",
+    "name": "Modern Four-Seater Cafeteria Dining Table Set",
     "brand": "MAANRAN",
     "category": "cafeteria-furniture",
-    "shortDescription": "Compact cafeteria table with four attached seats, easy to clean.",
-    "description": "Compact cafeteria table with four attached seats, easy to clean. Available in custom sizes and finishes on request. (PLACEHOLDER product details)",
+    "shortDescription": "A contemporary cafeteria dining set featuring a spacious tabletop and four individual chairs, designed for comfortable seating in cafeterias, food courts, and dining spaces.",
+    "description": "This modern four-seater cafeteria table set features a durable tabletop paired with four individual chairs in a stylish combination of colours. Designed for cafeterias, office dining areas, food courts, and institutional spaces, it offers a practical, comfortable, and easy-to-maintain dining solution.",
     "images": [
       "/images/site/cafeteria.webp",
       "/maanran/products/c1-table_KC0aOKzSR.webp",
@@ -242,8 +242,12 @@
       "/maanran/products/c1-gray-chair_5Ffu1218C.webp"
     ],
     "specs": {
-      "Seats": "4",
-      "Top": "Laminate or SS"
+      "Seating Capacity": "4 Persons",
+      "Tabletop Material": "Laminated Wooden Top",
+      "Table Frame": "Metal Support Structure",
+      "Chair Type": "Individual Dining Chairs",
+      "Chair Frame": "SS Legs",
+      "Application": "Cafeterias, Food Courts, Office Dining & Institutions"
     },
     "featured": true,
     "order": 11,
