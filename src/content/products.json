@@ -7504,5 +7504,31 @@
     "featured": true,
     "order": 302,
     "published": true
+  },
+  {
+    "id": "p-34hhmw",
+    "code": "CF-030",
+    "slug": "modern-nordic-wooden-leg-designer-cafeteria-chair",
+    "name": "Modern Nordic Wooden-Leg Designer Cafeteria Chair",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish designer cafeteria chair featuring a smooth moulded plastic seat with a curved backrest and natural wood-finish legs for a modern look.",
+    "description": "Designed for comfort and contemporary style, this chair features a smooth moulded plastic seat with a distinctive curved backrest and sturdy wooden-finish legs. Its minimalist design, lightweight structure and attractive colour options make it ideal for cafeterias, cafés, restaurants, offices and modern dining spaces.",
+    "images": [
+      "/maanran/products/c30-green-chair_IKfjwVFrU.webp",
+      "/maanran/products/c30-wheight-chair_mdBpY0VCr.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Chair",
+      "Chair Design": "Modern Nordic Designer Chair",
+      "Seat & Backrest": "Moulded Nylon",
+      "Backrest Design": "Curved with Integrated Opening",
+      "Leg Material": "Wood-Finish Legs",
+      "Available Colours": "Green & White",
+      "Usage": "Cafeterias, Cafés, Restaurants & Offices"
+    },
+    "featured": true,
+    "order": 303,
+    "published": true
   }
 ]
