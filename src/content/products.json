@@ -778,7 +778,7 @@
     "id": "p-u81elm",
     "code": "OW-015",
     "slug": "office-workstation-15",
-    "name": "Office Workstation-15",
+    "name": "Premium Linear Multi-User Office Workstation with Integrated Back Panel & Cable Management",
     "brand": "MAANRAN",
     "category": "office-workstations",
     "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
@@ -786,7 +786,14 @@
     "images": [
       "/maanran/products/office-workstation-15_gK1nAaSF5.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Frame Structure": "Panel-Supported Workstation Structure",
+      "Finish": "Brown Wood-Grain Finish",
+      "Back Panel": "Continuous Rear Modesty Panel",
+      "Cable Management": "Integrated Desktop Cable Access Holes"
+    },
     "featured": true,
     "order": 33,
     "published": true
