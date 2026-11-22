@@ -706,15 +706,22 @@
     "id": "p-v32tgj",
     "code": "OW-012",
     "slug": "office-workstation-12",
-    "name": "Office Workstation-12",
+    "name": "Premium Modular Cubicle Office Workstation with Blue Privacy Panels & Integrated Power Sockets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A spacious modular cubicle workstation featuring blue and grey privacy panels, light wood-finish desktops, and integrated power sockets for a well-organized and efficient office workspace.",
+    "description": "Designed for modern office environments, this modular workstation offers individual workspaces with privacy, functionality, and comfort. The blue and grey partition panels, spacious light wood-finish worktops, and integrated electrical outlets create a practical and professional setup for collaborative office spaces.",
     "images": [
       "/maanran/products/office-workstation-12_dTVARZemk.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Wood Laminated Finish",
+      "Frame Structure": "Modular Metal Frame with Light Grey Finish",
+      "Privacy Panels": "Blue Upper Panels with Grey Lower Panels",
+      "Electrical Accessories": "Integrated Power Socket Panels",
+      "Configuration": "Individual Workspaces in Modular Cluster Layout"
+    },
     "featured": true,
     "order": 30,
     "published": true
