@@ -562,15 +562,22 @@
     "id": "p-sklcao",
     "code": "OW-006",
     "slug": "office-workstation-6",
-    "name": "Office Workstation-6",
+    "name": "Premium Linear Office Workstation with Multicolour Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A sleek linear office workstation featuring individual desk spaces, integrated modesty panels, and vibrant yellow and light-blue privacy screens for a modern, organized office environment.",
+    "description": "Designed for modern workplaces, this linear workstation combines a clean white tabletop, sturdy dark-grey metal legs, and integrated front panels for a neat and professional appearance. The colourful privacy screens provide individual workspace separation while maintaining an open, collaborative office layout.",
     "images": [
       "/maanran/products/office-workstation-6_u-A4PYOl_.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Metal Legs with Dark Grey Finish",
+      "Privacy Panels": "Yellow & Light Blue Desk-Mounted Screens",
+      "Front Panel": "Integrated Desk Modesty Panels",
+      "Configuration": "Straight Row Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 24,
     "published": true
