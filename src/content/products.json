@@ -3,18 +3,21 @@
     "id": "p-001",
     "code": "OW-001",
     "slug": "linear-workstation-4-seater",
-    "name": "Office Workstation-1",
+    "name": "Premium Modular Multi-User Office Workstation with Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Premium modular office workstations with wood-finish desktops, grey privacy panels, metal frames, and integrated storage for modern, organized office spaces.",
+    "description": "Designed for modern offices, these workstations combine elegant wood finishes, grey privacy partitions, and sturdy metal frames. Integrated drawer storage and spacious work surfaces create an organized, comfortable, and efficient workspace for corporate teams.",
     "images": [
       "/images/banners/office-workstations.webp"
     ],
     "specs": {
-      "Size": "1200 x 600 mm per seat",
-      "Top": "25 mm pre-laminated board",
-      "Frame": "Powder-coated MS"
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Worktop Material": "Engineered Wood with Laminated Finish",
+      "Frame Structure": "Heavy-Duty Metal Support Frame",
+      "Privacy Panels": "Desk-Mounted Partition Panels",
+      "Storage": "Integrated Drawer Pedestal Storage",
+      "Configuration": "Customizable Multi-User Workstation Layout"
     },
     "featured": true,
     "order": 1,
@@ -24,17 +27,21 @@
     "id": "p-002",
     "code": "OW-002",
     "slug": "l-shaped-workstation",
-    "name": "Office Workstation-2",
+    "name": "Contemporary Dual-Sided Modular Workstation with Aqua Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern dual-sided workstations featuring white desktops, aqua privacy screens, and integrated drawer storage, designed for organized and efficient office workspaces.",
+    "description": "This modular office workstation features a clean white tabletop, grey metal support frames, translucent aqua privacy panels, and integrated three-drawer storage pedestals. Designed for face-to-face seating, it provides a functional, spacious, and professional workspace for multiple employees.",
     "images": [
       "/maanran/products/office-workstation-2_z29EXuwex.webp"
     ],
     "specs": {
-      "Size": "1500 x 1500 mm",
-      "Screen": "Fabric pin-up board"
+      "Workstation Type": "Dual-Sided Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Heavy-Duty Metal Frame with Grey Finish",
+      "Partition Panels": "Translucent Aqua & Frosted Privacy Screens",
+      "Storage": "Integrated 3-Drawer Pedestal Storage",
+      "Configuration": "Multi-User Face-to-Face Workstation Layout"
     },
     "featured": true,
     "order": 2,
@@ -483,15 +490,22 @@
     "id": "p-jtxpf3",
     "code": "OW-003",
     "slug": "office-workstation-3",
-    "name": "Office Workstation-3",
+    "name": "Premium Linear Multi-User Office Workstation with Tinted Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Elegant multi-user office workstation featuring dark brown desktops, beige tinted privacy screens, and individual drawer pedestals for an organized and comfortable workplace.",
+    "description": "Designed for modern office environments, this workstation combines dark brown work surfaces, light grey metal supports, and beige privacy panels for a professional appearance. Individual three-drawer storage pedestals provide convenient storage, while the linear layout supports efficient team working and workspace organization.",
     "images": [
       "/maanran/products/office-workstation-3_a5AaLjpMd.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Frame Structure": "Metal Frame with Light Grey Finish",
+      "Partition Panels": "Beige Tinted Desk-Mounted Privacy Screens",
+      "Storage": "Individual 3-Drawer Pedestal Cabinets",
+      "Configuration": "Side-by-Side Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 21,
     "published": true
@@ -500,15 +514,22 @@
     "id": "p-rfaen5",
     "code": "OW-004",
     "slug": "office-workstation-4",
-    "name": "Office Workstation-4",
+    "name": "Modern Dual-Desk Office Workstation with Colour-Coded Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern two-person office workstation featuring white desktops, sturdy black metal legs, and blue and mustard-yellow privacy screens for a clean, organized workspace.",
+    "description": "Designed for modern offices, this dual-desk workstation features spacious white laminated worktops supported by a sturdy black metal frame. Frosted blue and mustard-yellow privacy panels provide individual workspace separation while maintaining an open, collaborative environment ideal for shared office use.",
     "images": [
       "/maanran/products/office-workstation-4_dvO_1Q0kc.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Dual-Desk Shared Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Black Powder-Coated Metal Legs",
+      "Partition Panels": "Frosted Blue & Mustard Yellow Privacy Screens",
+      "Worktop Design": "Side-by-Side Individual Workspaces",
+      "Configuration": "Two-Person Collaborative Workstation"
+    },
     "featured": true,
     "order": 22,
     "published": true
@@ -517,15 +538,22 @@
     "id": "p-0hkfiq",
     "code": "OW-005",
     "slug": "office-workstation-5",
-    "name": "Office Workstation-5",
+    "name": "Premium Face-to-Face Modular Office Workstation with Glass & Colour-Block Partitions",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Face-to-face modular workstations featuring glass partitions and blue-orange privacy panels, designed to create organized, spacious, and collaborative office workspaces.",
+    "description": "This modular workstation features a face-to-face layout with beige worktops, integrated panel-supported structure, and a combination of coloured privacy panels and transparent glass partitions. Designed for efficient space utilization, comfortable working, and a modern professional office environment.",
     "images": [
       "/maanran/products/office-workstation-5_YvPm0a_Er.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Face-to-Face Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Beige Laminated Finish",
+      "Structure": "Panel-Supported Modular Workstation Structure",
+      "Privacy Panels": "Blue & Orange Solid Privacy Panels",
+      "Glass Panels": "Transparent Glass Partition Extensions",
+      "Configuration": "Opposite-Facing Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 23,
     "published": true
@@ -534,15 +562,22 @@
     "id": "p-sklcao",
     "code": "OW-006",
     "slug": "office-workstation-6",
-    "name": "Office Workstation-6",
+    "name": "Premium Linear Office Workstation with Multicolour Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A sleek linear office workstation featuring individual desk spaces, integrated modesty panels, and vibrant yellow and light-blue privacy screens for a modern, organized office environment.",
+    "description": "Designed for modern workplaces, this linear workstation combines a clean white tabletop, sturdy dark-grey metal legs, and integrated front panels for a neat and professional appearance. The colourful privacy screens provide individual workspace separation while maintaining an open, collaborative office layout.",
     "images": [
       "/maanran/products/office-workstation-6_u-A4PYOl_.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Metal Legs with Dark Grey Finish",
+      "Privacy Panels": "Yellow & Light Blue Desk-Mounted Screens",
+      "Front Panel": "Integrated Desk Modesty Panels",
+      "Configuration": "Straight Row Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 24,
     "published": true
@@ -551,15 +586,22 @@
     "id": "p-s8emah",
     "code": "OW-007",
     "slug": "office-workstation-7",
-    "name": "Office Workstation-7",
+    "name": "Premium Enclosed Cubicle Workstation with Integrated Storage & Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modular cubicle workstation featuring individual enclosed desk spaces, integrated lockable storage cabinets, and coloured privacy panels for a well-organized and focused office environment.",
+    "description": "Designed for efficient office space utilization, this cubicle workstation combines spacious white worktops, sturdy modular partitions, and integrated storage cabinets for individual workspaces. The blue, green, and grey privacy panels create a structured and professional layout, providing workspace separation while maintaining a clean, functional office design.",
     "images": [
       "/maanran/products/office-workstation-7_NTEn2U0Ta.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Structure": "Full-Height Side Panels with Modular Dividers",
+      "Privacy Panels": "Blue, Green & Grey Panel Finishes",
+      "Storage": "Integrated Lockable Storage Cabinets",
+      "Configuration": "Individual Cubicle Workspaces in Modular Layout"
+    },
     "featured": true,
     "order": 25,
     "published": true
@@ -568,15 +610,22 @@
     "id": "p-gxp1fe",
     "code": "OW-008",
     "slug": "office-workstation-8",
-    "name": "Office Workstation-8",
+    "name": "Premium Curved-Panel Modular Office Workstation with Integrated Power Sockets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modern modular office workstation featuring curved privacy panels, integrated power sockets, and spacious individual work surfaces for a comfortable and organized workspace.",
+    "description": "Designed for contemporary office environments, this workstation combines clean white worktops with stylish curved grey partition panels and blue accent detailing. Integrated power sockets provide convenient access to electrical connections, while the modular layout creates functional, well-organized individual workspaces.",
     "images": [
       "/maanran/products/office-workstation-8_o47_hwDi6.jpeg"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Individual Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Design": "Curved Privacy Divider Panels",
+      "Panel Finish": "Grey with Blue Accent Panels",
+      "Electrical Accessories": "Integrated Power Socket on Partition Panel",
+      "Configuration": "Individual Workspaces in Modular Row Layout"
+    },
     "featured": true,
     "order": 26,
     "published": true
@@ -585,15 +634,22 @@
     "id": "p-mvw306",
     "code": "OW-009",
     "slug": "office-workstation-9",
-    "name": "Office Workstation-9",
+    "name": "Premium Linear Office Workstation with Glass Dividers & Pedestal Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A contemporary linear office workstation featuring individual workspaces, transparent glass divider extensions, and integrated drawer pedestals for organized and efficient office use.",
+    "description": "Designed for modern workplaces, this linear workstation combines dark-brown laminated worktops, modular partition panels, and transparent glass dividers for a professional and structured workspace. Individual drawer pedestals provide convenient storage, while the multi-user layout maximizes workspace utilization and maintains a clean, organized office environment.",
     "images": [
       "/maanran/products/office-workstation-9_LKYX2q3BD.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Structure": "Modular Panel-Supported Workstation Structure",
+      "Privacy Panels": "Alternating Dark Brown & Light Grey Partition Panels",
+      "Glass Panels": "Transparent Glass Divider Extensions",
+      "Storage": "Individual Integrated Drawer Pedestal Cabinets"
+    },
     "featured": true,
     "order": 27,
     "published": true
@@ -602,15 +658,22 @@
     "id": "p-86nvt4",
     "code": "OW-010",
     "slug": "office-workstation-10",
-    "name": "Office Workstation-10",
+    "name": "Premium Modular Cubicle Workstation with Wood-Finish Pedestals & Power Outlets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modular cubicle workstations featuring framed privacy partitions, spacious work surfaces, integrated power outlets, and individual wood-finish drawer pedestals for an organized and efficient office setup.",
+    "description": "Designed for modern offices, these modular cubicle workstations provide individual workspaces with privacy, functionality, and a professional appearance. The combination of beige and grey partition panels, dark brown worktops, and matching storage pedestals creates a well-organized workspace with convenient access to integrated power outlets.",
     "images": [
       "/maanran/products/office-workstation-10_L8cIifBVb.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Dark Brown Laminated Finish",
+      "Partition Structure": "Grey Framed Modular Partition System",
+      "Panel Finish": "Beige, Grey & Dark Brown Privacy Panels",
+      "Storage": "Individual 3-Drawer Wood-Finish Pedestal Cabinets",
+      "Accessories": "Integrated Electrical Socket Panels"
+    },
     "featured": true,
     "order": 28,
     "published": true
@@ -619,15 +682,22 @@
     "id": "p-uh7it7",
     "code": "OW-011",
     "slug": "office-workstation-11",
-    "name": "Office Workstation-11",
+    "name": "Premium Modular Cubicle Workstation with Red Privacy Panels & Grey Frame",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modern modular cubicle workstation featuring red and grey privacy panels, individual storage pedestals, and a spacious work surface for organized, efficient office operations.",
+    "description": "Designed for modern corporate environments, this modular workstation provides individual workspaces with privacy, comfort, and functionality. The grey-framed partitions with red accent panels, spacious desktops, and integrated drawer storage create a professional and organized workspace for multi-user offices.",
     "images": [
       "/maanran/products/office-workstation-11_wRTaapEdu.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Wood Laminated Finish",
+      "Frame Structure": "Grey Finish Modular Metal Frame",
+      "Privacy Panels": "Red & Grey Partition Panels",
+      "Storage": "Integrated White Drawer Pedestal Cabinets",
+      "Configuration": "Multi-User Individual Cubicle Layout"
+    },
     "featured": true,
     "order": 29,
     "published": true
@@ -636,15 +706,22 @@
     "id": "p-v32tgj",
     "code": "OW-012",
     "slug": "office-workstation-12",
-    "name": "Office Workstation-12",
+    "name": "Premium Modular Cubicle Office Workstation with Blue Privacy Panels & Integrated Power Sockets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A spacious modular cubicle workstation featuring blue and grey privacy panels, light wood-finish desktops, and integrated power sockets for a well-organized and efficient office workspace.",
+    "description": "Designed for modern office environments, this modular workstation offers individual workspaces with privacy, functionality, and comfort. The blue and grey partition panels, spacious light wood-finish worktops, and integrated electrical outlets create a practical and professional setup for collaborative office spaces.",
     "images": [
       "/maanran/products/office-workstation-12_dTVARZemk.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Wood Laminated Finish",
+      "Frame Structure": "Modular Metal Frame with Light Grey Finish",
+      "Privacy Panels": "Blue Upper Panels with Grey Lower Panels",
+      "Electrical Accessories": "Integrated Power Socket Panels",
+      "Configuration": "Individual Workspaces in Modular Cluster Layout"
+    },
     "featured": true,
     "order": 30,
     "published": true
@@ -653,15 +730,22 @@
     "id": "p-lriohw",
     "code": "OW-013",
     "slug": "office-workstation-13",
-    "name": "Office Workstation-13",
+    "name": "Premium Modular Office Workstation with Green & Yellow Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A versatile modular office workstation featuring green and yellow privacy panels, spacious white worktops, and a structured cubicle layout designed for comfortable, organized, and efficient teamwork.",
+    "description": "Designed for modern office environments, this modular workstation provides dedicated workspaces with practical privacy and efficient space utilization. The combination of green and yellow partition panels, white laminated desktops, and modular dividers creates a bright, professional, and organized workspace for multi-user office setups.",
     "images": [
       "/maanran/products/office-workstation-13_RmcUrpBwm.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Modular Panel-Based Workstation Structure",
+      "Privacy Panels": "Green and Yellow Colour Combination Panels",
+      "Partition Design": "Full-Height Modular Desk Dividers",
+      "Configuration": "Multi-User Cluster Workstation Layout"
+    },
     "featured": true,
     "order": 31,
     "published": true
@@ -670,15 +754,22 @@
     "id": "p-q03odx",
     "code": "OW-014",
     "slug": "office-workstation-14",
-    "name": "Office Workstation-14",
+    "name": "Premium Linear Multi-User Office Workstation with Orange Privacy Screens & Integrated Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A stylish linear office workstation with orange privacy screens, wood-finish desktops, and integrated storage for an organized, productive workspace.",
+    "description": "Designed for modern offices, this workstation combines a durable metal frame, spacious worktops, and practical drawer storage. Its orange privacy screens and wood-grain finish create a functional, professional workspace for multiple users.",
     "images": [
       "/maanran/products/office-workstation-14_shkI63b5l.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Wood-Grain Laminate Finish",
+      "Frame Structure": "Metal Frame with Black Finish",
+      "Privacy Panels": "Orange Desk-Mounted Privacy Screens",
+      "Storage": "Integrated Drawer Pedestal Units",
+      "Configuration": "Straight Row Multi-User Workstation"
+    },
     "featured": true,
     "order": 32,
     "published": true
@@ -687,15 +778,22 @@
     "id": "p-u81elm",
     "code": "OW-015",
     "slug": "office-workstation-15",
-    "name": "Office Workstation-15",
+    "name": "Premium Linear Multi-User Office Workstation with Integrated Back Panel & Cable Management",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Spacious linear multi-user workstation with a continuous rear panel, wood-grain finish, and integrated cable access for a clean, organized workspace.",
+    "description": "Designed for collaborative office environments, this linear workstation features a continuous rear panel, durable wooden-finish surfaces, and built-in cable access holes. Its clean, practical design provides multiple users with a spacious and organized working area.",
     "images": [
       "/maanran/products/office-workstation-15_gK1nAaSF5.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Frame Structure": "Panel-Supported Workstation Structure",
+      "Finish": "Brown Wood-Grain Finish",
+      "Back Panel": "Continuous Rear Modesty Panel",
+      "Cable Management": "Integrated Desktop Cable Access Holes"
+    },
     "featured": true,
     "order": 33,
     "published": true
@@ -704,15 +802,22 @@
     "id": "p-b4lrdq",
     "code": "OW-016",
     "slug": "office-workstation-16",
-    "name": "Office Workstation-16",
+    "name": "Premium Curved-Panel Modular Office Cubicle Workstation",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Curved-panel cubicle workstations designed for privacy, comfort, and efficient office space utilization.",
+    "description": "Modular workstations featuring curved privacy panels, individual work bays, and a durable panel-supported structure for an organized and professional office environment.",
     "images": [
       "/maanran/products/office-workstation-16_-dRGzw3u7.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Cubicle Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Partition Design": "Curved Side Privacy Panels",
+      "Panel Finish": "Light Grey and Dark Grey Combination",
+      "Structure": "Panel-Supported Modular Workstation",
+      "Configuration": "Individual Work Bays in Linear Arrangement"
+    },
     "featured": true,
     "order": 34,
     "published": true
@@ -721,15 +826,22 @@
     "id": "p-lgq0xu",
     "code": "OW-017",
     "slug": "office-workstation-17",
-    "name": "Office Workstation-17",
+    "name": "Premium Open-Bench Multi-User Office Workstation with Dual-Tone Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Open-bench workstations with yellow and grey privacy screens, spacious shared desks, and a sturdy metal frame for collaborative office environments.",
+    "description": "Designed for modern offices, these multi-user workstations feature wide shared work surfaces, dual-tone privacy panels, and a durable metal structure, providing an organized and efficient workspace for teams.",
     "images": [
       "/maanran/products/office-workstation-17_9ktuZsorM.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Open-Bench Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Metal Legs with Grey Finish",
+      "Privacy Panels": "Desk-Mounted Yellow and Grey Privacy Screens",
+      "Configuration": "Linear Multi-User Bench Layout",
+      "Cable Management": "Integrated Desktop Cable Access Points"
+    },
     "featured": true,
     "order": 35,
     "published": true
@@ -738,15 +850,22 @@
     "id": "p-i6zt89",
     "code": "OW-018",
     "slug": "office-workstation-18",
-    "name": "Office Workstation-18",
+    "name": "Premium High-Height Linear Office Workstation with Colour Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "High-height linear workstations with colourful privacy panels and a sturdy white metal frame, ideal for organized team workspaces.",
+    "description": "Designed for collaborative office environments, these elevated linear workstations feature spacious desktops, vibrant privacy screens, and perforated metal modesty panels, creating a functional and professional workspace.",
     "images": [
       "/maanran/products/office-workstation-18_uefXd0_AF.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "High-Height Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "White Metal Frame",
+      "Privacy Panels": "Desk-Mounted Orange, Brown & Grey Privacy Screens ",
+      "Modesty Panel": "Perforated Metal Front Panel",
+      "Configuration": "Straight Row Multi-User Workstation"
+    },
     "featured": true,
     "order": 36,
     "published": true
@@ -755,15 +874,22 @@
     "id": "p-mto284",
     "code": "OW-019",
     "slug": "office-workstation-19",
-    "name": "Office Workstation-19",
+    "name": "Premium Woodgrain Office Workstation with Framed Privacy Panels & Storage Pedestals",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern multi-user office workstations featuring rich woodgrain desktops, framed privacy partitions, and integrated storage pedestals, designed for a professional, organized, and efficient workspace.",
+    "description": "This premium office workstation features a woodgrain finish, framed privacy partitions, and spacious individual work surfaces for an organized workspace. Integrated drawer storage and a durable structure make it ideal for modern corporate offices.",
     "images": [
       "/maanran/products/office-workstation-19_27PLvSw9P.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Woodgrain Laminate Finish",
+      "Tabletop Colour": "Natural Brown Woodgrain",
+      "Partition Frame": "Light-Coloured Structural Frame",
+      "Privacy Panels": "Dark Brown / Maroon Laminated Panels",
+      "Storage": "Integrated Drawer Pedestal with Lockable Storage"
+    },
     "featured": true,
     "order": 37,
     "published": true
@@ -772,15 +898,22 @@
     "id": "p-snu68c",
     "code": "OW-020",
     "slug": "office-workstation-20",
-    "name": "Office Workstation-20",
+    "name": "Premium Modular Office Workstation with Privacy Screens & Integrated Drawer Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Space-efficient modular office workstations featuring white desktops, framed privacy partitions, and integrated drawer storage for organized, comfortable, and productive workspaces.",
+    "description": "Designed for modern offices, this modular workstation features spacious white desktops, contrasting privacy panels, and integrated drawer pedestals for organized individual workspaces. Its practical layout maximizes space efficiency while maintaining a professional look, ideal for corporate and commercial environments.",
     "images": [
       "/maanran/products/office-workstation-20_i20Ercb1t.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Design": "Framed Desk-Mounted Privacy Partitions",
+      "Privacy Panel Colour": "Dark Maroon / Purple",
+      "Frame & Panel Finish": "White Finish",
+      "Storage": "Integrated Drawer Pedestal with Lockable Storage"
+    },
     "featured": true,
     "order": 38,
     "published": true
@@ -789,15 +922,22 @@
     "id": "p-8qbhmd",
     "code": "OW-021",
     "slug": "office-workstation-21",
-    "name": "Office Workstation-21",
+    "name": "Premium Modular Office Workstation with Integrated Storage Cabinets & Privacy Dividers",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern modular office workstations featuring spacious work surfaces, integrated storage cabinets, and privacy dividers designed for organized, efficient, and professional office environments.",
+    "description": "This modular workstation features spacious individual work areas, lockable storage cabinets, and privacy partitions for an organized office setup. Its clean light-grey finish and space-efficient design make it ideal for corporate and administrative workspaces.",
     "images": [
       "/maanran/products/office-workstation-21_lkVfyFfwo.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Grey / Off-White",
+      "Partition Design": "Integrated Workspace Dividers",
+      "Storage Type": "Built-in Storage Cabinets with Doors",
+      "Storage Features": "Lockable Cabinets with Metal Handles"
+    },
     "featured": true,
     "order": 39,
     "published": true
@@ -806,15 +946,22 @@
     "id": "p-1o8t86",
     "code": "OW-022",
     "slug": "office-workstation-22",
-    "name": "Office Workstation-22",
+    "name": "Contemporary Linear Office Workstation with Full-Length Privacy Dividers",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Contemporary multi-user office workstations featuring spacious desktops, full-length privacy partitions, and sturdy panel-based supports for a clean, organized, and efficient workspace.",
+    "description": "Designed for modern offices, this linear workstation features continuous work surfaces, full-length privacy partitions, and sturdy panel supports, providing a spacious, organized, and professional workspace for multiple users.",
     "images": [
       "/maanran/products/office-workstation-22_WF1SRFIAa.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Beige / Off-White",
+      "Privacy Partitions": "Full-Length Horizontal Desk Dividers",
+      "Support Structure": "Panel-Based Structural Supports",
+      "Configuration": "Straight Row Multi-User Layout"
+    },
     "featured": true,
     "order": 40,
     "published": true
@@ -7421,6 +7568,30 @@
     },
     "featured": true,
     "order": 296,
+    "published": true
+  },
+  {
+    "id": "p-yn5ara",
+    "code": "OW-023",
+    "slug": "compact-l-shaped-office-workstation-with-blue-privacy-panels",
+    "name": "Compact L-Shaped Office Workstation with Blue Privacy Panels",
+    "brand": "MAANRAN",
+    "category": "office-workstations",
+    "shortDescription": "Compact L-shaped office workstations featuring dual-sided work surfaces, blue privacy partitions, and a space-efficient design for organized and productive office environments.",
+    "description": "This compact L-shaped workstation features individual workspaces, contrasting blue privacy panels, and a spacious desk layout, offering a practical, organized, and professional setup for daily office operations in modern workplaces.",
+    "images": [
+      "/maanran/products/compact-l-shaped-office-workstation-with-blue-privacy-panels_BIUFPrKJt.webp"
+    ],
+    "specs": {
+      "Workstation Type": "L-Shaped Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Grey / Off-White",
+      "Privacy Panels": "Blue Laminated Desk-Mounted Screens",
+      "Configuration": "L-Shaped Workstation Layout",
+      "Application": "Corporate Offices, Admin & Computer Workspaces"
+    },
+    "featured": true,
+    "order": 297,
     "published": true
   }
 ]
