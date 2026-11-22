@@ -130,23 +130,13 @@
     "published": true
   },
   {
-    "slug": "ms-bunker-cots",
-    "name": "MS Bunker Cots",
-    "codePrefix": "MBC",
-    "codeCounter": 3,
-    "description": "Explore MAANRAN's range of durable and space-saving ms bunker cots, designed for hostels, PG accommodations, dormitories and institutional spaces. Featuring sturdy metal frames, practical ladder access and functional designs, our bunker cots offer comfortable sleeping arrangements while maximizing available floor space.",
-    "image": "/maanran/categories/maanran-premium-dual-tone-metal-bunker-cot-with-angled-side-ladder-safety-guardrail_ccPtJhrtQ.webp",
-    "order": 14,
-    "published": false
-  },
-  {
     "slug": "pg-cots",
     "name": "PG Cots",
     "codePrefix": "PC",
     "codeCounter": 9,
     "description": "Explore MAANRAN's range of durable and stylish PG cots, designed to provide comfortable sleeping solutions with space-efficient designs. Ideal for PG accommodations, hostels, student residences and rental rooms, combining sturdy construction with practical functionality.",
     "image": "/maanran/categories/comfortrest-single-metal-cot-with-cushioned-headrest_1ARD0fmV8.webp",
-    "order": 15,
+    "order": 14,
     "published": true
   },
   {
@@ -156,7 +146,7 @@
     "codeCounter": 14,
     "description": "Explore our collection of stylish and comfortable waiting area chairs, designed to provide a welcoming seating experience for visitors, guests, and customers. Ideal for offices, reception areas, hospitals, and commercial spaces.",
     "image": "/maanran/categories/premium-three-seater-black-cushioned-metal-beam-waiting-area-chair-view-2_ST7LbPs95.webp",
-    "order": 16,
+    "order": 15,
     "published": true
   },
   {
@@ -166,7 +156,7 @@
     "codeCounter": 23,
     "description": "Writing Pad Chairs are designed to provide comfortable seating with convenient writing support, making them ideal for classrooms, training centres, seminars, conference rooms, and educational institutions.",
     "image": "/maanran/categories/premium-black-cushioned-writing-tablet-chair-with-metal-frame-armrests_23a4fPOnQ.webp",
-    "order": 17,
+    "order": 16,
     "published": true
   },
   {
@@ -176,7 +166,7 @@
     "codeCounter": 7,
     "description": "Stylish High counter chairs and stools designed for comfort, style, and durability, ideal for cafés, bars, restaurants, kitchen counters, and modern commercial spaces.",
     "image": "/maanran/categories/modern-black-mesh-back-wooden-leg-counter-bar-stool_JNDPK_m66.webp",
-    "order": 18,
+    "order": 17,
     "published": true
   },
   {
@@ -186,7 +176,7 @@
     "codeCounter": 9,
     "description": "Custom Mild Steel (MS) and Stainless Steel (SS) fabrication solutions designed for strength, durability, precision, and reliable performance across commercial, industrial, and interior applications.",
     "image": "/maanran/categories/heavy-duty-ms-mobile-industrial-equipment-support-rack-view-1_viUj_N-ph.webp",
-    "order": 19,
+    "order": 18,
     "published": true
   },
   {
@@ -196,7 +186,7 @@
     "codeCounter": 29,
     "description": "Durable steel cupboards and lockers designed for secure storage, organized spaces, and long-lasting performance in offices, industries, educational institutions, and commercial environments.",
     "image": "/maanran/categories/triple-column-modular-steel-personal-storage-locker-with-colour-accent-doors_ObJWhrV59.webp",
-    "order": 20,
+    "order": 19,
     "published": true
   }
 ]
