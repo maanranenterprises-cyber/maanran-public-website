@@ -538,15 +538,22 @@
     "id": "p-0hkfiq",
     "code": "OW-005",
     "slug": "office-workstation-5",
-    "name": "Office Workstation-5",
+    "name": "Premium Face-to-Face Modular Office Workstation with Glass & Colour-Block Partitions",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Face-to-face modular workstations featuring glass partitions and blue-orange privacy panels, designed to create organized, spacious, and collaborative office workspaces.",
+    "description": "This modular workstation features a face-to-face layout with beige worktops, integrated panel-supported structure, and a combination of coloured privacy panels and transparent glass partitions. Designed for efficient space utilization, comfortable working, and a modern professional office environment.",
     "images": [
       "/maanran/products/office-workstation-5_YvPm0a_Er.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Face-to-Face Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Beige Laminated Finish",
+      "Structure": "Panel-Supported Modular Workstation Structure",
+      "Privacy Panels": "Blue & Orange Solid Privacy Panels",
+      "Glass Panels": "Transparent Glass Partition Extensions",
+      "Configuration": "Opposite-Facing Multi-User Workstation Layout"
+    },
     "featured": true,
     "order": 23,
     "published": true
