@@ -7504,5 +7504,56 @@
     "featured": true,
     "order": 302,
     "published": true
+  },
+  {
+    "id": "p-34hhmw",
+    "code": "CF-030",
+    "slug": "modern-nordic-wooden-leg-designer-cafeteria-chair",
+    "name": "Modern Nordic Wooden-Leg Designer Cafeteria Chair",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Stylish designer cafeteria chair featuring a smooth moulded plastic seat with a curved backrest and natural wood-finish legs for a modern look.",
+    "description": "Designed for comfort and contemporary style, this chair features a smooth moulded plastic seat with a distinctive curved backrest and sturdy wooden-finish legs. Its minimalist design, lightweight structure and attractive colour options make it ideal for cafeterias, cafés, restaurants, offices and modern dining spaces.",
+    "images": [
+      "/maanran/products/c30-green-chair_IKfjwVFrU.webp",
+      "/maanran/products/c30-wheight-chair_mdBpY0VCr.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Cafeteria Chair",
+      "Chair Design": "Modern Nordic Designer Chair",
+      "Seat & Backrest": "Moulded Nylon",
+      "Backrest Design": "Curved with Integrated Opening",
+      "Leg Material": "Wood-Finish Legs",
+      "Available Colours": "Green & White",
+      "Usage": "Cafeterias, Cafés, Restaurants & Offices"
+    },
+    "featured": true,
+    "order": 303,
+    "published": true
+  },
+  {
+    "id": "p-6u7srl",
+    "code": "CF-031",
+    "slug": "modern-nordic-shell-designer-chair-with-wooden-legs",
+    "name": "Modern Nordic Shell Designer Chair with Wooden Legs",
+    "brand": "MAANRAN",
+    "category": "cafeteria-furniture",
+    "shortDescription": "Contemporary shell designer chair featuring a smooth curved seat, ergonomic backrest and natural wood-finish legs, available in multiple vibrant colours.",
+    "description": "Add a modern touch to your dining and seating spaces with this stylish shell designer chair, featuring a smooth moulded seat with a curved ergonomic design and sturdy wooden-finish legs. Available in attractive colours including white, blue, red, black, green and yellow, it is ideal for cafeterias, cafés, restaurants, offices and contemporary interiors.",
+    "images": [
+      "/maanran/products/c31-full-chairs_a_DZAn96O.webp"
+    ],
+    "specs": {
+      "Furniture Type": "Designer Shell Chair",
+      "Chair Design": "Modern Nordic Style",
+      "Seat & Backrest": "Moulded Nylon",
+      "Seat Shape": "Curved Shell Design",
+      "Leg Material": "Wood-Finish Legs",
+      "Available Colours": "White, Blue, Red, Black, Green & Yellow",
+      "Usage": "Cafeterias, Cafés, Restaurants & Offices"
+    },
+    "featured": true,
+    "order": 304,
+    "published": true
   }
 ]
