@@ -898,15 +898,22 @@
     "id": "p-snu68c",
     "code": "OW-020",
     "slug": "office-workstation-20",
-    "name": "Office Workstation-20",
+    "name": "Premium Modular Office Workstation with Privacy Screens & Integrated Drawer Storage",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Space-efficient modular office workstations featuring white desktops, framed privacy partitions, and integrated drawer storage for organized, comfortable, and productive workspaces.",
+    "description": "Designed for modern office environments, this modular workstation combines functionality, privacy, and professional aesthetics. Featuring spacious white work surfaces, high partition panels with dark contrasting privacy screens, and integrated drawer pedestals for convenient storage of documents and office essentials. Its modular arrangement supports organized individual workspaces while making efficient use of available office space, ideal for corporate offices, commercial workplaces, and team environments.",
     "images": [
       "/maanran/products/office-workstation-20_i20Ercb1t.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Design": "Framed Desk-Mounted Privacy Partitions",
+      "Privacy Panel Colour": "Dark Maroon / Purple",
+      "Frame & Panel Finish": "White Finish",
+      "Storage": "Integrated Drawer Pedestal with Lockable Storage"
+    },
     "featured": true,
     "order": 38,
     "published": true
