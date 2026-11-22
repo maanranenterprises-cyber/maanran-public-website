@@ -27,17 +27,21 @@
     "id": "p-002",
     "code": "OW-002",
     "slug": "l-shaped-workstation",
-    "name": "Office Workstation-2",
+    "name": "Contemporary Dual-Sided Modular Workstation with Aqua Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern dual-sided workstations featuring white desktops, aqua privacy screens, and integrated drawer storage, designed for organized and efficient office workspaces.",
+    "description": "This modular office workstation features a clean white tabletop, grey metal support frames, translucent aqua privacy panels, and integrated three-drawer storage pedestals. Designed for face-to-face seating, it provides a functional, spacious, and professional workspace for multiple employees.",
     "images": [
       "/maanran/products/office-workstation-2_z29EXuwex.webp"
     ],
     "specs": {
-      "Size": "1500 x 1500 mm",
-      "Screen": "Fabric pin-up board"
+      "Workstation Type": "Dual-Sided Modular Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Heavy-Duty Metal Frame with Grey Finish",
+      "Partition Panels": "Translucent Aqua & Frosted Privacy Screens",
+      "Storage": "Integrated 3-Drawer Pedestal Storage",
+      "Configuration": "Multi-User Face-to-Face Workstation Layout"
     },
     "featured": true,
     "order": 2,
