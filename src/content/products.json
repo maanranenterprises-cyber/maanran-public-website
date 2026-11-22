@@ -826,7 +826,7 @@
     "id": "p-lgq0xu",
     "code": "OW-017",
     "slug": "office-workstation-17",
-    "name": "Office Workstation-17",
+    "name": "Premium Open-Bench Multi-User Office Workstation with Dual-Tone Privacy Screens",
     "brand": "MAANRAN",
     "category": "office-workstations",
     "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
@@ -834,7 +834,14 @@
     "images": [
       "/maanran/products/office-workstation-17_9ktuZsorM.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Open-Bench Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "Metal Legs with Grey Finish",
+      "Privacy Panels": "Desk-Mounted Yellow and Grey Privacy Screens",
+      "Configuration": "Linear Multi-User Bench Layout",
+      "Cable Management": "Integrated Desktop Cable Access Points"
+    },
     "featured": true,
     "order": 35,
     "published": true
