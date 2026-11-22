@@ -610,15 +610,22 @@
     "id": "p-gxp1fe",
     "code": "OW-008",
     "slug": "office-workstation-8",
-    "name": "Office Workstation-8",
+    "name": "Premium Curved-Panel Modular Office Workstation with Integrated Power Sockets",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modern modular office workstation featuring curved privacy panels, integrated power sockets, and spacious individual work surfaces for a comfortable and organized workspace.",
+    "description": "Designed for contemporary office environments, this workstation combines clean white worktops with stylish curved grey partition panels and blue accent detailing. Integrated power sockets provide convenient access to electrical connections, while the modular layout creates functional, well-organized individual workspaces.",
     "images": [
       "/maanran/products/office-workstation-8_o47_hwDi6.jpeg"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Individual Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Partition Design": "Curved Privacy Divider Panels",
+      "Panel Finish": "Grey with Blue Accent Panels",
+      "Electrical Accessories": "Integrated Power Socket on Partition Panel",
+      "Configuration": "Individual Workspaces in Modular Row Layout"
+    },
     "featured": true,
     "order": 26,
     "published": true
