@@ -682,15 +682,22 @@
     "id": "p-uh7it7",
     "code": "OW-011",
     "slug": "office-workstation-11",
-    "name": "Office Workstation-11",
+    "name": "Premium Modular Cubicle Workstation with Red Privacy Panels & Grey Frame",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "A modern modular cubicle workstation featuring red and grey privacy panels, individual storage pedestals, and a spacious work surface for organized, efficient office operations.",
+    "description": "Designed for modern corporate environments, this modular workstation provides individual workspaces with privacy, comfort, and functionality. The grey-framed partitions with red accent panels, spacious desktops, and integrated drawer storage create a professional and organized workspace for multi-user offices.",
     "images": [
       "/maanran/products/office-workstation-11_wRTaapEdu.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Cubicle Office Workstation",
+      "Tabletop Material": "Engineered Wood with Light Wood Laminated Finish",
+      "Frame Structure": "Grey Finish Modular Metal Frame",
+      "Privacy Panels": "Red & Grey Partition Panels",
+      "Storage": "Integrated White Drawer Pedestal Cabinets",
+      "Configuration": "Multi-User Individual Cubicle Layout"
+    },
     "featured": true,
     "order": 29,
     "published": true
