@@ -922,15 +922,22 @@
     "id": "p-8qbhmd",
     "code": "OW-021",
     "slug": "office-workstation-21",
-    "name": "Office Workstation-21",
+    "name": "Premium Modular Office Workstation with Integrated Storage Cabinets & Privacy Dividers",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern modular office workstations featuring spacious work surfaces, integrated storage cabinets, and privacy dividers designed for organized, efficient, and professional office environments.",
+    "description": "This premium modular office workstation is designed to provide a functional, organized, and space-efficient working environment for modern offices. It features spacious individual work areas, integrated storage cabinets with lockable doors, and partition panels that help maintain workspace separation and organization. With its clean light-grey finish and practical storage design, it is ideal for corporate offices, administrative departments, and large professional workspaces.",
     "images": [
       "/maanran/products/office-workstation-21_lkVfyFfwo.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Modular Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Laminated Finish",
+      "Tabletop Colour": "Light Grey / Off-White",
+      "Partition Design": "Integrated Workspace Dividers",
+      "Storage Type": "Built-in Storage Cabinets with Doors",
+      "Storage Features": "Lockable Cabinets with Metal Handles"
+    },
     "featured": true,
     "order": 39,
     "published": true
