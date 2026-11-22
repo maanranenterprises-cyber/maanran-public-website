@@ -874,15 +874,22 @@
     "id": "p-mto284",
     "code": "OW-019",
     "slug": "office-workstation-19",
-    "name": "Office Workstation-19",
+    "name": "Premium Woodgrain Office Workstation with Framed Privacy Panels & Storage Pedestals",
     "brand": "MAANRAN",
     "category": "office-workstations",
-    "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
-    "description": "Our premium Office Workstations combine modern design, comfort, and functionality. Built with durable materials and smart space utilization, they create an organized, stylish, and productive workspace. Customizable to suit different office requirements.",
+    "shortDescription": "Modern multi-user office workstations featuring rich woodgrain desktops, framed privacy partitions, and integrated storage pedestals, designed for a professional, organized, and efficient workspace.",
+    "description": "This premium office workstation combines a sophisticated woodgrain finish with sturdy structural panels and framed privacy partitions to create a comfortable and organized working environment. Designed for modern offices, it features spacious individual work surfaces, privacy screens, and integrated drawer storage for convenient document and accessory organization. Its professional appearance, practical layout, and efficient space utilization make it ideal for corporate offices, workspaces, and commercial environments.",
     "images": [
       "/maanran/products/office-workstation-19_27PLvSw9P.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with Woodgrain Laminate Finish",
+      "Tabletop Colour": "Natural Brown Woodgrain",
+      "Partition Frame": "Light-Coloured Structural Frame",
+      "Privacy Panels": "Dark Brown / Maroon Laminated Panels",
+      "Storage": "Integrated Drawer Pedestal with Lockable Storage"
+    },
     "featured": true,
     "order": 37,
     "published": true
