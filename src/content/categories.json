@@ -77,7 +77,7 @@
     "description": "Powder-coated mild steel single and double bunk cots.",
     "image": "/images/banners/ms-steel-bunker-cots.webp",
     "order": 8,
-    "published": false
+    "published": true
   },
   {
     "slug": "sofas",
