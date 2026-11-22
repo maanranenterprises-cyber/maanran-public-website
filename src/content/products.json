@@ -257,9 +257,12 @@
       "/images/banners/ms-steel-bunker-cots.webp"
     ],
     "specs": {
-      "Material": "MS square tube",
-      "Size": "1980 x 900 mm per bed",
-      "Finish": "Powder coat"
+      "Product Type": "Double-Decker Bunker Cot",
+      "Frame Material": "Metal",
+      "Frame Design": "Rectangular Tubular Frame",
+      "Finish": "Metallic Grey",
+      "Ladder Type": "Integrated Side Ladder",
+      "Safety Feature": "Upper Bunk Protective Guardrail"
     },
     "featured": true,
     "order": 12,
