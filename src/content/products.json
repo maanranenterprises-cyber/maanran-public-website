@@ -850,7 +850,7 @@
     "id": "p-i6zt89",
     "code": "OW-018",
     "slug": "office-workstation-18",
-    "name": "Office Workstation-18",
+    "name": "Premium High-Height Linear Office Workstation with Colour Privacy Panels",
     "brand": "MAANRAN",
     "category": "office-workstations",
     "shortDescription": "Modern and ergonomic office workstations designed to enhance productivity, maximize workspace efficiency, and create a comfortable working environment.",
@@ -858,7 +858,14 @@
     "images": [
       "/maanran/products/office-workstation-18_uefXd0_AF.webp"
     ],
-    "specs": {},
+    "specs": {
+      "Workstation Type": "High-Height Linear Multi-User Office Workstation",
+      "Tabletop Material": "Engineered Wood with White Laminated Finish",
+      "Frame Structure": "White Metal Frame",
+      "Privacy Panels": "Desk-Mounted Orange, Brown & Grey Privacy Screens ",
+      "Modesty Panel": "Perforated Metal Front Panel",
+      "Configuration": "Straight Row Multi-User Workstation"
+    },
     "featured": true,
     "order": 36,
     "published": true
