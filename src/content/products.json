@@ -1008,18 +1008,25 @@
     "id": "p-lf61za",
     "code": "SCDB-004",
     "slug": "school-and-college-student-desk-bench-4",
-    "name": "School & College Student Desk Bench-4",
+    "name": "Single-Seater Student Study Desk with Integrated Under-Desk Book Rack",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Compact and sturdy single-seater student desk featuring a durable metal frame, spacious writing top, and integrated book storage rack.",
+    "description": "Designed for everyday classroom learning, this single-seater desk features a robust MS tubular frame, a blue writing surface, and a matching seat and backrest.\\\nIts integrated under-desk book rack provides convenient storage for textbooks and notebooks, making it ideal for schools and colleges.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-4_Kii-o1BDC.jpeg"
     ],
     "specs": {
-      "seats": "1",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "seats": "1 Student",
+      "Frame": "MS Tubular Steel ",
+      "Writing Top": "Pre-Laminated Board ",
+      "Seat Type": "Solid Student Chair Seat",
+      "Backrest": "Solid Student Chair Backrest ",
+      "Desk Type": "Single-Seater Integrated Desk  ",
+      "Book Storage": "Under-Desk Metal Book Rack",
+      "Frame Finish": "Black Powder-Coated Finish ",
+      "Top & Seat Color": "Blue ",
+      "Base Support": " Floor-Protective Metal Foot Base"
     },
     "featured": true,
     "order": 42,
