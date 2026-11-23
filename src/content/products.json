@@ -154,18 +154,22 @@
     "id": "p-011",
     "code": "SCDB-001",
     "slug": "school-desk-bench-2-seater",
-    "name": "School & College Student Desk Bench-1",
+    "name": "Ergonomic Single-Seater Classroom Desk Bench with Integrated Writing Pad",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
     "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "description": "A sturdy single-seater classroom desk bench featuring a strong MS tubular frame, an integrated writing desk, and a contoured backrest for student comfort. Designed for everyday classroom use, it provides stability, durability, and a functional workspace for schools, colleges, and educational institutions.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-1_9QAbY7vv-.jpeg"
     ],
     "specs": {
       "Seats": "1",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Frame": "MS Tubular Steel Frame ",
+      "Writing Top.": "Pre-Laminated Board  ",
+      "Seat": "Moulded Plastic Seat ",
+      "Backrest": "Ergonomic Moulded Backrest ",
+      "Desk Type": "Integrated Writing Desk",
+      "Frame Finish": "Powder-Coated Finish"
     },
     "featured": true,
     "order": 7,
