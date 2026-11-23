@@ -1119,18 +1119,25 @@
     "id": "p-hyjyup",
     "code": "SCDB-008",
     "slug": "school-and-college-student-desk-bench-9",
-    "name": "School & College Student Desk Bench-8",
+    "name": "Single-Seater Institutional Study Desk with Side Book Storage Compartment",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Heavy-duty single-seater student desk featuring a red laminated writing top, integrated book storage, and a sturdy tubular metal frame.",
+    "description": "Designed for classroom and institutional use, this single-seater desk features a durable MS tubular frame, a red pre-laminated writing top, and a matching seat with backrest.\\\nIts integrated side book storage compartment provides convenient space for books and study materials, making it suitable for schools, colleges, and training institutions.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-8_uDYktD2Fh.webp"
     ],
     "specs": {
-      "Seats": "1",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Seats": "1  Student  ",
+      "Frame": "MS Tubular Steel  ",
+      "Writing Top": "Red Pre-Laminated Board ",
+      "Seat Type": "Pre-Laminated Wooden Seat",
+      "Backrest": "Pre-Laminated Wooden Backrest ",
+      "Desk Type": " Single-Seater Integrated Study Desk",
+      "Book Storage": "Integrated Side Book Rack ",
+      "Frame Finish": "Grey Powder-Coated Finish ",
+      "Color": "Red & Grey",
+      "Base Support": "Reinforced Tubular Foot Frame"
     },
     "featured": true,
     "order": 46,
