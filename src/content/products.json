@@ -980,18 +980,25 @@
     "id": "p-v71l4y",
     "code": "SCDB-003",
     "slug": "school-and-college-student-desk-bench",
-    "name": "School & College Student Desk Bench-3",
+    "name": "Dual-Seater Student Desk Bench with Integrated Book Storage Rack",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Durable dual-seater classroom desk bench with a shared writing table and integrated book rack for convenient student storage.",
+    "description": "Designed for everyday classroom use, this dual-seater desk bench features a sturdy MS tubular frame, moulded seats, and a spacious pre-laminated writing tabletop. Its integrated metal book rack provides convenient storage for books and notebooks, making it ideal for schools and colleges.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-3_jsEzGtClT.webp"
     ],
     "specs": {
-      "Seats": "2",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Seats": "2 Students ",
+      "Frame": "MS Tubular Steel ",
+      "Writing Top": "Pre-laminated board",
+      "Seat Type": "Moulded Plastic Seats  ",
+      "Backrest": "Moulded Plastic Backrests",
+      "Desk Type": " Shared Integrated Writing Table ",
+      "Frame Finish": "Blue Powder-Coated Finish ",
+      "Base Support": "Protective Floor Caps / Foot Glides",
+      "Table Support": "Reinforced Metal Support Frame ",
+      "Book Storag": "Under-Desk Metal Book Rack "
     },
     "featured": true,
     "order": 41,
