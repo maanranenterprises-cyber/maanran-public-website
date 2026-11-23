@@ -7697,5 +7697,29 @@
     "featured": true,
     "order": 300,
     "published": true
+  },
+  {
+    "id": "p-nzgso6",
+    "code": "PC-013",
+    "slug": "woodline-duo-single-metal-cot-with-mattress",
+    "name": "Woodline Duo Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single metal cot featuring a sturdy black frame, rich wooden-finish headboard and footboard panels, and a comfortable mattress. Designed for durability, functionality and a premium wood-accented look in PG accommodations.",
+    "description": "The Woodline Duo Single Metal Cot combines a strong metal frame with elegant wooden-finish panels on the headboard and footboard, creating a stylish and practical sleeping solution. Complete with a mattress and a compact, sturdy design, it is ideal for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/woodline-duo-single-metal-cot-with-mattress_H5kb_XRff.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "MS (Mild Steel)",
+      "Frame Finish": "Black Finish",
+      "Headboard": "Wooden-Finish Panel",
+      "Footboard": "Wooden-Finish Panel",
+      "Mattress": "Included"
+    },
+    "featured": true,
+    "order": 301,
+    "published": true
   }
 ]
