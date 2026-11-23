@@ -1147,19 +1147,26 @@
     "id": "p-lu3frn",
     "code": "SCDB-009",
     "slug": "school-and-college-student-desk-bench-09",
-    "name": "School & College Student Desk Bench-9",
+    "name": "Dual-Seater Institutional Classroom Bench with Perforated Storage Panels",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Heavy-duty dual-seater classroom bench featuring a spacious shared tabletop, yellow laminated seating, and integrated book storage compartments.",
+    "description": "Designed for schools and colleges, this dual-seater classroom bench features a sturdy MS tubular frame, a spacious pre-laminated writing tabletop, and integrated bench seating with backrests.\\\nIts perforated metal side panels and under-seat storage space provide durability, practical book storage, and a well-organized learning environment.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-9_TAbExLMBp.webp"
     ],
     "specs": {
-      "Seats": "2",
-      "frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "3ft, 4ft, 5ft and 6ft"
+      "Seats": "2 Students  ",
+      "frame": "MS Tubular Steel ",
+      "Writing Top": "Pre-laminated board",
+      "Seat Type": "Shared Bench Seat ",
+      "Backrest": "Integrated Bench Backrest",
+      "Desk Type": "Dual-Seater Classroom Desk Bench ",
+      "Book Storage": "Integrated Under-Desk Storage Rack",
+      "Side Panel": " Perforated Metal Panels  ",
+      "Frame Finish": "Grey Powder-Coated Finish  ",
+      "Color": "Yellow & Grey  ",
+      "Available Lengths": "3 ft, 4 ft, 5 ft & 6 ft"
     },
     "featured": true,
     "order": 47,
