@@ -1036,18 +1036,24 @@
     "id": "p-o20nrm",
     "code": "SCDB-005",
     "slug": "school-and-college-student-desk-bench-5",
-    "name": "School & College Student Desk Bench-5",
+    "name": "Single-Seater Wooden Study Desk with White Metal Frame",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Modern single-seater student desk featuring a wood-finish writing top, sturdy white metal frame, and a compact classroom design.",
+    "description": "Designed for comfortable classroom learning, this single-seater desk features a spacious wood-finish pre-laminated tabletop, a matching wooden seat and backrest, and a sturdy white MS metal frame. Its clean design and stable construction make it suitable for schools, colleges, training centres, and educational institutions.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-5_IPdUPednY.webp"
     ],
     "specs": {
-      "Seats": "1",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Seats": "1Student",
+      "Frame": "MS Tubular Steel",
+      "Writing Top": "Wood-Finish Pre-Laminated Board",
+      "Seat Type": "Wooden Seat  ",
+      "Backrest": "Wooden Backrest ",
+      "Desk Type": "Single-Seater Integrated Desk ",
+      "Frame Finish": "White Powder-Coated Finish ",
+      "Design": "Modern Classroom Style  ",
+      "Base Support": "Floor-Protective Metal Frame "
     },
     "featured": true,
     "order": 43,
@@ -4077,6 +4083,7 @@
     "shortDescription": "A contemporary single metal cot featuring a sturdy grey frame, vibrant green headboard panel and a comfortable mattress with a white top and navy-blue sides. Designed for practical, comfortable and space-efficient PG accommodation.",
     "description": "The FreshLine Single Metal Cot combines a durable metal frame with a refreshing green headboard accent for a modern and attractive appearance. Complete with a comfortable mattress featuring a white sleeping surface and navy-blue fabric sides, it is an ideal choice for PG rooms, hostels, student accommodations and rental spaces.",
     "images": [
+      "/maanran/products/freshline-single-metal-cot-with-mattress-full-view_1VyLa1Ehq.webp",
       "/maanran/products/freshline-single-metal-cot-with-mattress_-lyCUouwg9.webp"
     ],
     "specs": {
@@ -7617,6 +7624,102 @@
     },
     "featured": true,
     "order": 297,
+    "published": true
+  },
+  {
+    "id": "p-8x1k71",
+    "code": "PC-010",
+    "slug": "floraframe-single-metal-cot-with-mattress",
+    "name": "FloraFrame Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy single metal cot featuring a grey-finished frame with fitted wooden panels and a floral-patterned mattress. Designed for comfortable, durable and practical PG accommodation.",
+    "description": "The FloraFrame Single Metal Cot combines a strong metal structure with fitted wooden panels for added design appeal and a neat finish. Paired with a floral-patterned mattress, it offers a practical and comfortable sleeping solution for PG rooms, hostels and rental accommodations.",
+    "images": [
+      "/maanran/products/floraframe-single-metal-cot-with-mattress_jm5TtmT3S.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "Metal with Fitted Wooden Panels",
+      "Frame Finish": "Grey Finish",
+      "Cot Design": "Rectangular Metal Frame",
+      "Mattress Design": "Floral Printed",
+      "Usage": "PG, Hostel & Rental Accommodation"
+    },
+    "featured": true,
+    "order": 298,
+    "published": true
+  },
+  {
+    "id": "p-irzmuh",
+    "code": "PC-011",
+    "slug": "comfortrest-single-metal-cot-with-cushioned-headrest-and-mattress",
+    "name": "ComfortRest Single Metal Cot with Cushioned Headrest and Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy single metal cot featuring a black MS frame, cushioned grey leatherette headrest and a comfortable mattress. Designed for practical everyday use with a clean, modern look for PG accommodations.",
+    "description": "The ComfortRest Single Metal Cot combines a durable MS metal frame with a padded grey leatherette headrest, offering a simple yet comfortable sleeping arrangement. Featuring a separate mattress and a sturdy black frame, it is ideal for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/comfortrest-single-metal-cot-with-cushioned-headrest-and-mattress_2s75JJU9C.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "MS (Mild Steel)",
+      "Frame Finish": "Black Finish",
+      "Headrest": "Cushioned Grey Leatherette",
+      "Mattress": "Included",
+      "Design": "Single Cot with Padded Headrest"
+    },
+    "featured": true,
+    "order": 299,
+    "published": true
+  },
+  {
+    "id": "p-k50r21",
+    "code": "PC-012",
+    "slug": "metrorest-gray-color-single-metal-platform-pg-cot",
+    "name": "MetroRest Gray Color Single Metal Platform PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single metal platform cot featuring a sleek grey finish and a sturdy frame, designed for comfortable everyday sleeping in PGs, hostels, and compact living spaces.",
+    "description": "Designed with a minimalist platform-style structure, this cot features a durable metal frame with a broad side panel and integrated headboard for a clean, contemporary look. Its space-efficient design and sturdy construction make it ideal for PG accommodations, hostels, and residential rooms.",
+    "images": [
+      "/maanran/products/metrorest-gray-color-single-metal-platform-pg-cot_e8BtEcjwA.webp"
+    ],
+    "specs": {
+      "Cot Type": "Single Platform Cot",
+      "Frame Material": "Metal (MS)",
+      "Colour": "Grey",
+      "Design": "Modern Platform Style",
+      "Headboard": "Integrated Panel Headboard",
+      "Suitable For": "PGs, Hostels & Residential Rooms"
+    },
+    "featured": true,
+    "order": 300,
+    "published": true
+  },
+  {
+    "id": "p-nzgso6",
+    "code": "PC-013",
+    "slug": "woodline-duo-single-metal-cot-with-mattress",
+    "name": "Woodline Duo Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single metal cot featuring a sturdy black frame, rich wooden-finish headboard and footboard panels, and a comfortable mattress. Designed for durability, functionality and a premium wood-accented look in PG accommodations.",
+    "description": "The Woodline Duo Single Metal Cot combines a strong metal frame with elegant wooden-finish panels on the headboard and footboard, creating a stylish and practical sleeping solution. Complete with a mattress and a compact, sturdy design, it is ideal for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/woodline-duo-single-metal-cot-with-mattress_H5kb_XRff.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "MS (Mild Steel)",
+      "Frame Finish": "Black Finish",
+      "Headboard": "Wooden-Finish Panel",
+      "Footboard": "Wooden-Finish Panel",
+      "Mattress": "Included"
+    },
+    "featured": true,
+    "order": 301,
     "published": true
   }
 ]
