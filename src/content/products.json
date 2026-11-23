@@ -1234,19 +1234,26 @@
     "id": "p-2yhv4u",
     "code": "SCDB-012",
     "slug": "school-and-college-student-desk-bench-12",
-    "name": "School & College Student Desk Bench-12",
+    "name": "Dual-Seater Premium Classroom Desk Bench with Perforated Storage Panel",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Premium dual-seater classroom desk featuring a shared writing top, blue seating, and integrated perforated book storage panel.",
+    "description": "Designed for modern classrooms, this dual-seater desk features a sturdy MS tubular frame, a spacious pre-laminated tabletop, and matching blue seats with backrests.\\\nIts integrated perforated metal storage panel provides convenient space for books and study materials while maintaining a durable and organized classroom setup.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-12_pcz40jau3.webp"
     ],
     "specs": {
-      "Seats": "3",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": " 3ft, 4ft, 5ft and 6ft"
+      "Seats": " 2 Students  ",
+      "Frame": "MS Tubular Steel",
+      "Writing Top": "Pre-Laminated Board",
+      "Seat Type": "Pre-Laminated Student Seats",
+      "Backrest": "Pre-Laminated Backrests ",
+      "Desk Type": "Dual-Seater Integrated Classroom Desk  ",
+      "Book Storage": "Integrated Perforated Book Storage Panel",
+      "Side Panel": "Perforated Metal Panel ",
+      "Frame Finish": "White Powder-Coated Finish",
+      "Color": "Blue & White ",
+      "Available Lengths": "3 ft, 4 ft, 5 ft & 6 ft "
     },
     "featured": true,
     "order": 50,
