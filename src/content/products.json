@@ -7649,5 +7649,29 @@
     "featured": true,
     "order": 298,
     "published": true
+  },
+  {
+    "id": "p-irzmuh",
+    "code": "PC-011",
+    "slug": "comfortrest-single-metal-cot-with-cushioned-headrest-and-mattress",
+    "name": "ComfortRest Single Metal Cot with Cushioned Headrest and Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy single metal cot featuring a black MS frame, cushioned grey leatherette headrest and a comfortable mattress. Designed for practical everyday use with a clean, modern look for PG accommodations.",
+    "description": "The ComfortRest Single Metal Cot combines a durable MS metal frame with a padded grey leatherette headrest, offering a simple yet comfortable sleeping arrangement. Featuring a separate mattress and a sturdy black frame, it is ideal for PG rooms, hostels, student accommodations and rental spaces.",
+    "images": [
+      "/maanran/products/comfortrest-single-metal-cot-with-cushioned-headrest-and-mattress_2s75JJU9C.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "MS (Mild Steel)",
+      "Frame Finish": "Black Finish",
+      "Headrest": "Cushioned Grey Leatherette",
+      "Mattress": "Included",
+      "Design": "Single Cot with Padded Headrest"
+    },
+    "featured": true,
+    "order": 299,
+    "published": true
   }
 ]
