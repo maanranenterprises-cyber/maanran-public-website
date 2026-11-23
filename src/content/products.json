@@ -7625,5 +7625,29 @@
     "featured": true,
     "order": 297,
     "published": true
+  },
+  {
+    "id": "p-8x1k71",
+    "code": "PC-010",
+    "slug": "floraframe-single-metal-cot-with-mattress",
+    "name": "FloraFrame Single Metal Cot with Mattress",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A sturdy single metal cot featuring a grey-finished frame with fitted wooden panels and a floral-patterned mattress. Designed for comfortable, durable and practical PG accommodation.",
+    "description": "The FloraFrame Single Metal Cot combines a strong metal structure with fitted wooden panels for added design appeal and a neat finish. Paired with a floral-patterned mattress, it offers a practical and comfortable sleeping solution for PG rooms, hostels and rental accommodations.",
+    "images": [
+      "/maanran/products/floraframe-single-metal-cot-with-mattress_jm5TtmT3S.webp"
+    ],
+    "specs": {
+      "Product Type": "Single Metal Cot with Mattress",
+      "Frame Material": "Metal with Fitted Wooden Panels",
+      "Frame Finish": "Grey Finish",
+      "Cot Design": "Rectangular Metal Frame",
+      "Mattress Design": "Floral Printed",
+      "Usage": "PG, Hostel & Rental Accommodation"
+    },
+    "featured": true,
+    "order": 298,
+    "published": true
   }
 ]
