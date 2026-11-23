@@ -7673,5 +7673,29 @@
     "featured": true,
     "order": 299,
     "published": true
+  },
+  {
+    "id": "p-k50r21",
+    "code": "PC-012",
+    "slug": "metrorest-gray-color-single-metal-platform-pg-cot",
+    "name": "MetroRest Gray Color Single Metal Platform PG Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single metal platform cot featuring a sleek grey finish and a sturdy frame, designed for comfortable everyday sleeping in PGs, hostels, and compact living spaces.",
+    "description": "Designed with a minimalist platform-style structure, this cot features a durable metal frame with a broad side panel and integrated headboard for a clean, contemporary look. Its space-efficient design and sturdy construction make it ideal for PG accommodations, hostels, and residential rooms.",
+    "images": [
+      "/maanran/products/metrorest-gray-color-single-metal-platform-pg-cot_e8BtEcjwA.webp"
+    ],
+    "specs": {
+      "Cot Type": "Single Platform Cot",
+      "Frame Material": "Metal (MS)",
+      "Colour": "Grey",
+      "Design": "Modern Platform Style",
+      "Headboard": "Integrated Panel Headboard",
+      "Suitable For": "PGs, Hostels & Residential Rooms"
+    },
+    "featured": true,
+    "order": 300,
+    "published": true
   }
 ]
