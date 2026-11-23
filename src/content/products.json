@@ -1091,18 +1091,25 @@
     "id": "p-9m4dgh",
     "code": "SCDB-007",
     "slug": "school-and-college-student-desk-bench-7",
-    "name": "School & College Student Desk Bench-7",
+    "name": "Dual-Seater Student Desk Bench with Perforated Side Storage Panel",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Sturdy dual-seater classroom desk featuring a shared writing top, blue metal frame, and integrated book storage rack.",
+    "description": "Designed for classroom learning, this dual-seater desk features a durable MS tubular frame, a spacious pre-laminated writing top, and moulded student seats with backrests.\\\nThe integrated perforated metal side panel and book storage rack provide practical storage and sturdy support, making it ideal for schools and colleges.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-7_StqbZ3YIM4.webp"
     ],
     "specs": {
-      "Seats": "2",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Seats": "2 Students ",
+      "Frame": "MS Tubular Steel  ",
+      "Writing Top": "Pre-Laminated Board ",
+      "Seat Type": "Moulded Plastic Seats ",
+      "Backrest": "Moulded Plastic Backrests ",
+      "Desk Type": "Dual-Seater Integrated Desk ",
+      "Book Storage": "Integrated Metal Book Rack          ",
+      "Side Panel": "Perforated Metal Panel  ",
+      "Frame Finish": " Blue Powder-Coated Finish      ",
+      "Base Support": "Protective Floor Caps / Foot Glides"
     },
     "featured": true,
     "order": 45,
