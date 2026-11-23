@@ -1036,18 +1036,24 @@
     "id": "p-o20nrm",
     "code": "SCDB-005",
     "slug": "school-and-college-student-desk-bench-5",
-    "name": "School & College Student Desk Bench-5",
+    "name": "Single-Seater Wooden Study Desk with White Metal Frame",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "Modern single-seater student desk featuring a wood-finish writing top, sturdy white metal frame, and a compact classroom design.",
+    "description": "Designed for comfortable classroom learning, this single-seater desk features a spacious wood-finish pre-laminated tabletop, a matching wooden seat and backrest, and a sturdy white MS metal frame. Its clean design and stable construction make it suitable for schools, colleges, training centres, and educational institutions.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-5_IPdUPednY.webp"
     ],
     "specs": {
-      "Seats": "1",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board"
+      "Seats": "1Student",
+      "Frame": "MS Tubular Steel",
+      "Writing Top": "Wood-Finish Pre-Laminated Board",
+      "Seat Type": "Wooden Seat  ",
+      "Backrest": "Wooden Backrest ",
+      "Desk Type": "Single-Seater Integrated Desk ",
+      "Frame Finish": "White Powder-Coated Finish ",
+      "Design": "Modern Classroom Style  ",
+      "Base Support": "Floor-Protective Metal Frame "
     },
     "featured": true,
     "order": 43,
