@@ -1508,21 +1508,25 @@
     "id": "p-nx67jx",
     "code": "SCDB-022",
     "slug": "school-and-college-student-desk-bench-22",
-    "name": "School & College Student Desk Bench-22",
+    "name": "Premium Four-Seater Classroom Desk Bench with Integrated Book Rack",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "A sturdy four-seater classroom desk bench featuring a spacious shared tabletop, comfortable bench seating, and an integrated book rack for organized student learning.",
+    "description": "Designed for schools and colleges, this four-seater classroom desk bench features a spacious shared tabletop, integrated bench seating, and a convenient book storage rack for students' books and belongings. Constructed with a strong MS tubular frame and durable laminated panels, it offers stability, functionality, and long-lasting performance for everyday classroom use.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-22_yNTqx2Rm9.webp"
     ],
     "specs": {
-      "Seats": "3",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "3ft, 4ft, 5ft and 6ft"
+      "Seating Capacity": "4 Students ",
+      "Frame Material": "MS Tubular Steel ",
+      "Desk Top": "Pre-Laminated Board ",
+      "Seat Design": "Integrated Bench Seating ",
+      "Book Storage": "Integrated Book Rack ",
+      "Frame Finish": "Powder-Coated   ",
+      "Colour": " Brown Top with Black Frame ",
+      "Available Lengths": "3ft, 4ft, 5ft & 6ft"
     },
-    "featured": false,
+    "featured": true,
     "order": 60,
     "published": true
   },
