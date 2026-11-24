@@ -1637,19 +1637,23 @@
     "id": "p-l9alj6",
     "code": "SCDB-027",
     "slug": "school-and-college-student-desk-bench-27",
-    "name": "School & College Student Desk Bench-27",
+    "name": "Premium Four-Seater Classroom Desk Bench with Integrated Book Rack – Red & White Finish",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "A modern four-seater classroom desk bench with red laminated tops, a sturdy white metal frame, and integrated book storage for organized student learning.",
+    "description": "A four-seater classroom desk bench featuring a red pre-laminated writing surface, reinforced white MS frame, and integrated book rack. Designed for durability, comfortable seating, and efficient classroom use.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-27_jYYBA_w3U.webp"
     ],
     "specs": {
-      "Seats": "2",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "3ft, 4ft, 5ft and 6ft"
+      "Seating Capacity": "4 Students ",
+      "Frame Material": "MS Tubular Metal",
+      "Table Top": "Pre-Laminated Board",
+      "Table Top Color": "Red ",
+      "Frame Color": "White  ",
+      "Book Storage": "Integrated Book Rack",
+      "Frame Finish": "Powder-Coated",
+      "Available Length": "3ft, 4ft, 5ft & 6ft "
     },
     "featured": true,
     "order": 65,
@@ -1659,19 +1663,22 @@
     "id": "p-isfr4e",
     "code": "SCDB-028",
     "slug": "school-and-college-student-auditorium-seating-28",
-    "name": "School & College Student  Desk Bench-28",
+    "name": "Premium Four-Seater Lecture Hall Chair Desk with Integrated Writing Pad",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "A modern four-seater lecture hall desk featuring individual seats with integrated writing pads, designed for comfortable learning and organized classroom seating.",
+    "description": "Designed for educational spaces, this four-seater lecture hall unit combines individual seating with attached writing pads for convenient note-taking. Its sturdy metal frame and space-efficient layout make it ideal for colleges, lecture halls, and training classrooms.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-28_kGO1gvID_.webp"
     ],
     "specs": {
-      "Seats": "4",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "6ft"
+      "Seating Capacity": "4 Seats (4 Students) ",
+      "Seat Configuration": "Individual Seats – 1 Student per Seat",
+      "Frame Material": "MS Steel Frame",
+      "Writing Pad": "Integrated Individual Writing Pads",
+      "Seat Type": "Fixed Lecture Hall Seats",
+      "Mounting Type": "Floor-Mounted Metal Base",
+      "Usage": "Colleges, Lecture Halls & Training Classrooms"
     },
     "featured": true,
     "order": 66,
@@ -1681,19 +1688,22 @@
     "id": "p-wmgo7i",
     "code": "SCDB-029",
     "slug": "school-and-college-student-desk-bench-29",
-    "name": "School & College Student Desk Bench-29",
+    "name": "Premium Four-Seater Collaborative Training Workstation with Upholstered Chairs",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "A modern four-person training workstation featuring a spacious shared tabletop, comfortable upholstered chairs, and privacy partitions for an organized collaborative workspace.",
+    "description": "Designed for training rooms, offices, and collaborative workspaces, this workstation combines a spacious shared table with four comfortable upholstered seats. Its partitioned seating arrangement provides individual workspace separation while maintaining a clean, modern appearance.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-29_c9uMcBULR.webp"
     ],
     "specs": {
-      "Seats": "4",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "3ft, 4ft, 5ft and 6ft"
+      "Seating Capacity": "4 Persons",
+      "Workstation Type": "Shared Training Workstation  ",
+      "Tabletop": "Durable Laminated Board  ",
+      "Seating": "Upholstered Chairs with Backrests",
+      "Partition": "Side Privacy Panels",
+      "Frame": "Metal Support Structure   ",
+      "Application": "Training Rooms, Offices & Collaborative Workspaces"
     },
     "featured": true,
     "order": 67,
