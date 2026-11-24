@@ -1688,19 +1688,22 @@
     "id": "p-wmgo7i",
     "code": "SCDB-029",
     "slug": "school-and-college-student-desk-bench-29",
-    "name": "School & College Student Desk Bench-29",
+    "name": "Premium Four-Seater Collaborative Training Workstation with Upholstered Chairs",
     "brand": "MAANRAN",
     "category": "school-college-desk-benches",
-    "shortDescription": "Durable and comfortable student desk benches designed for schools and colleges, offering a practical and organized learning space.",
-    "description": "Strong and sturdy student desk benches featuring a durable metal frame and smooth writing surface. Designed for everyday classroom use, providing comfort, stability, and long-lasting performance.",
+    "shortDescription": "A modern four-person training workstation featuring a spacious shared tabletop, comfortable upholstered chairs, and privacy partitions for an organized collaborative workspace.",
+    "description": "Designed for training rooms, offices, and collaborative workspaces, this workstation combines a spacious shared table with four comfortable upholstered seats. Its partitioned seating arrangement provides individual workspace separation while maintaining a clean, modern appearance.",
     "images": [
       "/maanran/products/school-college-student-desk-bench-29_c9uMcBULR.webp"
     ],
     "specs": {
-      "Seats": "4",
-      "Frame": "MS tubular",
-      "Top": "Pre-laminated board",
-      "Feet": "3ft, 4ft, 5ft and 6ft"
+      "Seating Capacity": "4 Persons",
+      "Workstation Type": "Shared Training Workstation  ",
+      "Tabletop": "Durable Laminated Board  ",
+      "Seating": "Upholstered Chairs with Backrests",
+      "Partition": "Side Privacy Panels",
+      "Frame": "Metal Support Structure   ",
+      "Application": "Training Rooms, Offices & Collaborative Workspaces"
     },
     "featured": true,
     "order": 67,
