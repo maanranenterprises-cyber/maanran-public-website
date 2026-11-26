@@ -7849,5 +7849,31 @@
     "featured": true,
     "order": 301,
     "published": true
+  },
+  {
+    "id": "p-jtzj3f",
+    "code": "PC-014",
+    "slug": "astralift-single-hydraulic-storage-cot",
+    "name": "AstraLift Single Hydraulic Storage Cot",
+    "brand": "MAANRAN",
+    "category": "pg-cots",
+    "shortDescription": "A modern single storage cot featuring a sturdy wooden structure, a spacious built-in storage compartment and a convenient hydraulic lift-up mechanism. Designed to maximise storage space while providing a practical and comfortable sleeping solution for PG accommodations.",
+    "description": "The single hydraulic storage cot combines a functional bed design with an integrated under-bed storage compartment to keep belongings neatly organised. Its lift-up platform, supported by a hydraulic mechanism, provides easy access to the spacious storage area, making it ideal for PG rooms, hostels and compact living spaces.",
+    "images": [
+      "/maanran/products/astralift-single-hydraulic-storage-cot-closed-view_vGl83MEe_.webp",
+      "/maanran/products/astralift-single-hydraulic-storage-cot-open-view_K4X134lkF.webp",
+      "/maanran/products/astralift-single-hydraulic-storage-cot-with-bed_UwaY5BVVH.jpeg"
+    ],
+    "specs": {
+      "Product Type": "Single Hydraulic Storage Cot",
+      "Frame Material": "Wooden Structure",
+      "Finish": "Brown & Cream Finish",
+      "Storage Type": "Built-in Under-Bed Storage",
+      "Lifting Mechanism": "Hydraulic Lift-Up Mechanism",
+      "Storage Access": "Top-Lifting Platform"
+    },
+    "featured": true,
+    "order": 302,
+    "published": true
   }
 ]
